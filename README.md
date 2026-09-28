@@ -33,19 +33,6 @@ the pinned models/assets and complete execution archives referenced by the
 audits; this compact folder supports paper and numerical reproduction but is
 not a one-command full inference rerun.
 
-## Historical identifiers
-
-The original project used conference-named paths and archive filenames.
-Those old strings remain inside **unaltered frozen result rows and audit
-records** so their hashes and provenance can be checked. The original
-conference template is also kept because the paper source uses it. No
-conference-only author-guideline check, submission-form abstract, or former
-Appendix G is included. The public preprint retains its concise tool-use
-note and experimental reproducibility details. `PROVENANCE_MAPPING.json` records each
-source path, public path, and before/after hash. See `PUBLIC_RELEASE_AUDIT.json`
-for the classified string and file audit; do not interpret a historical
-archive label as a publication claim.
-
 ## Rights
 
 `LICENSE-CODE` applies MIT only to original Python code. It does not license
