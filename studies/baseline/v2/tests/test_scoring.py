@@ -1,7 +1,7 @@
 import importlib.util
 from pathlib import Path
 import pytest
-from baseline.v2.runtime.scoring import score, token_f1, canonical_answer, ruler_native_aggregate
+from studies.baseline.v2.runtime.scoring import score, token_f1, canonical_answer, ruler_native_aggregate
 
 V2 = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location("native_locomo_oracle", V2 / "vendor/locomo_metrics.py")

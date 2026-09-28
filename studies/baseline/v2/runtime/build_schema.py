@@ -1,7 +1,7 @@
 """Extend the byte-frozen v1 schema; generate a new v2 file, exclusively."""
 import json
 from pathlib import Path
-from baseline.build_schema import make_schema as make_v1, obj, array
+from studies.baseline.build_schema import make_schema as make_v1, obj, array
 
 
 def make_schema():

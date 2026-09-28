@@ -1,5 +1,5 @@
 """Frozen BM25 plus a distinct complete-ranked-prefix budget control."""
-from baseline.retrieval import canonical, rank, documents, select, sha_text, pack_matched
+from studies.baseline.retrieval import canonical, rank, documents, select, sha_text, pack_matched
 
 
 def pack_prefix(question, docs, processed_chat_count, target):

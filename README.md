@@ -1,14 +1,13 @@
 # Beyond Visual Token Count: Target Inclusion and Reader Recovery
 
 Public reproducibility materials by Göktuğ Aslanoğlu and Viswanadh
-Vadlamani. `baseline/` contains the original study, and `studies/` contains
-the follow-up experiments.
+Vadlamani. The experiments are collected under `studies/`.
 
 ## Results and code
 
 The repository includes protocols, model and processor identifiers, per-case
 scored records, aggregate analyses, and audit reports. Start with the
-[original study analysis](baseline/audit/scientific_20260920/ANALYSIS.json),
+[baseline analysis](studies/baseline/audit/scientific_20260920/ANALYSIS.json),
 the [layout follow-up](studies/identifier_followup_results/analysis.json),
 the [budget](studies/final_followups/01_budget_crossover/analysis.json),
 [geometry](studies/final_followups/02_geometry_mechanism/analysis.json),
@@ -17,7 +16,7 @@ the [budget](studies/final_followups/01_budget_crossover/analysis.json),
 The manuscript PDF and LaTeX source are not part of this repository.
 
 With the packages in `requirements-analysis.txt` installed, run
-`python -m pytest baseline/v2/tests/test_scoring.py -q` to check the released
+`python -m pytest studies/baseline/v2/tests/test_scoring.py -q` to check the released
 scoring implementation.
 
 The scored records support reanalysis without new model inference. Model
