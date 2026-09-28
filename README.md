@@ -11,9 +11,9 @@ scored records, aggregate analyses, and audit reports. Start with the
 [original study analysis](baseline/audit/scientific_20260920/ANALYSIS.json),
 the [layout follow-up](studies/identifier_followup_results/analysis.json),
 the [budget](studies/final_followups/01_budget_crossover/analysis.json),
-[geometry](studies/final_followups/02_geometry_mechanism/analysis.json), and
-[systems](studies/final_followups/03_systems_profile/analysis.json) studies,
-and the [compact-text control](studies/final_experiment/analysis/RESULTS.json).
+[geometry](studies/final_followups/02_geometry_mechanism/analysis.json),
+[systems](studies/final_followups/03_systems_profile/analysis.json), and
+[compact-text control](studies/final_followups/compact_text_control/analysis/RESULTS.json) studies.
 The manuscript PDF and LaTeX source are not part of this repository.
 
 With the packages in `requirements-analysis.txt` installed, run
