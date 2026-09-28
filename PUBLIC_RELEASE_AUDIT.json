@@ -1,0 +1,417 @@
+{
+  "status": "prepared_not_published",
+  "files_scanned_excluding_own_reports": 291,
+  "source_files_mapped": 286,
+  "source_files_modified_or_regenerated": 22,
+  "conference_named_directories": [],
+  "conference_named_files": [
+    "paper/iclr2027_conference.bst",
+    "paper/iclr2027_conference.sty"
+  ],
+  "excluded_administrative_files_absent": [
+    "paper/verification/AUTHOR_GUIDELINES_FINAL_CHECK.json",
+    "paper/verification/AUTHOR_GUIDELINES_FINAL_CHECK.md",
+    "paper/verification/PROVENANCE_DETAIL.tex",
+    "paper/verification/SUBMISSION_ABSTRACT.md",
+    "paper/verification/SUBMISSION_AI_DISCLOSURE.md",
+    "studies/final_followups/ARTIFACT_INDEX.md",
+    "studies/final_followups/MANUSCRIPT_INTEGRATION.md"
+  ],
+  "text_files_with_iclr": 51,
+  "iclr_text_occurrences_by_class": {
+    "historical_note_or_runtime_code": 124,
+    "frozen_or_derived_scientific_record": 13956,
+    "source_path_mapping": 483,
+    "third_party_latex_template": 29,
+    "public_guide_or_paper_source": 3
+  },
+  "top_text_files": [
+    {
+      "path": "baseline/audit/scientific_20260920/scored_rows.jsonl",
+      "occurrences": 13176,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "paper/verification/meta_geometry_input_check.json",
+      "occurrences": 576,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "PROVENANCE_MAPPING.json",
+      "occurrences": 286,
+      "classification": "source_path_mapping"
+    },
+    {
+      "path": "DISTRIBUTION_MANIFEST.json",
+      "occurrences": 197,
+      "classification": "source_path_mapping"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/LEGACY_REAUDIT.json",
+      "occurrences": 62,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "paper/iclr2027_conference.sty",
+      "occurrences": 28,
+      "classification": "third_party_latex_template"
+    },
+    {
+      "path": "studies/audits/identifier_glm_sample.json",
+      "occurrences": 20,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "studies/audits/ruler_extraction_sample.json",
+      "occurrences": 20,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "studies/final_experiment/FREEZE.json",
+      "occurrences": 20,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/SCIENTIFIC_AUDIT.md",
+      "occurrences": 18,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/RULER_RELEASE_CONTRACT.json",
+      "occurrences": 16,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/verify_results.py",
+      "occurrences": 16,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/DECODING_AND_LINEAGE.json",
+      "occurrences": 12,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/PRE_OUTCOME_REVIEW.json",
+      "occurrences": 12,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/v2/runtime/prepare.py",
+      "occurrences": 12,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "studies/identifier_followup/VENDOR_PROVENANCE.json",
+      "occurrences": 11,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/preflight.py",
+      "occurrences": 10,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/diagnostics.py",
+      "occurrences": 9,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/FINAL_VERIFICATION.json",
+      "occurrences": 9,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/README.md",
+      "occurrences": 8,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/verify_lineage.py",
+      "occurrences": 6,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/v2/runtime/finalize_cpu.py",
+      "occurrences": 6,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/ENGINEERING_REAUDIT.json",
+      "occurrences": 5,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/v2/runtime/validate.py",
+      "occurrences": 5,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "studies/final_followups/FINAL_RESULTS_SUMMARY.md",
+      "occurrences": 5,
+      "classification": "historical_note_or_runtime_code"
+    }
+  ],
+  "all_text_files_with_term": [
+    {
+      "path": "baseline/audit/scientific_20260920/analyze.py",
+      "occurrences": 1,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/AUDIT_FLAG_RESOLUTION.json",
+      "occurrences": 1,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/build_report.py",
+      "occurrences": 2,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/DECODING_AND_LINEAGE.json",
+      "occurrences": 12,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/diagnostics.py",
+      "occurrences": 9,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/ENGINEERING_REAUDIT.json",
+      "occurrences": 5,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/FINAL_VERIFICATION.json",
+      "occurrences": 9,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/LEGACY_REAUDIT.json",
+      "occurrences": 62,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/PRE_OUTCOME_REVIEW.json",
+      "occurrences": 12,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/preflight.py",
+      "occurrences": 10,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/README.md",
+      "occurrences": 8,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/RELEASE_VALIDATION.json",
+      "occurrences": 1,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/RESULT_AUDIT.json",
+      "occurrences": 1,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/RULER_RELEASE_CONTRACT.json",
+      "occurrences": 16,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/SCIENTIFIC_AUDIT.md",
+      "occurrences": 18,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/scored_rows.jsonl",
+      "occurrences": 13176,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/UNBLINDING_RELEASE.json",
+      "occurrences": 3,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/verify_engineering.py",
+      "occurrences": 4,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/verify_lineage.py",
+      "occurrences": 6,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/audit/scientific_20260920/verify_results.py",
+      "occurrences": 16,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/build_schema.py",
+      "occurrences": 2,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/v2/runtime/__init__.py",
+      "occurrences": 1,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/v2/runtime/bootstrap.py",
+      "occurrences": 4,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/v2/runtime/build_delivery.py",
+      "occurrences": 3,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/v2/runtime/build_schema.py",
+      "occurrences": 2,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/v2/runtime/core_validation.py",
+      "occurrences": 2,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/v2/runtime/finalize_cpu.py",
+      "occurrences": 6,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/v2/runtime/prepare.py",
+      "occurrences": 12,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "baseline/v2/runtime/validate.py",
+      "occurrences": 5,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "DISTRIBUTION_MANIFEST.json",
+      "occurrences": 197,
+      "classification": "source_path_mapping"
+    },
+    {
+      "path": "paper/iclr2027_conference.bst",
+      "occurrences": 1,
+      "classification": "third_party_latex_template"
+    },
+    {
+      "path": "paper/iclr2027_conference.sty",
+      "occurrences": 28,
+      "classification": "third_party_latex_template"
+    },
+    {
+      "path": "paper/main.tex",
+      "occurrences": 3,
+      "classification": "public_guide_or_paper_source"
+    },
+    {
+      "path": "paper/verification/meta_geometry_input_check.json",
+      "occurrences": 576,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "paper/verify_numbers.py",
+      "occurrences": 3,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "PROVENANCE_MAPPING.json",
+      "occurrences": 286,
+      "classification": "source_path_mapping"
+    },
+    {
+      "path": "studies/audits/identifier_glm_sample.json",
+      "occurrences": 20,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "studies/audits/ruler_extraction_sample.json",
+      "occurrences": 20,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "studies/checkpoints/dev_recovery1_1789989576901081577/SELECTION.json",
+      "occurrences": 1,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "studies/final_experiment/audit/RESULT_AUDIT.json",
+      "occurrences": 1,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "studies/final_experiment/FREEZE.json",
+      "occurrences": 20,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "studies/final_experiment/scripts/build_cases.py",
+      "occurrences": 1,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "studies/final_experiment/scripts/experiment_common.py",
+      "occurrences": 1,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "studies/final_experiment/scripts/freeze.py",
+      "occurrences": 1,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "studies/final_experiment/scripts/validate_inputs.py",
+      "occurrences": 1,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "studies/final_followups/01_budget_crossover/results/audit.json",
+      "occurrences": 3,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "studies/final_followups/02_geometry_mechanism/results/audit.json",
+      "occurrences": 3,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "studies/final_followups/03_systems_profile/results/audit.json",
+      "occurrences": 3,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "studies/final_followups/FINAL_RESULTS_SUMMARY.md",
+      "occurrences": 5,
+      "classification": "historical_note_or_runtime_code"
+    },
+    {
+      "path": "studies/identifier_followup/VENDOR_PROVENANCE.json",
+      "occurrences": 11,
+      "classification": "frozen_or_derived_scientific_record"
+    },
+    {
+      "path": "studies/identifier_followup_results/RESULTS.md",
+      "occurrences": 1,
+      "classification": "historical_note_or_runtime_code"
+    }
+  ],
+  "pdf_files_inspected": 15,
+  "pdf_text_hits": [],
+  "paper_pdf_byte_identical_to_audited_public_preprint": true,
+  "scientific_records_preserved_for_hash_provenance": true,
+  "interpretation": "Historical conference names inside frozen records, original archive paths, and the supplied LaTeX template do not assert conference acceptance or publication."
+}

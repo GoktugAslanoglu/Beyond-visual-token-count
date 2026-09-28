@@ -1,0 +1,12 @@
+{
+  "analysis.json": "d09429079e1be6f5359cd14c63cc1c9c35a6ae2eeb6c5dcd65f30bcc3da5ef6e",
+  "rows.jsonl": "1a7475afdc619170eb4bdc579de834c9b694fa50f6624c6e737c6b30cdab0deb",
+  "RESULTS.md": "2aac301465be51d27a30cd7532af4e307f33382ec9ad2308e0730d767e162221",
+  "AUDIT.md": "f11a745cdeae2279b9cba0e60c488696e28da7613774c6e05555e4980b49c0f8",
+  "FULL_SYSTEMS_TABLE.md": "e312dbd52b8aa0e512b555dcd8abbca259818005928d652001a29b1e04b6e022",
+  "results/audit.json": "c03be4e697c4f41ce1578ca68fc92ff600f9910401f0e7dbb7fc9f50e4d41fd8",
+  "results/FIGURE_AND_NUMBER_AUDIT.json": "4d55ba06649efb957f6cab12365991009fe73633cb3786e75e9fe09fc81f9e47",
+  "results/systems_prefill.pdf": "594eb14bf23af524734b1436c62b2f5f5b9345a65667b4b82732559b4a528573",
+  "results/systems_ttft.pdf": "aac92364dc28faa2f7761b829fba84d822f04588baca5779b7adf08d66f68542",
+  "results/systems_memory.pdf": "345a9bb149e13d639b377edc846be8a3d6812b23c793656add6549c7d8f8a7b7"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "independent_summary_checks": 3240,
+  "plot_points_checked": 135,
+  "visual_review": "All three PDF renders inspected; labels, axes and legends legible without clipping. Bands represent measured-run IQR, not inferential confidence intervals.",
+  "figure_hashes": {
+    "systems_prefill": "594eb14bf23af524734b1436c62b2f5f5b9345a65667b4b82732559b4a528573",
+    "systems_ttft": "aac92364dc28faa2f7761b829fba84d822f04588baca5779b7adf08d66f68542",
+    "systems_memory": "345a9bb149e13d639b377edc846be8a3d6812b23c793656add6549c7d8f8a7b7"
+  }
+}

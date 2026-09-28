@@ -1,0 +1,842 @@
+[
+  {
+    "study": "RULER",
+    "reader": "Qwen2B",
+    "model": "Qwen/Qwen3.5-2B",
+    "item_id": "ruler-niah_single_1-029",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_1",
+      "answers": [
+        "2769130"
+      ]
+    },
+    "task_id": "niah_single_1",
+    "source_memory_sha256": "ec073e9247a07d285cfe21314c91e0fa54bb413e05ea3b9c4ae71f361900baf2",
+    "total_input_tokens": 8070,
+    "vision_tokens": 0,
+    "source_text_tokens": 7997,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic number for frightened-nectar mentioned in the text is **2769130**.\n",
+    "decoded_with_special_tokens": "The special magic number for frightened-nectar mentioned in the text is **2769130**.<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 26,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic number for frightened-nectar mentioned in the text is **2769130**.",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 11.0
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 11.0
+      }
+    },
+    "generation_s": 2.2267898529999,
+    "preprocess_s": 0.029205266999952073,
+    "archive": "ICLR-RULER-Qwen2B-1789913815136589050.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen2B",
+    "model": "Qwen/Qwen3.5-2B",
+    "item_id": "ruler-niah_single_1-001",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_1",
+      "answers": [
+        "2564151"
+      ]
+    },
+    "task_id": "niah_single_1",
+    "source_memory_sha256": "08f1a9a0bd17799eca4b0a5289643ce6627cebd47f16c244602a4e9a4e438402",
+    "total_input_tokens": 8070,
+    "vision_tokens": 0,
+    "source_text_tokens": 7997,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic number for spiritual-baggie mentioned in the text is **2564151**.\n",
+    "decoded_with_special_tokens": "The special magic number for spiritual-baggie mentioned in the text is **2564151**.<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 26,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic number for spiritual-baggie mentioned in the text is **2564151**.",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.857142857142858
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.857142857142858
+      }
+    },
+    "generation_s": 2.2333214909999697,
+    "preprocess_s": 0.028928470999971978,
+    "archive": "ICLR-RULER-Qwen2B-1789913815136589050.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen2B",
+    "model": "Qwen/Qwen3.5-2B",
+    "item_id": "ruler-niah_single_1-016",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_1",
+      "answers": [
+        "4277972"
+      ]
+    },
+    "task_id": "niah_single_1",
+    "source_memory_sha256": "cbf8d72243c9e4b59e1f5892aa98d56b2d980e50fc837b26585ea1a16092cf46",
+    "total_input_tokens": 8070,
+    "vision_tokens": 0,
+    "source_text_tokens": 7997,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic number for warlike-scam mentioned in the text is **4277972**.\n",
+    "decoded_with_special_tokens": "The special magic number for warlike-scam mentioned in the text is **4277972**.<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 26,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic number for warlike-scam mentioned in the text is **4277972**.",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.285714285714286
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.285714285714286
+      }
+    },
+    "generation_s": 2.2203366430001097,
+    "preprocess_s": 0.02863597900000059,
+    "archive": "ICLR-RULER-Qwen2B-1789913815136589050.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen2B",
+    "model": "Qwen/Qwen3.5-2B",
+    "item_id": "ruler-niah_single_2-007",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_2",
+      "answers": [
+        "7402385"
+      ]
+    },
+    "task_id": "niah_single_2",
+    "source_memory_sha256": "f665b3776764eb1c321695142d9c16283e8ed9e12d9e996d5e440d96ed4bf6c9",
+    "total_input_tokens": 8072,
+    "vision_tokens": 0,
+    "source_text_tokens": 8001,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic number for organic-consulate mentioned in the text is **7402385**.\n",
+    "decoded_with_special_tokens": "The special magic number for organic-consulate mentioned in the text is **7402385**.<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 25,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic number for organic-consulate mentioned in the text is **7402385**.",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 11.0
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 11.0
+      }
+    },
+    "generation_s": 2.130114933999721,
+    "preprocess_s": 0.03136131100018247,
+    "archive": "ICLR-RULER-Qwen2B-1789913815136589050.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen2B",
+    "model": "Qwen/Qwen3.5-2B",
+    "item_id": "ruler-niah_single_2-016",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_2",
+      "answers": [
+        "6627485"
+      ]
+    },
+    "task_id": "niah_single_2",
+    "source_memory_sha256": "0acf8db4b1d02719bfc4d18b545eb930586191ae237150906a8bb22f56e11d6b",
+    "total_input_tokens": 8075,
+    "vision_tokens": 0,
+    "source_text_tokens": 8002,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic number for phobic-ratio mentioned in the text is **6627485**.\n",
+    "decoded_with_special_tokens": "The special magic number for phobic-ratio mentioned in the text is **6627485**.<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 26,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic number for phobic-ratio mentioned in the text is **6627485**.",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.285714285714286
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.285714285714286
+      }
+    },
+    "generation_s": 2.191016955000123,
+    "preprocess_s": 0.03356334199997946,
+    "archive": "ICLR-RULER-Qwen2B-1789913815136589050.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen2B",
+    "model": "Qwen/Qwen3.5-2B",
+    "item_id": "ruler-niah_single_3-009",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_3",
+      "answers": [
+        "06fd2a50-450b-42c9-a52d-a06f41b6a6c4"
+      ]
+    },
+    "task_id": "niah_single_3",
+    "source_memory_sha256": "ec506a6465170158775a43ae44a9a8a8977b559235056f78fd9b43909844b5da",
+    "total_input_tokens": 8075,
+    "vision_tokens": 0,
+    "source_text_tokens": 8004,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic uuid for giddy-change mentioned in the text is:\n\n06fd2a50-450b-42c9-a52d-a06f41b6a6c4\n",
+    "decoded_with_special_tokens": "The special magic uuid for giddy-change mentioned in the text is:\n\n06fd2a50-450b-42c9-a52d-a06f41b6a6c4<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 51,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic uuid for giddy-change mentioned in the text is:\n\n06fd2a50-450b-42c9-a52d-a06f41b6a6c4",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.8333333333333333
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.8333333333333333
+      }
+    },
+    "generation_s": 3.2624939059996905,
+    "preprocess_s": 0.0368862350001109,
+    "archive": "ICLR-RULER-Qwen2B-1789913815136589050.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen2B",
+    "model": "Qwen/Qwen3.5-2B",
+    "item_id": "ruler-niah_single_3-017",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_3",
+      "answers": [
+        "3d59df24-7d3c-4ff2-8843-80d1aef3b845"
+      ]
+    },
+    "task_id": "niah_single_3",
+    "source_memory_sha256": "a21f1090634fed64777262752ef0f484889cbffcfd394daaeb213ed3c2227c8f",
+    "total_input_tokens": 8075,
+    "vision_tokens": 0,
+    "source_text_tokens": 8004,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic uuid for obedient-paddock mentioned in the text is:\n\n**3d59df24-7d3c-4ff2-8843-80d1aef3b845**\n",
+    "decoded_with_special_tokens": "The special magic uuid for obedient-paddock mentioned in the text is:\n\n**3d59df24-7d3c-4ff2-8843-80d1aef3b845**<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 53,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic uuid for obedient-paddock mentioned in the text is:\n\n**3d59df24-7d3c-4ff2-8843-80d1aef3b845**",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.0555555555555554
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.0555555555555554
+      }
+    },
+    "generation_s": 3.8727164910000056,
+    "preprocess_s": 0.04242312799999581,
+    "archive": "ICLR-RULER-Qwen2B-1789913815136589050.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen2B",
+    "model": "Qwen/Qwen3.5-2B",
+    "item_id": "ruler-niah_single_3-001",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_3",
+      "answers": [
+        "eb01dfb4-6bd7-4de9-b93a-cc9c8cffcd7b"
+      ]
+    },
+    "task_id": "niah_single_3",
+    "source_memory_sha256": "738687f5d49fad2f4e9088f20388661939250c276715dc9b11262e0e7d746c9e",
+    "total_input_tokens": 8074,
+    "vision_tokens": 0,
+    "source_text_tokens": 7999,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic uuid for open-pressurisation mentioned in the text is:\n\n**eb01dfb4-6bd7-4de9-b93a-cc9c8cffcd7b**\n",
+    "decoded_with_special_tokens": "The special magic uuid for open-pressurisation mentioned in the text is:\n\n**eb01dfb4-6bd7-4de9-b93a-cc9c8cffcd7b**<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 49,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic uuid for open-pressurisation mentioned in the text is:\n\n**eb01dfb4-6bd7-4de9-b93a-cc9c8cffcd7b**",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.138888888888889
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.138888888888889
+      }
+    },
+    "generation_s": 3.206790371000352,
+    "preprocess_s": 0.033345348000693775,
+    "archive": "ICLR-RULER-Qwen2B-1789913815136589050.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen2B",
+    "model": "Qwen/Qwen3.5-2B",
+    "item_id": "ruler-niah_multikey_3-020",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_multikey_3",
+      "answers": [
+        "7c1cdf4d-bd29-4b00-96ac-5663112eff38"
+      ]
+    },
+    "task_id": "niah_multikey_3",
+    "source_memory_sha256": "36ca35c299196b3bbb80c2b55b95172be14a289321fdd3edd0108efa33e7d77c",
+    "total_input_tokens": 7925,
+    "vision_tokens": 0,
+    "source_text_tokens": 7796,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic uuid for `53c6f227-5fb6-422f-8cad-bdd43430f4b8` is:\n\n**7c1cdf4d-bd29-4b00-96ac-5663112eff38**\n",
+    "decoded_with_special_tokens": "The special magic uuid for `53c6f227-5fb6-422f-8cad-bdd43430f4b8` is:\n\n**7c1cdf4d-bd29-4b00-96ac-5663112eff38**<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 76,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic uuid for `53c6f227-5fb6-422f-8cad-bdd43430f4b8` is:\n\n**7c1cdf4d-bd29-4b00-96ac-5663112eff38**",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.0555555555555554
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.0555555555555554
+      }
+    },
+    "generation_s": 4.3608829190002325,
+    "preprocess_s": 0.023780878999787092,
+    "archive": "ICLR-RULER-Qwen2B-1789913815136589050.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen2B",
+    "model": "Qwen/Qwen3.5-2B",
+    "item_id": "ruler-niah_multikey_3-018",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_multikey_3",
+      "answers": [
+        "dd2d783c-392d-4003-8eda-0496b7c97d9d"
+      ]
+    },
+    "task_id": "niah_multikey_3",
+    "source_memory_sha256": "aef477e9a56c3abde0b0342009410b46754faceef9e6cedc50bd20a6b6582d81",
+    "total_input_tokens": 7981,
+    "vision_tokens": 0,
+    "source_text_tokens": 7854,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic uuid for `9cba200c-a1e6-4fa4-898e-d53e7f0bf8d6` mentioned in the text is:\n\n**dd2d783c-392d-4003-8eda-0496b7c97d9d**\n",
+    "decoded_with_special_tokens": "The special magic uuid for `9cba200c-a1e6-4fa4-898e-d53e7f0bf8d6` mentioned in the text is:\n\n**dd2d783c-392d-4003-8eda-0496b7c97d9d**<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 82,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic uuid for `9cba200c-a1e6-4fa4-898e-d53e7f0bf8d6` mentioned in the text is:\n\n**dd2d783c-392d-4003-8eda-0496b7c97d9d**",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.6666666666666665
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.6666666666666665
+      }
+    },
+    "generation_s": 4.789246098999911,
+    "preprocess_s": 0.02252278799994656,
+    "archive": "ICLR-RULER-Qwen2B-1789913815136589050.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen9B",
+    "model": "Qwen/Qwen3.5-9B",
+    "item_id": "ruler-niah_single_1-021",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_1",
+      "answers": [
+        "5306598"
+      ]
+    },
+    "task_id": "niah_single_1",
+    "source_memory_sha256": "bb0409d69c221ea9f87491929aa4b06f3d51b52526d24e785bb19b176fc15103",
+    "total_input_tokens": 8067,
+    "vision_tokens": 0,
+    "source_text_tokens": 7996,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic number for giddy-change mentioned in the text is **5306598**.\n",
+    "decoded_with_special_tokens": "The special magic number for giddy-change mentioned in the text is **5306598**.<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 25,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic number for giddy-change mentioned in the text is **5306598**.",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.285714285714286
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.285714285714286
+      }
+    },
+    "generation_s": 3.4331993010000588,
+    "preprocess_s": 0.02795584100022097,
+    "archive": "ICLR-RULER-Qwen9B-1789920852849726662.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen9B",
+    "model": "Qwen/Qwen3.5-9B",
+    "item_id": "ruler-niah_single_1-010",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_1",
+      "answers": [
+        "2318212"
+      ]
+    },
+    "task_id": "niah_single_1",
+    "source_memory_sha256": "7ca04a67338dde074faeab1e42e10c2ea47faf5317d2d1086963d59159c4254f",
+    "total_input_tokens": 8070,
+    "vision_tokens": 0,
+    "source_text_tokens": 7997,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic number for onerous-secret mentioned in the text is **2318212**.\n",
+    "decoded_with_special_tokens": "The special magic number for onerous-secret mentioned in the text is **2318212**.<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 26,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic number for onerous-secret mentioned in the text is **2318212**.",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.571428571428571
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.571428571428571
+      }
+    },
+    "generation_s": 3.4974470869997276,
+    "preprocess_s": 0.027877070999693387,
+    "archive": "ICLR-RULER-Qwen9B-1789920852849726662.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen9B",
+    "model": "Qwen/Qwen3.5-9B",
+    "item_id": "ruler-niah_single_2-003",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_2",
+      "answers": [
+        "7221081"
+      ]
+    },
+    "task_id": "niah_single_2",
+    "source_memory_sha256": "487845e2115f91727c5d98b41f173f992408d12ded739a09f78d4feeffa477ad",
+    "total_input_tokens": 8072,
+    "vision_tokens": 0,
+    "source_text_tokens": 8001,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic number for gigantic-luggage mentioned in the text is **7221081**.\n",
+    "decoded_with_special_tokens": "The special magic number for gigantic-luggage mentioned in the text is **7221081**.<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 25,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic number for gigantic-luggage mentioned in the text is **7221081**.",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.857142857142858
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.857142857142858
+      }
+    },
+    "generation_s": 3.406961188999958,
+    "preprocess_s": 0.032048729000052845,
+    "archive": "ICLR-RULER-Qwen9B-1789920852849726662.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen9B",
+    "model": "Qwen/Qwen3.5-9B",
+    "item_id": "ruler-niah_single_2-026",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_2",
+      "answers": [
+        "8601431"
+      ]
+    },
+    "task_id": "niah_single_2",
+    "source_memory_sha256": "d9dff368f2fbf14d7ae13f3bb5b15d75da3769372e5c590da3b537e9d688850f",
+    "total_input_tokens": 7485,
+    "vision_tokens": 0,
+    "source_text_tokens": 7414,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic number for periodic-crane mentioned in the text is **8601431**.\n",
+    "decoded_with_special_tokens": "The special magic number for periodic-crane mentioned in the text is **8601431**.<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 25,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic number for periodic-crane mentioned in the text is **8601431**.",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.571428571428571
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 10.571428571428571
+      }
+    },
+    "generation_s": 3.3115301689999797,
+    "preprocess_s": 0.03233227800001259,
+    "archive": "ICLR-RULER-Qwen9B-1789920852849726662.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen9B",
+    "model": "Qwen/Qwen3.5-9B",
+    "item_id": "ruler-niah_single_2-021",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_2",
+      "answers": [
+        "4117242"
+      ]
+    },
+    "task_id": "niah_single_2",
+    "source_memory_sha256": "8e324d0ff4b46bfe982777327538353b5d2c1df8922201073c051935ef144d12",
+    "total_input_tokens": 8072,
+    "vision_tokens": 0,
+    "source_text_tokens": 8001,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic number for miniature-preservation mentioned in the text is **4117242**.\n",
+    "decoded_with_special_tokens": "The special magic number for miniature-preservation mentioned in the text is **4117242**.<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 25,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic number for miniature-preservation mentioned in the text is **4117242**.",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 11.714285714285714
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 11.714285714285714
+      }
+    },
+    "generation_s": 3.4812052040006165,
+    "preprocess_s": 0.033888785999806714,
+    "archive": "ICLR-RULER-Qwen9B-1789920852849726662.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen9B",
+    "model": "Qwen/Qwen3.5-9B",
+    "item_id": "ruler-niah_single_3-025",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_3",
+      "answers": [
+        "76db53f4-19f6-4a32-99e8-de42dc31c3e4"
+      ]
+    },
+    "task_id": "niah_single_3",
+    "source_memory_sha256": "7dc245f838ad604b18e481c09154a8fbe40d6b2eff930e23ee92e0e2a1626787",
+    "total_input_tokens": 7490,
+    "vision_tokens": 0,
+    "source_text_tokens": 7417,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic uuid for alluring-spelling mentioned in the text is:\n\n**76db53f4-19f6-4a32-99e8-de42dc31c3e4**\n",
+    "decoded_with_special_tokens": "The special magic uuid for alluring-spelling mentioned in the text is:\n\n**76db53f4-19f6-4a32-99e8-de42dc31c3e4**<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 53,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic uuid for alluring-spelling mentioned in the text is:\n\n**76db53f4-19f6-4a32-99e8-de42dc31c3e4**",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.0833333333333335
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.0833333333333335
+      }
+    },
+    "generation_s": 4.966345333999925,
+    "preprocess_s": 0.03002563600011854,
+    "archive": "ICLR-RULER-Qwen9B-1789920852849726662.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen9B",
+    "model": "Qwen/Qwen3.5-9B",
+    "item_id": "ruler-niah_single_3-027",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_single_3",
+      "answers": [
+        "f35c481d-8328-4c85-9628-3cebb9535f1a"
+      ]
+    },
+    "task_id": "niah_single_3",
+    "source_memory_sha256": "72e1d4e60deac73c548e114e1f54079b818af7e1956adb21053e5d919f4ffad7",
+    "total_input_tokens": 7488,
+    "vision_tokens": 0,
+    "source_text_tokens": 7417,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic uuid for steadfast-carp mentioned in the text is:\n\n**f35c481d-8328-4c85-9628-3cebb9535f1a**\n",
+    "decoded_with_special_tokens": "The special magic uuid for steadfast-carp mentioned in the text is:\n\n**f35c481d-8328-4c85-9628-3cebb9535f1a**<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 54,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic uuid for steadfast-carp mentioned in the text is:\n\n**f35c481d-8328-4c85-9628-3cebb9535f1a**",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.0
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.0
+      }
+    },
+    "generation_s": 4.999341394999647,
+    "preprocess_s": 0.03172662999986642,
+    "archive": "ICLR-RULER-Qwen9B-1789920852849726662.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen9B",
+    "model": "Qwen/Qwen3.5-9B",
+    "item_id": "ruler-niah_multikey_3-016",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_multikey_3",
+      "answers": [
+        "4a0ea504-7335-475b-a20f-ce680f896218"
+      ]
+    },
+    "task_id": "niah_multikey_3",
+    "source_memory_sha256": "ac1721dd675ef318c211f8a7315472970482536d4a9e3fa57dbe57a9b07dec84",
+    "total_input_tokens": 7980,
+    "vision_tokens": 0,
+    "source_text_tokens": 7859,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic uuid for `f60ec3a7-6083-41ba-beee-9cd35d162fea` mentioned in the text is:\n\n**4a0ea504-7335-475b-a20f-ce680f896218**\n",
+    "decoded_with_special_tokens": "The special magic uuid for `f60ec3a7-6083-41ba-beee-9cd35d162fea` mentioned in the text is:\n\n**4a0ea504-7335-475b-a20f-ce680f896218**<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 79,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic uuid for `f60ec3a7-6083-41ba-beee-9cd35d162fea` mentioned in the text is:\n\n**4a0ea504-7335-475b-a20f-ce680f896218**",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.6666666666666665
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.6666666666666665
+      }
+    },
+    "generation_s": 6.70687863799958,
+    "preprocess_s": 0.024910245999308245,
+    "archive": "ICLR-RULER-Qwen9B-1789920852849726662.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen9B",
+    "model": "Qwen/Qwen3.5-9B",
+    "item_id": "ruler-niah_multikey_3-019",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_multikey_3",
+      "answers": [
+        "caee48c6-b474-44dd-bcc9-025d8627c050"
+      ]
+    },
+    "task_id": "niah_multikey_3",
+    "source_memory_sha256": "ca0d8ebde2072d79514d47fdcee71a8b4fccdac70185127ba5aa8cf7f2e248bd",
+    "total_input_tokens": 7963,
+    "vision_tokens": 0,
+    "source_text_tokens": 7834,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic uuid for `1546abc6-3772-4958-8b82-e1ae5ab3d198` mentioned in the text is:\n\n**caee48c6-b474-44dd-bcc9-025d8627c050**\n",
+    "decoded_with_special_tokens": "The special magic uuid for `1546abc6-3772-4958-8b82-e1ae5ab3d198` mentioned in the text is:\n\n**caee48c6-b474-44dd-bcc9-025d8627c050**<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 80,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic uuid for `1546abc6-3772-4958-8b82-e1ae5ab3d198` mentioned in the text is:\n\n**caee48c6-b474-44dd-bcc9-025d8627c050**",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.6666666666666665
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.6666666666666665
+      }
+    },
+    "generation_s": 6.7887373579997075,
+    "preprocess_s": 0.024595712000518688,
+    "archive": "ICLR-RULER-Qwen9B-1789920852849726662.zip"
+  },
+  {
+    "study": "RULER",
+    "reader": "Qwen9B",
+    "model": "Qwen/Qwen3.5-9B",
+    "item_id": "ruler-niah_multikey_3-026",
+    "condition": "full_raw",
+    "reference": {
+      "task_id": "niah_multikey_3",
+      "answers": [
+        "0f52fc04-f30a-46bc-ad2f-93a27953df4a"
+      ]
+    },
+    "task_id": "niah_multikey_3",
+    "source_memory_sha256": "d319b17dff44708091cba499cd69067185554159defc468ffe37609f56f0fb19",
+    "total_input_tokens": 7954,
+    "vision_tokens": 0,
+    "source_text_tokens": 7825,
+    "pages": 0,
+    "compression": null,
+    "prediction": "The special magic uuid for `272ee843-9f7a-43df-835a-62da44019aff` mentioned in the text is:\n\n**0f52fc04-f30a-46bc-ad2f-93a27953df4a**\n",
+    "decoded_with_special_tokens": "The special magic uuid for `272ee843-9f7a-43df-835a-62da44019aff` mentioned in the text is:\n\n**0f52fc04-f30a-46bc-ad2f-93a27953df4a**<|im_end|>\n<|endoftext|>",
+    "generated_token_count": 80,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "The special magic uuid for `272ee843-9f7a-43df-835a-62da44019aff` mentioned in the text is:\n\n**0f52fc04-f30a-46bc-ad2f-93a27953df4a**",
+      "native": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.6666666666666665
+      },
+      "canonical": {
+        "answer_containment_fraction": 1.0,
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.6666666666666665
+      }
+    },
+    "generation_s": 6.799121189999823,
+    "preprocess_s": 0.02391297000031045,
+    "archive": "ICLR-RULER-Qwen9B-1789920852849726662.zip"
+  }
+]

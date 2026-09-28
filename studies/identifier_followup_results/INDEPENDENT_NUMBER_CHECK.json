@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "rows": 576,
+  "checks": {
+    "Qwen2B": {
+      "independent_correct_counts": {
+        "full_raw": 47,
+        "original_c2_p4": 0,
+        "efficient_c2_p4": 6,
+        "readable_p4": 17
+      },
+      "exact_mcnemar_p": 0.03125,
+      "response_diagnostics": {
+        "full_raw": {
+          "key_only": 1,
+          "target_containment_diagnostic": 47,
+          "n": 48
+        },
+        "original_c2_p4": {
+          "key_only": 7,
+          "target_containment_diagnostic": 0,
+          "n": 48
+        },
+        "efficient_c2_p4": {
+          "key_only": 17,
+          "target_containment_diagnostic": 13,
+          "n": 48
+        },
+        "readable_p4": {
+          "key_only": 6,
+          "target_containment_diagnostic": 29,
+          "n": 48
+        }
+      }
+    },
+    "Qwen9B": {
+      "independent_correct_counts": {
+        "full_raw": 46,
+        "original_c2_p4": 0,
+        "efficient_c2_p4": 21,
+        "readable_p4": 35
+      },
+      "exact_mcnemar_p": 9.5367431640625e-07,
+      "response_diagnostics": {
+        "full_raw": {
+          "key_only": 0,
+          "target_containment_diagnostic": 46,
+          "n": 48
+        },
+        "original_c2_p4": {
+          "key_only": 7,
+          "target_containment_diagnostic": 0,
+          "n": 48
+        },
+        "efficient_c2_p4": {
+          "key_only": 1,
+          "target_containment_diagnostic": 22,
+          "n": 48
+        },
+        "readable_p4": {
+          "key_only": 0,
+          "target_containment_diagnostic": 36,
+          "n": 48
+        }
+      }
+    },
+    "GLM": {
+      "independent_correct_counts": {
+        "full_raw": 48,
+        "original_c2_p4": 0,
+        "efficient_c2_p4": 7,
+        "readable_p4": 29
+      },
+      "exact_mcnemar_p": 0.015625,
+      "response_diagnostics": {
+        "full_raw": {
+          "key_only": 0,
+          "target_containment_diagnostic": 48,
+          "n": 48
+        },
+        "original_c2_p4": {
+          "key_only": 0,
+          "target_containment_diagnostic": 0,
+          "n": 48
+        },
+        "efficient_c2_p4": {
+          "key_only": 0,
+          "target_containment_diagnostic": 7,
+          "n": 48
+        },
+        "readable_p4": {
+          "key_only": 3,
+          "target_containment_diagnostic": 30,
+          "n": 48
+        }
+      }
+    }
+  },
+  "note": "Counts and two-sided exact binomial/McNemar p-values recomputed independently from frozen script; Holm adjustment verified. Response categories are post-hoc descriptive only."
+}

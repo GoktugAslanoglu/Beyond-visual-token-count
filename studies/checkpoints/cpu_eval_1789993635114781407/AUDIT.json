@@ -1,0 +1,281 @@
+{
+  "status": "passed-evaluation-input-review",
+  "reviewed_utc": "2026-09-21T16:03:09.900895+00:00",
+  "checkpoint_sha256": "1d1390e6b3afa499e64ab43ac14784399e1540fb90e6d9989655e9b49c7e7c22",
+  "input_freeze_sha256": "324b7a2badc917b103f0971120f5eb09cc15db50b13b83b8c49495038d167f6f",
+  "dev_freeze_sha256": "17b9d01c0e80724e89ee14a69f7e11c9b6d9f74817c2503bcdbb68032fd33bdd",
+  "rows": 576,
+  "readers": 3,
+  "cases": 48,
+  "arms": 4,
+  "exact_pixel_pages": 1728,
+  "native_source_counts_verified": 576,
+  "matched_budget_pairs_verified": 144,
+  "expanded_controls_verified": 144,
+  "raw_controls_verified": 144,
+  "selection": "L3_fullwidth_wordwrap",
+  "visual_review": "Six exact-target crop comparisons plus wider context crops checked; target records intact. Original images have expected tiny/narrow text; enlarged targets visibly larger. Saved-image views do not establish machine recognition.",
+  "metrics": {
+    "Qwen2B/full_raw": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        0,
+        0
+      ],
+      "total": [
+        8252,
+        8265
+      ],
+      "font": [],
+      "glyph": []
+    },
+    "Qwen2B/original_c2_p4": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        4096,
+        4096
+      ],
+      "total": [
+        4171,
+        4173
+      ],
+      "font": [
+        4.140161725067386,
+        4.179591836734694
+      ],
+      "glyph": [
+        2.4150943396226414,
+        2.4380952380952383
+      ]
+    },
+    "Qwen2B/efficient_c2_p4": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        4096,
+        4096
+      ],
+      "total": [
+        4171,
+        4173
+      ],
+      "font": [
+        10.971428571428572,
+        10.971428571428572
+      ],
+      "glyph": [
+        6.4,
+        6.4
+      ]
+    },
+    "Qwen2B/readable_p4": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        10000,
+        10000
+      ],
+      "total": [
+        10075,
+        10077
+      ],
+      "font": [
+        17.142857142857142,
+        17.142857142857142
+      ],
+      "glyph": [
+        10.0,
+        10.0
+      ]
+    },
+    "Qwen9B/full_raw": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        0,
+        0
+      ],
+      "total": [
+        8252,
+        8265
+      ],
+      "font": [],
+      "glyph": []
+    },
+    "Qwen9B/original_c2_p4": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        4096,
+        4096
+      ],
+      "total": [
+        4171,
+        4173
+      ],
+      "font": [
+        4.140161725067386,
+        4.179591836734694
+      ],
+      "glyph": [
+        2.4150943396226414,
+        2.4380952380952383
+      ]
+    },
+    "Qwen9B/efficient_c2_p4": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        4096,
+        4096
+      ],
+      "total": [
+        4171,
+        4173
+      ],
+      "font": [
+        10.971428571428572,
+        10.971428571428572
+      ],
+      "glyph": [
+        6.4,
+        6.4
+      ]
+    },
+    "Qwen9B/readable_p4": {
+      "n": 48,
+      "source": [
+        8186,
+        8197
+      ],
+      "vision": [
+        10000,
+        10000
+      ],
+      "total": [
+        10075,
+        10077
+      ],
+      "font": [
+        17.142857142857142,
+        17.142857142857142
+      ],
+      "glyph": [
+        10.0,
+        10.0
+      ]
+    },
+    "GLM/full_raw": {
+      "n": 48,
+      "source": [
+        7469,
+        7525
+      ],
+      "vision": [
+        0,
+        0
+      ],
+      "total": [
+        7531,
+        7587
+      ],
+      "font": [],
+      "glyph": []
+    },
+    "GLM/original_c2_p4": {
+      "n": 48,
+      "source": [
+        7469,
+        7525
+      ],
+      "vision": [
+        3844,
+        3844
+      ],
+      "total": [
+        3914,
+        3916
+      ],
+      "font": [
+        3.509433962264151,
+        3.5428571428571427
+      ],
+      "glyph": [
+        2.047169811320755,
+        2.066666666666667
+      ]
+    },
+    "GLM/efficient_c2_p4": {
+      "n": 48,
+      "source": [
+        7469,
+        7525
+      ],
+      "vision": [
+        3844,
+        3844
+      ],
+      "total": [
+        3914,
+        3916
+      ],
+      "font": [
+        9.3,
+        9.3
+      ],
+      "glyph": [
+        5.425,
+        5.425
+      ]
+    },
+    "GLM/readable_p4": {
+      "n": 48,
+      "source": [
+        7469,
+        7525
+      ],
+      "vision": [
+        13456,
+        13456
+      ],
+      "total": [
+        13526,
+        13528
+      ],
+      "font": [
+        17.4,
+        17.4
+      ],
+      "glyph": [
+        10.15,
+        10.15
+      ]
+    }
+  },
+  "new_evaluation_inference_calls": 0,
+  "release_sha256": "9981516131954ea51b7bc9463c65c1d3d4e5555a0ac3a0aa092fe524f22897b3",
+  "scope_limit": "All declared input gates passed; native GPU tensor comparisons and model accuracy remain pending."
+}

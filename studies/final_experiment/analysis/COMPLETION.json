@@ -1,0 +1,42 @@
+{
+  "status": "complete-audited-scored",
+  "recorded_utc": "2026-09-26T00:59:53.618813+00:00",
+  "held_out_inference_started": true,
+  "held_out_inference_complete": true,
+  "held_out_calls": 450,
+  "cases": 150,
+  "primary_classification": "optical_superiority",
+  "manuscript_updated": false,
+  "new_model_calls_during_local_analysis": 0,
+  "figure_visually_checked": true,
+  "files": [
+    {
+      "path": "audit/CHECKPOINT_IMPORT.json",
+      "sha256": "fdab72961d899d554525220338c81434458ca37510dc4b7d3e37ead3da775a64"
+    },
+    {
+      "path": "audit/RESULT_AUDIT.json",
+      "sha256": "63514f07892e9bb70c8c6706dae8ccf88893f480175789e8b52cf9625d20f5f1"
+    },
+    {
+      "path": "audit/RESULT_CROSSCHECK.json",
+      "sha256": "4576d0a872fb784c2878d41f0b67c52df95609701b92acada91c3204ff2f04a4"
+    },
+    {
+      "path": "outputs/scored/scores.json",
+      "sha256": "535f9319fada2e7f3548c4505f6be99a63375ebec0a3290a269fe0cd76d090dd"
+    },
+    {
+      "path": "analysis/RESULTS.json",
+      "sha256": "e97c445a0787a679faf0f300616d6539e85ba361709374d50bd7b7f3a33744b5"
+    },
+    {
+      "path": "analysis/RESULTS.md",
+      "sha256": "b25b9333803d3eb8120baccbc85a81e728718de06c325e009b2d593c3ecf7bd6"
+    },
+    {
+      "path": "figures/compact_storage.png",
+      "sha256": "9fb4b49a78a12a54262ca82ae9f2d706a43e44c87f71080571f9999f4a88d8a9"
+    }
+  ]
+}

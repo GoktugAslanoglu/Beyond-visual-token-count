@@ -1,0 +1,857 @@
+{
+  "files": [
+    {
+      "path": "work\\development_results\\balanced18\\results\\qwen35_2b_balanced18_combined.jsonl",
+      "sha256": "799793bcef58b6bd263f023acc6b61832c017b26ddb7dc998092adea68cc4c3c",
+      "rows": 72,
+      "unique_keys": 72,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_10px_1708x1708",
+          "n": 18,
+          "correct": 16.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 18,
+          "correct": 12.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_6px_1036x1036",
+          "n": 18,
+          "correct": 7.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "raw_text",
+          "n": 18,
+          "correct": 18.0
+        }
+      ]
+    },
+    {
+      "path": "work\\development_results\\balanced18\\results\\qwen35_2b_balanced18_optical.jsonl",
+      "sha256": "dac57d95ef1f413ccb08be13652eb4dcc178a4e0604cc0924447d230793b3bcb",
+      "rows": 54,
+      "unique_keys": 54,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_10px_1708x1708",
+          "n": 18,
+          "correct": 16.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 18,
+          "correct": 12.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_6px_1036x1036",
+          "n": 18,
+          "correct": 7.0
+        }
+      ]
+    },
+    {
+      "path": "work\\development_results\\balanced18\\results\\qwen35_2b_balanced18_raw.jsonl",
+      "sha256": "37466b384f27fa7968baea88e0f15b2e26e30b72b4819dc65828a7a53cd0434e",
+      "rows": 18,
+      "unique_keys": 18,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "raw_text",
+          "n": 18,
+          "correct": 18.0
+        }
+      ]
+    },
+    {
+      "path": "work\\development_results\\exactstrip1\\results\\qwen35_2b_balanced18_exactstrip.jsonl",
+      "sha256": "1cc401cf6ff6c8b224f25c9629d654b8bcf50d0c5bd8b81fc4438fa00d6b1429",
+      "rows": 36,
+      "unique_keys": 36,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_8px_1372x1372",
+          "n": 18,
+          "correct": 13.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_6px_1036x1036",
+          "n": 18,
+          "correct": 7.0
+        }
+      ]
+    },
+    {
+      "path": "work\\development_results\\exactstrip1\\results\\qwen35_2b_balanced18_uniform_vs_exactstrip.jsonl",
+      "sha256": "0c0588891bf256a59b23b9bdf0813826d7e1536737e904b1c3849872fc888e04",
+      "rows": 72,
+      "unique_keys": 72,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 18,
+          "correct": 12.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_6px_1036x1036",
+          "n": 18,
+          "correct": 7.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_8px_1372x1372",
+          "n": 18,
+          "correct": 13.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_6px_1036x1036",
+          "n": 18,
+          "correct": 7.0
+        }
+      ]
+    },
+    {
+      "path": "work\\development_results\\exactstrip2\\results\\qwen35_2b_exactstrip_v2_clean_a100.jsonl",
+      "sha256": "41ff34c4d778d42a09b09277a9c1fc0d69bf71afd74ddc9ecb2355e5cc5d00c2",
+      "rows": 18,
+      "unique_keys": 18,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_v2_8px_1372x1372",
+          "n": 18,
+          "correct": 14.0
+        }
+      ]
+    },
+    {
+      "path": "work\\development_results\\exactstrip2\\results\\qwen35_2b_uniform8_clean_a100.jsonl",
+      "sha256": "83047647a4d822726b7c99b4dfb6e18cb2b20b1956fdb2a06f36d4229298db98",
+      "rows": 18,
+      "unique_keys": 18,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 18,
+          "correct": 12.0
+        }
+      ]
+    },
+    {
+      "path": "work\\development_results\\exactstrip2\\results\\qwen35_2b_uniform8_vs_exactstrip_v2_clean_a100.jsonl",
+      "sha256": "3397a0c2fc7be60cd0f120a8ea254fea390727800572614e2eeff40346463e08",
+      "rows": 36,
+      "unique_keys": 36,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 18,
+          "correct": 12.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_v2_8px_1372x1372",
+          "n": 18,
+          "correct": 14.0
+        }
+      ]
+    },
+    {
+      "path": "work\\development_results\\readability\\results\\qwen35_2b_readability_sweep.jsonl",
+      "sha256": "f25d417c202f907d9f003b33ec9a669c08de64cd33789306340eb1551415c8c4",
+      "rows": 24,
+      "unique_keys": 24,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_12px_2044x2044",
+          "n": 6,
+          "correct": 6.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_10px_1708x1708",
+          "n": 6,
+          "correct": 6.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 6,
+          "correct": 3.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_6px_1036x1036",
+          "n": 6,
+          "correct": 2.0
+        }
+      ]
+    },
+    {
+      "path": "work\\exactstrip_results_20260827\\results\\qwen35_2b_balanced18_exactstrip.jsonl",
+      "sha256": "1cc401cf6ff6c8b224f25c9629d654b8bcf50d0c5bd8b81fc4438fa00d6b1429",
+      "rows": 36,
+      "unique_keys": 36,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_8px_1372x1372",
+          "n": 18,
+          "correct": 13.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_6px_1036x1036",
+          "n": 18,
+          "correct": 7.0
+        }
+      ]
+    },
+    {
+      "path": "work\\exactstrip_results_20260827\\results\\qwen35_2b_balanced18_uniform_vs_exactstrip.jsonl",
+      "sha256": "0c0588891bf256a59b23b9bdf0813826d7e1536737e904b1c3849872fc888e04",
+      "rows": 72,
+      "unique_keys": 72,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 18,
+          "correct": 12.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_6px_1036x1036",
+          "n": 18,
+          "correct": 7.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_8px_1372x1372",
+          "n": 18,
+          "correct": 13.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_6px_1036x1036",
+          "n": 18,
+          "correct": 7.0
+        }
+      ]
+    },
+    {
+      "path": "work\\exactstrip_v2_clean_a100_results_20260827\\results\\qwen35_2b_exactstrip_v2_clean_a100.jsonl",
+      "sha256": "41ff34c4d778d42a09b09277a9c1fc0d69bf71afd74ddc9ecb2355e5cc5d00c2",
+      "rows": 18,
+      "unique_keys": 18,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_v2_8px_1372x1372",
+          "n": 18,
+          "correct": 14.0
+        }
+      ]
+    },
+    {
+      "path": "work\\exactstrip_v2_clean_a100_results_20260827\\results\\qwen35_2b_uniform8_clean_a100.jsonl",
+      "sha256": "83047647a4d822726b7c99b4dfb6e18cb2b20b1956fdb2a06f36d4229298db98",
+      "rows": 18,
+      "unique_keys": 18,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 18,
+          "correct": 12.0
+        }
+      ]
+    },
+    {
+      "path": "work\\exactstrip_v2_clean_a100_results_20260827\\results\\qwen35_2b_uniform8_vs_exactstrip_v2_clean_a100.jsonl",
+      "sha256": "3397a0c2fc7be60cd0f120a8ea254fea390727800572614e2eeff40346463e08",
+      "rows": 36,
+      "unique_keys": 36,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 18,
+          "correct": 12.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_v2_8px_1372x1372",
+          "n": 18,
+          "correct": 14.0
+        }
+      ]
+    },
+    {
+      "path": "work\\exactstrip_v2_results_20260827\\results\\qwen35_2b_balanced18_exactstrip_v2.jsonl",
+      "sha256": "3edd3490e9f86dc6610133daf78556e8a05c08c6d230e00f0cb6251b1507dafe",
+      "rows": 18,
+      "unique_keys": 18,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_v2_8px_1372x1372",
+          "n": 18,
+          "correct": 14.0
+        }
+      ]
+    },
+    {
+      "path": "work\\exactstrip_v2_results_20260827\\results\\qwen35_2b_balanced18_uniform8_vs_exactstrip_v2.jsonl",
+      "sha256": "e4536f9760ee1fb4122f501958c56fb8737e48eec9de4cdcb623c627b76a4371",
+      "rows": 36,
+      "unique_keys": 36,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 18,
+          "correct": 12.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_v2_8px_1372x1372",
+          "n": 18,
+          "correct": 14.0
+        }
+      ]
+    },
+    {
+      "path": "work\\exactstrip_v2_results_rerun_20260827\\results\\qwen35_2b_balanced18_exactstrip_v2.jsonl",
+      "sha256": "3edd3490e9f86dc6610133daf78556e8a05c08c6d230e00f0cb6251b1507dafe",
+      "rows": 18,
+      "unique_keys": 18,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_v2_8px_1372x1372",
+          "n": 18,
+          "correct": 14.0
+        }
+      ]
+    },
+    {
+      "path": "work\\exactstrip_v2_results_rerun_20260827\\results\\qwen35_2b_balanced18_uniform8_vs_exactstrip_v2.jsonl",
+      "sha256": "e4536f9760ee1fb4122f501958c56fb8737e48eec9de4cdcb623c627b76a4371",
+      "rows": 36,
+      "unique_keys": 36,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 18,
+          "correct": 12.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_v2_8px_1372x1372",
+          "n": 18,
+          "correct": 14.0
+        }
+      ]
+    },
+    {
+      "path": "work\\qwen35_9b_rerun_20260828\\results\\qwen35_9b_balanced18_combined_main.jsonl",
+      "sha256": "fffec38cf9e8c52cb58b7448a64d63f0fd15fbfe94005d8446c3db1465a8c0ea",
+      "rows": 90,
+      "unique_keys": 90,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-9B",
+          "condition": "full_history_12px_2044x2044",
+          "n": 18,
+          "correct": 18.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-9B",
+          "condition": "full_history_10px_1708x1708",
+          "n": 18,
+          "correct": 17.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-9B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 18,
+          "correct": 16.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-9B",
+          "condition": "full_history_6px_1036x1036",
+          "n": 18,
+          "correct": 10.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-9B",
+          "condition": "raw_text",
+          "n": 18,
+          "correct": 18.0
+        }
+      ]
+    },
+    {
+      "path": "work\\qwen35_9b_rerun_20260828\\results\\qwen35_9b_balanced18_optical_main.jsonl",
+      "sha256": "3349b9052d607d0210436d83eb6010c2fb7e8485bec157dc8d943a092ce613bc",
+      "rows": 72,
+      "unique_keys": 72,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-9B",
+          "condition": "full_history_12px_2044x2044",
+          "n": 18,
+          "correct": 18.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-9B",
+          "condition": "full_history_10px_1708x1708",
+          "n": 18,
+          "correct": 17.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-9B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 18,
+          "correct": 16.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-9B",
+          "condition": "full_history_6px_1036x1036",
+          "n": 18,
+          "correct": 10.0
+        }
+      ]
+    },
+    {
+      "path": "work\\qwen35_9b_rerun_20260828\\results\\qwen35_9b_balanced18_raw_main.jsonl",
+      "sha256": "caab2cf5213e70da557e47d7ae0b410da1a63bd8cb5dd2ca7a4663150317ce83",
+      "rows": 18,
+      "unique_keys": 18,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-9B",
+          "condition": "raw_text",
+          "n": 18,
+          "correct": 18.0
+        }
+      ]
+    },
+    {
+      "path": "work\\readability_sweep_results_20260827\\results\\qwen35_2b_readability_sweep.jsonl",
+      "sha256": "f25d417c202f907d9f003b33ec9a669c08de64cd33789306340eb1551415c8c4",
+      "rows": 24,
+      "unique_keys": 24,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_12px_2044x2044",
+          "n": 6,
+          "correct": 6.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_10px_1708x1708",
+          "n": 6,
+          "correct": 6.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_8px_1372x1372",
+          "n": 6,
+          "correct": 3.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "full_history_6px_1036x1036",
+          "n": 6,
+          "correct": 2.0
+        }
+      ]
+    },
+    {
+      "path": "work\\results_2b_pilot_20260827\\qwen35_2b_combined_check.jsonl",
+      "sha256": "258e38b721430bea64094d53e030e12a98ac49660d15e253a0367679829c3b87",
+      "rows": 36,
+      "unique_keys": 36,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "uniform_c4",
+          "n": 6,
+          "correct": 0.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "uniform_c8",
+          "n": 6,
+          "correct": 0.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "uniform_c16",
+          "n": 6,
+          "correct": 0.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_c8",
+          "n": 6,
+          "correct": 0.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_c16",
+          "n": 6,
+          "correct": 0.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "raw_text",
+          "n": 6,
+          "correct": 6.0
+        }
+      ]
+    },
+    {
+      "path": "work\\results_2b_pilot_20260827\\qwen35_2b_optical_check.jsonl",
+      "sha256": "e822a75025ebfb25b659a1b11f3c8f6252ba0e486467c53ed1def03519028d26",
+      "rows": 30,
+      "unique_keys": 30,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "uniform_c4",
+          "n": 6,
+          "correct": 0.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "uniform_c8",
+          "n": 6,
+          "correct": 0.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "uniform_c16",
+          "n": 6,
+          "correct": 0.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_c8",
+          "n": 6,
+          "correct": 0.0
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "exactstrip_c16",
+          "n": 6,
+          "correct": 0.0
+        }
+      ]
+    },
+    {
+      "path": "work\\results_2b_pilot_20260827\\qwen35_2b_raw_check.jsonl",
+      "sha256": "919fd7a91d1c0ae29556023f447f1df12b37e30473aa6c4f1ac7161bd1aa35dc",
+      "rows": 6,
+      "unique_keys": 6,
+      "role": "development-only or repeat consistency check; never extra confirmatory observations",
+      "scores": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "condition": "raw_text",
+          "n": 6,
+          "correct": 6.0
+        }
+      ]
+    }
+  ],
+  "duplicate_byte_identical_files": [
+    [
+      "work\\development_results\\exactstrip1\\results\\qwen35_2b_balanced18_exactstrip.jsonl",
+      "work\\exactstrip_results_20260827\\results\\qwen35_2b_balanced18_exactstrip.jsonl"
+    ],
+    [
+      "work\\development_results\\exactstrip1\\results\\qwen35_2b_balanced18_uniform_vs_exactstrip.jsonl",
+      "work\\exactstrip_results_20260827\\results\\qwen35_2b_balanced18_uniform_vs_exactstrip.jsonl"
+    ],
+    [
+      "work\\development_results\\exactstrip2\\results\\qwen35_2b_exactstrip_v2_clean_a100.jsonl",
+      "work\\exactstrip_v2_clean_a100_results_20260827\\results\\qwen35_2b_exactstrip_v2_clean_a100.jsonl"
+    ],
+    [
+      "work\\development_results\\exactstrip2\\results\\qwen35_2b_uniform8_clean_a100.jsonl",
+      "work\\exactstrip_v2_clean_a100_results_20260827\\results\\qwen35_2b_uniform8_clean_a100.jsonl"
+    ],
+    [
+      "work\\development_results\\exactstrip2\\results\\qwen35_2b_uniform8_vs_exactstrip_v2_clean_a100.jsonl",
+      "work\\exactstrip_v2_clean_a100_results_20260827\\results\\qwen35_2b_uniform8_vs_exactstrip_v2_clean_a100.jsonl"
+    ],
+    [
+      "work\\development_results\\readability\\results\\qwen35_2b_readability_sweep.jsonl",
+      "work\\readability_sweep_results_20260827\\results\\qwen35_2b_readability_sweep.jsonl"
+    ],
+    [
+      "work\\exactstrip_v2_results_20260827\\results\\qwen35_2b_balanced18_exactstrip_v2.jsonl",
+      "work\\exactstrip_v2_results_rerun_20260827\\results\\qwen35_2b_balanced18_exactstrip_v2.jsonl"
+    ],
+    [
+      "work\\exactstrip_v2_results_20260827\\results\\qwen35_2b_balanced18_uniform8_vs_exactstrip_v2.jsonl",
+      "work\\exactstrip_v2_results_rerun_20260827\\results\\qwen35_2b_balanced18_uniform8_vs_exactstrip_v2.jsonl"
+    ]
+  ],
+  "exactstrip_v2": {
+    "label": "Reaudit of clean A100 ExactStrip v2 development comparison",
+    "uniform_metadata": {
+      "rows": 18,
+      "unique_episodes": 18,
+      "gpus": [
+        "NVIDIA A100-SXM4-40GB"
+      ],
+      "conditions": [
+        "full_history_8px_1372x1372"
+      ],
+      "models": [
+        "Qwen/Qwen3.5-2B"
+      ],
+      "dtypes": [
+        "bfloat16"
+      ],
+      "vision_tokens": [
+        7396
+      ],
+      "dimensions": [
+        [
+          1372,
+          1372
+        ]
+      ]
+    },
+    "v2_metadata": {
+      "rows": 18,
+      "unique_episodes": 18,
+      "gpus": [
+        "NVIDIA A100-SXM4-40GB"
+      ],
+      "conditions": [
+        "exactstrip_v2_8px_1372x1372"
+      ],
+      "models": [
+        "Qwen/Qwen3.5-2B"
+      ],
+      "dtypes": [
+        "bfloat16"
+      ],
+      "vision_tokens": [
+        7396
+      ],
+      "dimensions": [
+        [
+          1372,
+          1372
+        ]
+      ]
+    },
+    "pairing_mismatches": [],
+    "uniform": {
+      "n": 18,
+      "correct": 12,
+      "cer": 0.03407485875706215,
+      "token_f1": 0.6666666666666666,
+      "mean_latency_seconds": 1.8613629444444444,
+      "by_memory_type": {
+        "code_tool_state": "3/3",
+        "high_entropy_identifier": "0/3",
+        "numeric_state": "2/3",
+        "semantic_decision": "3/3",
+        "structured_config": "3/3",
+        "symbol_path": "1/3"
+      },
+      "by_position": {
+        "early": "3/6",
+        "late": "5/6",
+        "middle": "4/6"
+      }
+    },
+    "v2": {
+      "n": 18,
+      "correct": 14,
+      "cer": 0.03301809547203799,
+      "token_f1": 0.7777777777777778,
+      "mean_latency_seconds": 1.721702111111111,
+      "by_memory_type": {
+        "code_tool_state": "2/3",
+        "high_entropy_identifier": "3/3",
+        "numeric_state": "2/3",
+        "semantic_decision": "3/3",
+        "structured_config": "3/3",
+        "symbol_path": "1/3"
+      },
+      "by_position": {
+        "early": "5/6",
+        "late": "4/6",
+        "middle": "5/6"
+      }
+    },
+    "paired": {
+      "gains": [
+        {
+          "episode_id": "high_entropy_identifier-000",
+          "memory_type": "high_entropy_identifier",
+          "position": "late",
+          "answer": "0fbc2886eadd3870",
+          "uniform_prediction": "0fb2886ead3870",
+          "v2_prediction": "0fbc2886eadd3870"
+        },
+        {
+          "episode_id": "high_entropy_identifier-001",
+          "memory_type": "high_entropy_identifier",
+          "position": "early",
+          "answer": "8fe2926d8f64708e",
+          "uniform_prediction": "8fe2926df64708e",
+          "v2_prediction": "8fe2926d8f64708e"
+        },
+        {
+          "episode_id": "high_entropy_identifier-002",
+          "memory_type": "high_entropy_identifier",
+          "position": "middle",
+          "answer": "675038b6e680e45e",
+          "uniform_prediction": "675038b66e680e45",
+          "v2_prediction": "675038b6e680e45e"
+        },
+        {
+          "episode_id": "numeric_state-002",
+          "memory_type": "numeric_state",
+          "position": "early",
+          "answer": "5473",
+          "uniform_prediction": "473",
+          "v2_prediction": "5473"
+        },
+        {
+          "episode_id": "symbol_path-001",
+          "memory_type": "symbol_path",
+          "position": "middle",
+          "answer": "/srv/checkpoints/sym-04-ww1i21/v52/model-303047.safetensors",
+          "uniform_prediction": "/srv/checkpoints/sym-04-ww1i21/v51/model-303047.safetensors",
+          "v2_prediction": "/srv/checkpoints/sym-04-ww1i21/v52/model-303047.safetensors"
+        }
+      ],
+      "losses": [
+        {
+          "episode_id": "code_tool_state-000",
+          "memory_type": "code_tool_state",
+          "position": "late",
+          "answer": "ERR_CACHE_SYNC_84629292",
+          "uniform_prediction": "ERR_CACHE_SYNC_84629292",
+          "v2_prediction": "ERR_CACHE_SYNC_B4629292"
+        },
+        {
+          "episode_id": "numeric_state-000",
+          "memory_type": "numeric_state",
+          "position": "middle",
+          "answer": "8247",
+          "uniform_prediction": "8247",
+          "v2_prediction": "2827"
+        },
+        {
+          "episode_id": "symbol_path-002",
+          "memory_type": "symbol_path",
+          "position": "late",
+          "answer": "/srv/checkpoints/sym-05-0yzodq/v75/model-879898.safetensors",
+          "uniform_prediction": "/srv/checkpoints/sym-05-0yzodq/v75/model-879898.safetensors",
+          "v2_prediction": "srv/checkpoints/sym-05-0yzodq/v75/model-879898.safetensors"
+        }
+      ],
+      "ties_correct": 9,
+      "ties_wrong": 1,
+      "mcnemar_exact_two_sided_p": 0.7265625
+    },
+    "v2_failures": [
+      {
+        "episode_id": "numeric_state-000",
+        "memory_type": "numeric_state",
+        "position": "middle",
+        "answer": "8247",
+        "prediction": "2827",
+        "cer": 0.5
+      },
+      {
+        "episode_id": "symbol_path-000",
+        "memory_type": "symbol_path",
+        "position": "early",
+        "answer": "/srv/checkpoints/sym-03-3np7ru/v47/model-c92a12.safetensors",
+        "prediction": "/srv/checkpoints/sym-03-3np7ru/v47/model-c92a2l2.safetensors",
+        "cer": 0.03389830508474576
+      },
+      {
+        "episode_id": "symbol_path-002",
+        "memory_type": "symbol_path",
+        "position": "late",
+        "answer": "/srv/checkpoints/sym-05-0yzodq/v75/model-879898.safetensors",
+        "prediction": "srv/checkpoints/sym-05-0yzodq/v75/model-879898.safetensors",
+        "cer": 0.01694915254237288
+      },
+      {
+        "episode_id": "code_tool_state-000",
+        "memory_type": "code_tool_state",
+        "position": "late",
+        "answer": "ERR_CACHE_SYNC_84629292",
+        "prediction": "ERR_CACHE_SYNC_B4629292",
+        "cer": 0.043478260869565216
+      }
+    ],
+    "gate": {
+      "overall": "14/18",
+      "overall_pass": false,
+      "paths": "1/3",
+      "paths_pass": false,
+      "protected": "8/9",
+      "protected_pass": false,
+      "passed": false
+    }
+  }
+}

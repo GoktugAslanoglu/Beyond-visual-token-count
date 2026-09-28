@@ -1,0 +1,23 @@
+{
+  "status": "verified",
+  "inspection_permitted": true,
+  "created_utc": "2026-09-20T17:29:47.776813+00:00",
+  "contracts": {
+    "ruler": {
+      "path": "iclr/audit/scientific_20260920/RULER_RELEASE_CONTRACT.json",
+      "bytes": 10020,
+      "sha256": "00f93872f90d873e55babf3ed0435a4c6f2aee8f69dd71512ccd619437fc934f"
+    },
+    "identifier": {
+      "path": "iclr/pre_gpu_cpu_20260913/identifier_checkpoint/IDENTIFIER_SCIENTIFIC_CONTRACT.json",
+      "bytes": 18858,
+      "sha256": "7b89c751e8462e47ba052479da4435b85f050b74fe75b43a2991060dbca2c6af"
+    }
+  },
+  "review": {
+    "path": "iclr/audit/scientific_20260920/PRE_OUTCOME_REVIEW.json",
+    "bytes": 5107,
+    "sha256": "3756b567170886e4397f2d8403737388d3e25ade11040d318f4a431efb02279f"
+  },
+  "scope": "User-requested local scientific audit and analysis of immutable completed experiments; no new inference"
+}

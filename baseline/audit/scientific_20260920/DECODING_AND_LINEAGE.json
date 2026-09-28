@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "reports": [
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "decoded_rows": 672,
+      "decoding_mismatches": [],
+      "predecessors": [
+        {
+          "path": "<LOCAL_USER>\\Downloads\\ICLR-Identifier-Qwen2B-1789588367743881647.zip",
+          "sha256": "579f89cd626ff1639f9fd78bacb43ed83562a94c03dc024a8c5891872e1827f5",
+          "completed_rows": 84,
+          "changed_or_missing_files": []
+        },
+        {
+          "path": "<LOCAL_USER>\\Downloads\\ICLR-Identifier-Qwen2B-1789591090547791605.zip",
+          "sha256": "e5574ed8b6c1c00a0d8cf4d4a6ee35922bbc1d2b7b46b776ca728e156c7fa26f",
+          "completed_rows": 168,
+          "changed_or_missing_files": []
+        },
+        {
+          "path": "<LOCAL_USER>\\Downloads\\ICLR-Identifier-Qwen2B-1789591376033589674.zip",
+          "sha256": "b908d18c313095f525cfa60e3a6c946ddac51d98aa843868f35ac6d42228e3e9",
+          "completed_rows": 252,
+          "changed_or_missing_files": []
+        }
+      ]
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "decoded_rows": 672,
+      "decoding_mismatches": [],
+      "predecessors": [
+        {
+          "path": "<LOCAL_USER>\\Downloads\\ICLR-Identifier-Qwen9B-1789603965289486365.zip",
+          "sha256": "a6a127259dd24198c7b743174a29ba29a44f24e3ff53d8b565b94e6e8d1e3e56",
+          "completed_rows": 84,
+          "changed_or_missing_files": []
+        }
+      ]
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "decoded_rows": 672,
+      "decoding_mismatches": [],
+      "predecessors": [
+        {
+          "path": "<LOCAL_USER>\\Downloads\\ICLR-Identifier-GLM-1789634441568200859(1).zip",
+          "sha256": "8fe90f175265e093d2e69b5cfc5e740292e7bd36f9c81c1a347595bf41ce58c8",
+          "completed_rows": 84,
+          "changed_or_missing_files": []
+        }
+      ]
+    },
+    {
+      "study": "LoCoMo",
+      "reader": "Qwen2B",
+      "decoded_rows": 3000,
+      "decoding_mismatches": [],
+      "predecessors": [
+        {
+          "path": "<LOCAL_USER>\\Downloads\\ICLR-LoCoMo-Qwen2B-1789640223603049500.zip",
+          "sha256": "d63a4519316a1e247a92423007f84ee06574f64d075983c1f8bf00a2dd4cfc30",
+          "completed_rows": 600,
+          "changed_or_missing_files": []
+        },
+        {
+          "path": "<LOCAL_USER>\\Downloads\\ICLR-Qwen300-qwen300_1789289153546435702.zip",
+          "sha256": "b7cc1b6493c4583ae861e67f5e2dc5d177fc94e19cf964bece5a0c2134329cad",
+          "completed_rows": 300,
+          "changed_or_missing_files": []
+        }
+      ]
+    },
+    {
+      "study": "LoCoMo",
+      "reader": "Qwen9B",
+      "decoded_rows": 3000,
+      "decoding_mismatches": [],
+      "predecessors": [
+        {
+          "path": "<LOCAL_USER>\\Downloads\\ICLR-LoCoMo-Qwen9B-1789675402741967652.zip",
+          "sha256": "21d7e1d0652466f42e3b2e07494402a1da678d90a16c5bf0491da5f284e495f6",
+          "completed_rows": 1500,
+          "changed_or_missing_files": []
+        }
+      ]
+    },
+    {
+      "study": "LoCoMo",
+      "reader": "GLM",
+      "decoded_rows": 3000,
+      "decoding_mismatches": [],
+      "predecessors": [
+        {
+          "path": "<LOCAL_USER>\\Downloads\\ICLR-LoCoMo-GLM-1789668718806733662.zip",
+          "sha256": "406b677602b9f265cce99f71eab3847278c731291a8abc80b0c0301761ec53eb",
+          "completed_rows": 1500,
+          "changed_or_missing_files": []
+        }
+      ]
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "decoded_rows": 720,
+      "decoding_mismatches": [],
+      "predecessors": [
+        {
+          "path": "<LOCAL_USER>\\Downloads\\ICLR-RULER-Qwen2B-1789911824537052271.zip",
+          "sha256": "2d7f788e779809be66757411a0a8ea15205250d2ea70ddb816716e0e7dd47c70",
+          "completed_rows": 360,
+          "changed_or_missing_files": []
+        }
+      ]
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "decoded_rows": 720,
+      "decoding_mismatches": [],
+      "predecessors": [
+        {
+          "path": "<LOCAL_USER>\\Downloads\\ICLR-RULER-Qwen9B-1789917698746265496(1).zip",
+          "sha256": "33043889f50474aa2b463f4fc64effffc741fe186f330c56164f51f9430ca616",
+          "completed_rows": 360,
+          "changed_or_missing_files": []
+        }
+      ]
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "decoded_rows": 720,
+      "decoding_mismatches": [],
+      "predecessors": [
+        {
+          "path": "<LOCAL_USER>\\Downloads\\ICLR-RULER-GLM-1789922268325714775.zip",
+          "sha256": "d8472843b2fb25cf869efb15e0eba6aa9e20405048ffd1c177ab3f9f22926779",
+          "completed_rows": 360,
+          "changed_or_missing_files": []
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "checks": "All decoded strings reproduced from exact pinned tokenizer JSON with both special-token modes. All row files in available earlier checkpoints compared byte-for-byte by SHA-256 with final checkpoint; no inference repeated."
+}

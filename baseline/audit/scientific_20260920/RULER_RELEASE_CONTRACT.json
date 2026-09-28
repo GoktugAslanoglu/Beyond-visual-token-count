@@ -1,0 +1,254 @@
+{
+  "benchmark": "ruler",
+  "status": "verified",
+  "sealed": true,
+  "scientific_review_passed": true,
+  "original_contract": {
+    "path": "iclr/ruler_cpu5_20260917/CONTRACT_CANDIDATE.json",
+    "bytes": 20538,
+    "sha256": "90874cb3ec3d5eafc579bb4fdbe39cdd5a9645a3097e975c08e7a4f1ba411f70"
+  },
+  "review": {
+    "path": "iclr/audit/scientific_20260920/PRE_OUTCOME_REVIEW.json",
+    "bytes": 5107,
+    "sha256": "3756b567170886e4397f2d8403737388d3e25ade11040d318f4a431efb02279f"
+  },
+  "source_revision": "c3f5e3b4f87f97e048793bb510a3a6b19a46bf3a",
+  "reference_tokenizer": {
+    "id": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "files": [
+      {
+        "model": "Qwen/Qwen3.5-2B",
+        "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+        "file": "tokenizer_config.json",
+        "sha256": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+        "bytes": 16709,
+        "source": "verified Stage00"
+      },
+      {
+        "model": "Qwen/Qwen3.5-2B",
+        "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+        "file": "merges.txt",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-2B/resolve/15852e8c16360a2fea060d615a32b45270f8a8fc/merges.txt",
+        "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+        "bytes": 3353259,
+        "model_weight": false
+      },
+      {
+        "model": "Qwen/Qwen3.5-2B",
+        "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+        "file": "tokenizer.json",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-2B/resolve/15852e8c16360a2fea060d615a32b45270f8a8fc/tokenizer.json",
+        "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "bytes": 12807982,
+        "model_weight": false
+      },
+      {
+        "model": "Qwen/Qwen3.5-2B",
+        "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+        "file": "vocab.json",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-2B/resolve/15852e8c16360a2fea060d615a32b45270f8a8fc/vocab.json",
+        "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+        "bytes": 6722759,
+        "model_weight": false
+      }
+    ]
+  },
+  "generator": {
+    "upstream_revision": "c3f5e3b4f87f97e048793bb510a3a6b19a46bf3a",
+    "seed": 2026090601,
+    "sequence_length_setting": 8192,
+    "items_per_task": 30,
+    "tokenizer_type": "hf",
+    "reference_tokenizer": {
+      "id": "Qwen/Qwen3.5-2B",
+      "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "files": [
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+          "file": "tokenizer_config.json",
+          "sha256": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+          "bytes": 16709,
+          "source": "verified Stage00"
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+          "file": "merges.txt",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-2B/resolve/15852e8c16360a2fea060d615a32b45270f8a8fc/merges.txt",
+          "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+          "bytes": 3353259,
+          "model_weight": false
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+          "file": "tokenizer.json",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-2B/resolve/15852e8c16360a2fea060d615a32b45270f8a8fc/tokenizer.json",
+          "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+          "bytes": 12807982,
+          "model_weight": false
+        },
+        {
+          "model": "Qwen/Qwen3.5-2B",
+          "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+          "file": "vocab.json",
+          "url": "https://huggingface.co/Qwen/Qwen3.5-2B/resolve/15852e8c16360a2fea060d615a32b45270f8a8fc/vocab.json",
+          "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+          "bytes": 6722759,
+          "model_weight": false
+        }
+      ]
+    },
+    "native_output_reserve": {
+      "niah": 128,
+      "vt": 30
+    },
+    "study_inference_cap": 128,
+    "global_rng_rule": "Generate each complete 30-item task stream with seed 2026090601 before selecting shard indices; preserve Python and NumPy RNG consumption exactly.",
+    "task_arguments": {
+      "niah_single_1": "noise/words/numbers/1/1/1",
+      "niah_single_2": "essay/words/numbers/1/1/1",
+      "niah_single_3": "essay/words/uuids/1/1/1",
+      "niah_multikey_3": "needle/uuids/uuids/1/1/1",
+      "niah_multivalue": "essay/words/numbers/1/4/1",
+      "vt": "noise/1 chain/4 hops"
+    },
+    "generator_files": [
+      {
+        "path": "iclr/ruler_cpu5_20260917/upstream/eval/evaluate.py",
+        "bytes": 6934,
+        "sha256": "b9a5fcbded7209663d97670496c74dbcd6358ddbe3d9887a0c5f0c4f974bfe1c"
+      },
+      {
+        "path": "iclr/ruler_cpu5_20260917/upstream/eval/synthetic/constants.py",
+        "bytes": 1531,
+        "sha256": "6740467c17b8dc06b6b30f4f97e54ce8de81db0dd879f1538d0b6b5727f4bd5f"
+      },
+      {
+        "path": "iclr/ruler_cpu5_20260917/upstream/manifest_utils.py",
+        "bytes": 1327,
+        "sha256": "ecac79322f28ce9a12388b12e35d560ecb7cdad6b9888467a5a13b0eff2db91e"
+      },
+      {
+        "path": "iclr/ruler_cpu5_20260917/upstream/synthetic/constants.py",
+        "bytes": 3052,
+        "sha256": "6296e901d495ec6200dc3f68993ea13d8282e3c0dbe1a8c47967f111105d1fde"
+      },
+      {
+        "path": "iclr/ruler_cpu5_20260917/upstream/synthetic/niah.py",
+        "bytes": 12733,
+        "sha256": "e9cada0a7660d274fe73a1338a90a7087e17b630169f1aaf14a8d3221c6805b5"
+      },
+      {
+        "path": "iclr/ruler_cpu5_20260917/upstream/synthetic/variable_tracking.py",
+        "bytes": 14306,
+        "sha256": "9aac483420e158d116ab63fc43b9606bdb284ac0c053288c30776d5c365530e5"
+      },
+      {
+        "path": "iclr/ruler_cpu5_20260917/upstream/tokenizer.py",
+        "bytes": 4075,
+        "sha256": "c2e4bfab607eef87a86334558303c1811bc8e93f22a5c4b129f302726d2357a4"
+      }
+    ],
+    "corpus": {
+      "path": "iclr/ruler_cpu5_20260917/assets/PaulGrahamEssays.json",
+      "bytes": 3108621,
+      "sha256": "8d31e1b660e0f2180bcca6d238e18f77921df9d158611582b860da1762b6d3dd"
+    },
+    "corpus_manifest": {
+      "path": "iclr/ruler_cpu5_20260917/assets/CORPUS_MANIFEST.json",
+      "bytes": 80512,
+      "sha256": "2263293fa56f28aa5f5deac2fa62d2dc96e1ffb88966aa5b268618e03bb9ffb0"
+    },
+    "nltk": {
+      "version": "3.9.1",
+      "punkt_sha256": "51c3078994aeaf650bfc8e028be4fb42b4a0d177d41c012b6a983979653660ec",
+      "punkt_tab_sha256": "e57f64187974277726a3417ca6f181ec5403676c717672eef6a748a7b20e0106"
+    },
+    "wonderwords": {
+      "version": "3.0.1",
+      "wheel_sha256": "4dd66deb6a76ca9e0b0422d1d3e111f9b910d7c16922d42de733ee8def98f8d0"
+    }
+  },
+  "templates": {
+    "preserve_upstream_prompt": true,
+    "lossless_prefix_memory_suffix_reconstruction_required": true,
+    "vt_worked_example_required": true,
+    "vt_example_randomization_required": true,
+    "native_answer_prefix_required": true,
+    "study_authored_example_edits_allowed": false,
+    "output_conditioned_selection_allowed": false,
+    "carrier_rule": "Only generated context bytes change carrier. Native instruction, query, worked example, and answer prefix remain text in both raw and optical arms."
+  },
+  "datasets": {
+    "corpus": {
+      "path": "iclr/ruler_cpu5_20260917/assets/PaulGrahamEssays.json",
+      "bytes": 3108621,
+      "sha256": "8d31e1b660e0f2180bcca6d238e18f77921df9d158611582b860da1762b6d3dd"
+    },
+    "corpus_manifest": {
+      "path": "iclr/ruler_cpu5_20260917/assets/CORPUS_MANIFEST.json",
+      "bytes": 80512,
+      "sha256": "2263293fa56f28aa5f5deac2fa62d2dc96e1ffb88966aa5b268618e03bb9ffb0"
+    }
+  },
+  "metrics": {
+    "scorer": {
+      "path": "iclr/v2/runtime/scoring.py",
+      "bytes": 4754,
+      "sha256": "3387be2fd1531c70b87dd88731977650d8f2ddb924c336bac452e3717233b210"
+    },
+    "native_metric": {
+      "path": "iclr/ruler_cpu5_20260917/upstream/eval/synthetic/constants.py",
+      "bytes": 1531,
+      "sha256": "6740467c17b8dc06b6b30f4f97e54ce8de81db0dd879f1538d0b6b5727f4bd5f"
+    },
+    "native_wrapper": {
+      "path": "iclr/ruler_cpu5_20260917/upstream/eval/evaluate.py",
+      "bytes": 6934,
+      "sha256": "b9a5fcbded7209663d97670496c74dbcd6358ddbe3d9887a0c5f0c4f974bfe1c"
+    },
+    "scoring_during_cpu_preparation": false,
+    "reporting": "native task-specific containment and equal-weight scoped six-task aggregate; strict whole-answer EM/CER only for niah_single_1/2/3 and niah_multikey_3"
+  },
+  "seeds": {
+    "generation": 2026090601,
+    "execution_order": 2026090504,
+    "statistics": 2026090505,
+    "inference": 2026090506
+  },
+  "row_counts": {
+    "tasks": [
+      "niah_single_1",
+      "niah_single_2",
+      "niah_single_3",
+      "niah_multikey_3",
+      "niah_multivalue",
+      "vt"
+    ],
+    "items_per_task": 30,
+    "items": 180,
+    "arms": [
+      "full_raw",
+      "optical_c0p8_p4",
+      "optical_c2_p4",
+      "optical_c4_p4"
+    ],
+    "readers": 3,
+    "conditions": 2160,
+    "official_full_aggregate": false
+  },
+  "exclusions": {
+    "minimum_common_cases_each_task_reader_all_four_arms": 27,
+    "nominal": 30,
+    "threshold_is_not_permission_to_bypass_new_technical_failure": true,
+    "replacement_allowed": false
+  },
+  "stopping_rules": {
+    "action": "stop affected shard, preserve all artifacts/logs, write TECHNICAL_BLOCK.json, require a new prospective amendment before retry",
+    "performance_based_failure_or_exclusion_allowed": false
+  }
+}

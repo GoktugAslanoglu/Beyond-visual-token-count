@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "figure_points_checked_against_rows": 18,
+  "visual_review": "rendered PDF inspected; no clipped labels or overlapping annotations; all three reader panels correct",
+  "figure_sha256": "9c63233e915e9870d543855f803212d0017686e0769ccf4367d57f2a3edc6704"
+}

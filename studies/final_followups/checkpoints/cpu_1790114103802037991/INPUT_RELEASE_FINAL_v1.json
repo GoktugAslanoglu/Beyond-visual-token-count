@@ -1,0 +1,15 @@
+{
+  "status": "all-inputs-independently-verified",
+  "source_freeze_sha256": "673143fa3b67d577f43a644ec54d6e0da8a89a02c3bcd880b34426f4249afcf2",
+  "freeze_hashes": {
+    "01_budget_crossover": "8ba615128d1ada56dd19c9dc96b5c1ac265e5aaf1ea4a0bb2379d937d1a201bd",
+    "02_geometry_mechanism": "37373a23e96b6095978d8e98be905e5a33b54dc292da1aecbf883c826d1f3b06",
+    "03_systems_profile": "9d6eea68db03cdaab94a3c177233c630fcb5444f059fd54fde1ff75373c00afc"
+  },
+  "cpu_archive_sha256": "7eb2f6ce1240e4727f77098bd541c38b17fb80711f9f75ea77ceca9a3a3ee991",
+  "native_audit_sha256": "4b12d7aaf353de53fef43015dc375bc93ff912eddb3223d5e9325d1775d9a8f9",
+  "local_audit_scope": "all spans, pixels, counts, cross-scale and cross-study pairing; native tensor repetition verified in CPU checkpoint",
+  "native_tensor_rechecks": 873,
+  "quality_inputs": 828,
+  "systems_unique_inputs": 45
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "release": {
+    "path": "iclr/audit/scientific_20260920/UNBLINDING_RELEASE.json",
+    "bytes": 897,
+    "sha256": "039b27079fbb38215a34c8b297cadafc75ebeeeaa3e37cd3420c7c38c9d30d55"
+  },
+  "private_results_opened": false
+}

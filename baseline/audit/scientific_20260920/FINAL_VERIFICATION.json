@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "completed_utc": "2026-09-21T04:21:40.534233+00:00",
+  "scientific_verdict": "Mandatory collection and record verification complete; broader claims require controls or narrower scope.",
+  "mandatory_unique_rows": 13176,
+  "study_counts": {
+    "Identifier": 2016,
+    "LoCoMo": 9000,
+    "RULER": 2160
+  },
+  "condition_summary_rows": 51,
+  "joint_factor_summary_rows": 1008,
+  "focused_tests_passed": 36,
+  "report_local_links_checked": 18,
+  "historical_protected_files_rehashed": 160,
+  "legacy_scorer_bridge_unchanged": true,
+  "final_archives_rehashed": [
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "path": "<LOCAL_USER>\\Downloads\\ICLR-Identifier-Qwen2B-1789592765700693530.zip",
+      "sha256": "a0892f2f81af6a706c33b6a6ff70ef0574fc7f5080869c97f07507ab33be33a2"
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "path": "<LOCAL_USER>\\Downloads\\ICLR-Identifier-Qwen9B-1789606592112372561.zip",
+      "sha256": "189aec00b3af4526b7b0ae0228e3395309bd97230bc7f9a269582f768744669c"
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "path": "<LOCAL_USER>\\Downloads\\ICLR-Identifier-GLM-1789637392556848873.zip",
+      "sha256": "87f890012bb74774e57cc97f9aed2d66ea26626d7e136be33518bfc78b9c511c"
+    },
+    {
+      "study": "LoCoMo",
+      "reader": "Qwen2B",
+      "path": "<LOCAL_USER>\\Downloads\\ICLR-LoCoMo-Qwen2B-1789653262607945619.zip",
+      "sha256": "df7920a66887be15c1d5a26dd997fcb23e56d6c29e30627a032b08a2804b1c52"
+    },
+    {
+      "study": "LoCoMo",
+      "reader": "Qwen9B",
+      "path": "<LOCAL_USER>\\Downloads\\ICLR-LoCoMo-Qwen9B-1789683888544515617(2).zip",
+      "sha256": "a85229ffc9e095d4a77b445cb8456e0a85c837df1bb590db25ab9c27dd1c2daf"
+    },
+    {
+      "study": "LoCoMo",
+      "reader": "GLM",
+      "path": "<LOCAL_USER>\\Downloads\\ICLR-LoCoMo-GLM-1789675080628089913.zip",
+      "sha256": "8cb4dc703689bab2747b1f61dd81628fb5db1764587753e1864a93ac34455d90"
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "path": "<LOCAL_USER>\\Downloads\\ICLR-RULER-Qwen2B-1789913815136589050.zip",
+      "sha256": "5130af3588bbdc6024c6df3694346b033d2fcd45b4c898e0abf0abad0889b090"
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "path": "<LOCAL_USER>\\Downloads\\ICLR-RULER-Qwen9B-1789920852849726662.zip",
+      "sha256": "b99e2ce1bb675595f09837b7d8e9c90d8bf6e124247fdf87d8a382c21d798205"
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "path": "<LOCAL_USER>\\Downloads\\ICLR-RULER-GLM-1789923274894743085.zip",
+      "sha256": "3c8e5cbd476fc9ed1161391ecee3def9d264717db8cdf51799d0f70cc8a87368"
+    }
+  ],
+  "audit_manifest_sha256": "75b2a6f6001bb488c5cc509e74e09188af33bc91c4a6475ea7c35b4ab3903250",
+  "independent_gpu_replication": false,
+  "unresolved_integrity_errors": []
+}

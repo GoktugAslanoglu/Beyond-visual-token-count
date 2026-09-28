@@ -1,0 +1,60 @@
+{
+  "status": "execution-code-frozen-before-any-model-output",
+  "utc": "2026-09-22T21:51:12.231652+00:00",
+  "source_freeze_sha256": "673143fa3b67d577f43a644ec54d6e0da8a89a02c3bcd880b34426f4249afcf2",
+  "files": [
+    {
+      "path": "runtime/gpu_final.py",
+      "bytes": 8976,
+      "sha256": "8c08b3c3b30565b7af39c8c56da4f819d5144f5e4b355591bc5f55a029e74033"
+    },
+    {
+      "path": "runtime/gpu_colab.py",
+      "bytes": 3353,
+      "sha256": "a6df7ea1b9c167d508df74c125a781c10aeed4c904ff1a5eda008a928d043355"
+    },
+    {
+      "path": "runtime/cache_adapter.py",
+      "bytes": 2391,
+      "sha256": "e1948fe12e9ba07249e0e02a94d860adb96aa4899e5eee4df3c368cd2b049346"
+    },
+    {
+      "path": "runtime/audit_results_final.py",
+      "bytes": 14432,
+      "sha256": "a462cbf67d5feca7d32b27cc0cb375d32778720033318e6934dad0e454368abd"
+    },
+    {
+      "path": "runtime/figures_final.py",
+      "bytes": 3101,
+      "sha256": "c7cfa0fe4633fb394be461844d04cacbe19b9fa228185bee99694c916923d841"
+    },
+    {
+      "path": "runtime/transport.py",
+      "bytes": 829,
+      "sha256": "e1d97e98acac4b8cc86b71b419248c447b40e72911547ce81a8c2f97e2aee9c0"
+    },
+    {
+      "path": "runtime/release_final_inputs.py",
+      "bytes": 1593,
+      "sha256": "3988c533edcbd0c8140f0e75feb6bb21411f1dfe19d9749b681ed776d35cfe04"
+    },
+    {
+      "path": "runtime/test_execution.py",
+      "bytes": 3773,
+      "sha256": "fe9538160cfa90fbe4372a5965365bb38723c6418d9f8056771b76449dc45c1d"
+    },
+    {
+      "path": "runtime/test_transport.py",
+      "bytes": 769,
+      "sha256": "0f4f38f991e49abbefef48b971ae00fe8500f7d297ecb9613b5ab4a3919b9543"
+    },
+    {
+      "path": "validation/EXECUTION_TESTS.json",
+      "bytes": 679,
+      "sha256": "0968fabfa7f0f3b9278ecd5b205d111dbb83758214e76a3a3e232ed52ddd5654"
+    }
+  ],
+  "quality_calls": 828,
+  "profiling_invocations": 585,
+  "native_gpu_readiness": "pending actual audited run; independent CPU input release required"
+}

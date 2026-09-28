@@ -1,0 +1,62 @@
+[
+  {
+    "source": "iclr/pre_gpu_cpu_20260913/layout_exact.py",
+    "copy": "vendor/original_layout.py",
+    "sha256": "0c58fcef5c31166e62f95d94c8a2d26d1a174c67dcbfca7aa9f8e2ff8336a668"
+  },
+  {
+    "source": "iclr/pre_gpu_cpu_20260913/processor_measure.py",
+    "copy": "vendor/processor_measure.py",
+    "sha256": "33dc4577b590cf27e2986bb2c8015868344b366637e448b91ac5e038314c847f"
+  },
+  {
+    "source": "iclr/stage04c_identifier_amended_20260913/identifier.py",
+    "copy": "vendor/original_generator.py",
+    "sha256": "074a2d7f1fd987f51f28aa68d94576dbb7907bd5ad80ae67e7b2918697bdf4e1"
+  },
+  {
+    "source": "iclr/stage04c_identifier_amended_20260913/references/DejaVuSansMono.ttf",
+    "copy": "assets/DejaVuSansMono.ttf",
+    "sha256": "602ec86b8948cfcd956482fe64f94c36c867770149ef2f791d4613f443bcecb3"
+  },
+  {
+    "source": "iclr/stage04c_identifier_amended_20260913/tokenizer/tokenizer.json",
+    "copy": "assets/reference_tokenizer.json",
+    "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+  },
+  {
+    "source": "iclr/pre_gpu_cpu_20260913/ASSET_PINS.json",
+    "copy": "environment/ASSET_PINS.json",
+    "sha256": "ff4a6a0e57129bb53ac5d07bfef6acf13993cc7290f7a3f88f0c0ce2c04f4f16"
+  },
+  {
+    "source": "iclr/pre_gpu_cpu_20260913/WHEELS.json",
+    "copy": "environment/CPU_WHEELS.json",
+    "sha256": "d8788bdba57e43d61711f1e9a1728305b8358715c6d42a9db2753f06cb13872b"
+  },
+  {
+    "source": "iclr/pre_gpu_cpu_20260913/requirements.cpu.lock.txt",
+    "copy": "environment/CPU.lock.txt",
+    "sha256": "b064658ce7e2467f285fededfb301990d58ef5a8ae6caefe5bd2071506cb6621"
+  },
+  {
+    "source": "iclr/identifier_gpu_20260916/WHEEL_INVENTORY.json",
+    "copy": "environment/GPU_WHEELS.json",
+    "sha256": "df36d3061ba3a551a9d119c5feaccba1296132c73497cc4cf133e2f36effa887"
+  },
+  {
+    "source": "iclr/identifier_gpu_20260916/CUDA_WHEELS.lock.txt",
+    "copy": "environment/GPU.lock.txt",
+    "sha256": "d0979afd4c8ab6d2a3aac0334bfa4e6a6734afcbe5bd6084bd67187573da484d"
+  },
+  {
+    "source": "iclr/v2/runtime/scoring.py",
+    "copy": "vendor/scoring.py",
+    "sha256": "3387be2fd1531c70b87dd88731977650d8f2ddb924c336bac452e3717233b210"
+  },
+  {
+    "source": "https://huggingface.co/zai-org/GLM-4.6V-Flash/resolve/411bb4d77144a3f03accbf4b780f5acb8b7cde4e/tokenizer.json",
+    "copy": "assets/glm_tokenizer.json",
+    "sha256": "9340665016419c825c4bdabbcc9acc43b7ca2c68ce142724afa829abb1be5efd"
+  }
+]

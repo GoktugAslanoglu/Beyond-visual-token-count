@@ -1,0 +1,822 @@
+[
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-007",
+    "condition": "optical_c2_p2",
+    "reference": "50525052",
+    "factors": {
+      "length": 8,
+      "alphabet": "decimal",
+      "entropy": "repeated_4char_motif",
+      "distractors": 32,
+      "position": "early",
+      "instance": 2
+    },
+    "total_input_tokens": 3765,
+    "vision_tokens": 3698,
+    "source_text_tokens": 7447,
+    "pages": 2,
+    "compression": 2.0137912385073014,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 6.75
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 3.0
+      }
+    },
+    "generation_s": 0.9937947339994935,
+    "preprocess_s": 0.13505385999997088,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-056",
+    "condition": "optical_c2_p2",
+    "reference": "397939793979397939793979",
+    "factors": {
+      "length": 24,
+      "alphabet": "decimal",
+      "entropy": "repeated_4char_motif",
+      "distractors": 32,
+      "position": "middle",
+      "instance": 1
+    },
+    "total_input_tokens": 3765,
+    "vision_tokens": 3698,
+    "source_text_tokens": 7292,
+    "pages": 2,
+    "compression": 1.9718766901027582,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.25
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.0
+      }
+    },
+    "generation_s": 0.9824255250000533,
+    "preprocess_s": 0.15440878199979124,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-000",
+    "condition": "optical_c2_p2",
+    "reference": "09120912",
+    "factors": {
+      "length": 8,
+      "alphabet": "decimal",
+      "entropy": "repeated_4char_motif",
+      "distractors": 4,
+      "position": "early",
+      "instance": 1
+    },
+    "total_input_tokens": 3765,
+    "vision_tokens": 3698,
+    "source_text_tokens": 7498,
+    "pages": 2,
+    "compression": 2.0275824770146027,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 6.75
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 3.0
+      }
+    },
+    "generation_s": 0.995410745999834,
+    "preprocess_s": 0.14229205600031491,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-060",
+    "condition": "optical_c2_p2",
+    "reference": "917066531415759471538398",
+    "factors": {
+      "length": 24,
+      "alphabet": "decimal",
+      "entropy": "independent_characters",
+      "distractors": 4,
+      "position": "early",
+      "instance": 1
+    },
+    "total_input_tokens": 3766,
+    "vision_tokens": 3698,
+    "source_text_tokens": 7479,
+    "pages": 2,
+    "compression": 2.0224445646295295,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.25
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.0
+      }
+    },
+    "generation_s": 0.9998145519998616,
+    "preprocess_s": 0.13531030900003316,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-088",
+    "condition": "optical_c2_p2",
+    "reference": "z73joh050sgjn21pu0mts3tg",
+    "factors": {
+      "length": 24,
+      "alphabet": "lowercase_alphanumeric",
+      "entropy": "independent_characters",
+      "distractors": 4,
+      "position": "late",
+      "instance": 1
+    },
+    "total_input_tokens": 3765,
+    "vision_tokens": 3698,
+    "source_text_tokens": 7518,
+    "pages": 2,
+    "compression": 2.032990805840995,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.125
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.0
+      }
+    },
+    "generation_s": 0.9934417770000437,
+    "preprocess_s": 0.1378806100001384,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-008",
+    "condition": "optical_c2_p4",
+    "reference": "56265626",
+    "factors": {
+      "length": 8,
+      "alphabet": "decimal",
+      "entropy": "repeated_4char_motif",
+      "distractors": 32,
+      "position": "middle",
+      "instance": 1
+    },
+    "total_input_tokens": 3915,
+    "vision_tokens": 3844,
+    "source_text_tokens": 7453,
+    "pages": 4,
+    "compression": 1.9388657648283039,
+    "prediction": "No information available",
+    "decoded_with_special_tokens": "No information available<|user|>",
+    "generated_token_count": 4,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 3.0
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 3.0
+      }
+    },
+    "generation_s": 0.8618018940001093,
+    "preprocess_s": 0.14716429800000697,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-054",
+    "condition": "optical_c2_p4",
+    "reference": "658565856585658565856585",
+    "factors": {
+      "length": 24,
+      "alphabet": "decimal",
+      "entropy": "repeated_4char_motif",
+      "distractors": 32,
+      "position": "early",
+      "instance": 1
+    },
+    "total_input_tokens": 3670,
+    "vision_tokens": 3600,
+    "source_text_tokens": 7301,
+    "pages": 4,
+    "compression": 2.0280555555555555,
+    "prediction": "No information available",
+    "decoded_with_special_tokens": "No information available<|user|>",
+    "generated_token_count": 4,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.0
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.0
+      }
+    },
+    "generation_s": 0.8416306660001283,
+    "preprocess_s": 0.1339795349999804,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-059",
+    "condition": "optical_c2_p4",
+    "reference": "529752975297529752975297",
+    "factors": {
+      "length": 24,
+      "alphabet": "decimal",
+      "entropy": "repeated_4char_motif",
+      "distractors": 32,
+      "position": "late",
+      "instance": 2
+    },
+    "total_input_tokens": 3672,
+    "vision_tokens": 3600,
+    "source_text_tokens": 7298,
+    "pages": 4,
+    "compression": 2.027222222222222,
+    "prediction": "No information available",
+    "decoded_with_special_tokens": "No information available<|user|>",
+    "generated_token_count": 4,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.0
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.0
+      }
+    },
+    "generation_s": 0.8316356240002278,
+    "preprocess_s": 0.1316638550006246,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-021",
+    "condition": "optical_c2_p4",
+    "reference": "63291106",
+    "factors": {
+      "length": 8,
+      "alphabet": "decimal",
+      "entropy": "independent_characters",
+      "distractors": 32,
+      "position": "middle",
+      "instance": 2
+    },
+    "total_input_tokens": 3914,
+    "vision_tokens": 3844,
+    "source_text_tokens": 7453,
+    "pages": 4,
+    "compression": 1.9388657648283039,
+    "prediction": "No information available",
+    "decoded_with_special_tokens": "No information available<|user|>",
+    "generated_token_count": 4,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 3.0
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 3.0
+      }
+    },
+    "generation_s": 0.8656243369996446,
+    "preprocess_s": 0.14122642399979668,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-052",
+    "condition": "optical_c2_p4",
+    "reference": "275927592759275927592759",
+    "factors": {
+      "length": 24,
+      "alphabet": "decimal",
+      "entropy": "repeated_4char_motif",
+      "distractors": 4,
+      "position": "late",
+      "instance": 1
+    },
+    "total_input_tokens": 3916,
+    "vision_tokens": 3844,
+    "source_text_tokens": 7474,
+    "pages": 4,
+    "compression": 1.9443288241415193,
+    "prediction": "No information available",
+    "decoded_with_special_tokens": "No information available<|user|>",
+    "generated_token_count": 4,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.0
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.0
+      }
+    },
+    "generation_s": 1.498521105999771,
+    "preprocess_s": 0.14855280200026755,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-042",
+    "condition": "optical_c4_p2",
+    "reference": "k9nlhbcl",
+    "factors": {
+      "length": 8,
+      "alphabet": "lowercase_alphanumeric",
+      "entropy": "independent_characters",
+      "distractors": 32,
+      "position": "early",
+      "instance": 1
+    },
+    "total_input_tokens": 1990,
+    "vision_tokens": 1922,
+    "source_text_tokens": 7537,
+    "pages": 2,
+    "compression": 3.921436004162331,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 6.375
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.625
+      }
+    },
+    "generation_s": 0.6492445359999692,
+    "preprocess_s": 0.06753163700022924,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-078",
+    "condition": "optical_c4_p2",
+    "reference": "lrgylrgylrgylrgylrgylrgy",
+    "factors": {
+      "length": 24,
+      "alphabet": "lowercase_alphanumeric",
+      "entropy": "repeated_4char_motif",
+      "distractors": 32,
+      "position": "early",
+      "instance": 1
+    },
+    "total_input_tokens": 1989,
+    "vision_tokens": 1922,
+    "source_text_tokens": 7560,
+    "pages": 2,
+    "compression": 3.9334027055150886,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.125
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.0
+      }
+    },
+    "generation_s": 0.6687353160000384,
+    "preprocess_s": 0.057921600000099716,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-028",
+    "condition": "optical_c4_p2",
+    "reference": "j0rrj0rr",
+    "factors": {
+      "length": 8,
+      "alphabet": "lowercase_alphanumeric",
+      "entropy": "repeated_4char_motif",
+      "distractors": 4,
+      "position": "late",
+      "instance": 1
+    },
+    "total_input_tokens": 1990,
+    "vision_tokens": 1922,
+    "source_text_tokens": 7511,
+    "pages": 2,
+    "compression": 3.9079084287200834,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 6.625
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.875
+      }
+    },
+    "generation_s": 0.6525521029998345,
+    "preprocess_s": 0.062423238000064885,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-015",
+    "condition": "optical_c4_p2",
+    "reference": "51252729",
+    "factors": {
+      "length": 8,
+      "alphabet": "decimal",
+      "entropy": "independent_characters",
+      "distractors": 4,
+      "position": "middle",
+      "instance": 2
+    },
+    "total_input_tokens": 1989,
+    "vision_tokens": 1922,
+    "source_text_tokens": 7495,
+    "pages": 2,
+    "compression": 3.8995837669094695,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 6.75
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 3.0
+      }
+    },
+    "generation_s": 0.6677652619998753,
+    "preprocess_s": 0.06341722599995592,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-056",
+    "condition": "optical_c4_p2",
+    "reference": "397939793979397939793979",
+    "factors": {
+      "length": 24,
+      "alphabet": "decimal",
+      "entropy": "repeated_4char_motif",
+      "distractors": 32,
+      "position": "middle",
+      "instance": 1
+    },
+    "total_input_tokens": 1867,
+    "vision_tokens": 1800,
+    "source_text_tokens": 7292,
+    "pages": 2,
+    "compression": 4.051111111111111,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.25
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.0
+      }
+    },
+    "generation_s": 0.6583983599998646,
+    "preprocess_s": 0.05708429600008458,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-025",
+    "condition": "optical_c4_p4",
+    "reference": "et6vet6v",
+    "factors": {
+      "length": 8,
+      "alphabet": "lowercase_alphanumeric",
+      "entropy": "repeated_4char_motif",
+      "distractors": 4,
+      "position": "early",
+      "instance": 2
+    },
+    "total_input_tokens": 2006,
+    "vision_tokens": 1936,
+    "source_text_tokens": 7513,
+    "pages": 4,
+    "compression": 3.8806818181818183,
+    "prediction": "No information available",
+    "decoded_with_special_tokens": "No information available<|user|>",
+    "generated_token_count": 4,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.75
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.75
+      }
+    },
+    "generation_s": 0.5260908770005699,
+    "preprocess_s": 0.061085717000423756,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-058",
+    "condition": "optical_c4_p4",
+    "reference": "028702870287028702870287",
+    "factors": {
+      "length": 24,
+      "alphabet": "decimal",
+      "entropy": "repeated_4char_motif",
+      "distractors": 32,
+      "position": "late",
+      "instance": 1
+    },
+    "total_input_tokens": 1834,
+    "vision_tokens": 1764,
+    "source_text_tokens": 7299,
+    "pages": 4,
+    "compression": 4.137755102040816,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.25
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.0
+      }
+    },
+    "generation_s": 0.6197167020000052,
+    "preprocess_s": 0.053271897999820794,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-084",
+    "condition": "optical_c4_p4",
+    "reference": "7zo2ac2ri60z9uenx60nbunu",
+    "factors": {
+      "length": 24,
+      "alphabet": "lowercase_alphanumeric",
+      "entropy": "independent_characters",
+      "distractors": 4,
+      "position": "early",
+      "instance": 1
+    },
+    "total_input_tokens": 2006,
+    "vision_tokens": 1936,
+    "source_text_tokens": 7514,
+    "pages": 4,
+    "compression": 3.881198347107438,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.0
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 0.9583333333333334
+      }
+    },
+    "generation_s": 0.6415997049998623,
+    "preprocess_s": 0.059738010999808466,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-051",
+    "condition": "optical_c4_p4",
+    "reference": "579257925792579257925792",
+    "factors": {
+      "length": 24,
+      "alphabet": "decimal",
+      "entropy": "repeated_4char_motif",
+      "distractors": 4,
+      "position": "middle",
+      "instance": 2
+    },
+    "total_input_tokens": 2006,
+    "vision_tokens": 1936,
+    "source_text_tokens": 7484,
+    "pages": 4,
+    "compression": 3.865702479338843,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.25
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 1.0
+      }
+    },
+    "generation_s": 0.6672893149998345,
+    "preprocess_s": 0.06034392299989122,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  },
+  {
+    "study": "Identifier",
+    "reader": "GLM",
+    "model": "zai-org/GLM-4.6V-Flash",
+    "item_id": "identifier-024",
+    "condition": "optical_c4_p4",
+    "reference": "hf6shf6s",
+    "factors": {
+      "length": 8,
+      "alphabet": "lowercase_alphanumeric",
+      "entropy": "repeated_4char_motif",
+      "distractors": 4,
+      "position": "early",
+      "instance": 1
+    },
+    "total_input_tokens": 2008,
+    "vision_tokens": 1936,
+    "source_text_tokens": 7519,
+    "pages": 4,
+    "compression": 3.883780991735537,
+    "prediction": "<|begin_of_box|>No information available<|end_of_box|>",
+    "decoded_with_special_tokens": "<|begin_of_box|>No information available<|end_of_box|><|user|>",
+    "generated_token_count": 6,
+    "termination": "eos",
+    "score": {
+      "canonical_answer": "No information available",
+      "native": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 6.5
+      },
+      "canonical": {
+        "exact_match": 0.0,
+        "literal_exact_match": 0.0,
+        "cer": 2.875
+      }
+    },
+    "generation_s": 0.6563746460001312,
+    "preprocess_s": 0.0595254559998466,
+    "archive": "ICLR-Identifier-GLM-1789637392556848873.zip"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "unique_inputs": {
+    "01_budget_crossover": 540,
+    "02_geometry_mechanism": 288,
+    "03_systems_profile": 45
+  },
+  "native_tensor_rechecks": 873,
+  "pixel_exact_pages": 2340,
+  "scope": "all inputs, spans, pixels, budgets, pairing; native tensors checked only when assets provided",
+  "source_freeze_sha256": "673143fa3b67d577f43a644ec54d6e0da8a89a02c3bcd880b34426f4249afcf2",
+  "freeze_hashes": {
+    "01_budget_crossover": "8ba615128d1ada56dd19c9dc96b5c1ac265e5aaf1ea4a0bb2379d937d1a201bd",
+    "02_geometry_mechanism": "37373a23e96b6095978d8e98be905e5a33b54dc292da1aecbf883c826d1f3b06",
+    "03_systems_profile": "9d6eea68db03cdaab94a3c177233c630fcb5444f059fd54fde1ff75373c00afc"
+  }
+}

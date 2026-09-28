@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: Cite the associated preprint.
+title: 'Beyond Visual Token Count: Target Inclusion and Reader Recovery'
+authors:
+  - family-names: Aslanoğlu
+    given-names: Göktuğ
+  - family-names: Vadlamani
+    given-names: Viswanadh
+type: article

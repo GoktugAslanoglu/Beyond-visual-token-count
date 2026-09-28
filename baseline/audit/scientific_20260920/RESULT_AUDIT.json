@@ -1,0 +1,138 @@
+{
+  "status": "failed",
+  "rows": 13176,
+  "reports": [
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "rows": 672,
+      "environment_records": 8,
+      "approval_records": 8,
+      "exact_input_and_output_journals": 672,
+      "metric_parity_rows": 0,
+      "termination": {
+        "eos": 653,
+        "cap": 19
+      },
+      "errors_added": 0
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "rows": 672,
+      "environment_records": 8,
+      "approval_records": 8,
+      "exact_input_and_output_journals": 672,
+      "metric_parity_rows": 0,
+      "termination": {
+        "eos": 667,
+        "cap": 5
+      },
+      "errors_added": 0
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "rows": 672,
+      "environment_records": 8,
+      "approval_records": 8,
+      "exact_input_and_output_journals": 672,
+      "metric_parity_rows": 0,
+      "termination": {
+        "eos": 672
+      },
+      "errors_added": 0
+    },
+    {
+      "study": "LoCoMo",
+      "reader": "Qwen2B",
+      "rows": 3000,
+      "environment_records": 9,
+      "approval_records": 9,
+      "exact_input_and_output_journals": 3000,
+      "metric_parity_rows": 3000,
+      "termination": {
+        "eos": 2845,
+        "cap": 155
+      },
+      "errors_added": 0
+    },
+    {
+      "study": "LoCoMo",
+      "reader": "Qwen9B",
+      "rows": 3000,
+      "environment_records": 2,
+      "approval_records": 2,
+      "exact_input_and_output_journals": 3000,
+      "metric_parity_rows": 3000,
+      "termination": {
+        "eos": 2856,
+        "cap": 144
+      },
+      "errors_added": 0
+    },
+    {
+      "study": "LoCoMo",
+      "reader": "GLM",
+      "rows": 3000,
+      "environment_records": 2,
+      "approval_records": 2,
+      "exact_input_and_output_journals": 3000,
+      "metric_parity_rows": 3000,
+      "termination": {
+        "eos": 2984,
+        "cap": 16
+      },
+      "errors_added": 0
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "rows": 720,
+      "environment_records": 2,
+      "approval_records": 2,
+      "exact_input_and_output_journals": 720,
+      "metric_parity_rows": 720,
+      "termination": {
+        "eos": 543,
+        "cap": 177
+      },
+      "errors_added": 0
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "rows": 720,
+      "environment_records": 2,
+      "approval_records": 2,
+      "exact_input_and_output_journals": 720,
+      "metric_parity_rows": 720,
+      "termination": {
+        "eos": 477,
+        "cap": 243
+      },
+      "errors_added": 0
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "rows": 720,
+      "environment_records": 2,
+      "approval_records": 2,
+      "exact_input_and_output_journals": 720,
+      "metric_parity_rows": 720,
+      "termination": {
+        "eos": 719,
+        "cap": 1
+      },
+      "errors_added": 0
+    }
+  ],
+  "errors": [
+    {
+      "reason": "missing or extra result row",
+      "key": "ICLR-LoCoMo-Qwen2B-1789653262607945619.zip"
+    }
+  ],
+  "limitation": "No GPU rerun or fresh processor execution. Input tokens verified against saved CPU measurements and actual generation journals; raw decoded strings will receive separate tokenizer reproduction checks."
+}

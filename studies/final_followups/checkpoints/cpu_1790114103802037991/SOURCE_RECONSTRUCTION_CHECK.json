@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "crossover_source_versions": 90,
+  "geometry_cases": 32,
+  "exact_case_dictionary_matches": 122,
+  "scope": "Regenerated from frozen source seeds/reference tokenizer; all source bytes, questions, targets and metadata match; no model outputs or modifications"
+}

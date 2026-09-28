@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "rows": 288,
+  "study": "02_geometry_mechanism",
+  "input_freeze_sha256": "37373a23e96b6095978d8e98be905e5a33b54dc292da1aecbf883c826d1f3b06",
+  "output_complete_hashes": {
+    "final_iclr\\final_followups\\checkpoints\\geometry_Qwen2B_1790155441871407521\\output": "4e61c732b9ef2f6840d480056c810e2f835162d2aa045a726c405f6b0f3a72c9",
+    "final_iclr\\final_followups\\checkpoints\\geometry_Qwen9B_1790160749248000395\\output": "2a33967760dd23e57c524c2724f9d3e8f3b18e2bb88b349b96e34f6d58936bcd",
+    "final_iclr\\final_followups\\checkpoints\\geometry_GLM_1790161726252165739\\output": "a0b7a44b7a0d52eef61acded9f4933c6a71b990b9d26e02629c4947f1d7e4442"
+  }
+}

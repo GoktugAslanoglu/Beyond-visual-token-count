@@ -1,0 +1,7 @@
+name,reader,test,effect,p_value,holm_adjusted_p,reject_at_005,positive,negative,ties
+H1,Qwen2B,exact 1024 conversation sign flips,0.19047609795526935,0.0009765625,0.0029296875,True,,,
+H1,Qwen9B,exact 1024 conversation sign flips,0.19326531974964195,0.0009765625,0.0029296875,True,,,
+H1,GLM,exact 1024 conversation sign flips,0.060488355011836525,0.0087890625,0.0087890625,True,,,
+H3,Qwen2B,exact one-sided sign test of nonzero case contrasts,0.9375,8.077935669463161e-28,3.2311742677852644e-27,True,90,0,6
+H3,Qwen9B,exact one-sided sign test of nonzero case contrasts,0.96875,1.0097419586828951e-28,6.058451752097371e-28,True,93,0,3
+H3,GLM,exact one-sided sign test of nonzero case contrasts,0.96875,1.0097419586828951e-28,6.058451752097371e-28,True,93,0,3

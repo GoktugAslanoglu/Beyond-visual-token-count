@@ -1,0 +1,977 @@
+{
+  "role": "prespecified descriptive marginal breakdowns; no interaction tests or threshold fitting",
+  "rows": [
+    {
+      "reader": "GLM",
+      "arm": "efficient_c2_p4",
+      "factor": "alphabet",
+      "level": "decimal",
+      "n": 24,
+      "correct": 6,
+      "em": 0.25
+    },
+    {
+      "reader": "GLM",
+      "arm": "efficient_c2_p4",
+      "factor": "alphabet",
+      "level": "lowercase_alphanumeric",
+      "n": 24,
+      "correct": 1,
+      "em": 0.041666666666666664
+    },
+    {
+      "reader": "GLM",
+      "arm": "efficient_c2_p4",
+      "factor": "entropy",
+      "level": "independent_characters",
+      "n": 24,
+      "correct": 4,
+      "em": 0.16666666666666666
+    },
+    {
+      "reader": "GLM",
+      "arm": "efficient_c2_p4",
+      "factor": "entropy",
+      "level": "repeated_4char_motif",
+      "n": 24,
+      "correct": 3,
+      "em": 0.125
+    },
+    {
+      "reader": "GLM",
+      "arm": "efficient_c2_p4",
+      "factor": "length",
+      "level": "24",
+      "n": 24,
+      "correct": 1,
+      "em": 0.041666666666666664
+    },
+    {
+      "reader": "GLM",
+      "arm": "efficient_c2_p4",
+      "factor": "length",
+      "level": "8",
+      "n": 24,
+      "correct": 6,
+      "em": 0.25
+    },
+    {
+      "reader": "GLM",
+      "arm": "efficient_c2_p4",
+      "factor": "position",
+      "level": "early",
+      "n": 16,
+      "correct": 3,
+      "em": 0.1875
+    },
+    {
+      "reader": "GLM",
+      "arm": "efficient_c2_p4",
+      "factor": "position",
+      "level": "late",
+      "n": 16,
+      "correct": 2,
+      "em": 0.125
+    },
+    {
+      "reader": "GLM",
+      "arm": "efficient_c2_p4",
+      "factor": "position",
+      "level": "middle",
+      "n": 16,
+      "correct": 2,
+      "em": 0.125
+    },
+    {
+      "reader": "GLM",
+      "arm": "full_raw",
+      "factor": "alphabet",
+      "level": "decimal",
+      "n": 24,
+      "correct": 24,
+      "em": 1.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "full_raw",
+      "factor": "alphabet",
+      "level": "lowercase_alphanumeric",
+      "n": 24,
+      "correct": 24,
+      "em": 1.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "full_raw",
+      "factor": "entropy",
+      "level": "independent_characters",
+      "n": 24,
+      "correct": 24,
+      "em": 1.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "full_raw",
+      "factor": "entropy",
+      "level": "repeated_4char_motif",
+      "n": 24,
+      "correct": 24,
+      "em": 1.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "full_raw",
+      "factor": "length",
+      "level": "24",
+      "n": 24,
+      "correct": 24,
+      "em": 1.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "full_raw",
+      "factor": "length",
+      "level": "8",
+      "n": 24,
+      "correct": 24,
+      "em": 1.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "full_raw",
+      "factor": "position",
+      "level": "early",
+      "n": 16,
+      "correct": 16,
+      "em": 1.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "full_raw",
+      "factor": "position",
+      "level": "late",
+      "n": 16,
+      "correct": 16,
+      "em": 1.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "full_raw",
+      "factor": "position",
+      "level": "middle",
+      "n": 16,
+      "correct": 16,
+      "em": 1.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "original_c2_p4",
+      "factor": "alphabet",
+      "level": "decimal",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "original_c2_p4",
+      "factor": "alphabet",
+      "level": "lowercase_alphanumeric",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "original_c2_p4",
+      "factor": "entropy",
+      "level": "independent_characters",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "original_c2_p4",
+      "factor": "entropy",
+      "level": "repeated_4char_motif",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "original_c2_p4",
+      "factor": "length",
+      "level": "24",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "original_c2_p4",
+      "factor": "length",
+      "level": "8",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "original_c2_p4",
+      "factor": "position",
+      "level": "early",
+      "n": 16,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "original_c2_p4",
+      "factor": "position",
+      "level": "late",
+      "n": 16,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "original_c2_p4",
+      "factor": "position",
+      "level": "middle",
+      "n": 16,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "GLM",
+      "arm": "readable_p4",
+      "factor": "alphabet",
+      "level": "decimal",
+      "n": 24,
+      "correct": 19,
+      "em": 0.7916666666666666
+    },
+    {
+      "reader": "GLM",
+      "arm": "readable_p4",
+      "factor": "alphabet",
+      "level": "lowercase_alphanumeric",
+      "n": 24,
+      "correct": 10,
+      "em": 0.4166666666666667
+    },
+    {
+      "reader": "GLM",
+      "arm": "readable_p4",
+      "factor": "entropy",
+      "level": "independent_characters",
+      "n": 24,
+      "correct": 15,
+      "em": 0.625
+    },
+    {
+      "reader": "GLM",
+      "arm": "readable_p4",
+      "factor": "entropy",
+      "level": "repeated_4char_motif",
+      "n": 24,
+      "correct": 14,
+      "em": 0.5833333333333334
+    },
+    {
+      "reader": "GLM",
+      "arm": "readable_p4",
+      "factor": "length",
+      "level": "24",
+      "n": 24,
+      "correct": 8,
+      "em": 0.3333333333333333
+    },
+    {
+      "reader": "GLM",
+      "arm": "readable_p4",
+      "factor": "length",
+      "level": "8",
+      "n": 24,
+      "correct": 21,
+      "em": 0.875
+    },
+    {
+      "reader": "GLM",
+      "arm": "readable_p4",
+      "factor": "position",
+      "level": "early",
+      "n": 16,
+      "correct": 8,
+      "em": 0.5
+    },
+    {
+      "reader": "GLM",
+      "arm": "readable_p4",
+      "factor": "position",
+      "level": "late",
+      "n": 16,
+      "correct": 10,
+      "em": 0.625
+    },
+    {
+      "reader": "GLM",
+      "arm": "readable_p4",
+      "factor": "position",
+      "level": "middle",
+      "n": 16,
+      "correct": 11,
+      "em": 0.6875
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "efficient_c2_p4",
+      "factor": "alphabet",
+      "level": "decimal",
+      "n": 24,
+      "correct": 5,
+      "em": 0.20833333333333334
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "efficient_c2_p4",
+      "factor": "alphabet",
+      "level": "lowercase_alphanumeric",
+      "n": 24,
+      "correct": 1,
+      "em": 0.041666666666666664
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "efficient_c2_p4",
+      "factor": "entropy",
+      "level": "independent_characters",
+      "n": 24,
+      "correct": 3,
+      "em": 0.125
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "efficient_c2_p4",
+      "factor": "entropy",
+      "level": "repeated_4char_motif",
+      "n": 24,
+      "correct": 3,
+      "em": 0.125
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "efficient_c2_p4",
+      "factor": "length",
+      "level": "24",
+      "n": 24,
+      "correct": 2,
+      "em": 0.08333333333333333
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "efficient_c2_p4",
+      "factor": "length",
+      "level": "8",
+      "n": 24,
+      "correct": 4,
+      "em": 0.16666666666666666
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "efficient_c2_p4",
+      "factor": "position",
+      "level": "early",
+      "n": 16,
+      "correct": 4,
+      "em": 0.25
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "efficient_c2_p4",
+      "factor": "position",
+      "level": "late",
+      "n": 16,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "efficient_c2_p4",
+      "factor": "position",
+      "level": "middle",
+      "n": 16,
+      "correct": 2,
+      "em": 0.125
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "full_raw",
+      "factor": "alphabet",
+      "level": "decimal",
+      "n": 24,
+      "correct": 23,
+      "em": 0.9583333333333334
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "full_raw",
+      "factor": "alphabet",
+      "level": "lowercase_alphanumeric",
+      "n": 24,
+      "correct": 24,
+      "em": 1.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "full_raw",
+      "factor": "entropy",
+      "level": "independent_characters",
+      "n": 24,
+      "correct": 24,
+      "em": 1.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "full_raw",
+      "factor": "entropy",
+      "level": "repeated_4char_motif",
+      "n": 24,
+      "correct": 23,
+      "em": 0.9583333333333334
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "full_raw",
+      "factor": "length",
+      "level": "24",
+      "n": 24,
+      "correct": 23,
+      "em": 0.9583333333333334
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "full_raw",
+      "factor": "length",
+      "level": "8",
+      "n": 24,
+      "correct": 24,
+      "em": 1.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "full_raw",
+      "factor": "position",
+      "level": "early",
+      "n": 16,
+      "correct": 15,
+      "em": 0.9375
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "full_raw",
+      "factor": "position",
+      "level": "late",
+      "n": 16,
+      "correct": 16,
+      "em": 1.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "full_raw",
+      "factor": "position",
+      "level": "middle",
+      "n": 16,
+      "correct": 16,
+      "em": 1.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "original_c2_p4",
+      "factor": "alphabet",
+      "level": "decimal",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "original_c2_p4",
+      "factor": "alphabet",
+      "level": "lowercase_alphanumeric",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "original_c2_p4",
+      "factor": "entropy",
+      "level": "independent_characters",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "original_c2_p4",
+      "factor": "entropy",
+      "level": "repeated_4char_motif",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "original_c2_p4",
+      "factor": "length",
+      "level": "24",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "original_c2_p4",
+      "factor": "length",
+      "level": "8",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "original_c2_p4",
+      "factor": "position",
+      "level": "early",
+      "n": 16,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "original_c2_p4",
+      "factor": "position",
+      "level": "late",
+      "n": 16,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "original_c2_p4",
+      "factor": "position",
+      "level": "middle",
+      "n": 16,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "readable_p4",
+      "factor": "alphabet",
+      "level": "decimal",
+      "n": 24,
+      "correct": 13,
+      "em": 0.5416666666666666
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "readable_p4",
+      "factor": "alphabet",
+      "level": "lowercase_alphanumeric",
+      "n": 24,
+      "correct": 4,
+      "em": 0.16666666666666666
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "readable_p4",
+      "factor": "entropy",
+      "level": "independent_characters",
+      "n": 24,
+      "correct": 9,
+      "em": 0.375
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "readable_p4",
+      "factor": "entropy",
+      "level": "repeated_4char_motif",
+      "n": 24,
+      "correct": 8,
+      "em": 0.3333333333333333
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "readable_p4",
+      "factor": "length",
+      "level": "24",
+      "n": 24,
+      "correct": 5,
+      "em": 0.20833333333333334
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "readable_p4",
+      "factor": "length",
+      "level": "8",
+      "n": 24,
+      "correct": 12,
+      "em": 0.5
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "readable_p4",
+      "factor": "position",
+      "level": "early",
+      "n": 16,
+      "correct": 4,
+      "em": 0.25
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "readable_p4",
+      "factor": "position",
+      "level": "late",
+      "n": 16,
+      "correct": 4,
+      "em": 0.25
+    },
+    {
+      "reader": "Qwen2B",
+      "arm": "readable_p4",
+      "factor": "position",
+      "level": "middle",
+      "n": 16,
+      "correct": 9,
+      "em": 0.5625
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "efficient_c2_p4",
+      "factor": "alphabet",
+      "level": "decimal",
+      "n": 24,
+      "correct": 17,
+      "em": 0.7083333333333334
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "efficient_c2_p4",
+      "factor": "alphabet",
+      "level": "lowercase_alphanumeric",
+      "n": 24,
+      "correct": 4,
+      "em": 0.16666666666666666
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "efficient_c2_p4",
+      "factor": "entropy",
+      "level": "independent_characters",
+      "n": 24,
+      "correct": 9,
+      "em": 0.375
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "efficient_c2_p4",
+      "factor": "entropy",
+      "level": "repeated_4char_motif",
+      "n": 24,
+      "correct": 12,
+      "em": 0.5
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "efficient_c2_p4",
+      "factor": "length",
+      "level": "24",
+      "n": 24,
+      "correct": 8,
+      "em": 0.3333333333333333
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "efficient_c2_p4",
+      "factor": "length",
+      "level": "8",
+      "n": 24,
+      "correct": 13,
+      "em": 0.5416666666666666
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "efficient_c2_p4",
+      "factor": "position",
+      "level": "early",
+      "n": 16,
+      "correct": 6,
+      "em": 0.375
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "efficient_c2_p4",
+      "factor": "position",
+      "level": "late",
+      "n": 16,
+      "correct": 8,
+      "em": 0.5
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "efficient_c2_p4",
+      "factor": "position",
+      "level": "middle",
+      "n": 16,
+      "correct": 7,
+      "em": 0.4375
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "full_raw",
+      "factor": "alphabet",
+      "level": "decimal",
+      "n": 24,
+      "correct": 22,
+      "em": 0.9166666666666666
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "full_raw",
+      "factor": "alphabet",
+      "level": "lowercase_alphanumeric",
+      "n": 24,
+      "correct": 24,
+      "em": 1.0
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "full_raw",
+      "factor": "entropy",
+      "level": "independent_characters",
+      "n": 24,
+      "correct": 24,
+      "em": 1.0
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "full_raw",
+      "factor": "entropy",
+      "level": "repeated_4char_motif",
+      "n": 24,
+      "correct": 22,
+      "em": 0.9166666666666666
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "full_raw",
+      "factor": "length",
+      "level": "24",
+      "n": 24,
+      "correct": 23,
+      "em": 0.9583333333333334
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "full_raw",
+      "factor": "length",
+      "level": "8",
+      "n": 24,
+      "correct": 23,
+      "em": 0.9583333333333334
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "full_raw",
+      "factor": "position",
+      "level": "early",
+      "n": 16,
+      "correct": 14,
+      "em": 0.875
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "full_raw",
+      "factor": "position",
+      "level": "late",
+      "n": 16,
+      "correct": 16,
+      "em": 1.0
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "full_raw",
+      "factor": "position",
+      "level": "middle",
+      "n": 16,
+      "correct": 16,
+      "em": 1.0
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "original_c2_p4",
+      "factor": "alphabet",
+      "level": "decimal",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "original_c2_p4",
+      "factor": "alphabet",
+      "level": "lowercase_alphanumeric",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "original_c2_p4",
+      "factor": "entropy",
+      "level": "independent_characters",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "original_c2_p4",
+      "factor": "entropy",
+      "level": "repeated_4char_motif",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "original_c2_p4",
+      "factor": "length",
+      "level": "24",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "original_c2_p4",
+      "factor": "length",
+      "level": "8",
+      "n": 24,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "original_c2_p4",
+      "factor": "position",
+      "level": "early",
+      "n": 16,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "original_c2_p4",
+      "factor": "position",
+      "level": "late",
+      "n": 16,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "original_c2_p4",
+      "factor": "position",
+      "level": "middle",
+      "n": 16,
+      "correct": 0,
+      "em": 0.0
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "readable_p4",
+      "factor": "alphabet",
+      "level": "decimal",
+      "n": 24,
+      "correct": 19,
+      "em": 0.7916666666666666
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "readable_p4",
+      "factor": "alphabet",
+      "level": "lowercase_alphanumeric",
+      "n": 24,
+      "correct": 16,
+      "em": 0.6666666666666666
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "readable_p4",
+      "factor": "entropy",
+      "level": "independent_characters",
+      "n": 24,
+      "correct": 19,
+      "em": 0.7916666666666666
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "readable_p4",
+      "factor": "entropy",
+      "level": "repeated_4char_motif",
+      "n": 24,
+      "correct": 16,
+      "em": 0.6666666666666666
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "readable_p4",
+      "factor": "length",
+      "level": "24",
+      "n": 24,
+      "correct": 13,
+      "em": 0.5416666666666666
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "readable_p4",
+      "factor": "length",
+      "level": "8",
+      "n": 24,
+      "correct": 22,
+      "em": 0.9166666666666666
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "readable_p4",
+      "factor": "position",
+      "level": "early",
+      "n": 16,
+      "correct": 11,
+      "em": 0.6875
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "readable_p4",
+      "factor": "position",
+      "level": "late",
+      "n": 16,
+      "correct": 13,
+      "em": 0.8125
+    },
+    {
+      "reader": "Qwen9B",
+      "arm": "readable_p4",
+      "factor": "position",
+      "level": "middle",
+      "n": 16,
+      "correct": 11,
+      "em": 0.6875
+    }
+  ]
+}

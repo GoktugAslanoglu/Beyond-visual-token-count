@@ -1,0 +1,1930 @@
+[
+  {
+    "file": "main.tex",
+    "line": 34,
+    "literal": "4,096",
+    "support": [
+      "Qwen native vision_tokens in budget rows and layout DEEP_INPUT_CHECKS"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 34,
+    "literal": "0",
+    "support": [
+      "original/Identifier/*/compressed exact_match; layout original EM; conceptual boundary"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 34,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 34,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 34,
+    "literal": "360",
+    "support": [
+      "build_assets.py Figure 1 matched-page crop uses 360 x 320 pixels; figure asset construction, not a measured result"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 34,
+    "literal": "19",
+    "support": [
+      "GLM LONG retained targets and correct text answers; budget analysis and scored rows"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 34,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 34,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 34,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 34,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 44,
+    "literal": "1",
+    "support": [
+      "normalization boundary/one-token profile; protocol and mathematical definition"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 44,
+    "literal": "0.8",
+    "support": [
+      "baseline/protocol.json: controlled.c_targets[0]"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 44,
+    "literal": "2",
+    "support": [
+      "controlled.c_targets; page counts; factor levels; independent instances; mathematical permutation statement"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 44,
+    "literal": "4",
+    "support": [
+      "controlled.c_targets; pages; distractors; motif size; factor instances"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 44,
+    "literal": "10",
+    "support": [
+      "Cover and Thomas, second edition, Chapter 10; bibliographic chapter number, not experimental count"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 46,
+    "literal": "1",
+    "support": [
+      "normalization boundary/one-token profile; protocol and mathematical definition"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 46,
+    "literal": "1",
+    "support": [
+      "normalization boundary/one-token profile; protocol and mathematical definition"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 49,
+    "literal": "1",
+    "support": [
+      "normalization boundary/one-token profile; protocol and mathematical definition"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 49,
+    "literal": "1",
+    "support": [
+      "normalization boundary/one-token profile; protocol and mathematical definition"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 49,
+    "literal": "1",
+    "support": [
+      "normalization boundary/one-token profile; protocol and mathematical definition"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 49,
+    "literal": "1",
+    "support": [
+      "normalization boundary/one-token profile; protocol and mathematical definition"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 50,
+    "literal": "0",
+    "support": [
+      "original/Identifier/*/compressed exact_match; layout original EM; conceptual boundary"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 50,
+    "literal": "1",
+    "support": [
+      "normalization boundary/one-token profile; protocol and mathematical definition"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 50,
+    "literal": "0",
+    "support": [
+      "original/Identifier/*/compressed exact_match; layout original EM; conceptual boundary"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 59,
+    "literal": "500",
+    "support": [
+      "original LoCoMo arm n"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 59,
+    "literal": "180",
+    "support": [
+      "original RULER arm n"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 59,
+    "literal": "96",
+    "support": [
+      "original Identifier arm n; baseline/protocol.json external.max_new_tokens"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 59,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 59,
+    "literal": "32",
+    "support": [
+      "scale.n_cases; original identifier distractor factor"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 59,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 59,
+    "literal": "150",
+    "support": [
+      "compact config n_eval"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 63,
+    "literal": "95",
+    "support": [
+      "prespecified pointwise confidence level"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 71,
+    "literal": "96",
+    "support": [
+      "original Identifier arm n; baseline/protocol.json external.max_new_tokens"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 71,
+    "literal": "96",
+    "support": [
+      "original Identifier arm n; baseline/protocol.json external.max_new_tokens"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 71,
+    "literal": "96",
+    "support": [
+      "original Identifier arm n; baseline/protocol.json external.max_new_tokens"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 71,
+    "literal": "1,152",
+    "support": [
+      "96 cases * 4 compressed arms * 3 readers; checked original scored_rows"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 71,
+    "literal": "2",
+    "support": [
+      "controlled.c_targets; page counts; factor levels; independent instances; mathematical permutation statement"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 71,
+    "literal": "4",
+    "support": [
+      "controlled.c_targets; pages; distractors; motif size; factor instances"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 74,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 78,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 78,
+    "literal": "95",
+    "support": [
+      "prespecified pointwise confidence level"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 82,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 82,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 82,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 82,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 82,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 82,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 82,
+    "literal": "36",
+    "support": [
+      "layout PROTOCOL.json dev_calls; readable threshold .75 * 48"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 82,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 85,
+    "literal": "32",
+    "support": [
+      "scale.n_cases; original identifier distractor factor"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 85,
+    "literal": "0.55",
+    "support": [
+      "studies/final_followups/02_geometry_mechanism/analysis.json: scale_0.55"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 85,
+    "literal": "0.75",
+    "support": [
+      "scale_0.75; baseline/protocol.json: external.retriever.b; layout readable threshold"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 85,
+    "literal": "1.00",
+    "support": [
+      "scale_1.00"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 87,
+    "literal": "32",
+    "support": [
+      "scale.n_cases; original identifier distractor factor"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 87,
+    "literal": "32",
+    "support": [
+      "scale.n_cases; original identifier distractor factor"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 87,
+    "literal": "32",
+    "support": [
+      "scale.n_cases; original identifier distractor factor"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 87,
+    "literal": "95",
+    "support": [
+      "prespecified pointwise confidence level"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 93,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 99,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 99,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 104,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 104,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 104,
+    "literal": "95",
+    "support": [
+      "prespecified pointwise confidence level"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 104,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 104,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 106,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 108,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 111,
+    "literal": "95",
+    "support": [
+      "prespecified pointwise confidence level"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 111,
+    "literal": "6",
+    "support": [
+      "six RULER task configurations; six primary original tests; abstract rounded minimum H1 effect 6.0488355"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 115,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 115,
+    "literal": "8,192",
+    "support": [
+      "layout PROTOCOL.json source_tokens; RULER reference generation length; budget LONG design"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 115,
+    "literal": "0.8",
+    "support": [
+      "baseline/protocol.json: controlled.c_targets[0]"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 115,
+    "literal": "2",
+    "support": [
+      "controlled.c_targets; page counts; factor levels; independent instances; mathematical permutation statement"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 115,
+    "literal": "4",
+    "support": [
+      "controlled.c_targets; pages; distractors; motif size; factor instances"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 115,
+    "literal": "77.9",
+    "support": [
+      "baseline/audit/scientific_20260920/GEOMETRY_AND_METHOD_DIAGNOSTICS.json RULER optical_c2_p4 median_max_text_width_fraction * 100, rounded"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 115,
+    "literal": "12.3",
+    "support": [
+      "same audit Identifier optical_c2_p4 median_max_text_width_fraction * 100, rounded"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 119,
+    "literal": "95",
+    "support": [
+      "prespecified pointwise confidence level"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 123,
+    "literal": "0.8",
+    "support": [
+      "baseline/protocol.json: controlled.c_targets[0]"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 123,
+    "literal": "4",
+    "support": [
+      "controlled.c_targets; pages; distractors; motif size; factor instances"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 123,
+    "literal": "0.8",
+    "support": [
+      "baseline/protocol.json: controlled.c_targets[0]"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 133,
+    "literal": "20",
+    "support": [
+      "studies/audits/ruler_extraction_classifications.json: frozen audit sample size"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 137,
+    "literal": "16",
+    "support": [
+      "baseline/protocol.json: external.retriever.top_k; layout min em pixels"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 137,
+    "literal": "2",
+    "support": [
+      "controlled.c_targets; page counts; factor levels; independent instances; mathematical permutation statement"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 141,
+    "literal": "500",
+    "support": [
+      "original LoCoMo arm n"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 150,
+    "literal": "126",
+    "support": [
+      "cap.readers.Qwen2B.fixed_capped_n"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 150,
+    "literal": "121",
+    "support": [
+      "cap.readers.Qwen9B.fixed_capped_n"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 150,
+    "literal": "96",
+    "support": [
+      "original Identifier arm n; baseline/protocol.json external.max_new_tokens"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 150,
+    "literal": "256",
+    "support": [
+      "studies/identifier_followup/CAP_PROTOCOL.json"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 154,
+    "literal": "45",
+    "support": [
+      "systems.cells length"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 10,
+    "literal": "500",
+    "support": [
+      "original LoCoMo arm n"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 10,
+    "literal": "9,000",
+    "support": [
+      "original FINAL_VERIFICATION.json study_counts.LoCoMo"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 10,
+    "literal": "10",
+    "support": [
+      "LoCoMo cluster count; target balance; measured repetitions; glyph threshold; execution-freeze entries"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 11,
+    "literal": "180",
+    "support": [
+      "original RULER arm n"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 11,
+    "literal": "2,160",
+    "support": [
+      "original FINAL_VERIFICATION.json study_counts.RULER"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 12,
+    "literal": "96",
+    "support": [
+      "original Identifier arm n; baseline/protocol.json external.max_new_tokens"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 12,
+    "literal": "2,016",
+    "support": [
+      "original FINAL_VERIFICATION.json study_counts.Identifier"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 13,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 13,
+    "literal": "576",
+    "support": [
+      "layout.verified_rows"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 14,
+    "literal": "32",
+    "support": [
+      "scale.n_cases; original identifier distractor factor"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 14,
+    "literal": "288",
+    "support": [
+      "scale.verified_rows"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 15,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 15,
+    "literal": "540",
+    "support": [
+      "budget.verified_rows"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 17,
+    "literal": "247",
+    "support": [
+      "sum cap fixed_capped_n"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 17,
+    "literal": "247",
+    "support": [
+      "sum cap fixed_capped_n"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 18,
+    "literal": "1",
+    "support": [
+      "normalization boundary/one-token profile; protocol and mathematical definition"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 18,
+    "literal": "585",
+    "support": [
+      "systems.generation_invocations and top_level_forward_passes"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 22,
+    "literal": "13,176",
+    "support": [
+      "original FINAL_VERIFICATION.json mandatory_unique_rows"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 22,
+    "literal": "36",
+    "support": [
+      "layout PROTOCOL.json dev_calls; readable threshold .75 * 48"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 22,
+    "literal": "12",
+    "support": [
+      "layout PROTOCOL.json: dev_cases; ExactStrip baseline count in DEVELOPMENT_REAUDIT.json"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 22,
+    "literal": "828",
+    "support": [
+      "completion.quality_outputs.total"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 22,
+    "literal": "585",
+    "support": [
+      "systems.generation_invocations and top_level_forward_passes"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 22,
+    "literal": "135",
+    "support": [
+      "systems.warmups"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 22,
+    "literal": "450",
+    "support": [
+      "systems.measured"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 22,
+    "literal": "585",
+    "support": [
+      "systems.generation_invocations and top_level_forward_passes"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 25,
+    "literal": "96",
+    "support": [
+      "original Identifier arm n; baseline/protocol.json external.max_new_tokens"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 25,
+    "literal": "128",
+    "support": [
+      "baseline/v2/PROTOCOL_AMENDMENT.md RULER max_new_tokens; saved output configs"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 25,
+    "literal": "64",
+    "support": [
+      "layout PROTOCOL.json max_new_tokens; final native REQUEST.json max_new_tokens"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 25,
+    "literal": "64",
+    "support": [
+      "layout PROTOCOL.json max_new_tokens; final native REQUEST.json max_new_tokens"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 30,
+    "literal": "50,000",
+    "support": [
+      "original ANALYSIS.json bootstrap_replicates; frozen follow-up analysis protocols"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 30,
+    "literal": "24",
+    "support": [
+      "controlled.payload_lengths[1]; renderer margin; layout bootstrap stratum count"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 34,
+    "literal": "500",
+    "support": [
+      "original LoCoMo arm n"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 34,
+    "literal": "105",
+    "support": [
+      "original LoCoMo category 1 inventory"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 34,
+    "literal": "108",
+    "support": [
+      "original LoCoMo category 2 inventory; original geometry sampled rerender count"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 34,
+    "literal": "287",
+    "support": [
+      "original LoCoMo category 4 inventory"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 34,
+    "literal": "1",
+    "support": [
+      "normalization boundary/one-token profile; protocol and mathematical definition"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 34,
+    "literal": "2",
+    "support": [
+      "controlled.c_targets; page counts; factor levels; independent instances; mathematical permutation statement"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 34,
+    "literal": "4",
+    "support": [
+      "controlled.c_targets; pages; distractors; motif size; factor instances"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 34,
+    "literal": "1.5",
+    "support": [
+      "baseline/protocol.json: external.retriever.k1; or rounded finite-budget regime"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 34,
+    "literal": "0.75",
+    "support": [
+      "scale_0.75; baseline/protocol.json: external.retriever.b; layout readable threshold"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 34,
+    "literal": "16",
+    "support": [
+      "baseline/protocol.json: external.retriever.top_k; layout min em pixels"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 36,
+    "literal": "1,372",
+    "support": [
+      "baseline/PROTOCOL.md retrieved-optical canvas; processor input records"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 36,
+    "literal": "8",
+    "support": [
+      "baseline/protocol.json: controlled.payload_lengths[0]; retrieved renderer source font"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 36,
+    "literal": "24",
+    "support": [
+      "controlled.payload_lengths[1]; renderer margin; layout bootstrap stratum count"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 36,
+    "literal": "2",
+    "support": [
+      "controlled.c_targets; page counts; factor levels; independent instances; mathematical permutation statement"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 51,
+    "literal": "126",
+    "support": [
+      "cap.readers.Qwen2B.fixed_capped_n"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 51,
+    "literal": "121",
+    "support": [
+      "cap.readers.Qwen9B.fixed_capped_n"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 51,
+    "literal": "256",
+    "support": [
+      "studies/identifier_followup/CAP_PROTOCOL.json"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 51,
+    "literal": "96",
+    "support": [
+      "original Identifier arm n; baseline/protocol.json external.max_new_tokens"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 55,
+    "literal": "8,192",
+    "support": [
+      "layout PROTOCOL.json source_tokens; RULER reference generation length; budget LONG design"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 58,
+    "literal": "3",
+    "support": [
+      "number of readers/scale levels; prespecified three-point equivalence/materiality; frozen testing families"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 58,
+    "literal": "1",
+    "support": [
+      "normalization boundary/one-token profile; protocol and mathematical definition"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 58,
+    "literal": "3",
+    "support": [
+      "number of readers/scale levels; prespecified three-point equivalence/materiality; frozen testing families"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 63,
+    "literal": "180",
+    "support": [
+      "original RULER arm n"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 67,
+    "literal": "20",
+    "support": [
+      "studies/audits/ruler_extraction_classifications.json: frozen audit sample size"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 70,
+    "literal": "2",
+    "support": [
+      "controlled.c_targets; page counts; factor levels; independent instances; mathematical permutation statement"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 70,
+    "literal": "77.9",
+    "support": [
+      "baseline/audit/scientific_20260920/GEOMETRY_AND_METHOD_DIAGNOSTICS.json RULER optical_c2_p4 median_max_text_width_fraction * 100, rounded"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 70,
+    "literal": "12.3",
+    "support": [
+      "same audit Identifier optical_c2_p4 median_max_text_width_fraction * 100, rounded"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 70,
+    "literal": "8.4",
+    "support": [
+      "same audit Qwen RULER optical_c2_p4 glyph_range lower endpoint rounded"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 70,
+    "literal": "9.0",
+    "support": [
+      "same audit Qwen RULER optical_c2_p4 glyph_range upper endpoint rounded"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 70,
+    "literal": "4.1",
+    "support": [
+      "same audit Qwen Identifier optical_c2_p4 glyph_range lower endpoint rounded"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 70,
+    "literal": "4.5",
+    "support": [
+      "same audit Qwen Identifier optical_c2_p4 glyph_range upper endpoint rounded"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 70,
+    "literal": "6.9",
+    "support": [
+      "same audit GLM RULER optical_c2_p4 glyph_range lower endpoint rounded"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 70,
+    "literal": "7.8",
+    "support": [
+      "same audit GLM RULER optical_c2_p4 glyph_range upper endpoint rounded"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 70,
+    "literal": "3.5",
+    "support": [
+      "same audit GLM Identifier optical_c2_p4 glyph_range lower endpoint rounded"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 70,
+    "literal": "3.8",
+    "support": [
+      "same audit GLM Identifier optical_c2_p4 glyph_range upper endpoint rounded"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 73,
+    "literal": "8",
+    "support": [
+      "baseline/protocol.json: controlled.payload_lengths[0]; retrieved renderer source font"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 73,
+    "literal": "24",
+    "support": [
+      "controlled.payload_lengths[1]; renderer margin; layout bootstrap stratum count"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 73,
+    "literal": "4",
+    "support": [
+      "controlled.c_targets; pages; distractors; motif size; factor instances"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 73,
+    "literal": "32",
+    "support": [
+      "scale.n_cases; original identifier distractor factor"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 73,
+    "literal": "96",
+    "support": [
+      "original Identifier arm n; baseline/protocol.json external.max_new_tokens"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 73,
+    "literal": "0.8",
+    "support": [
+      "baseline/protocol.json: controlled.c_targets[0]"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 73,
+    "literal": "2",
+    "support": [
+      "controlled.c_targets; page counts; factor levels; independent instances; mathematical permutation statement"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 73,
+    "literal": "4",
+    "support": [
+      "controlled.c_targets; pages; distractors; motif size; factor instances"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 73,
+    "literal": "2",
+    "support": [
+      "controlled.c_targets; page counts; factor levels; independent instances; mathematical permutation statement"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 73,
+    "literal": "4",
+    "support": [
+      "controlled.c_targets; pages; distractors; motif size; factor instances"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 73,
+    "literal": "0.8",
+    "support": [
+      "baseline/protocol.json: controlled.c_targets[0]"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 76,
+    "literal": "96",
+    "support": [
+      "original Identifier arm n; baseline/protocol.json external.max_new_tokens"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 76,
+    "literal": "0.8",
+    "support": [
+      "baseline/protocol.json: controlled.c_targets[0]"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 80,
+    "literal": "382",
+    "support": [
+      "studies/audits/identifier_output_audit.json canonical_response_counts"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 80,
+    "literal": "384",
+    "support": [
+      "identifier_output_audit.json all_compressed_glm_n"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 80,
+    "literal": "14",
+    "support": [
+      "DEVELOPMENT_REAUDIT.json: ExactStrip success count"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 80,
+    "literal": "18",
+    "support": [
+      "DEVELOPMENT_REAUDIT.json: ExactStrip development sample size"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 80,
+    "literal": "12",
+    "support": [
+      "layout PROTOCOL.json: dev_cases; ExactStrip baseline count in DEVELOPMENT_REAUDIT.json"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 80,
+    "literal": "18",
+    "support": [
+      "DEVELOPMENT_REAUDIT.json: ExactStrip development sample size"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 80,
+    "literal": "0.72656",
+    "support": [
+      "DEVELOPMENT_REAUDIT.json ExactStrip exact McNemar p rounded to five decimals"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 84,
+    "literal": "12",
+    "support": [
+      "layout PROTOCOL.json: dev_cases; ExactStrip baseline count in DEVELOPMENT_REAUDIT.json"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 84,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 84,
+    "literal": "8,192",
+    "support": [
+      "layout PROTOCOL.json source_tokens; RULER reference generation length; budget LONG design"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 84,
+    "literal": "0",
+    "support": [
+      "original/Identifier/*/compressed exact_match; layout original EM; conceptual boundary"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 84,
+    "literal": "12",
+    "support": [
+      "layout PROTOCOL.json: dev_cases; ExactStrip baseline count in DEVELOPMENT_REAUDIT.json"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 84,
+    "literal": "1",
+    "support": [
+      "normalization boundary/one-token profile; protocol and mathematical definition"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 84,
+    "literal": "12",
+    "support": [
+      "layout PROTOCOL.json: dev_cases; ExactStrip baseline count in DEVELOPMENT_REAUDIT.json"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 84,
+    "literal": "1",
+    "support": [
+      "normalization boundary/one-token profile; protocol and mathematical definition"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 84,
+    "literal": "12",
+    "support": [
+      "layout PROTOCOL.json: dev_cases; ExactStrip baseline count in DEVELOPMENT_REAUDIT.json"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 87,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 91,
+    "literal": "4,096",
+    "support": [
+      "Qwen native vision_tokens in budget rows and layout DEEP_INPUT_CHECKS"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 91,
+    "literal": "3,844",
+    "support": [
+      "GLM native vision_tokens in budget rows and layout DEEP_INPUT_CHECKS"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 91,
+    "literal": "10,000",
+    "support": [
+      "layout DEEP_INPUT_CHECKS.json Qwen readable vision count"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 91,
+    "literal": "13,456",
+    "support": [
+      "layout DEEP_INPUT_CHECKS.json GLM readable vision count"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 91,
+    "literal": "16",
+    "support": [
+      "baseline/protocol.json: external.retriever.top_k; layout min em pixels"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 91,
+    "literal": "42",
+    "support": [
+      "layout PROTOCOL.json raw_control_em_threshold .875 * 48"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 91,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 91,
+    "literal": "36",
+    "support": [
+      "layout PROTOCOL.json dev_calls; readable threshold .75 * 48"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 91,
+    "literal": "48",
+    "support": [
+      "layout arm n; original factor cells"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 96,
+    "literal": "32",
+    "support": [
+      "scale.n_cases; original identifier distractor factor"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 96,
+    "literal": "11",
+    "support": [
+      "controlled scale early/middle target-position counts in source manifest (11/11/10)"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 96,
+    "literal": "11",
+    "support": [
+      "controlled scale early/middle target-position counts in source manifest (11/11/10)"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 96,
+    "literal": "10",
+    "support": [
+      "LoCoMo cluster count; target balance; measured repetitions; glyph threshold; execution-freeze entries"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 96,
+    "literal": "1,008",
+    "support": [
+      "final geometry REQUEST.json image canvas for Qwen"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 96,
+    "literal": "868",
+    "support": [
+      "final geometry REQUEST.json image canvas for GLM"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 103,
+    "literal": "32",
+    "support": [
+      "scale.n_cases; original identifier distractor factor"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 121,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 124,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 124,
+    "literal": "10",
+    "support": [
+      "LoCoMo cluster count; target balance; measured repetitions; glyph threshold; execution-freeze entries"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 124,
+    "literal": "50",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 124,
+    "literal": "90",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 124,
+    "literal": "2,048",
+    "support": [
+      "budget PROTOCOL.md frozen reference SHORT source length"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 124,
+    "literal": "6,144",
+    "support": [
+      "budget PROTOCOL.md frozen reference MEDIUM source length"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 124,
+    "literal": "8,192",
+    "support": [
+      "layout PROTOCOL.json source_tokens; RULER reference generation length; budget LONG design"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 126,
+    "literal": "4,173",
+    "support": [
+      "Qwen native budget rows diagnostics.B"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 126,
+    "literal": "3,916",
+    "support": [
+      "GLM native budget rows diagnostics.B"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 126,
+    "literal": "4,096",
+    "support": [
+      "Qwen native vision_tokens in budget rows and layout DEEP_INPUT_CHECKS"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 126,
+    "literal": "3,844",
+    "support": [
+      "GLM native vision_tokens in budget rows and layout DEEP_INPUT_CHECKS"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 131,
+    "literal": "30",
+    "support": [
+      "budget.n_base_cases; RULER per-task n; GLM budget LONG effect *100"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 150,
+    "literal": "8,192",
+    "support": [
+      "layout PROTOCOL.json source_tokens; RULER reference generation length; budget LONG design"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 150,
+    "literal": "40",
+    "support": [
+      "compact config source_token_tolerance"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 150,
+    "literal": "50",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 150,
+    "literal": "868",
+    "support": [
+      "final geometry REQUEST.json image canvas for GLM"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 150,
+    "literal": "12",
+    "support": [
+      "layout PROTOCOL.json: dev_cases; ExactStrip baseline count in DEVELOPMENT_REAUDIT.json"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 150,
+    "literal": "24",
+    "support": [
+      "controlled.payload_lengths[1]; renderer margin; layout bootstrap stratum count"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 150,
+    "literal": "64",
+    "support": [
+      "layout PROTOCOL.json max_new_tokens; final native REQUEST.json max_new_tokens"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 153,
+    "literal": "3,844",
+    "support": [
+      "GLM native vision_tokens in budget rows and layout DEEP_INPUT_CHECKS"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 153,
+    "literal": "53",
+    "support": [
+      "compact protocol empty-query optical scaffold"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 153,
+    "literal": "128",
+    "support": [
+      "baseline/v2/PROTOCOL_AMENDMENT.md RULER max_new_tokens; saved output configs"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 153,
+    "literal": "128",
+    "support": [
+      "baseline/v2/PROTOCOL_AMENDMENT.md RULER max_new_tokens; saved output configs"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 153,
+    "literal": "3,916",
+    "support": [
+      "GLM native budget rows diagnostics.B"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 163,
+    "literal": "6",
+    "support": [
+      "six RULER task configurations; six primary original tests; abstract rounded minimum H1 effect 6.0488355"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 163,
+    "literal": "0.05",
+    "support": [
+      "compact config alpha"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 163,
+    "literal": "95",
+    "support": [
+      "prespecified pointwise confidence level"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 163,
+    "literal": "50,000",
+    "support": [
+      "original ANALYSIS.json bootstrap_replicates; frozen follow-up analysis protocols"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 163,
+    "literal": "50",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 171,
+    "literal": "50",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 171,
+    "literal": "50",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 171,
+    "literal": "50",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 171,
+    "literal": "50",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 171,
+    "literal": "50",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 171,
+    "literal": "50",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 171,
+    "literal": "50",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 171,
+    "literal": "50",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 171,
+    "literal": "50",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  },
+  {
+    "file": "appendix.tex",
+    "line": 171,
+    "literal": "50",
+    "support": [
+      "budget target insertion percentage"
+    ]
+  }
+]

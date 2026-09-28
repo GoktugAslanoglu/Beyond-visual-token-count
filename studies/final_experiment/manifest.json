@@ -1,0 +1,3159 @@
+{
+  "experiment_id": "final-compact-storage-glm-long-v2",
+  "split": "eval",
+  "rows": [
+    {
+      "case_id": "final-eval-000",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-000/optical",
+      "request_sha256": "f688a42fab27cd902919d6b70865017dc1ddd164513c5abf504716782400be3a",
+      "measurement_sha256": "3649f06ae14b5ca33d303c38fa58cf3ad752007c4bd48b51d53f18a9e3e0dda2"
+    },
+    {
+      "case_id": "final-eval-000",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-000/hash_text",
+      "request_sha256": "0e238f7b3da7d4ad083896d5e1e9822f664e1fc8914d0582d70aa78b722c25d2",
+      "measurement_sha256": "5aa939d8e06336b7cbbf0c623eef6eb5cc82fee2ae5877f049a5bd4306e80f1d"
+    },
+    {
+      "case_id": "final-eval-000",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-000/compact_text",
+      "request_sha256": "12aa7f8a19a20c115e3e4131a28be072a946147237ca75819638d2f255655920",
+      "measurement_sha256": "643f4ff5000ec5e04e8e1b37ac890825fe1380fb24ba5602ce96f12d95772206"
+    },
+    {
+      "case_id": "final-eval-001",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-001/optical",
+      "request_sha256": "00465fe48513be507654ffe4b075579b6d3f5b8cbcc49b3443c10ca0ec508ca2",
+      "measurement_sha256": "0cd483124d1a006cb0278dc4067002bc245631fa1a88fedbe4868b0ea8ee05d9"
+    },
+    {
+      "case_id": "final-eval-001",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-001/hash_text",
+      "request_sha256": "b4571d98b7d9ea815b81e1379e3f04c56e4c4594c5a2d672f0f38253efffcaf4",
+      "measurement_sha256": "6cc0931bf6371c9f5dc32d9ccb34c23964da1160fb516dbea121197d45a774c8"
+    },
+    {
+      "case_id": "final-eval-001",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-001/compact_text",
+      "request_sha256": "cceccb8823bc41f23bfcc521751644fd2007870c95ed3a51f1dcebb757e7bba9",
+      "measurement_sha256": "e0f5b60261de17a99a4c5e180f0e042061171d53bb0e49520344b5e94a8e5896"
+    },
+    {
+      "case_id": "final-eval-002",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-002/optical",
+      "request_sha256": "5589c38ade17350a492a95666fe0048dbdbd6a23acb5e22a828ce7d859014b1e",
+      "measurement_sha256": "2fdd22eab86c12dff4a0f2f588399c8afd51145ac219da7cfbb3ddb14b9e1d4e"
+    },
+    {
+      "case_id": "final-eval-002",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-002/hash_text",
+      "request_sha256": "6c0a4a3cc23cd758048055e1a2ce424b027390f9c13976db07be2874f300bbd4",
+      "measurement_sha256": "e5be327ee2d2106fbbe02976a7a8d995a45f6b984140e1244138a4c8fd801d02"
+    },
+    {
+      "case_id": "final-eval-002",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-002/compact_text",
+      "request_sha256": "05300545e88dde889642ab9a918d92e7c89570390e9ee832f4462dd687d7fed7",
+      "measurement_sha256": "99e59c12f41d45d4a573f537c59affd2b3aa189d5b8bf3b18155fcd535682b1a"
+    },
+    {
+      "case_id": "final-eval-003",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-003/optical",
+      "request_sha256": "0968b43bad3622042aaec04257bd8c8c1bcc8bef4450812ff629495bb017e531",
+      "measurement_sha256": "9bf259cb08a5641f2cf7ff176b5a69d69c1aa41d230e3fd29a9fd18f05051fa6"
+    },
+    {
+      "case_id": "final-eval-003",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-003/hash_text",
+      "request_sha256": "1549557fab7e24f377d1469db18c954620f3c3b93cb6eb6c86dd6e03e58fe740",
+      "measurement_sha256": "a47430bb864dfefd707551602cbfd193a6adb2bce04107ae96c291aea7494475"
+    },
+    {
+      "case_id": "final-eval-003",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-003/compact_text",
+      "request_sha256": "bd0ce2fd3ceeb3c426e45874f22a471b1db769776ab7f073ae1f8726ad519946",
+      "measurement_sha256": "3ebc81f0d3cd78b8541e5a1ebd10eb34cb0c55bb5e4220d66a071f76187f9758"
+    },
+    {
+      "case_id": "final-eval-004",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-004/optical",
+      "request_sha256": "54313de1bf4d5dd7f7ce03ba2ee0ff49809646addf05eda16a8a259d5e16e06f",
+      "measurement_sha256": "479ba180893d4dfccc7a8ec1b796617789b6fd8e49c6f94e495ad9b02e1f6fc9"
+    },
+    {
+      "case_id": "final-eval-004",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-004/hash_text",
+      "request_sha256": "daef45fff91568285277f0f5c82df4f8cf9f0f5033d9fcf8d31cae001832218d",
+      "measurement_sha256": "9b55811273917ea9b59c85758ebf2ca3b75030080447c76421ebf0ff078c18cb"
+    },
+    {
+      "case_id": "final-eval-004",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-004/compact_text",
+      "request_sha256": "552402cfb1ac02b1761831c8c461d971e38cea5394e700bee324d70a4b9f5531",
+      "measurement_sha256": "488898bb2bba2e98896a957668d75f257d1cb5cc4d3eacda3dd44f45e8ed9fb9"
+    },
+    {
+      "case_id": "final-eval-005",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-005/optical",
+      "request_sha256": "e9fef47e00743caf4c883ad26ccddf0a8ec85b6fc65209bb3d5b1318834818dc",
+      "measurement_sha256": "5d345c3349723f01b9b85d5fc0c92f3a9e5bde1792723461be6033d17beaddbe"
+    },
+    {
+      "case_id": "final-eval-005",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-005/hash_text",
+      "request_sha256": "be3f8a334135cf80544ab98ab3b3be1c0967f83478c710fb9b4f5d169f053805",
+      "measurement_sha256": "6d3a4e81c9d8589cc9cb9a1fec0e54b2f12a869bb7ca2b50061da1807806e36c"
+    },
+    {
+      "case_id": "final-eval-005",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-005/compact_text",
+      "request_sha256": "6838250e16cca5db5e789e16dc2fce13d13c277490434bf5578cf111c907555c",
+      "measurement_sha256": "dfffa8f294e7825af8fd4746755d131e3afaa838078147e337b25dd06741e969"
+    },
+    {
+      "case_id": "final-eval-006",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-006/optical",
+      "request_sha256": "558e5646d2cd15fe23dfa4e8f89712d34fbf1434e473d29d7c91d9dc8ffef6b1",
+      "measurement_sha256": "934312a5a2db6d4ecc55421bba137f8ed090b7f29511a2cd77ced35402fee492"
+    },
+    {
+      "case_id": "final-eval-006",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-006/hash_text",
+      "request_sha256": "0c9a93dfbd7ce10d4d5e9390be24ba2c73d79aa8628e0184f8b6d29c3ab4199b",
+      "measurement_sha256": "d78d082fbd35f458258c6b5e794905d7f00a7bdc02377b6432943f3c40bbdc14"
+    },
+    {
+      "case_id": "final-eval-006",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-006/compact_text",
+      "request_sha256": "bf7468272f7c8585605bd9923ebed4ac5bb8f885e0788dcf3acbd13a99c003f7",
+      "measurement_sha256": "5cd01235c5e19c6f82da460c0eae14e11a83906adcfc6a3aed73b232d2e4bee3"
+    },
+    {
+      "case_id": "final-eval-007",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-007/optical",
+      "request_sha256": "4cca471f4909f38ca19efe4296ed98c60fc2d5db25bce9ae4dd6770df5c49989",
+      "measurement_sha256": "789b0dc6fe6d46b44749b9dd435029958fd52b945f2294358b3be07ac1507531"
+    },
+    {
+      "case_id": "final-eval-007",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-007/hash_text",
+      "request_sha256": "0ba9ff52bbce9ebc3f7db8c897b9556c11d8c530eb36aef37b9e00a577d0a694",
+      "measurement_sha256": "d295a2597de2747a031840ccaa720188c9af6525eed1ffb6f8d0985f93c17eb4"
+    },
+    {
+      "case_id": "final-eval-007",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-007/compact_text",
+      "request_sha256": "ae4df1f0baef822576b5cac9f78e38350a604995574e8427c07b2518ccef213a",
+      "measurement_sha256": "dfe4cce89f2b13874711670b9342672ee7c8c384ba0369eb3dbe1657e79ba0c0"
+    },
+    {
+      "case_id": "final-eval-008",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-008/optical",
+      "request_sha256": "8394dc438db90a54c86422452cd31413e9a531757c985512ab35635b06db8109",
+      "measurement_sha256": "c6afc72efb0ade1cc1e77c25a4bbd478427aeeb0701ecb5e050bc66afec5eec3"
+    },
+    {
+      "case_id": "final-eval-008",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-008/hash_text",
+      "request_sha256": "8b924b1e778bd8509e9fe6468ad0aa6d3fd7699fc55be48b90fff23d3978146f",
+      "measurement_sha256": "9a744651100f73a71761c1278c20d4a9829c4840e44acd5794f2d5576709b0df"
+    },
+    {
+      "case_id": "final-eval-008",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-008/compact_text",
+      "request_sha256": "9c6359b62d79fab86f20fa5d331a21a3adfa6d04238cd164ef3631edf597f2cd",
+      "measurement_sha256": "cf9e4bd389a4a294792865b877eb965e471396a611e07aef05af00e5d82d68dd"
+    },
+    {
+      "case_id": "final-eval-009",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-009/optical",
+      "request_sha256": "67973662ee01e8019977ec64f64d078ca4f1650f393f9098862805e9ffffe8e9",
+      "measurement_sha256": "12a2d7ca92b8aecd226456231648c732e71ca6d90592813c3cf39dd84343963f"
+    },
+    {
+      "case_id": "final-eval-009",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-009/hash_text",
+      "request_sha256": "10a1d1176201c9f2b62ae2780ee149f43a188d836ec66b44a85b18b185084b7d",
+      "measurement_sha256": "86cbd8c92e7e10ec1c250b6aecdab823c81747a045faf6133f82cc8dd7f67a82"
+    },
+    {
+      "case_id": "final-eval-009",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-009/compact_text",
+      "request_sha256": "67db10ad4ae54dd60bcba4ab1e9c5ecfa470ac1427dda35f8cc1d45eb7b7040f",
+      "measurement_sha256": "e070c20a445b5c28ebbc3ffaca1ccfe06ca1c38341a023dd6f4dc15af50475da"
+    },
+    {
+      "case_id": "final-eval-010",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-010/optical",
+      "request_sha256": "99dd4c8e398eac6a6fa7843c5820a0add305911058406e74c0ee67df28603174",
+      "measurement_sha256": "9e4e0f9bcf595ccc0233300ce02df2e401f4ca18e0d78678812cf2efae590030"
+    },
+    {
+      "case_id": "final-eval-010",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-010/hash_text",
+      "request_sha256": "e0ff94ae3119163e8ce8c70f9bd56a116b441a5f8f2b71793c4bd48a9df398dc",
+      "measurement_sha256": "aee27a234bb0f3a67a7985e2d7fc220760281ebac5de28cd38cfa39d59fd93a9"
+    },
+    {
+      "case_id": "final-eval-010",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-010/compact_text",
+      "request_sha256": "a219d2d1982fe671474dffe04e658dbd262df025950058d1707e041c1831354f",
+      "measurement_sha256": "f3b159a5c14d0f9ca16eb2b5220c47309935e0a2749991112471b425e75762c4"
+    },
+    {
+      "case_id": "final-eval-011",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-011/optical",
+      "request_sha256": "239d6f0e62fb0e9a7a1af37e7f8c05a9adcc16e429584cf02cfcb0874fc93937",
+      "measurement_sha256": "f9fe7a7fc54ce9f1627a7454dbe97e8fb44d34acca33bb0e727d1764437d6f9f"
+    },
+    {
+      "case_id": "final-eval-011",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-011/hash_text",
+      "request_sha256": "18fd39934e1395d44e3237ac74b39ae1e06b28fc9a65adf9eaaafc27cb9f0e40",
+      "measurement_sha256": "a7b3eabc52321844e7f33832816af3d247f4828238f5a9c5b6e0f9f6171c2de9"
+    },
+    {
+      "case_id": "final-eval-011",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-011/compact_text",
+      "request_sha256": "61a291489006e5c5eb08b7aa11e23e71425b279454d2dff3d1f02cf9d01ee9a8",
+      "measurement_sha256": "009d678daa33bb03d78f70b697d015687e8f2c1e64495d926ace7f1b7d719e41"
+    },
+    {
+      "case_id": "final-eval-012",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-012/optical",
+      "request_sha256": "53d2036946e904b28f9940401bc5c726a15aa79edd1f4e3d8cd96659bbf7ab6f",
+      "measurement_sha256": "a7e738757e41239de2fa17ea50f81dad5145d08c5d508084e2817fae59a08f4b"
+    },
+    {
+      "case_id": "final-eval-012",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-012/hash_text",
+      "request_sha256": "0dcf527315f2d8a3d36b66fdf8ac408b037ecac41ceccf9ca18eb0c682c94b50",
+      "measurement_sha256": "f0e2d9067d85c0eabda75ec2246354c7f2f5f5c4415f61a8d7bb5a8bc11a443e"
+    },
+    {
+      "case_id": "final-eval-012",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-012/compact_text",
+      "request_sha256": "86b7f038658192e4526e2844ec3dbf729913ee2169fbde4a6f042b6fdc9a64c0",
+      "measurement_sha256": "d10da3ab47b103ef2b24c6232d47c8cb207ca1cd1f258612075d8cead4bf6266"
+    },
+    {
+      "case_id": "final-eval-013",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-013/optical",
+      "request_sha256": "5fcc0963d7332221cc2b805462f96463afa988ca8c73d73880dc874f0a832559",
+      "measurement_sha256": "2ad368637d6983bb7f2a6936342f9a079af8f2805a43a142fcd2793c1c0d7a59"
+    },
+    {
+      "case_id": "final-eval-013",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-013/hash_text",
+      "request_sha256": "5f724b670d9d4413e0bc2d4a7d3ebb7ea0b2e4a74ede2fe9324dc62210084c1e",
+      "measurement_sha256": "0817fbfd0bea56a69ab50efeb64ea358d132087c2906834db84a76e3a05dae62"
+    },
+    {
+      "case_id": "final-eval-013",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-013/compact_text",
+      "request_sha256": "bd9bc8fbca289cf5e9fb70cc6deb34ba170d3f3e4f80627c5cfbca7d6ae05fd6",
+      "measurement_sha256": "f451fd67dd365e3d7b395e133ffdeba89d6af7cd3e65832767eaf0ac2c67a64e"
+    },
+    {
+      "case_id": "final-eval-014",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-014/optical",
+      "request_sha256": "bb8165365fbfc53ef7b781aebd56a6a8a6754fe86481b28588f8b27ba14f9a56",
+      "measurement_sha256": "b62c419eaabd33eeb7d84d9ee9131f752767ce7d50ea8cf0d1e322ab5b5cb71f"
+    },
+    {
+      "case_id": "final-eval-014",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-014/hash_text",
+      "request_sha256": "5e6ff5b5ca7681e519e164d3c79ac6977aa301092f4ce0fce452f53654a2db01",
+      "measurement_sha256": "e6b2220aa254ef5a29f94e68f25393f16b7d5cc80601823835c30f6cc9ee437e"
+    },
+    {
+      "case_id": "final-eval-014",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-014/compact_text",
+      "request_sha256": "37277cb60aff9a5274ce1cfbc039f7a8c59e1d14bbb9a1be8efde251a82d59f5",
+      "measurement_sha256": "95115b8d98ef9464f4fcd213cfdf2f75f717d5f85bcebe80d9dc7b4e91f18aee"
+    },
+    {
+      "case_id": "final-eval-015",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-015/optical",
+      "request_sha256": "ba954b45edf77cb4a5824ec2764c5c203ec318f9fbe5164afc0f018787d6fd94",
+      "measurement_sha256": "eab26c1099552edfa92054831e2f4084bf0b8dbf8d72e3a3a720953c1469f610"
+    },
+    {
+      "case_id": "final-eval-015",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-015/hash_text",
+      "request_sha256": "698dd60c3956ac819611e7621172da89a29cd2501a336c51a87165d3d5f844eb",
+      "measurement_sha256": "a04ccb8669cf8494bc3382f9fa1870a633c1bde748e2748f06fff459620cafbc"
+    },
+    {
+      "case_id": "final-eval-015",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-015/compact_text",
+      "request_sha256": "6f97ac5b7bfd2223cc6814cfa02306cf23bb72a01c366c835c3b9b7dec184d0b",
+      "measurement_sha256": "15058c1c8186fe668649784eb64a137b2320cb3d75a09341d5300a612a8ff19d"
+    },
+    {
+      "case_id": "final-eval-016",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-016/optical",
+      "request_sha256": "5815fd643fe8939936798cbd79fba1a19f06f4ec36f44ecc58ad1b9da9f5cabe",
+      "measurement_sha256": "41718ded980b9c89bd0ef1e8c76c1bdda81d30e68e83141e37916f2a5bdc4c2a"
+    },
+    {
+      "case_id": "final-eval-016",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-016/hash_text",
+      "request_sha256": "7cfd56318d03501c3d3e7983252401cd7c70cebcdd0e1b4560e3c279a7512980",
+      "measurement_sha256": "c15c9a6b2099e4e749ef3a9bd142713a3d1f43f68d8f868747eabeb31c89e0d0"
+    },
+    {
+      "case_id": "final-eval-016",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-016/compact_text",
+      "request_sha256": "460b427f52e85bf5e181018d3bf400d82a644504f4e68d371c68f6d82b722dca",
+      "measurement_sha256": "e3ba24139f03f6630575661be94a266dd47d9427137d1fd3c88cd196f3fe59a9"
+    },
+    {
+      "case_id": "final-eval-017",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-017/optical",
+      "request_sha256": "2d30f0a9c86b4a59cdb1fbc82e1f6a2af23f86a74f720b09277f36bcdcd66cb1",
+      "measurement_sha256": "c5d4e5588012cfd8624b2e46e73aad673567b2f9aa4a14c11f074c6e7dc9d3de"
+    },
+    {
+      "case_id": "final-eval-017",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-017/hash_text",
+      "request_sha256": "253a6e5efc5006a8213e12310e0bc1a3078b71382b9331f0de10d8902ab1edfc",
+      "measurement_sha256": "c01df04a10b7f24305ba53f79d664d0cdcb564342402c64427f4aac2e5c14ff1"
+    },
+    {
+      "case_id": "final-eval-017",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-017/compact_text",
+      "request_sha256": "14fd2eef25728924bd891443ca0eb075e23800fa2cf9b35ee947f476e4da3477",
+      "measurement_sha256": "c1f9e349e6cf0110f839f4c4a6e9714e8dc5f245f230d993c4d253bd015760bb"
+    },
+    {
+      "case_id": "final-eval-018",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-018/optical",
+      "request_sha256": "af074cbbd5f9fbfe11f2fd476ca1478e3ef475800f9e7562d67b68c417ac80e0",
+      "measurement_sha256": "7db9a37deb5c46b37a9742080ae96df20ca4be4e44262d318ee1860f111c78ff"
+    },
+    {
+      "case_id": "final-eval-018",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-018/hash_text",
+      "request_sha256": "d15134480a997b034dff8e27990f8db8b87c04ee6789065f65c00921e18c42a9",
+      "measurement_sha256": "0ddf8325119c14cbf94a86616dfb2adfc6d3510ccd3839ac1857ce3b997ea9f4"
+    },
+    {
+      "case_id": "final-eval-018",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-018/compact_text",
+      "request_sha256": "2c7268b2b613fe450c9bc719c8544301c6474d2fb4c7fa17ffa816998eeb1d92",
+      "measurement_sha256": "0b786446ae548d33f1a2127ec8efab927c8afd26120885d2e45d24a301536b1d"
+    },
+    {
+      "case_id": "final-eval-019",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-019/optical",
+      "request_sha256": "cc6930bfbac604bd4879bec7998dd9a23555fba7c61907ed8c50f0b31a00f5ff",
+      "measurement_sha256": "f9b95523b4864e75f164c8608f087a7bbbfe0658959b49e0b5ea8ee05969eba0"
+    },
+    {
+      "case_id": "final-eval-019",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-019/hash_text",
+      "request_sha256": "29627aef864b41811e5c5a111c0173d6152cc1ac21b7180d853d0396c7694717",
+      "measurement_sha256": "0b7ed38dd159734e76376d128e825147810758fc204a38dde010056d57e1365b"
+    },
+    {
+      "case_id": "final-eval-019",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-019/compact_text",
+      "request_sha256": "2a94e7d6837569fc660cb01787557da448f7854b5e2d4dc84276aea71ea318c2",
+      "measurement_sha256": "efade516230cc081b8bc7e58e0ada80ccadc74865004e56cd00801d4522e7532"
+    },
+    {
+      "case_id": "final-eval-020",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-020/optical",
+      "request_sha256": "5ba50001839ab10a393749e7b2abb1ca74b28dff160b71253282306930371074",
+      "measurement_sha256": "51e83da014bf9c5ad653153bcd70f8df7bb453e20c8f8f223b3baefa0238db06"
+    },
+    {
+      "case_id": "final-eval-020",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-020/hash_text",
+      "request_sha256": "78300937d79b4f29c05120a35805fb8bd56514f7ffdd6acdcaefc13ffb13d45a",
+      "measurement_sha256": "b0fb00a1e182b51203efae12faf0ed1b43dd7d15958a3c3f38f964e61cda9772"
+    },
+    {
+      "case_id": "final-eval-020",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-020/compact_text",
+      "request_sha256": "8e0ca36ad7484ca69dcc330076d830d1fd2b0410783f4eee3ba3f479da280c91",
+      "measurement_sha256": "2c92b3b0c6002b61a7dafa1e3f69c6fea509b8d2b32f4f67858d298b8981c3f6"
+    },
+    {
+      "case_id": "final-eval-021",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-021/optical",
+      "request_sha256": "031ea60eeb7c74db495c11ad8e45183f5f963b5f49f80f719cd68e416bc12c53",
+      "measurement_sha256": "b4f3b7b03e14ff8f3af5b70393c660d76203b877a8679eadc7a1d76dcb466b9f"
+    },
+    {
+      "case_id": "final-eval-021",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-021/hash_text",
+      "request_sha256": "5c502e4632be9349b3ce8d529c4e11156d9152d514efc01c6cefad932ffe5063",
+      "measurement_sha256": "767ba35ad88a768c4f8eb3320b23ef0378b9725608c9fd4af4d0cfb9394bdc72"
+    },
+    {
+      "case_id": "final-eval-021",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-021/compact_text",
+      "request_sha256": "f38c72e9fe74b2ecbb74ecad73269c069cc8210942c1ab85dc9226b95991bcb4",
+      "measurement_sha256": "168c09d998a9f7e343754adc8b08948755a19e49efaf9487fefec7f36ffcbbab"
+    },
+    {
+      "case_id": "final-eval-022",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-022/optical",
+      "request_sha256": "f1b2c08cfd9348ba66aa379c21e4b00a44cacee02e4b2488f9069f382c05c70f",
+      "measurement_sha256": "bbddce8e8dbd28ca1ffada895492f58351360ff34c383b7ee64a7942dd2cb3c1"
+    },
+    {
+      "case_id": "final-eval-022",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-022/hash_text",
+      "request_sha256": "336107b4b06ce9863388db8551bbfcef8915404e8e99b96caec4d0fca29b757c",
+      "measurement_sha256": "61432511861a558b37e9624600d56fb3d35d172e2d56385921d152fe843551b2"
+    },
+    {
+      "case_id": "final-eval-022",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-022/compact_text",
+      "request_sha256": "9a101cdd415e27c918f75183d8cda1761b493c0a9e8c08204c7c99932f4eaf57",
+      "measurement_sha256": "a7cfc0f22b882a9dec2c06f338d512469183129040b7bb043abffd563c832cc7"
+    },
+    {
+      "case_id": "final-eval-023",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-023/optical",
+      "request_sha256": "cbf1834fe6095dd8f153571fd95407fcf7989e6e6894b2a80d57d253f824867c",
+      "measurement_sha256": "dbeeacd513feae0aaecb265f4d84fbf0651fdbfc61d3c288be4adb748a192b5b"
+    },
+    {
+      "case_id": "final-eval-023",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-023/hash_text",
+      "request_sha256": "6d00b9796065221edeb96beea0ad89146cd5ff1222fb9378adcd1c05e50dc2d6",
+      "measurement_sha256": "3db3b2305c29820fe33b45700b1689ee4d4ea6e4c33849cafd3600a0e9ba43f0"
+    },
+    {
+      "case_id": "final-eval-023",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-023/compact_text",
+      "request_sha256": "df4b5cae3891c1cd788bf1380aa0dedba2fa8456b07b92354bb71ae79725ca5d",
+      "measurement_sha256": "0c3d53e3d70c48bb48a70e05af3d19881bee82a167876edc67e6ca678629ffcb"
+    },
+    {
+      "case_id": "final-eval-024",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-024/optical",
+      "request_sha256": "4cdfb7a8fe98285fe1724c9e2bab0bc33627ba5a0b12901651fcc8bc007d6e04",
+      "measurement_sha256": "19a80bd9714766ca90f56dbd6a0d39a713f4bf04c970acc7ef8d130a84baf533"
+    },
+    {
+      "case_id": "final-eval-024",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-024/hash_text",
+      "request_sha256": "2e6bad522679c3ab114120c7508feb04b222f636b8e88044bf8b0d1f561bc890",
+      "measurement_sha256": "bf9c4371c657ee9983f3e6977bb53f98bdbae65e416b706a9284458230083d6b"
+    },
+    {
+      "case_id": "final-eval-024",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-024/compact_text",
+      "request_sha256": "c4f068627c4e5df1665c4b26e38003252de4ed1096d03e370e96808261614458",
+      "measurement_sha256": "e94d573407634f5dd9a836ebe37eba56e99e495706a065dedd568f9b8ab52b38"
+    },
+    {
+      "case_id": "final-eval-025",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-025/optical",
+      "request_sha256": "bedc2a9fbdd0493c15aae723c5fe0c079121ee392b8d23b7daa885efafb60ccf",
+      "measurement_sha256": "74720c15e55a9884da65596f591986a4d7e774eafe6aba8f1461b49a5dcfd664"
+    },
+    {
+      "case_id": "final-eval-025",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-025/hash_text",
+      "request_sha256": "0b87492562457466e899c7ab88f20bbd45fe3f680d2df3d1c343f05de1571f47",
+      "measurement_sha256": "973420b17e45d79905ffa4577c869d961a0c4d0bf7b7916dfacf036c9ecc7eee"
+    },
+    {
+      "case_id": "final-eval-025",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-025/compact_text",
+      "request_sha256": "22c138a3c255d129e4475ae67c63b083bf41af7d284dc209537d628c720e2166",
+      "measurement_sha256": "3f18d302c4706d9d23fc399470ee4b82ec97c20cfd06155a084d4f055f220d95"
+    },
+    {
+      "case_id": "final-eval-026",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-026/optical",
+      "request_sha256": "5b4e0d2dfa679918008bafb21bfb003e966ea71e195dc014478235efbddea19d",
+      "measurement_sha256": "2815d18fcd23d662d00f0c250972a9715881c0d53dd1a321bf7299e2668ac5bb"
+    },
+    {
+      "case_id": "final-eval-026",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-026/hash_text",
+      "request_sha256": "1ff39fddd9bb550947bac6920c40f3b9420a94c248305dba693624d602f8579e",
+      "measurement_sha256": "35dbe45290d97ae0884156b614ab207a268f157513a006a1a317d793c247cbe2"
+    },
+    {
+      "case_id": "final-eval-026",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-026/compact_text",
+      "request_sha256": "576718606bcbf749870d95858c4d347dbfda4e5ec20099f718499cd57cf9585e",
+      "measurement_sha256": "b6f7a8df433263d7f2cf74ac228c4e2450694946109485c3e9ef22825efbe0a3"
+    },
+    {
+      "case_id": "final-eval-027",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-027/optical",
+      "request_sha256": "2e9b55fc7f739e728286f5355e97c13a9bbdc8bd8230f11bda4bac0c45b3a52b",
+      "measurement_sha256": "1aadb32eb852629dad41605928695489412efb06128ee6df8f8f8a570d0f9005"
+    },
+    {
+      "case_id": "final-eval-027",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-027/hash_text",
+      "request_sha256": "e81c079e5925542f2b103b29bcf59f2e26fe4a7aca5c420a03bc5bf52934d479",
+      "measurement_sha256": "1009aab5c7d7055e9ce55758ec545383bc099588d97a839914b407d741e84630"
+    },
+    {
+      "case_id": "final-eval-027",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-027/compact_text",
+      "request_sha256": "0b8d2c401649b4c094f622aae522c27bb992d7fff997f40c4cbb7607f0040f99",
+      "measurement_sha256": "846f66ed77e7c1e2ad9d681f05b24662fbbc82f9b961104a488fdf59bc6331c5"
+    },
+    {
+      "case_id": "final-eval-028",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-028/optical",
+      "request_sha256": "c37db2057984e390a6e4bee7ca1997b99aaaed4197ad11b700a98754790d517d",
+      "measurement_sha256": "553933aabc94ca54d318ccd073b9c24c0602d7aaafd67584b304d95a319a40f8"
+    },
+    {
+      "case_id": "final-eval-028",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-028/hash_text",
+      "request_sha256": "6cd440da9173452304338593e8a8733d3e438aecf4ea35792cb2bfe427a1b59f",
+      "measurement_sha256": "024f4e3b6927667e78660b7de8d33294bc701549e33592e8c4751dccbcbc80f5"
+    },
+    {
+      "case_id": "final-eval-028",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-028/compact_text",
+      "request_sha256": "c2478859a14833c80c61f48deb818d5ff6f9b837e2018a884197e2f6f26e1ad8",
+      "measurement_sha256": "82a81a420679d64fc1075a4364457e05cac85f03baf3dd591047bd9f8fafe34c"
+    },
+    {
+      "case_id": "final-eval-029",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-029/optical",
+      "request_sha256": "3c416f09c1babab865ad52ca16bc73d6cc5c7d4df66a5e7d02e9ae0fe2ee8c64",
+      "measurement_sha256": "1f33685fc96ededf17c2e38f1ef227a3c032d34247b8713e27d5fd41f5ffd02e"
+    },
+    {
+      "case_id": "final-eval-029",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-029/hash_text",
+      "request_sha256": "921aeb3dc4f2cbdb20e67a9ba711df4c1794e4ea9d786d5951bca916e3c4f76a",
+      "measurement_sha256": "f84ffaee46c83795d2068f80c23fd43b37bf04041d475f4b73f382aea201ea76"
+    },
+    {
+      "case_id": "final-eval-029",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-029/compact_text",
+      "request_sha256": "7e39536a3f76bbd4a3329e650b8da815f23df2c1ef9e57d05376c6671607f3e5",
+      "measurement_sha256": "43de7ed56d32c212f02cc5f7a4702ba8d59e7d11da74607c30ba2fdddf7e1c5a"
+    },
+    {
+      "case_id": "final-eval-030",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-030/optical",
+      "request_sha256": "25483a5dfdf7e0b77efb51840aca98be5e29e20312fbd3f1294615cb33829b93",
+      "measurement_sha256": "69108c77fd5ddfce60ca92a3c57dd8b44c6be404662748215784e506744d80d9"
+    },
+    {
+      "case_id": "final-eval-030",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-030/hash_text",
+      "request_sha256": "61630cebc28839695bba2102ddff39134b907bd1ee2c280c052ab864e68b4837",
+      "measurement_sha256": "1b4fa3436d00dbfbb02cf4c6168e034e5fd1bda8ae6d5fbba2f09fdeb69f0974"
+    },
+    {
+      "case_id": "final-eval-030",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-030/compact_text",
+      "request_sha256": "0c0337fb1229a45c4478e2b5f75489d43a0870cf91fba78053ab4c9b12512fc5",
+      "measurement_sha256": "4cc568fd44ff9dd243ba8cdd6f54eaf9ac7d018e9f4ed744b32ea239b69a41d4"
+    },
+    {
+      "case_id": "final-eval-031",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-031/optical",
+      "request_sha256": "74fbb4e7cdd336aa9915e5cde2758672721fcd730cfd5f686244f35a6fee8809",
+      "measurement_sha256": "36ffba51b13c461d993545482caec48acf54ba08bbca326492ef0e3166bec6c9"
+    },
+    {
+      "case_id": "final-eval-031",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-031/hash_text",
+      "request_sha256": "ccbfcfafad2fca7fc0455266b1608995d0515c455f0230985b56c5501d8279bd",
+      "measurement_sha256": "c50ed870367491eca1123982d8e4cb2650ed9e1d909ac43c1cdc6f08294c5a1f"
+    },
+    {
+      "case_id": "final-eval-031",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-031/compact_text",
+      "request_sha256": "cf1aa6d5a7e58b511f0b1996b5e75dfcfc0f18f445e5e8561b2979122d58582b",
+      "measurement_sha256": "5b1dfe2831b76a55993e867a27d2898cb68a6e29ead9404e494cbc5974bc293f"
+    },
+    {
+      "case_id": "final-eval-032",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-032/optical",
+      "request_sha256": "4c44416f909776521c0708e525b1c3c893d8c719d4b1f80b4a26fd7183cbb13d",
+      "measurement_sha256": "fd4ea10fab0313a3cc5defd35486735ac5c6e63b290d554fa296e95bfa60eaf0"
+    },
+    {
+      "case_id": "final-eval-032",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-032/hash_text",
+      "request_sha256": "6b8fa4ad5312c9fa2e5b516cf177d3972011d17fd70621d98aca057bb2d327e4",
+      "measurement_sha256": "ab96259d1fc5aa99980382a22d7e65d7981aa3981ea9293ab9430851446089cf"
+    },
+    {
+      "case_id": "final-eval-032",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-032/compact_text",
+      "request_sha256": "3793f99c4e51f9348fea29539ee89023e65fe521eaeea3f90a70e0fcc38bb00c",
+      "measurement_sha256": "471333aa9a28cfcf666fca18cad0c63959df9f41e0f67b932c8b27786e25027e"
+    },
+    {
+      "case_id": "final-eval-033",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-033/optical",
+      "request_sha256": "df189da6795fd98f75d87d2b59f33379ee116a8024eab8bc47802e956a0f6412",
+      "measurement_sha256": "1918a81db02801b2b0aba302b210a923e451e4acda55fe230087b8634569efd8"
+    },
+    {
+      "case_id": "final-eval-033",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-033/hash_text",
+      "request_sha256": "81300425972347d8227baf76ba5a68c87681853b348507819bd9da2ecc3ae0a8",
+      "measurement_sha256": "d778ad019d74c74b93e03d6e777911b4eab6299a68da98540760b66982ada767"
+    },
+    {
+      "case_id": "final-eval-033",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-033/compact_text",
+      "request_sha256": "10986745d5597cb1f8d2bcd91cb16860ce735237bcd3a49985a5fb12df171b45",
+      "measurement_sha256": "d0154f84f4ac3485cd8f092e141be5994c7233337bc78125f50ff991a2f41c27"
+    },
+    {
+      "case_id": "final-eval-034",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-034/optical",
+      "request_sha256": "dd8e09e9f35704966eeadfc1d3e78adafb5440631f845ec8c681856ecf101df6",
+      "measurement_sha256": "66087e6afc63888b4d60f2554ba752cbca6ddc81ebc4e15fba246b7d0d4bc1b4"
+    },
+    {
+      "case_id": "final-eval-034",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-034/hash_text",
+      "request_sha256": "c6d72be7dc4f209b0638d605cf4b5d8885c3b7ab26f2e8ac4f7d9d71cdab467b",
+      "measurement_sha256": "71182ce35f907c588405f3e7cf4847f511f608adc52ca32f5e14a42c97a20f3e"
+    },
+    {
+      "case_id": "final-eval-034",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-034/compact_text",
+      "request_sha256": "23b3806dee674c8fed58d7ffcaa45ebf8cbfab32a939fce3b1dc7e1e3757f485",
+      "measurement_sha256": "d02913d01440af81f4ddc4f2701f5ef8f26c49f0478b924efd0b7a0e7629e0ee"
+    },
+    {
+      "case_id": "final-eval-035",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-035/optical",
+      "request_sha256": "8ce7c0207fa5b3dd194702aec597ccc01f6add382d0c849c9997ed8aa06f6fcd",
+      "measurement_sha256": "b70224e4a45fdf2a2b49d7ecb78d9a2034de82e81d7b7ef5c92ce244791db70c"
+    },
+    {
+      "case_id": "final-eval-035",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-035/hash_text",
+      "request_sha256": "f9d957f78235abe31f1d311745ccb8db4edd5c959268702d70cfac6c7c4abd55",
+      "measurement_sha256": "125b4dbae7ee0ef13e48f59f6e819cf3642c0dbcac95ca3d27bf8424252f534a"
+    },
+    {
+      "case_id": "final-eval-035",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-035/compact_text",
+      "request_sha256": "01b99514e5ed41ffcb03f4ca6bc639ca9be7301c5a14416bc44ee480630f23a6",
+      "measurement_sha256": "4e4c2b633b029e677acd23337f92a9677b1c283079deb8cc8a5b32a2a2a369e4"
+    },
+    {
+      "case_id": "final-eval-036",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-036/optical",
+      "request_sha256": "291fd29cd374e93088fdd7dc8ba13ad7383f508a53f806e5be39f6f387a589bb",
+      "measurement_sha256": "797b27e27cc4e3b1eed032fe2811c9e85fc6b7f3918164216e91bc9da9ad5790"
+    },
+    {
+      "case_id": "final-eval-036",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-036/hash_text",
+      "request_sha256": "11554f4d3efa920d9c8dc3ccb073981e9054d6e07ba0f98017205791f537b310",
+      "measurement_sha256": "c28d1818fbcf062b05eba8c1c77aa9e26e13fc10332f925d24d7f013579c7a9f"
+    },
+    {
+      "case_id": "final-eval-036",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-036/compact_text",
+      "request_sha256": "bd81bb5042108218f0a18bbfd6feaa9d0a4fb8923f12c5ce3288590fe69ecfe1",
+      "measurement_sha256": "c45b9b90d2b48d036a7ace60ea0f3e3ae0ada91ed5ebd75fc04a14e8a93ffee5"
+    },
+    {
+      "case_id": "final-eval-037",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-037/optical",
+      "request_sha256": "f0b6c44b5f8ea0186012f0bb62b069ee5c780c388de7ab4255cebab5c4591020",
+      "measurement_sha256": "65ad81c3a0f4160cddbcd6cd7c3302c47dcb1aa6fe23203089c03752ea3557a1"
+    },
+    {
+      "case_id": "final-eval-037",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-037/hash_text",
+      "request_sha256": "59d438384f98c460143a981a0998188057c632cd8e26e7c25b054f3c3673a806",
+      "measurement_sha256": "fcb0168dc44e84dd1dca2cfde45634eca598eaac805622e6fdbdcab998f9f185"
+    },
+    {
+      "case_id": "final-eval-037",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-037/compact_text",
+      "request_sha256": "47170d6909029281789a327afdd4a60efbc7f564cbb09a89a395f269a1ab1fc1",
+      "measurement_sha256": "3adc168624308264cf1fdf501ad9a1675b1d2f9fccc17451559e9cd298dd4054"
+    },
+    {
+      "case_id": "final-eval-038",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-038/optical",
+      "request_sha256": "352657d1942d508909ff6943c7482a4e553e451e8bc404784c234a24a9c3fefe",
+      "measurement_sha256": "ff6058474287e9f99d42d45093fe97a9f97c6e56bdac4df145459ea951aeaf52"
+    },
+    {
+      "case_id": "final-eval-038",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-038/hash_text",
+      "request_sha256": "5dc3f944fd9a5dfeba241f33f2d618a9ac90d812e8d2485a23366f933d4f1715",
+      "measurement_sha256": "5c1319dcc886adff18e9361b8cd19c21e068e725ec404fcfb0e15770288bad93"
+    },
+    {
+      "case_id": "final-eval-038",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-038/compact_text",
+      "request_sha256": "bb7161475072943bdbefa4e89aa9d747aa4d2eb89d59048a50abb74ef9bb731f",
+      "measurement_sha256": "df128f278ac3d6cba9a8ead2e9b2b1066c73dd5924e785c0330e0678fdec82ec"
+    },
+    {
+      "case_id": "final-eval-039",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-039/optical",
+      "request_sha256": "a5582f887fbf7b36636efc7de20e2dca5abf3cce1c23bc0f4a1edec4bc1b22ea",
+      "measurement_sha256": "16bf5fe27fba8c25cb1a88f1c555d5e2e80d3cd686c6c519f99a1fdbf562a4a6"
+    },
+    {
+      "case_id": "final-eval-039",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-039/hash_text",
+      "request_sha256": "f1211d96ed8784db1c0f5d065fdf7f73a92284b1ee492a6692f79c4fe55205ee",
+      "measurement_sha256": "d895e592ef5e081e43e947a0053f44db7506b5de518ecc01c8970ae77d9cad0c"
+    },
+    {
+      "case_id": "final-eval-039",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-039/compact_text",
+      "request_sha256": "9bed5ca9157aac1edfd2bb523284a112e38c79a07846ba7087648d5e9f0872a5",
+      "measurement_sha256": "56a2fe5394dc4662514236d50168a54c1f924bbab0f885427a57fcbb2a0943ee"
+    },
+    {
+      "case_id": "final-eval-040",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-040/optical",
+      "request_sha256": "6ca50a27805dce7bf6bb5a9715a7b3954f97db8c39f9323611b3d03b0cca56c9",
+      "measurement_sha256": "ec9b2194a57989b01ed59fde021fbf197521bac91f5f30b4e6f316d9eb09196b"
+    },
+    {
+      "case_id": "final-eval-040",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-040/hash_text",
+      "request_sha256": "cecfe236fd9dad876605b4b31e5ea540a008c06f5284bc29222852fd60190781",
+      "measurement_sha256": "bf725528daa384af4df3ba5b533121eb44c7efdeaf56e76e21c272f7e45fd37d"
+    },
+    {
+      "case_id": "final-eval-040",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-040/compact_text",
+      "request_sha256": "1f230c534b8a74e9f6ed6930f630f0e921f2d82e3e8178465a6391230eadaab1",
+      "measurement_sha256": "1b62971f2cdb30458ea56c1ca05890caacb8424699c5d99314ff36130d191123"
+    },
+    {
+      "case_id": "final-eval-041",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-041/optical",
+      "request_sha256": "dfedc451da4a738d8e88a79b333b6b070c7ded12703942e29fd98bca4daa0f9e",
+      "measurement_sha256": "c82796b30813a3a21fefc64ea056734bc38a94405197d9aece71bf775114606b"
+    },
+    {
+      "case_id": "final-eval-041",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-041/hash_text",
+      "request_sha256": "4ccd4b177b4b70fa0430efb52afec4c228200a6ac48af50b656502b57ccb4c24",
+      "measurement_sha256": "c93556d172ea9a9ba3857ce10029977bd557da5e2dcc559a740195aa04169de3"
+    },
+    {
+      "case_id": "final-eval-041",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-041/compact_text",
+      "request_sha256": "31ced39194c5eae112f43fd787ef8210c8c09e9c3dfd0aa87fe0ad74bf401483",
+      "measurement_sha256": "25b41a5e8efb8fbd312526dbd3605206895b072dc7a83ff97ae1f26e3137c45f"
+    },
+    {
+      "case_id": "final-eval-042",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-042/optical",
+      "request_sha256": "77e4141de2917692bdfd4a1314136d7939c6f9a9c807fa5cd6eb6370a09071cf",
+      "measurement_sha256": "f5708b1535bf78e64d3a6bf142b33de711c7985afb450bfda80850bfd709387f"
+    },
+    {
+      "case_id": "final-eval-042",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-042/hash_text",
+      "request_sha256": "5ce2345e45dda4a9a2d073f756e383da42801d42e1a241306a417012a6a4547f",
+      "measurement_sha256": "456507c2cd64de770673f1ae433ed92d1646c5abd13b1ca00e40ef068e49dcb9"
+    },
+    {
+      "case_id": "final-eval-042",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-042/compact_text",
+      "request_sha256": "2445e37177e83b4cf0e943fc97768da702512ed0ef78f8986672f5f798de528a",
+      "measurement_sha256": "1bd8cc614308c045d2beaaab13c60d063acab6d3c96a9dfd89fb6ebd0df32bd7"
+    },
+    {
+      "case_id": "final-eval-043",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-043/optical",
+      "request_sha256": "84697fdcc9d3d5feddc319aca7fc583270814a674c1ef49963d5367bc6bd0b06",
+      "measurement_sha256": "909be5545943ec7692375c781942709d6010be138af7a430c6f09ceeafb2a53c"
+    },
+    {
+      "case_id": "final-eval-043",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-043/hash_text",
+      "request_sha256": "eeb96ad5e57a1c5e65fcafc55398653c6d979cd9b3998f137cdc5ea3e1ad6feb",
+      "measurement_sha256": "72f6202226bdd3ada36dcc7e0b7e0c804c9f2b5d41ec65696fb9fa4e500856f1"
+    },
+    {
+      "case_id": "final-eval-043",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-043/compact_text",
+      "request_sha256": "b468bcf7ac450c9fd07f1f1b4ed627ddb7581f0e6ebe8851f064f7b5e006a656",
+      "measurement_sha256": "d624b6443cb8fb6676ab776aca9a298755491bc1f750424f3e9874ab1fbd37fd"
+    },
+    {
+      "case_id": "final-eval-044",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-044/optical",
+      "request_sha256": "5da6919f7a41d6bd8080d33265ca8ee5b72c65be4f9be363e28e45406ef90e34",
+      "measurement_sha256": "edc646fa0917ccf626d0642cf85699d79054c9e25a5a5568ff8a65264b9fcfe0"
+    },
+    {
+      "case_id": "final-eval-044",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-044/hash_text",
+      "request_sha256": "3f8c3c206b462d7f21a89d6cad35e7dc1d1e9d5c3e79d1757d8d1aa87fdb5963",
+      "measurement_sha256": "00b48d9a5250fe07574c0eec42ef00be582b2b0c239782ad46da1fbd3a48fa4d"
+    },
+    {
+      "case_id": "final-eval-044",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-044/compact_text",
+      "request_sha256": "c429f0deb0fa0fa5fd5cb0122b7e96df1001ce578ad2f0688942685aeca553af",
+      "measurement_sha256": "ca56dbe43df57863a6a00decdaef620ec34f8667e12f4ee178d727b5ff35b0e6"
+    },
+    {
+      "case_id": "final-eval-045",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-045/optical",
+      "request_sha256": "b221ebebf48a172e14153aedec637898bba7eebf0bcedf94be2de9de40197452",
+      "measurement_sha256": "f90154d829ad01643662ea836e2d5c73371ca0126235daa0759d4edc2122d3ed"
+    },
+    {
+      "case_id": "final-eval-045",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-045/hash_text",
+      "request_sha256": "f449e7e433b89c1b7d099300536b06c3c54f97e6bc4bf3b93f6c06549d8aa5d4",
+      "measurement_sha256": "0b5ae93a4e2aed6c5b0b479d1d36379634e10ea4da292f5dafb19a1a9350cd38"
+    },
+    {
+      "case_id": "final-eval-045",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-045/compact_text",
+      "request_sha256": "75c27f6a8fb889a86d436a13f6caae286d7e9138f27f93ad983a7bf928c654cb",
+      "measurement_sha256": "fbdf3cd8bfe47b03a4b633fbfc318072e517d00017a693f5087bd8470f202092"
+    },
+    {
+      "case_id": "final-eval-046",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-046/optical",
+      "request_sha256": "e47c3a495064c40ff1a0bf31d2d89c34f95f4e938b58c7eed6eae8ea8b110d6d",
+      "measurement_sha256": "38cea108df8b77462f655e6fe699c411f51933b9971e338edbe73f37de2cf219"
+    },
+    {
+      "case_id": "final-eval-046",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-046/hash_text",
+      "request_sha256": "8d472c44fac28c29e93be8fe5bf19a21acac5e5ecdd754f21e93553c45a33a88",
+      "measurement_sha256": "e2f01d049ebafe9985f41925576cf53259e39c64335acf886f48c32d75890cbe"
+    },
+    {
+      "case_id": "final-eval-046",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-046/compact_text",
+      "request_sha256": "e0f2984bda4c654577cadb2c18a80fc04133efcf053652ecd9045a423976dad9",
+      "measurement_sha256": "dde51c35343d1e761c321f0c5c24485e4ba34260baf2e81614297aa5b2854dac"
+    },
+    {
+      "case_id": "final-eval-047",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-047/optical",
+      "request_sha256": "e5e384c79da36b710216273b14a1b4e7fbc98fa767851324e52fcceb817eea93",
+      "measurement_sha256": "e04e758556ae175227a43cf346ded3cea01fdabeb31f91ba4c4e84d76c878837"
+    },
+    {
+      "case_id": "final-eval-047",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-047/hash_text",
+      "request_sha256": "7ddd43f4ff4be2277889166498be6a75f45585418c858d2fe838c68e2bbc566b",
+      "measurement_sha256": "8a3d7284dd9aff182628049e74b10687af1623bb18f9adcec8ec32372b90d7fa"
+    },
+    {
+      "case_id": "final-eval-047",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-047/compact_text",
+      "request_sha256": "e484b16e7988e6912f5c9436de27d5ee9c8d3a2735eb6436a602ab3603f4e9c7",
+      "measurement_sha256": "7b51e26bbcc67c07ff828106916feced69b07c4f30fd205311780d17469a708f"
+    },
+    {
+      "case_id": "final-eval-048",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-048/optical",
+      "request_sha256": "ce697a728840660543649f0da0d00f83beee556ba3eb0e6f54fd3df3dbf7979c",
+      "measurement_sha256": "0e6170de05e3f430493128d21a7be3dc6457f2afca955bbd63ab2763d743f3c7"
+    },
+    {
+      "case_id": "final-eval-048",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-048/hash_text",
+      "request_sha256": "c178adceed083081afeaa2d6766b709e4c93367c222daa0f6c1324f8e762be8b",
+      "measurement_sha256": "5f0e68063034c9a6b8adef7fb672082359014f542e2558584a2320266745cbce"
+    },
+    {
+      "case_id": "final-eval-048",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-048/compact_text",
+      "request_sha256": "889490d3b0af280a8ab6d8e645b2bc45513bade974bc715c16fb29a6ea55bdca",
+      "measurement_sha256": "480c7739e6cec13a7f2573685ec9af24de7180eb761cc7da9ccff92991278aa7"
+    },
+    {
+      "case_id": "final-eval-049",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-049/optical",
+      "request_sha256": "ed9d07fcff58aa770a3362b58bc6e5a03a6e41a378ce480e00aadc61789fa604",
+      "measurement_sha256": "52b89080b831e7fe9ed88a2ae0681d4b32cec3bc423777ff00b4fdda04936a45"
+    },
+    {
+      "case_id": "final-eval-049",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-049/hash_text",
+      "request_sha256": "3a49e36831a47315a12f30c1d3fe1c47f4d41e4e5564c6e2e29f2d502b3d4fa9",
+      "measurement_sha256": "06363b4dc479827beb50e845f94706d31f401315b2690bf0320ac6024455e30e"
+    },
+    {
+      "case_id": "final-eval-049",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-049/compact_text",
+      "request_sha256": "037eedc3c63967f89163b754fb09ae697204842887c7e38753869d8d630c7742",
+      "measurement_sha256": "ebdc0238b1d9ca25da6fa0626b900a3df59b7ee01ea00753fc91e49def1762c5"
+    },
+    {
+      "case_id": "final-eval-050",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-050/optical",
+      "request_sha256": "71dd1cb456935e244ca4da3da1291346a313d16bdf804f1ed3a7acc692b0082e",
+      "measurement_sha256": "4b9aaeef1bb2eec2d63f4d8f8f777f3a9084309bccd7dc56b7add297c1410716"
+    },
+    {
+      "case_id": "final-eval-050",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-050/hash_text",
+      "request_sha256": "3ba97e72cbd4ef23304900af70a2ae3f94d34b1e9ab54b2d8c8b5880c29e2a17",
+      "measurement_sha256": "c2ccaba7c36dc4595bc3c0a3b1a804aa5a15291ef6f50d3ee2b143814b071df7"
+    },
+    {
+      "case_id": "final-eval-050",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-050/compact_text",
+      "request_sha256": "e8b662dadec84c7ac01bcfd59d82432dbe11fe82365bab1f35f8d5e61bdd0d2f",
+      "measurement_sha256": "886707fd0d92c54d2b1a9d337eeacef4127c0e3b827489e3b5e764c7244afe07"
+    },
+    {
+      "case_id": "final-eval-051",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-051/optical",
+      "request_sha256": "dc8e7d934b42b65e99f0d1cebbb68dbbdb2975a6be408731c2c40b4a9c4adeb8",
+      "measurement_sha256": "4dce3a7b703e5718bb3de54103cf60ab191dcbbb934c2a76d167102c94292af3"
+    },
+    {
+      "case_id": "final-eval-051",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-051/hash_text",
+      "request_sha256": "169d7de3a0c70bbdc51a8ce25f1c66ed43356f663a12535db7f9c7271f5d57b2",
+      "measurement_sha256": "8d1f6ef9206541e05c8e6e7f3c8fdcc1e5864b330b573edf04661eaa093d7c26"
+    },
+    {
+      "case_id": "final-eval-051",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-051/compact_text",
+      "request_sha256": "c9d4842998404b5fde1bf998aec4608b1a3c207b711ac22b997727a36ad43c59",
+      "measurement_sha256": "16ab99207f0e618d94bafbe1458044d2d394dca0add9f95efac8e806c97ab88a"
+    },
+    {
+      "case_id": "final-eval-052",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-052/optical",
+      "request_sha256": "3a4b04382cb39a177d82c3f9e2221341dce929d8dc97a5fbe16c007b3c4153d8",
+      "measurement_sha256": "d8900deea5838b1dd47b45a7f5a8fa44023288c74ca23002e00fba00009f80f3"
+    },
+    {
+      "case_id": "final-eval-052",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-052/hash_text",
+      "request_sha256": "3355d3f3f061b2f08b52dc7429d5e2a70d45b0936848c41f6322691af8f6c833",
+      "measurement_sha256": "e777915b5c8ba2670b134139203144f1d3222ec025a4e9861bcf6c4778ed11e4"
+    },
+    {
+      "case_id": "final-eval-052",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-052/compact_text",
+      "request_sha256": "42027a00d32ad779a6bd8e3a92754cd33d2a86f078544de93547d9d0f82e5c5f",
+      "measurement_sha256": "6981af19855450bc17bbb3f5de8c7f5d5252bfffa09516f9091a5b79c5611d3d"
+    },
+    {
+      "case_id": "final-eval-053",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-053/optical",
+      "request_sha256": "97cb2146ddab07545f9999fb4e7260508cdb93f65e4adfc3a2929c31a08bc29b",
+      "measurement_sha256": "c6cfca21a7553c5f022dfe23e454072de51beb9be30b354193fdd2f41540b461"
+    },
+    {
+      "case_id": "final-eval-053",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-053/hash_text",
+      "request_sha256": "831e9b49ab5d4f18cfc8755e76bed6106450ae51dca6ea46d2bd8d8b80f3cc92",
+      "measurement_sha256": "b715c02fdd2b31417bb0a1c69fffc65544f8ae859637867b0d3d491907bae02d"
+    },
+    {
+      "case_id": "final-eval-053",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-053/compact_text",
+      "request_sha256": "d977205a2fb77eb00e53a1691ea383d78c92c2c200d98c9c675b51b97ddd5ef3",
+      "measurement_sha256": "b21694c6f852d411ed02e9eb899a956cb97b85e9d68bd8a193f036f07a49ff96"
+    },
+    {
+      "case_id": "final-eval-054",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-054/optical",
+      "request_sha256": "fce029d159cd8782cc1ffc4bfa94d852aa90bff95007aa6570afddf4dbf9a4db",
+      "measurement_sha256": "4be99248a6dfa880f0b4440e5892db65dbcf87ef300135ceba7f3eeb49abeaa0"
+    },
+    {
+      "case_id": "final-eval-054",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-054/hash_text",
+      "request_sha256": "4f719a5a9fef95019924e4df5b7ddb0514fbaff203aba1ba5bcb6eee5b562afd",
+      "measurement_sha256": "d2f1133f50edc5a7d1b0ac7bc351a6b5d4cf4c624361acf1ebc44bef63936a58"
+    },
+    {
+      "case_id": "final-eval-054",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-054/compact_text",
+      "request_sha256": "5e3c98c57be29290276c417d816ff57b3605783a906faf7de2a70f277ef610e2",
+      "measurement_sha256": "015293f4f21804831cf2af78993ce80ec7c56482ab54a4842c23b62dd7291e30"
+    },
+    {
+      "case_id": "final-eval-055",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-055/optical",
+      "request_sha256": "92cd0c81e89f71e26f3430b05d2d8a414adde179c388e82c22757d44012eea6d",
+      "measurement_sha256": "73d96d744f6f9e1e8f7e17e97f1870b39bca9139645c98521b610f0c561e064e"
+    },
+    {
+      "case_id": "final-eval-055",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-055/hash_text",
+      "request_sha256": "5b26fff6ae2e3e7bac29708b1c3e3a2210c92405bbd28e84eb46036cf7e29153",
+      "measurement_sha256": "73e99074a1021ec20689e873998f7942731853977749bc7330d9bbf39d3681f9"
+    },
+    {
+      "case_id": "final-eval-055",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-055/compact_text",
+      "request_sha256": "22f605a8f8a04660195dcb871ea51a61292531e43ad076ee87fb2c60a565ddf9",
+      "measurement_sha256": "1927b0b3ea8c2e170d30e5b5b132b9170678cdcbe75786446e9227019092787f"
+    },
+    {
+      "case_id": "final-eval-056",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-056/optical",
+      "request_sha256": "8146a1ab787478561ca68ccb5ab2c2cf4d0b4dcce82e39b41338d1f66a21f2fa",
+      "measurement_sha256": "5c414bd571ca2b21c33f644afddd58085043637039c1099669d8937c55660e7f"
+    },
+    {
+      "case_id": "final-eval-056",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-056/hash_text",
+      "request_sha256": "1f147ddf5e8fb1d65661ebf04f851128ac5e30a32aff24e0c120d079eeb4dd19",
+      "measurement_sha256": "d922f7b6077abdf5e5eb7c1febc8ba0b68c2c117de44039dabc0820409290605"
+    },
+    {
+      "case_id": "final-eval-056",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-056/compact_text",
+      "request_sha256": "ab77f62e60881796bbbe6a93bb33d06a33bcd215dfb13cb2c0672c1f06b3c94e",
+      "measurement_sha256": "dd10d9bfe56d20766359276cde3162d11d1afb3f558adb01b3bca6ef31bb1621"
+    },
+    {
+      "case_id": "final-eval-057",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-057/optical",
+      "request_sha256": "9e16f6eae069f70865874c85af1a1baf6a444ecf7de9184b85827859ddb1b48c",
+      "measurement_sha256": "dad6351d6259cf0552729d835309b32d0f1c3c3801bc0bb7de8567f5dab9bcb9"
+    },
+    {
+      "case_id": "final-eval-057",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-057/hash_text",
+      "request_sha256": "f097f7e9104fb66878c629594a88275da42c1ae2623b73d1fd5f96ef28eb662b",
+      "measurement_sha256": "6f1e9b254896dadba901647a40118cd0f10f750bd90a40320bf93515f4089a73"
+    },
+    {
+      "case_id": "final-eval-057",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-057/compact_text",
+      "request_sha256": "467355e7a1e4a5c627239f88b6d566f55dddc0609eaf015f5348ba94156888ae",
+      "measurement_sha256": "7689d4c8a2a3527bb1ef019e6b9b54020dc83da806af49821013619ea865fb7a"
+    },
+    {
+      "case_id": "final-eval-058",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-058/optical",
+      "request_sha256": "9a85f1aeabb1463cea52e6b48a91e24b5690201ffa3a61e93e05f162b03a44bd",
+      "measurement_sha256": "0693e31c18296b0b41735012a8193c02cce5135e50e4a441a2c19a2f5462457b"
+    },
+    {
+      "case_id": "final-eval-058",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-058/hash_text",
+      "request_sha256": "97e9614cbf8749577e48ea4a4302b87c34c906a9e8cd4a56746e4bf74792bb7b",
+      "measurement_sha256": "eff34bac2bfb4b3db5ce4ab9cc07641654a28602693aad759fd70650504daa8d"
+    },
+    {
+      "case_id": "final-eval-058",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-058/compact_text",
+      "request_sha256": "1f5c9958284834f4a76cdcd3670bd7ce5eee47f4287ba26c000deff3ea272efb",
+      "measurement_sha256": "5159ed3651c589732ef3c9a95957a4582cc342858fd5ada433440f65a66c5e58"
+    },
+    {
+      "case_id": "final-eval-059",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-059/optical",
+      "request_sha256": "99fce26aec5361c163fda302c3e73dcb9bd823a1e0bd52b6c2394ca5a1030605",
+      "measurement_sha256": "d8d21d31cc033497dec18575c42b6d284577795c36d32ba79d6f1b7d4072967d"
+    },
+    {
+      "case_id": "final-eval-059",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-059/hash_text",
+      "request_sha256": "f00587fa60934eaa95c28d2c4f941b0ef8797eece30f271e6de48d7517834add",
+      "measurement_sha256": "0155ed090519b47b83811e5cb9712d6e33685ff7c724633c5cb7712188e2ee05"
+    },
+    {
+      "case_id": "final-eval-059",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-059/compact_text",
+      "request_sha256": "a977009f0a035ca52d95fabbeb167820fd0697485273dc80f70780d1db4e210f",
+      "measurement_sha256": "63ad46e67886756a718c5ea081d2eee1972bd7d46b4ff86e79253745231bb1d6"
+    },
+    {
+      "case_id": "final-eval-060",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-060/optical",
+      "request_sha256": "42ce5db757695659169cc8f5fbd952ab9fc30565dd0e4c490aff56f851172e91",
+      "measurement_sha256": "9fe3d898dc2f10247c107ed732c5f93b0af4231bf842858d68eb49010cee2ed7"
+    },
+    {
+      "case_id": "final-eval-060",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-060/hash_text",
+      "request_sha256": "4373458d8da7d9ef323d3d61c225dc049a0d98f866f92dbfaf712e88d64be777",
+      "measurement_sha256": "3976507d816ba90fc5fdaaea1d559b06c6201a8c14a2b8c72431ae30a2570425"
+    },
+    {
+      "case_id": "final-eval-060",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-060/compact_text",
+      "request_sha256": "342fcc0af6f14b60600167cf635520080eecab682e2b1bb1342aa9c096a64e3b",
+      "measurement_sha256": "c0ede4775f937e235fe3fc6f48440d1832c2681a8ed5937b56aa7dc473333d31"
+    },
+    {
+      "case_id": "final-eval-061",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-061/optical",
+      "request_sha256": "65595e8e1101cbf68ef3ff8982a55eb9826b3c2ea53a4099d420de497e2f1fa6",
+      "measurement_sha256": "4ba6c280a6bdffb3ad391e7613cf061f7d7916c2ba428cbbc9d9e3dc492ed39a"
+    },
+    {
+      "case_id": "final-eval-061",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-061/hash_text",
+      "request_sha256": "9fc30d593848cfd8e102d02734d618f9f359b01147d1862dc7d97e14beb71acf",
+      "measurement_sha256": "763fa64bf80d8d51c9617dcd3d5ef7e0bc24c2fc54795bcca5977f7a0ba49edf"
+    },
+    {
+      "case_id": "final-eval-061",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-061/compact_text",
+      "request_sha256": "66218687802f308672b9735a846c54761e96b1b253b7eced0aa95a6c36e19059",
+      "measurement_sha256": "7e9d23dbe16541d0ebdab869e27316cff9a2ccd7b93c2e354674e20891e724d2"
+    },
+    {
+      "case_id": "final-eval-062",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-062/optical",
+      "request_sha256": "824d069f362dfbfb123e788cffbf704db06856faa744998f417ff91641e9ed2d",
+      "measurement_sha256": "d53f98e5902e68c95d4e1707fa96155a44732331a53d272d418960bcdc6e4182"
+    },
+    {
+      "case_id": "final-eval-062",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-062/hash_text",
+      "request_sha256": "b1eacd8abd311fd08117f7b3837efce2464d36941e187494b1585542b3fff57f",
+      "measurement_sha256": "13e48dc017202b0992df557fd95938cffbf4499743368701a4a2f977c7ca9a80"
+    },
+    {
+      "case_id": "final-eval-062",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-062/compact_text",
+      "request_sha256": "7f0a67fa903341e2e192a8ad7bacc39ce6072c43c8b3c5ff909da169262c74a0",
+      "measurement_sha256": "6f14d1654a0dde45883599c92a28b657ae1a53b276869512f8c6e24eef4b87be"
+    },
+    {
+      "case_id": "final-eval-063",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-063/optical",
+      "request_sha256": "f02cf7c467801ca993c9f3dfae8de483d465e89ba485ab7abdafb276d2c16c2e",
+      "measurement_sha256": "3315848b6a5a428f7679963cd4c96eea1250da49afb5912db4d014bd0e4c70e7"
+    },
+    {
+      "case_id": "final-eval-063",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-063/hash_text",
+      "request_sha256": "06ef0e055392b3dec8e806b9bf2b62509b7fcd9149d58afbe3fb18827ee2d14e",
+      "measurement_sha256": "1ddd843069ae5d839dd2ee1141917847f33d542c60b09b99945cad7bd32c623e"
+    },
+    {
+      "case_id": "final-eval-063",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-063/compact_text",
+      "request_sha256": "c701a55853ee5e92eda46c4939cc56b6e12aaf9d1c6d3a43205a10805f89a281",
+      "measurement_sha256": "f6f2e3075da99843b5f09444ac18375f67b1a1345b90215f931cd5912ae8b366"
+    },
+    {
+      "case_id": "final-eval-064",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-064/optical",
+      "request_sha256": "00d63f26a9a4e64966150fefc28c12e4c4208d37ea6a4927e17f8fa235c8827e",
+      "measurement_sha256": "67cee053f9f4f33fa3df86f199f97c369ca20b0e10bfcd3d5d06dec7e9bbfa50"
+    },
+    {
+      "case_id": "final-eval-064",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-064/hash_text",
+      "request_sha256": "cb451ba8f8aa65fb7b789c383a3c5f3ccd1e6788b2f0f255f524e48ddf9d4a5e",
+      "measurement_sha256": "0114bba487ec5b922686186312580603e43e6ef9d81f0779e870e62476f9e9e2"
+    },
+    {
+      "case_id": "final-eval-064",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-064/compact_text",
+      "request_sha256": "4f794c5c92c6749cb540d64f983c961a728c71bbdcc5bb0f45348f869c4f63c3",
+      "measurement_sha256": "16c2bcdf0c5468ea716453f9ab80b9214886fdbc83d652f354d78f89e4d7c359"
+    },
+    {
+      "case_id": "final-eval-065",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-065/optical",
+      "request_sha256": "58bee16b91da10d7f22c5d4a2f5a54dd2ee59a3561daef448c4869e24f537463",
+      "measurement_sha256": "1a7f0de828fb2625df9369e9996a31df8b33c2185bb6cfcd18bab3410e0c1dfb"
+    },
+    {
+      "case_id": "final-eval-065",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-065/hash_text",
+      "request_sha256": "3db306938af3d261fb82754ca677eeb23f9b0858cbc3f2bd90f0eb8a60940818",
+      "measurement_sha256": "e615dff50c6b95147e9d555734be04ab41cffad3521e00bbb603454224863db4"
+    },
+    {
+      "case_id": "final-eval-065",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-065/compact_text",
+      "request_sha256": "3aa4f4cfb279bc18b906ab3e003d2bc0170612d969491d11d16291bceb4883ed",
+      "measurement_sha256": "f83cd783bb23768023a4a36229e1aff33f113b7f2ab35060c7146992b7c92a39"
+    },
+    {
+      "case_id": "final-eval-066",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-066/optical",
+      "request_sha256": "94d5d4f175c611359dc71585b26cb825cc4fffcf3dea600e90b016b93b5b384f",
+      "measurement_sha256": "ae3ee9c2497cb401ae51a03144bd4e25046442e4091bdd5d120887a4e4992f9b"
+    },
+    {
+      "case_id": "final-eval-066",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-066/hash_text",
+      "request_sha256": "1129c3e16825307864bcbf25b630aadd83dc243bd5c07fa565226990da0c0d52",
+      "measurement_sha256": "7165d39a00593c2ff41bb6dd0bd02f436a66169f5556e1c8cebe2142838f73fe"
+    },
+    {
+      "case_id": "final-eval-066",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-066/compact_text",
+      "request_sha256": "bcbf4e948c2b647b3d93d816213b929729fdadb1ac588ffd899410de8c890240",
+      "measurement_sha256": "3ff17a07ab905252c86e9e98a1859a394346a9c2f5abbd2c45e80abd1bc524bd"
+    },
+    {
+      "case_id": "final-eval-067",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-067/optical",
+      "request_sha256": "983aa9fdda3aba2eab53c7059fc3e16d605ae582e8c3eefad7203016f2ab403e",
+      "measurement_sha256": "7c32473f5190b6a9e79007610de6c72e6845b5c6b9e5a41b6f82087cf011049a"
+    },
+    {
+      "case_id": "final-eval-067",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-067/hash_text",
+      "request_sha256": "70326ca7a4a3a0cbdccec1b8355579c95030c1fdb1e84f948158d885ace44ff2",
+      "measurement_sha256": "c27bff4febe62c4cde99f36a154593660177c4e2c985a04287c13d83a0667360"
+    },
+    {
+      "case_id": "final-eval-067",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-067/compact_text",
+      "request_sha256": "7bcb0a04db0a8dbad543cedfe44d55b6313e3c7552ce98b1caaef57dfbc4a8b9",
+      "measurement_sha256": "ba1d134bb5d80c82b0ff06c0fc93f5daacea11f99da0b008eefb403152bef2e3"
+    },
+    {
+      "case_id": "final-eval-068",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-068/optical",
+      "request_sha256": "eb72c1a08eab58c833b93ed2fa71c4e7d77d6fa279152bf2292897ad2af0d743",
+      "measurement_sha256": "98d5e532976e40193fb3fb05f96c2fc9d6e945861bb1894c032b95682b5604df"
+    },
+    {
+      "case_id": "final-eval-068",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-068/hash_text",
+      "request_sha256": "4d02822b88d87f8dc84db64a6b31f39a75c1412164a212fb72bb34e5da12aef9",
+      "measurement_sha256": "ed1a8435c8c546a6651bba7cb2db3d07402691407e309290bafc13ea681642fb"
+    },
+    {
+      "case_id": "final-eval-068",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-068/compact_text",
+      "request_sha256": "34d2feabf26348b621d3f59c6b1e4025d0885fdb9be2c5f58f31753bedb0e1a4",
+      "measurement_sha256": "bde096a001d34ed91865f508e837fc731139be0b3978c346b0951f7e7709a040"
+    },
+    {
+      "case_id": "final-eval-069",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-069/optical",
+      "request_sha256": "25205f1a117489e08ecce935dcf8b94d771db82513196c71abd61d233e28887c",
+      "measurement_sha256": "7b4e2c215f7f3db9d0c9374107f2e5b26dd07f263c3a9957062a25131836927f"
+    },
+    {
+      "case_id": "final-eval-069",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-069/hash_text",
+      "request_sha256": "68e1dd572b65714187f0ecf13a6f805bcedb31a54b208ef2267bd8e5a3c9c3cb",
+      "measurement_sha256": "89176896c85ee22ae9781a21199545b19f55bc394b9030157cce62bf532122bc"
+    },
+    {
+      "case_id": "final-eval-069",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-069/compact_text",
+      "request_sha256": "ae2191d0808da08de0fa3ac5bc6ee58ca16f8a8fe6920637375762ecc0fd9d2e",
+      "measurement_sha256": "902c0f638e80f7cad26a772c6cc6f337853f2f931037c1bf7c3c8b34309f86c1"
+    },
+    {
+      "case_id": "final-eval-070",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-070/optical",
+      "request_sha256": "6fbaad0947f578528ee38d965d04314b4629f7a87afb5129b38a59897822b69d",
+      "measurement_sha256": "4b506a675437a2500dc8accc6926d18f7dfc4023ba951c60813647a2fcda28d4"
+    },
+    {
+      "case_id": "final-eval-070",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-070/hash_text",
+      "request_sha256": "7126be2a64b4f4fe3cd69bcf80f9f55e1e59d92ae73d672a7c2f3c20a78a5654",
+      "measurement_sha256": "8cd3ff77a46989e9394ca33ff24745584e4fca3c5b3ace45bde5a723d1fc650d"
+    },
+    {
+      "case_id": "final-eval-070",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-070/compact_text",
+      "request_sha256": "b2981851e60eeaf795a0af888d2223053cf3cd1f9625d575e96618e23902489b",
+      "measurement_sha256": "f4c1315636746674a6ab0c68b2d460a622037bf5d7b5a9ccd36e7ef4140eef2f"
+    },
+    {
+      "case_id": "final-eval-071",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-071/optical",
+      "request_sha256": "a6a831a8317bf368d263c5bab121a3b1a7f71ebcddf3f8c5e3e9d826b768205b",
+      "measurement_sha256": "de0e07b9a76c367684e9e2562333c9ad83a4ee55cc07bf7781db1ec1aee55dc8"
+    },
+    {
+      "case_id": "final-eval-071",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-071/hash_text",
+      "request_sha256": "0f487f3b54633ecbff4a264f364c31742b81826f57fc9fb270930196b5f63505",
+      "measurement_sha256": "9578ea122d0ab1a3a204578889b876b4cc7da98d4b99143588ff9fba3af56934"
+    },
+    {
+      "case_id": "final-eval-071",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-071/compact_text",
+      "request_sha256": "76752a6313970b77e732a3009b473da762a1ea40f29296e1c2a562ca5b1f9eaa",
+      "measurement_sha256": "7a001ff4f8946cc76116e7195f4978287197a9a01626b092aa790330b999a9ab"
+    },
+    {
+      "case_id": "final-eval-072",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-072/optical",
+      "request_sha256": "bb34fa9c08aaa90660b19491659a5e06b0646e72614ddf9e923889b4df70dd99",
+      "measurement_sha256": "1024988416bbda5072dd3b83b37431265794ac49f811d3abfd8745bd3e7c3436"
+    },
+    {
+      "case_id": "final-eval-072",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-072/hash_text",
+      "request_sha256": "076486dee43276aa80d6ac76409cfe26ca09026b44e6754d36a33239789ed835",
+      "measurement_sha256": "67acc0796e51c617139da7e19f5e9146e6ff92af256870d98b5517032f7bbcd5"
+    },
+    {
+      "case_id": "final-eval-072",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-072/compact_text",
+      "request_sha256": "7cf052efb90d6c43944058721edf142259462594c2fdd760d6bcbc8790bebb06",
+      "measurement_sha256": "e04932e8cbe892629f3600d21d9c27fc3f6bf159a6ee9054aa78b4bf41c68eb7"
+    },
+    {
+      "case_id": "final-eval-073",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-073/optical",
+      "request_sha256": "dc57372bc260565dd69f69844e1de939e2ec967525d2ef4443e86c77bdb627ab",
+      "measurement_sha256": "18ae5e083be5accabe22c0ad8c89ffad356382efc5b5806f8ee0123787022773"
+    },
+    {
+      "case_id": "final-eval-073",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-073/hash_text",
+      "request_sha256": "009e5fb8d7940eec14b3c03c2b1c8eb1ca240d2c4e7a0c1786715032929c647a",
+      "measurement_sha256": "bee1f9a7ae3a9a9098442539afe46dcf3ccf7f55424970c052852c42273ba5b3"
+    },
+    {
+      "case_id": "final-eval-073",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-073/compact_text",
+      "request_sha256": "64bce6f64641231a7a47caaf199ce5b44c72fb729459122d18297d5f2fd9a743",
+      "measurement_sha256": "9ea7413f2b7dafbda26cd2e997e6a6627200b9753c6e9d60097d33d31c416428"
+    },
+    {
+      "case_id": "final-eval-074",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-074/optical",
+      "request_sha256": "046c32e21e733463c0fb0c5715c5122a792b008c122e3c37f12a1cf2296dcbac",
+      "measurement_sha256": "5e49ad3175a24a7892373ffa82c2609d9bcd5f542286e559e781e7f2b35de18c"
+    },
+    {
+      "case_id": "final-eval-074",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-074/hash_text",
+      "request_sha256": "e422cdb3d0f2c89f385acd93699941c43202f3e927e9f411a68ed0c295cdcabf",
+      "measurement_sha256": "6c7087ed1a53c1236d160c2c8a96389e8b983640b7f08348f580ade5f75d81e7"
+    },
+    {
+      "case_id": "final-eval-074",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-074/compact_text",
+      "request_sha256": "137a904691e022657c29500fdea35220294596b0bfce1369700e011dfa9fb472",
+      "measurement_sha256": "2d2a9ff4c71835d34d87530b2fbac82c94c2a7b2165b532dd39972849a8479bf"
+    },
+    {
+      "case_id": "final-eval-075",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-075/optical",
+      "request_sha256": "ad92c3355be61929f3e2ee21613d2eed9668162c97163b9a4342a19638b9ce23",
+      "measurement_sha256": "4b8e331cae393f3210c9a9aaf4ad3a65bf94038816dbd622a6ddbb15b8e8217e"
+    },
+    {
+      "case_id": "final-eval-075",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-075/hash_text",
+      "request_sha256": "9d0b0d30ac240a79e9a4db5c026ae7f8a6839fe76ad3e62d6ab06548ebf60ad9",
+      "measurement_sha256": "565f8136feb0f204958facda823c47163af07288989793bf5f9e867295a90868"
+    },
+    {
+      "case_id": "final-eval-075",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-075/compact_text",
+      "request_sha256": "6e390c79b83b496ffa993f217f285963099f1bc1d7f027ae42a1ca9adb94daa3",
+      "measurement_sha256": "20646347c1ab34ccec21f4a4ce38bc9c6b0d86377af92ffaf5cabd499fa8cef3"
+    },
+    {
+      "case_id": "final-eval-076",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-076/optical",
+      "request_sha256": "f4fadf82a487be4f03dc5f9d11b7dba6cef05ce05ac3fbc938d8b6de72f0d44d",
+      "measurement_sha256": "3f684363d7646c1d7016ac15f90ec03271efd72ed64dfd82fcdf5c13f1d48757"
+    },
+    {
+      "case_id": "final-eval-076",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-076/hash_text",
+      "request_sha256": "d52a10e4f37ba62b2abb0b05f9ccc00948f0415404ec202f0adafb4df6ce7f8a",
+      "measurement_sha256": "92851bfee000b29cf913ce17d3b859283a461a2b640860b6d7ad1aa42229544f"
+    },
+    {
+      "case_id": "final-eval-076",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-076/compact_text",
+      "request_sha256": "117c5893d1212c58730ca854d9b23ee6756831eadb14df2e153d5f73acf31be2",
+      "measurement_sha256": "5ccfb061c117e81fa50a757e6c52fb1e65fe424e0b642f28fb13fbf71a901ff4"
+    },
+    {
+      "case_id": "final-eval-077",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-077/optical",
+      "request_sha256": "a8567ac100eb794badb7bf0aa4f301dec64ef958c964d2ade9a71ac1dd43c37e",
+      "measurement_sha256": "077f7cc1c8e61c3cb9b1ddb81445bd7927b8a3beb60c5ed2a4b7e710b809f74e"
+    },
+    {
+      "case_id": "final-eval-077",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-077/hash_text",
+      "request_sha256": "49e4a97fce94e54e7b6b40b08eb7d18a0bcae7aae1b37dea75904efd1dd34f96",
+      "measurement_sha256": "585a98257d727df2e09ff485aacdc4666830411b0cf3567ca740c3bc392b968e"
+    },
+    {
+      "case_id": "final-eval-077",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-077/compact_text",
+      "request_sha256": "34c7bb6465d9ce9d46c1b33704f51224b0661eb28c83fa5dee7351e9ddad4fb6",
+      "measurement_sha256": "deed868b2d2f8f1695c70c50b2ffc94810d7332bb70c0dafab8acc6a7f2406f5"
+    },
+    {
+      "case_id": "final-eval-078",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-078/optical",
+      "request_sha256": "b3f00b86391b51d6b5f3be853220871ea914b0e1457c16fbed6ac0ce9c11dfe1",
+      "measurement_sha256": "55a47c2c55320713f333f4be92c9e1a58d37ebfbf92c82d2ee0d52c8c6a1bcc2"
+    },
+    {
+      "case_id": "final-eval-078",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-078/hash_text",
+      "request_sha256": "967840977366ac8897810e03942e6fe8dc29d1d1e6eb73cff5288475d929deaf",
+      "measurement_sha256": "e6541234d08e035afcc6d3d25451b29c35b124346e2e85e0836a9391e6d7e137"
+    },
+    {
+      "case_id": "final-eval-078",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-078/compact_text",
+      "request_sha256": "5b436961717f651f25ceb86c2c56a49fd9d9c22e9d40b77d0ad2d77e6cb70612",
+      "measurement_sha256": "781885e0bfcddd1b7fbdf26c9fbf03599de771a6a01200d7dcbc7078ba6679b3"
+    },
+    {
+      "case_id": "final-eval-079",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-079/optical",
+      "request_sha256": "77128b74ffafe687c46dbdb3cf67222046615bdfc987ae6cd3b6161984aaef08",
+      "measurement_sha256": "089db84b13518cc39b76ada401e0b3eac36d2a5acf10645e7f77c08256b4bb30"
+    },
+    {
+      "case_id": "final-eval-079",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-079/hash_text",
+      "request_sha256": "7c04ee36aefa7fdc2a191eea0753a545431e32265cac0881e81f45ebaa131a21",
+      "measurement_sha256": "3ffc7a5b063a0920954fcc78e64fb14c0a8b4d3c7f70f8ce82004e6a1a44b197"
+    },
+    {
+      "case_id": "final-eval-079",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-079/compact_text",
+      "request_sha256": "ce1ce01ffd3f43b2f4b4b136afa48631054875fa87abeec91d02d7c587c74fbc",
+      "measurement_sha256": "1c474567654aa11292c1f9addd79b42e08f595a886ced392a11ebc8e75f2aab6"
+    },
+    {
+      "case_id": "final-eval-080",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-080/optical",
+      "request_sha256": "89310e4f7ea927bfc829c29bfa28c7a0c85f9e09de533a1e44c07c081d35590f",
+      "measurement_sha256": "d54baaf80d73b338fd36895ae83f9928a2d5ad29b34bd1f66ddcfc048fc27f47"
+    },
+    {
+      "case_id": "final-eval-080",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-080/hash_text",
+      "request_sha256": "88c0cdc8fd477bb46edf62f427a36eda4b5a03ff6cb34cc882a80ae61c312f55",
+      "measurement_sha256": "786aec63f243fc04070d47a5cd08caa90b13c839c86f9d55a421e6b717ac2cf1"
+    },
+    {
+      "case_id": "final-eval-080",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-080/compact_text",
+      "request_sha256": "f0a4a01f747f10e0a3bcba8ecbde27f9f630e4ae6c6ebd4865e8e07320bae0c6",
+      "measurement_sha256": "1a251edf012283696d0535169e8c2d97fc549f1a7b44563b2ba21eb6198dbe90"
+    },
+    {
+      "case_id": "final-eval-081",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-081/optical",
+      "request_sha256": "6d5cf2fb29a51aaa360ba4bdc82fabca91771bb9ac9947a346f6c3818663d462",
+      "measurement_sha256": "48386a4e9dcd1921b6512fdfc400bca7ec7ba46e00b40763e114b8d71d9f6dc4"
+    },
+    {
+      "case_id": "final-eval-081",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-081/hash_text",
+      "request_sha256": "720f9f80aa5a347514e76fd3e57eb03088083aeac4ab2c3eca3349b3bf944e0d",
+      "measurement_sha256": "1b3d9d745c05946916ba936c52f70af53dca55dcb0573e48f36aafa8d5da580b"
+    },
+    {
+      "case_id": "final-eval-081",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-081/compact_text",
+      "request_sha256": "e201fdbd2d71c33dde347211f5c3b1f4943ee17a64d7d924c74a62ec41b2042d",
+      "measurement_sha256": "667f6bee18ff606d866c81c96e4bbb4ffcaa8ae5bccca83e10d87c1c0710635d"
+    },
+    {
+      "case_id": "final-eval-082",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-082/optical",
+      "request_sha256": "6a7334c7d05aecfe4068366498c17db10a8080ad57c9266add32b1e8e3b2b594",
+      "measurement_sha256": "c3b9985d03cd7a4f8d8f0c6d16a928e645f64e8801f58f9a152077b177aa31f9"
+    },
+    {
+      "case_id": "final-eval-082",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-082/hash_text",
+      "request_sha256": "ab4fc38fca1e27360ced87f9d7caa2a704586cec16d2007a4b8c3ca29bd7a456",
+      "measurement_sha256": "f0cf18d552bd21f323cd64105cd37a3948ed777883e67e7b8dba56de392f97b7"
+    },
+    {
+      "case_id": "final-eval-082",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-082/compact_text",
+      "request_sha256": "e656aeb44992fd0b343dbfd0eb8b426dee9234628bd20b5162c7a237dae3d0d0",
+      "measurement_sha256": "cc5ef8940a0e0f0739a862b509782180640130dcd6e2429eb4ae2050700e4498"
+    },
+    {
+      "case_id": "final-eval-083",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-083/optical",
+      "request_sha256": "6ee4d8d0e6e68961249b4d5054e5e63e8873830db533a87e3fd33b0e8d36fdab",
+      "measurement_sha256": "86536ed724898acb8a822ba9cf49a1f707c1583761ce5ce376a9b44cc5534be8"
+    },
+    {
+      "case_id": "final-eval-083",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-083/hash_text",
+      "request_sha256": "806a4d9a81b7a15da6e5dbde677c56d2c474ee61b22a41bb74ff028108aee69a",
+      "measurement_sha256": "791c6bf214e55d720c30f31d62424abd505273e395dba8d765fa97be2c97dadf"
+    },
+    {
+      "case_id": "final-eval-083",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-083/compact_text",
+      "request_sha256": "cbc65e5779263656c15f7d0b5be424c16ce2faff8c9e43b56e3ae95b05b1d5f3",
+      "measurement_sha256": "152b1f531aa69ad02a06ec352fe618af59df6196093ccc9374ce2b08ee570461"
+    },
+    {
+      "case_id": "final-eval-084",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-084/optical",
+      "request_sha256": "03497aed61cfb1bfff436985a0a451f5750c405b49a80714e4f98e16806c5c56",
+      "measurement_sha256": "414b7ab394603f9c86e2f3632f05533a12497945f19b051fd45d86fd19426c83"
+    },
+    {
+      "case_id": "final-eval-084",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-084/hash_text",
+      "request_sha256": "f621f0e87b8d8d55cfba58b14b037dd6d3e0aa9e70b789ee1ad0956706a8b5e9",
+      "measurement_sha256": "20ec1b01f5782b295ac7213ea6d7d4b3e3c9628fda34ba99e51b366e80a32db8"
+    },
+    {
+      "case_id": "final-eval-084",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-084/compact_text",
+      "request_sha256": "8d2c005f28d8c9a0502a424bc8ca476c96a1330ad30bedd0200e91af2f190914",
+      "measurement_sha256": "17f4472d13f587243dd8d1c7e79349cd613b0c24b8003eae02b0cd3c2be16e8b"
+    },
+    {
+      "case_id": "final-eval-085",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-085/optical",
+      "request_sha256": "3d9d4e072a685a185ae1f754adc6cbb50d945dee32994930deceab4deb670bce",
+      "measurement_sha256": "e351d803d1b52414aeb2c890c9e49d47af6b51a6068095ee1e697431b7ae30f2"
+    },
+    {
+      "case_id": "final-eval-085",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-085/hash_text",
+      "request_sha256": "67cba37c235fd7186698abccc67a0622bc4dd8a7538953705c7f0c7db0874c4c",
+      "measurement_sha256": "82cc73c590a46964019afa9f54a0057bcd9598da5853551f11da52a40442c9bb"
+    },
+    {
+      "case_id": "final-eval-085",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-085/compact_text",
+      "request_sha256": "a19a54870d73b9ed967a5bda17219790ecf2b48c9d267fd4d4c830d4946e89b7",
+      "measurement_sha256": "62566809240fe307a3b77b2209c46e6d87fbda4146abee1a92e545287db4237a"
+    },
+    {
+      "case_id": "final-eval-086",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-086/optical",
+      "request_sha256": "f37dfb3f6ed051e0267edf16333e5076ce01f76aaef0169cbaca1ea1d19b0756",
+      "measurement_sha256": "c6c94f64f4b60bcda729699b6c879f9870aa6988bd500340e9e561b63f58e538"
+    },
+    {
+      "case_id": "final-eval-086",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-086/hash_text",
+      "request_sha256": "8abba10ce8de7fc6967331c824e4f779a8c08d4ad80c8f63f9c78d11809c21cd",
+      "measurement_sha256": "2a1ad2b2e30ef96322b27e9c4f469b0d8e9672cfbee2495090f77a2a2d330263"
+    },
+    {
+      "case_id": "final-eval-086",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-086/compact_text",
+      "request_sha256": "b3024e7c4f0d59772533714b4738905db36f205e96357abbe00251e4161f4ba5",
+      "measurement_sha256": "e90b69d113780a2a4ee5609c5ec4a71dd05c2ea2a4f54bba24bfaedc664caa32"
+    },
+    {
+      "case_id": "final-eval-087",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-087/optical",
+      "request_sha256": "090329e85999456d309d0c0ea74a002324b70a8a5f17f9b5df569241800c54dc",
+      "measurement_sha256": "6c7092c4e31d1d51db24f225d83b9600f40463b2ca9532d846895f90797bd20d"
+    },
+    {
+      "case_id": "final-eval-087",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-087/hash_text",
+      "request_sha256": "9d0b2efaeee1e6e526368c66dd3cf9b2226719217d6de3f03a97685ea3043eb1",
+      "measurement_sha256": "c959d465b5138d12a7c087e4fe731e3c3bda1ff0182c4cfcec8b53df207db25f"
+    },
+    {
+      "case_id": "final-eval-087",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-087/compact_text",
+      "request_sha256": "7660647e1fe39c08ac58d47f3288af1ebc8f46de65754c67eecbfce5f5e7df44",
+      "measurement_sha256": "4e99f92327356a5fcd58ce898255d4a0864ad2101794bc41b9064e31b23ca455"
+    },
+    {
+      "case_id": "final-eval-088",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-088/optical",
+      "request_sha256": "5fbd986e6d9276b5c4aa883d83d4bbf1da143d44ae1e8f5aaf38da56cb909584",
+      "measurement_sha256": "8b61b170d6087541c1b3fb388eef30265f99e76bef53257ef2000f2d1cdecb91"
+    },
+    {
+      "case_id": "final-eval-088",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-088/hash_text",
+      "request_sha256": "87690a854394c7e1255627a13ebee17ce160eaa9f6f5f0c4a5e4d560e5b4f472",
+      "measurement_sha256": "c400287f7435d0bdf99cebf755e6f3c1ea95237780a14ee9bb277e1ffa434ce9"
+    },
+    {
+      "case_id": "final-eval-088",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-088/compact_text",
+      "request_sha256": "bbabd16ada7b7352dab6e18da1c498f3ae8864bb5014644dba437ccb3032a2ad",
+      "measurement_sha256": "610e7b9ea83ff21488e9d2ce4576a79bd64b1bdbacf70c1fa62815603a38be93"
+    },
+    {
+      "case_id": "final-eval-089",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-089/optical",
+      "request_sha256": "e37dd3d4c9f8dd632132997c9916c4b61ddeac61b1be9a8ebd57c4efc2fbda66",
+      "measurement_sha256": "d5002c49e47c992f269c02062ce1b6bea622774b073f4b54e5cba5f46c84415f"
+    },
+    {
+      "case_id": "final-eval-089",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-089/hash_text",
+      "request_sha256": "ca77af922be7fa02740e1565b78676a2387f5306646b160a15cec76ea6c5baa8",
+      "measurement_sha256": "8adf7577f5fc10c08f46568176e05d3b6535e17bb135da7a3b887e7bac2bbd79"
+    },
+    {
+      "case_id": "final-eval-089",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-089/compact_text",
+      "request_sha256": "fb7abb08744192ac890238b07eb9169b1260c1dd5db694e746bf35fc6b51130a",
+      "measurement_sha256": "a03ec2fe037a92d5ee4a303588e7007623fa37de4e9ef9a9a4ad2713da20ef0e"
+    },
+    {
+      "case_id": "final-eval-090",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-090/optical",
+      "request_sha256": "cc9564054a1ad3898dc1da241cfec2ffdfd1f52532ba784767a5afb3a9fe0923",
+      "measurement_sha256": "7fa1faddd176fb3b4a7c768a2f5734cfc8d115697a9476455ba911409048367d"
+    },
+    {
+      "case_id": "final-eval-090",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-090/hash_text",
+      "request_sha256": "d90ed4cb8e597ae083c45a1b6867f4f1c575054f487565783e0ecc31987a2de3",
+      "measurement_sha256": "9bdc63377b67871711557fc05ce7b88cd490a0456ecc75ccab94eb539b9f99c0"
+    },
+    {
+      "case_id": "final-eval-090",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-090/compact_text",
+      "request_sha256": "4b9db14ab61e4cdffe15edf56623312e13487ab7af092b14b7027db71ed196c5",
+      "measurement_sha256": "4c369cca6a9ef091a93659c00bc5a81d00f5e66d28ad5daa4369e542fe501078"
+    },
+    {
+      "case_id": "final-eval-091",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-091/optical",
+      "request_sha256": "29e44076bc0756addcbe89d373227b3c591eb2b8f4bed19cf0f3f4d69ce1998f",
+      "measurement_sha256": "09b008ad7b155bd8c8e7f10c50296b0f01adfe2a69a25d8e2afb573b99701482"
+    },
+    {
+      "case_id": "final-eval-091",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-091/hash_text",
+      "request_sha256": "2a155821d5e797ecf698c955dbfd267cc42c38cc06da3481494e2606e8901fbb",
+      "measurement_sha256": "82c3c10c3439c99a400e7031a3bd28d29202bbc1257547ac6615732cf91cae11"
+    },
+    {
+      "case_id": "final-eval-091",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-091/compact_text",
+      "request_sha256": "6bcb6a8be8a0ab6e9857c8fcb5d5c374ed63a24202867d4ab08bee446de74d82",
+      "measurement_sha256": "175db0dfab48586b8b40cecac04eef44ff460a4ec6849e68d1c66ebd1cafb3e3"
+    },
+    {
+      "case_id": "final-eval-092",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-092/optical",
+      "request_sha256": "d1a62da4126a4c319c3675ce47395e5cab5aadc65973fb2bfbbe6331fa047390",
+      "measurement_sha256": "6420915fece3a0ffda5a8fa7c284f789f00ea30192251a541362ddc537687c83"
+    },
+    {
+      "case_id": "final-eval-092",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-092/hash_text",
+      "request_sha256": "9b2fa72209342dea88a1855b11f8b4f7df7a1787be19da38210c308157d60b71",
+      "measurement_sha256": "d34e3ce14728bdc2b2df713840cbd219e435df4a5516b928fb749c0bf48c9f2f"
+    },
+    {
+      "case_id": "final-eval-092",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-092/compact_text",
+      "request_sha256": "820cf6fa6e44a1c51c79c8a4c79bccee5c5af8e2269027774b722c534e81e17e",
+      "measurement_sha256": "588a91d2c97e792a10f6d189890c1a7d6c861fc8115fecf558d7f05f265ac364"
+    },
+    {
+      "case_id": "final-eval-093",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-093/optical",
+      "request_sha256": "155397edfec57c32a17f05df12d234bedabe1a4a6a958d689a3b1066e1a362db",
+      "measurement_sha256": "ebd4be298c78839c76ee60201c45eacef31e53e2553d82a4be99f62f8997e50a"
+    },
+    {
+      "case_id": "final-eval-093",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-093/hash_text",
+      "request_sha256": "beea60514f9ac41ba015f24ae7e526de214d39edb33b1b12fed9aa3631682749",
+      "measurement_sha256": "33f520c06799461e9178b4366ec8048662f0d7d74a0197ea48c3870a3d72836d"
+    },
+    {
+      "case_id": "final-eval-093",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-093/compact_text",
+      "request_sha256": "cc39c31e82e58a4e669ead044cba6941ba41c02965ee34109e09ffd048e6d7c7",
+      "measurement_sha256": "2db2f342fe3679962d7e19cc67cbfb9f73d48cdc1fbd2f34a80121313cc7198a"
+    },
+    {
+      "case_id": "final-eval-094",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-094/optical",
+      "request_sha256": "97ccd34004f7b9e3a8a85bef0c7975d7e3f32832e9d784c37df9b9f4e6a1c6f7",
+      "measurement_sha256": "9d6f504aa8b7fb4f9358ce5d8fa40a3eadb49ee295cededbc0bc41a63024b3b2"
+    },
+    {
+      "case_id": "final-eval-094",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-094/hash_text",
+      "request_sha256": "6262140e86e3cd2cacaa7d2224093cf5aeb9b4c3af6d16e1325ff320bc97cdba",
+      "measurement_sha256": "7a25e03db066b0b3bc58ecc8ea65479c64d66c4f4fd64cb44976e350299a9501"
+    },
+    {
+      "case_id": "final-eval-094",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-094/compact_text",
+      "request_sha256": "e94a2ce8fa097d6d8c548fe00f651a2855f0bd862e53327e7ec005160a5eed47",
+      "measurement_sha256": "6bfe8b32947b8ad891e5b6b617497a1c05f30893b05eae2731e9d5f2bb8ecc51"
+    },
+    {
+      "case_id": "final-eval-095",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-095/optical",
+      "request_sha256": "a9f44433dd033bf5e071d1e0be25e98be4c5ffc7c0c2c72103f61c6debd86d08",
+      "measurement_sha256": "8ce97572d3efb48bd1758eb9e4321ea397e8f3bfdfb4cd6a946252eb343639f9"
+    },
+    {
+      "case_id": "final-eval-095",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-095/hash_text",
+      "request_sha256": "396f17b5a72e8ee31541b718070eab663b8950e5b373c2ca7be1453173537a61",
+      "measurement_sha256": "cd03fac73336282f9775478bdd8aff08ad3566b617318c4f70ec7296f3511712"
+    },
+    {
+      "case_id": "final-eval-095",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-095/compact_text",
+      "request_sha256": "7e8130be7ae91ab7f45dcf9afc65f1adfe25a34635b706b616e7600c59d4de39",
+      "measurement_sha256": "ae8fc625918bac7d80b571b3b813411f43e236ced0b14a921396ffd5918a5568"
+    },
+    {
+      "case_id": "final-eval-096",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-096/optical",
+      "request_sha256": "e3bbd77fc3c9bc1e16c73575fb284ee9738a92e27996ae1a80b20ad4271be9b7",
+      "measurement_sha256": "9d102f4b4ba1ff8654331a69a8a6b4495a9b52a562220b1ccb345820f54da753"
+    },
+    {
+      "case_id": "final-eval-096",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-096/hash_text",
+      "request_sha256": "8af1a4786a8d5e88bcf21ac9e895276261016fd32657f216ca3305222b1accdf",
+      "measurement_sha256": "bcba90c928d175105c77679b28d5f7c6fc8debc744abb2212f72822e146a8a50"
+    },
+    {
+      "case_id": "final-eval-096",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-096/compact_text",
+      "request_sha256": "e1f7cabaafb947eb28bcaf070b4584ce24df2142cf63eac73e72c78c73acefb1",
+      "measurement_sha256": "6ac16b77e71388bc2f4b222fe35f50e21fee6e707d5461e8310e4d211d7716e9"
+    },
+    {
+      "case_id": "final-eval-097",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-097/optical",
+      "request_sha256": "82b2fcd2095fb4354da737ddc18c1bf01f5e745da18c227894d7e2c0deaee5d5",
+      "measurement_sha256": "5f17aa83583892c2e2d7c90b81b2d7712a60627c54087555b56971726a0ca9cb"
+    },
+    {
+      "case_id": "final-eval-097",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-097/hash_text",
+      "request_sha256": "f2bb488c095a8d0b33d9f8dc37cdfda879ebe3a9513aafd6a4c54ebb5ee5ccb3",
+      "measurement_sha256": "f991b91b72894d0ff3ef15ec0f1aea070f051113b9bf20eef8d65c4d8c4cd359"
+    },
+    {
+      "case_id": "final-eval-097",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-097/compact_text",
+      "request_sha256": "b2d9d86aa5832185b66fcc6dfe61c08244b5906169fa48c7036c954f85ad5f76",
+      "measurement_sha256": "5c926ada3fb83a609dfcd0b1d6315e544090abc52482557a7151f319ee1ba1b6"
+    },
+    {
+      "case_id": "final-eval-098",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-098/optical",
+      "request_sha256": "0adfd03fcfc5e176585a4a9297664b88156e59452b94530921fd4be9a311ffc3",
+      "measurement_sha256": "d5056fe24e433f150c64353d9098153b28007f1626268ba4ad33ed40f0cfaacd"
+    },
+    {
+      "case_id": "final-eval-098",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-098/hash_text",
+      "request_sha256": "decff4f9c883628047981241c4ec07fe95202b1730202885a8e1deb9277e1a33",
+      "measurement_sha256": "434ee4cd9aa93f4bd06ce0a05c15f604ffe15b1885456751f7fc25d28784c05a"
+    },
+    {
+      "case_id": "final-eval-098",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-098/compact_text",
+      "request_sha256": "16aead6d26773fb5b5c0242cc6a381f9bffbfe3b12c54b11c3e25194b6a06803",
+      "measurement_sha256": "4199e2416382b74c67c056e98b63eb1b5945aab7c9be5a1df83ea229de953bd1"
+    },
+    {
+      "case_id": "final-eval-099",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-099/optical",
+      "request_sha256": "3708cb55717f27bac21e2a2b936308c970766019a74da5ab3f3f07b0f5cffb53",
+      "measurement_sha256": "387c11b2fac996073f33029731d3698cbb6f97eb4cc4a9672f685ca3d2259548"
+    },
+    {
+      "case_id": "final-eval-099",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-099/hash_text",
+      "request_sha256": "aa81b72a3db2d22fe79e7aa20aa573cace9c50ab5a8db35194fe6dbe9e598dd3",
+      "measurement_sha256": "2d04fcb8c4f3f9430db854faab9657bf8cd331133677cd9468110cfd31af95c4"
+    },
+    {
+      "case_id": "final-eval-099",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-099/compact_text",
+      "request_sha256": "b965f2569b3b4a8a1d2f748d73fcc2391a41e116e11b6fa98c90604c8eee4c06",
+      "measurement_sha256": "e611dd2ddee201a222e39786225e4c277f6bc558fca64623cd820b7cbcee8dc4"
+    },
+    {
+      "case_id": "final-eval-100",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-100/optical",
+      "request_sha256": "c1a50af8ff2b8f177dcd9e659eaf8c3404c7d9a58d95cb3127d6064e9cd3e844",
+      "measurement_sha256": "d3734ff234e982f37577583542a5fe3d68888eb6d572af3eed4cc8d3cdd436b3"
+    },
+    {
+      "case_id": "final-eval-100",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-100/hash_text",
+      "request_sha256": "260801dd78d7cfedd3859d8ac1523b672cb79347a8724b771d438bb6d3b7e8e0",
+      "measurement_sha256": "33c124167b56f9466b66cae7254d2141b4d06f0c5a776b4d1cfa9c5f7d55d51a"
+    },
+    {
+      "case_id": "final-eval-100",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-100/compact_text",
+      "request_sha256": "57df74268bb039b8497fa8d69a4b239d155d3544acfdaf16c16e21622ecc6f1d",
+      "measurement_sha256": "3902102bd1faf2453b47b0d0c719454cc9da0497e8259a62649cb97bb5bdf07e"
+    },
+    {
+      "case_id": "final-eval-101",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-101/optical",
+      "request_sha256": "cff48c1afc7c82af908b2f5a9fb3217bd6b39de1d7e4cffa086ae82cba836272",
+      "measurement_sha256": "e54cd7705334754e6f5c30debb68185ccb1f71d2be881e3313126f7ffea2347d"
+    },
+    {
+      "case_id": "final-eval-101",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-101/hash_text",
+      "request_sha256": "c46b857e137847abacba30bad8a76a3ed00e1289881fa7ed34b8a46ea6440c98",
+      "measurement_sha256": "92cbecf5cca8fa84ab17d6acd8b283b00391241f831dab6376a3faa2dc99d9c9"
+    },
+    {
+      "case_id": "final-eval-101",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-101/compact_text",
+      "request_sha256": "817f5ef56127d12fe03eae1b31ebe896a0a4d86f1ffd5b21884a02be4c135a56",
+      "measurement_sha256": "818f0c066d08b54fbf6d26724e95e108b8d04149410e67a1ea9f1bf4d3f870d3"
+    },
+    {
+      "case_id": "final-eval-102",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-102/optical",
+      "request_sha256": "0e417c1d01dbbb1599174a8a3c6f948018674349edee27d2ab68deb33045fd9b",
+      "measurement_sha256": "a2ca6efda12b61e62d168a21cd908e3a5ebc02c3a0c20375f890c04889112cad"
+    },
+    {
+      "case_id": "final-eval-102",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-102/hash_text",
+      "request_sha256": "c9af7f54fb4f6f34f8fd8be447d099f51889ddf6c3054af38e827744787d6977",
+      "measurement_sha256": "371deb2c34b8f4cc21f6ffb47d4922da5bcc8963131f6eccc9881717fe0147fa"
+    },
+    {
+      "case_id": "final-eval-102",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-102/compact_text",
+      "request_sha256": "fec5ac5fab9fd1bc48d2a4141b34a21781cd6bbbb6876a5feca497d0878fb885",
+      "measurement_sha256": "4a3883115d306aa50d3168189e3020337e25f9d696ac398b0e083744f74e1dad"
+    },
+    {
+      "case_id": "final-eval-103",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-103/optical",
+      "request_sha256": "a40d85e6e5f993aeea0cf924db8c81210a6764ba9050e1d30e07c7fc3de4d5fc",
+      "measurement_sha256": "7b267f71baa542c1a0b853b197fb9205ebb0f885db86d18c1e08b85c7977465e"
+    },
+    {
+      "case_id": "final-eval-103",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-103/hash_text",
+      "request_sha256": "a2d9d05e7732c9994f52cbbce34b9c79dfa864d54256e583bceb91f908b6c675",
+      "measurement_sha256": "d5c7b4ef2a7f3402c300c443e5078673ce8ddcf43529c29d6a51d8d397ff2841"
+    },
+    {
+      "case_id": "final-eval-103",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-103/compact_text",
+      "request_sha256": "1b5fde10d11d9ae15e7cd1d243df3bf6cebea65b17c9bc89bf88d7384f8956af",
+      "measurement_sha256": "d43111ca3c338266906c26d60118537b8a09e28567fdb9e40ccfb4246eb60e49"
+    },
+    {
+      "case_id": "final-eval-104",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-104/optical",
+      "request_sha256": "dc5adcfe4f5f96c3ab66e8f603b288f71b7e03cae1ffe4696f3e037f5bb30e1a",
+      "measurement_sha256": "21f9c642cb236ff269abb3d78e80f98641e25a8f120118c8619c0da9e197822e"
+    },
+    {
+      "case_id": "final-eval-104",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-104/hash_text",
+      "request_sha256": "d9bc1abfc7bacd044f056732c0e0887d66d48d5470d93c55c8e6dae48ef380a7",
+      "measurement_sha256": "28cf55993aaddd539141f05d411fe18eedfd52b994e3793422461b51e5977ac9"
+    },
+    {
+      "case_id": "final-eval-104",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-104/compact_text",
+      "request_sha256": "066bcfb7c50846b11642acdf55818cfcf4c39cc5a14b1e43499fc4c437dd2980",
+      "measurement_sha256": "e9f976a299bf7aea51da2074ae0d32789c96b476ffd2843348dd0f73c70be9f7"
+    },
+    {
+      "case_id": "final-eval-105",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-105/optical",
+      "request_sha256": "41ffa4fb6464c6369360b4eba24ce2680664911ad24b9db8236dad366aa34473",
+      "measurement_sha256": "2733e1c830e1dabe7ac05df801ec8e30bf16251b58594d0f4ba2b6099ff9e240"
+    },
+    {
+      "case_id": "final-eval-105",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-105/hash_text",
+      "request_sha256": "f6982518a03546bcc4515feabf82d924e3027c64369f0dae253fd6d2bf29ec64",
+      "measurement_sha256": "656a15fd459d6efd9f3a4d99f4b4abdd3870d7108ebb020c2040885495ab7c1c"
+    },
+    {
+      "case_id": "final-eval-105",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-105/compact_text",
+      "request_sha256": "e2d0cb378194b6667fde966219918bbf94b3240915979a52aee8798705c1b890",
+      "measurement_sha256": "aeec990fe73110cee3f5a78a08f75f342013ae812cdf985cc9b2290a35f9f388"
+    },
+    {
+      "case_id": "final-eval-106",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-106/optical",
+      "request_sha256": "ef4741b6bc02308e0d2d93ae6eac1c136d046fe35002ff72034a1cfe60e59959",
+      "measurement_sha256": "630e65ce639f1fa7037bf02bcf17cfe0dfadaf523fb0f871f57b6a336b2828ee"
+    },
+    {
+      "case_id": "final-eval-106",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-106/hash_text",
+      "request_sha256": "a98e7e6e389297cf995614ee1587f2469f2ecd9fbc47546db8ceb501440dfc82",
+      "measurement_sha256": "5603e227df00bc653d167fb1b1cf7f9d8d6017c19b26f6072aee53779d56204f"
+    },
+    {
+      "case_id": "final-eval-106",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-106/compact_text",
+      "request_sha256": "4268983095bf17cf4025f1ff1ab377fa278f10fc71823ca11023cbca9b312104",
+      "measurement_sha256": "a8d6dc955c2d0449ed1328118433328aea4fb70d202cc7fb6469db0dd9b1f3a7"
+    },
+    {
+      "case_id": "final-eval-107",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-107/optical",
+      "request_sha256": "9a8f62f00a4f38910285d5943181f45a40dd66dbf0985c70eea02d1b2040d408",
+      "measurement_sha256": "a44b788706d6b726b925258ddc4b4b69666674ba5ddc012da04ade5d19a52154"
+    },
+    {
+      "case_id": "final-eval-107",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-107/hash_text",
+      "request_sha256": "5b7a3f3901130e706c138e6a485198da237b5b6b6f4db5f7fbea4567b8abce68",
+      "measurement_sha256": "00e56ee8d747a5bd0748ee0534d079d41850f90c276185990fab0cb325b77ae8"
+    },
+    {
+      "case_id": "final-eval-107",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-107/compact_text",
+      "request_sha256": "6ae47693b73a2c3e190ee1b1abcdb9cc2efc01064c695060895104b92cdc8071",
+      "measurement_sha256": "3d0d71aec7d39a6a72f62be7e197019476700972cef74ca60c2635896412933d"
+    },
+    {
+      "case_id": "final-eval-108",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-108/optical",
+      "request_sha256": "f3840ae858b912123d6124960134e47e1d6f279988e27166f8a136135af488a6",
+      "measurement_sha256": "0815613cbc1303638a4ae0715d25a656e2059e461932cfc093a08c9e1e1ff28a"
+    },
+    {
+      "case_id": "final-eval-108",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-108/hash_text",
+      "request_sha256": "fb3f50a5a1f475c2cb6b9ce476a94155fed3504f59fbf528c81910e620b72dd9",
+      "measurement_sha256": "5fc76985085d6a9a255b8db3d4135df8ae51d624f692ac4e8ba767307615d0f2"
+    },
+    {
+      "case_id": "final-eval-108",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-108/compact_text",
+      "request_sha256": "5b8a0772039d8ccc5f21308ea5cc9d3b9fd8fc83c566a866811c6fab16abf575",
+      "measurement_sha256": "819b2a582e43f63af17f205b115f8ba58a700df44705e5d2d3c6eb5889c91fc7"
+    },
+    {
+      "case_id": "final-eval-109",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-109/optical",
+      "request_sha256": "ae2ff0f0219a18f2449dff736b9d20ff45270c361ed1d1666f6dc3e39a1c28cf",
+      "measurement_sha256": "2a45051bd0dac93c749e00f7534d2adcd930eda105bf8370b62159abbfc8e396"
+    },
+    {
+      "case_id": "final-eval-109",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-109/hash_text",
+      "request_sha256": "262e83fa21252623ed63fc86f5bd976cadcd5b1da10e4ae2c275d2b5db448ce0",
+      "measurement_sha256": "4b611cf1b12e8ae7782effcf21fa0e284011715bddf7814b71641b48bde21c4d"
+    },
+    {
+      "case_id": "final-eval-109",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-109/compact_text",
+      "request_sha256": "bf2360de0e1d19b893d1c417158468cc17a74911b5b77a1ef4435037c07da07c",
+      "measurement_sha256": "e6b24a67ec3c32a146571514fb975b29469620eadc1d46ca79861e3f716d0ca8"
+    },
+    {
+      "case_id": "final-eval-110",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-110/optical",
+      "request_sha256": "a906986c8b4710f4193b2bd7d701949195511e1bc29cad6c1e035a86b0dc7494",
+      "measurement_sha256": "29d0d7e782341baf3d32e461a4bdf463ea3a97fa035856cef8ffbe6d867bff83"
+    },
+    {
+      "case_id": "final-eval-110",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-110/hash_text",
+      "request_sha256": "c4c82e3e7b1a3b7b5432bc669bab2b387e25bd5e0eef03568dd184e1fbcd377a",
+      "measurement_sha256": "ea5de747832023ee8c158aeb85f48a5d3f61fe0b10b121f960367a3fc294a527"
+    },
+    {
+      "case_id": "final-eval-110",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-110/compact_text",
+      "request_sha256": "c58ab60d461643cb7469856a91726f7f66ccc1d0445f25225a725ed7fa7282c7",
+      "measurement_sha256": "924e2603801655ad1ad773e9debd3ed54f18fd2abf6f1e32607238c4a02ec2e9"
+    },
+    {
+      "case_id": "final-eval-111",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-111/optical",
+      "request_sha256": "06c414326bca3adf30d546d6a399bed7342c7f6587880ffd0ca0d96109862414",
+      "measurement_sha256": "b028054bc043f461440067f79460f78dd20b4e24caeeffa8e562d7de8dadc3ad"
+    },
+    {
+      "case_id": "final-eval-111",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-111/hash_text",
+      "request_sha256": "46eb12cae73e8f6ff0d8be033a7b5a89cb54589f85a33814a31b5901f79cc8ff",
+      "measurement_sha256": "822d1667a82ca8b1c06e6425538499e0d33591689e032ae63dd2152ed36242ea"
+    },
+    {
+      "case_id": "final-eval-111",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-111/compact_text",
+      "request_sha256": "71e6595527bc97ccfd1169f2ebae5b24f48a0dd9bd5cf5fd13fb4d15049d4a33",
+      "measurement_sha256": "6e21c8cfcb50357dc46a8f4d9f399b4ba89b88eb79499cd932728647898068a2"
+    },
+    {
+      "case_id": "final-eval-112",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-112/optical",
+      "request_sha256": "8673fe9a3a72410cf410cc8c789880a0b927983e006a2afcdeddf5fb2ee908a1",
+      "measurement_sha256": "a4ca8a1645468696d0ddf537e7822c73bbf938331f65e10cdd86947ac666c9dc"
+    },
+    {
+      "case_id": "final-eval-112",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-112/hash_text",
+      "request_sha256": "c0184cf39955595b68d2070e37bd7d7f7699df10dddda103db7d130025e0f479",
+      "measurement_sha256": "918e56b0b3c2ae9fb6fb0afde98289ded1f60db62b8b2868682f2e16577ec007"
+    },
+    {
+      "case_id": "final-eval-112",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-112/compact_text",
+      "request_sha256": "e53af40ef4a090189c8b568c115b0da616a7d638760f518afe7d57d7ad8730d5",
+      "measurement_sha256": "edc16851f1cc700bd5ac8678a43c9e61a3d4d1a51a2b62eee21e8c5e8ccf658c"
+    },
+    {
+      "case_id": "final-eval-113",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-113/optical",
+      "request_sha256": "f58b7b26b4ca9bffcdbf9603be8328f50f0879207112ca47ae4feeb11181cd58",
+      "measurement_sha256": "76b3684f381f2612f4087f3e4d2554b9902ccfdcade164771d6ec2326abe00e9"
+    },
+    {
+      "case_id": "final-eval-113",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-113/hash_text",
+      "request_sha256": "d01ca7f25840cb7a03f0158063af8c71592a77416db96d9b4d580b0028f4ffce",
+      "measurement_sha256": "f98597b74276dd0625eb9c6a75ce924253292d7466f4aeea9c09033c72b31628"
+    },
+    {
+      "case_id": "final-eval-113",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-113/compact_text",
+      "request_sha256": "b2a5acc9fdd989fe28e784742270399a5d64b35c105ec331018015f24d38bf5a",
+      "measurement_sha256": "041a5f1dbed3c4a46814f4078bbd89b020c59ded2e455510571b2d2c7f66ca67"
+    },
+    {
+      "case_id": "final-eval-114",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-114/optical",
+      "request_sha256": "29ed59f3bd1be1c3f850102f3690cc29959de3f44789e7962e1c4a56737bdb1a",
+      "measurement_sha256": "3cf3c3d931515a72739fed705d099c2ce200c4c6739b49d5c3b35aa1c852b0b0"
+    },
+    {
+      "case_id": "final-eval-114",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-114/hash_text",
+      "request_sha256": "29f88cd34c9bc52d83d56efc4b9ade15fc2747fc741df70c8b7b0201e5bfb723",
+      "measurement_sha256": "b7fee7f6f60f5da6672bdcdaaf8ebec7bf1ac8af5946adaebdaab4ecde4d96a4"
+    },
+    {
+      "case_id": "final-eval-114",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-114/compact_text",
+      "request_sha256": "d91b97e040d5dfef8cd4df13ff1ff713decf5c93003839ad80dcf90eacc18981",
+      "measurement_sha256": "a42deeb29fc64345e6ce32a3073aef24133fc785574f1f7b2c7803fcaf74137e"
+    },
+    {
+      "case_id": "final-eval-115",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-115/optical",
+      "request_sha256": "843d6be85096ba0637c5291c134a873d68e2f61ebba96566c56176c6c1f882a8",
+      "measurement_sha256": "2d8d7a0d677d85739ddd86bad4ba815b764212050ed82805bbddeb6789820621"
+    },
+    {
+      "case_id": "final-eval-115",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-115/hash_text",
+      "request_sha256": "16e612804135c54eacf5264e2729271144861b43d45c482bdccd7f5d0377ce66",
+      "measurement_sha256": "3ec409670e9ff82309fe72e0517a635ad15f0edccf91f9f5e5ca20dd07f881b8"
+    },
+    {
+      "case_id": "final-eval-115",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-115/compact_text",
+      "request_sha256": "0a87ba5a7de13375cd1bd36f99b24562b63f37255e9778bad96bdf4c09581b18",
+      "measurement_sha256": "64617fbe51965fd45f3df4fc3f379efa5ae03b5a24a2540438835da6aa0c2312"
+    },
+    {
+      "case_id": "final-eval-116",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-116/optical",
+      "request_sha256": "77d85cb9110b08a2bf8370cc644c6d77fca43422e4f37f8370345ea58c4a46af",
+      "measurement_sha256": "4aedb630449d083858cb7f9140be6c2b7f35eb347f5886e92b79df7c0e6892f5"
+    },
+    {
+      "case_id": "final-eval-116",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-116/hash_text",
+      "request_sha256": "d4e6ab5f911087daae73c6ef610effca3306947c4493a37561bdde641b33fff6",
+      "measurement_sha256": "b4dddabc6f8fc729d52f60a35310c69b4f32716ca26c3fd90762d9e5e162dc8d"
+    },
+    {
+      "case_id": "final-eval-116",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-116/compact_text",
+      "request_sha256": "4cb36834f3368641df06dc9a4d1330e71febfdfceaf41a40442047151f0bf34c",
+      "measurement_sha256": "e00b61377aa793d88baa9924d76e7c033789742314286b1e0125a44acd10dcae"
+    },
+    {
+      "case_id": "final-eval-117",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-117/optical",
+      "request_sha256": "6f81224d7e1145dd032726225f2f3259f17dd0860cc712e30d294d35438ac49b",
+      "measurement_sha256": "a9c0608e962a1cbb50c2e64c4a6ad4c8bad22dfc417cdcbd4604aa3f87c7225f"
+    },
+    {
+      "case_id": "final-eval-117",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-117/hash_text",
+      "request_sha256": "2f9e6ea8983ae0cf6853d78f6fb3d9fb52c252b9e769067b6cc986e54eb7bea6",
+      "measurement_sha256": "5438a6446dcedf16cc76fade9a1bee8e30e7dde1560947d84be5fbe9877487ee"
+    },
+    {
+      "case_id": "final-eval-117",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-117/compact_text",
+      "request_sha256": "f6d01c10d95af0e1c58be1f4d9a443dfc395e90d5830879338dacd13e5df9c34",
+      "measurement_sha256": "c183d43887c7b70af337e377f8208f9b2fd08de0aafade62a97b4373147614da"
+    },
+    {
+      "case_id": "final-eval-118",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-118/optical",
+      "request_sha256": "97962f5cae33056281c462f3ceade60a91d154d9aca91f8ee52c7273523093c1",
+      "measurement_sha256": "95fbea26e4cedba6e257fc33bcf5b0bc8ac16ee7937b9f8e65d6040e60cb2c26"
+    },
+    {
+      "case_id": "final-eval-118",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-118/hash_text",
+      "request_sha256": "66b65becb19a79371b141f23b4a122ff3f8c45f04c73664bd30273434f25305b",
+      "measurement_sha256": "6f185e5f8832ca27cd2ce68863dd4b1c92866f775dc495748f2cb6f300a70b36"
+    },
+    {
+      "case_id": "final-eval-118",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-118/compact_text",
+      "request_sha256": "9ae9726da9560128025777ff9b97159f923d477fed4be7d22cbbaa28c33b6073",
+      "measurement_sha256": "44cb05f6c81a0fa08a720221c7b693be4c0e983af4917382f7d752a5e1f626dc"
+    },
+    {
+      "case_id": "final-eval-119",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-119/optical",
+      "request_sha256": "2504017db8920d91ed2b736811636a9d2d2bbb6a467252afe39c004104941e18",
+      "measurement_sha256": "d5ccc7ca410beb21f2b9478fae293c856417b6ced5db3ea1ac5659303219f992"
+    },
+    {
+      "case_id": "final-eval-119",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-119/hash_text",
+      "request_sha256": "c8d5da8726b3ea8955c12b7639298ea06ada4a939a219db0af5def92bf8fb47e",
+      "measurement_sha256": "d4e8e511249412ffe80a9737dda806e3a4e8ad053a0fa58d22329aea6283252c"
+    },
+    {
+      "case_id": "final-eval-119",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-119/compact_text",
+      "request_sha256": "199479f7a29731860816ce6be0ff813211a3d8498f02c903cc48ca68a8b06084",
+      "measurement_sha256": "6c039037bf98d0d46f8a5a2103491c0fdd32346ff9cfda73e780e1f833b6a8ca"
+    },
+    {
+      "case_id": "final-eval-120",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-120/optical",
+      "request_sha256": "1575c8738e802d6ed0db053a5b3ef22e84f03f009e54a68d5f1f5955dd3986a5",
+      "measurement_sha256": "5a455711ee51b1edde7492b1f6aa16f695cdf17715e44c45f29fa3675ffe0c55"
+    },
+    {
+      "case_id": "final-eval-120",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-120/hash_text",
+      "request_sha256": "b58591e81bd60488ad129638c913971690c830371c51c3be27235cd52c7d6ecc",
+      "measurement_sha256": "f2f7a4ea138747d92987be231bc08812dc2be87072fa18f688b274e1eb68ab2e"
+    },
+    {
+      "case_id": "final-eval-120",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-120/compact_text",
+      "request_sha256": "c3389b087ea559ffcbe161d54e891932ecaf339b6b33a4d12e107da387a67eb7",
+      "measurement_sha256": "895eb1a51cf511a52e9b181dfd52f2f9733c11f6698d381df88adb4c64f19cad"
+    },
+    {
+      "case_id": "final-eval-121",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-121/optical",
+      "request_sha256": "31a5e76e34be98360d2e9409e03080883b5d30fb37f4075718dff6e6f0881457",
+      "measurement_sha256": "7ad2fa34e2702ee33b11bbb12034bbdf09e8bce551b4485e9db0d380eb070bbf"
+    },
+    {
+      "case_id": "final-eval-121",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-121/hash_text",
+      "request_sha256": "1f8e2f5012c861f9dd547e1d5b4a912e5fc391e276454a078c83b4395c5d46d7",
+      "measurement_sha256": "c149666e6b0f656225acfc1bc6ac402baa7d7834f737cd02bcdc252168f94eb9"
+    },
+    {
+      "case_id": "final-eval-121",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-121/compact_text",
+      "request_sha256": "aa0783ad2198c84cbc82ed87df49b3e78624ddee65beca699b0df0d0110303e7",
+      "measurement_sha256": "bc618ba457961f34e1f69aac41e83948e6bab0c0ee76888152dfb7250a6a85a5"
+    },
+    {
+      "case_id": "final-eval-122",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-122/optical",
+      "request_sha256": "7ca9fa404dd3049661616bc0a7e0a9e7b2548688713271b061ff6d2d1820f24d",
+      "measurement_sha256": "63c9d22d1fc4959872907197f1eaafd11b5e252953242ddd5703a81d479d4db9"
+    },
+    {
+      "case_id": "final-eval-122",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-122/hash_text",
+      "request_sha256": "aa6423d1f15ce7a175f904d027bfb82abad828aa870b38a78bb65de3b0622cf0",
+      "measurement_sha256": "aadbced2ec26849a126fc533a698321d37f7ef953d8b7580e43027dc8419e9cc"
+    },
+    {
+      "case_id": "final-eval-122",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-122/compact_text",
+      "request_sha256": "af3a99f799e11cd59bf134a00027d0f7caba6c3fcfbb87787b5669c8500403b2",
+      "measurement_sha256": "71a5dcaf358e2863216f7a01cf1fc990ab40f5ed78279a43d0747c04a6b7e2e2"
+    },
+    {
+      "case_id": "final-eval-123",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-123/optical",
+      "request_sha256": "da328d43c8507cb7d35cc70702c422123cb040fa2eda3a4851c03604ebc8b5ca",
+      "measurement_sha256": "880d329a8939a1e2e12bc4b815cc0ea5d499eaa0b029b3bf1a10ef092b47cc99"
+    },
+    {
+      "case_id": "final-eval-123",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-123/hash_text",
+      "request_sha256": "af136cc7e33d05853d8ab593fed6f818d2cdcb353d5f34bcdc2608b573c0778e",
+      "measurement_sha256": "86247774677cb6f9664fe50cb072fe7b33496d26f95ca4a7bf7cee5e59ffd403"
+    },
+    {
+      "case_id": "final-eval-123",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-123/compact_text",
+      "request_sha256": "886586d7440d929af5db01e4a25663c12a99633da4da2bde1de58d7d67057311",
+      "measurement_sha256": "f39481f31e8c5010c14b58884c126f4f5cc9eff5fcc3cf9062bf0498cdf720d7"
+    },
+    {
+      "case_id": "final-eval-124",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-124/optical",
+      "request_sha256": "069447838968c5ffd4ce093df3fab79b142bb7f455a3b50647ba91a7796789c4",
+      "measurement_sha256": "5fcbd3c57927929006ce618bec5007cef5c3d80b83454eb5558047bdded19c02"
+    },
+    {
+      "case_id": "final-eval-124",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-124/hash_text",
+      "request_sha256": "b63795a2257aadd5c872de900db66f9605c98c2f924dcf31223b38143edd137c",
+      "measurement_sha256": "e0cf95a1a0b79939c5c0e06f714e2f355abaf398b4bd1ab5accf1999a740b424"
+    },
+    {
+      "case_id": "final-eval-124",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-124/compact_text",
+      "request_sha256": "1aba680bf1f775e193968d26cb9141a05031fae632f5d1292b32bc4ab33e39cb",
+      "measurement_sha256": "b4c0a254718dcb7eb26b67543540cc27f7aacd634b0ee2c76569fe4afd0e596b"
+    },
+    {
+      "case_id": "final-eval-125",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-125/optical",
+      "request_sha256": "969aa09e158ecd0c2cc0926652ec1ca342da18d1c7c6ba7c6b626d07dba03d49",
+      "measurement_sha256": "c7bbf605d445be9bf0934b82550e94c2c5756088bf8db68ead0c9bfb38e2df55"
+    },
+    {
+      "case_id": "final-eval-125",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-125/hash_text",
+      "request_sha256": "9d93ac8af3b01d9bc78ff91da36f9b82f597acc7298887fba30583d8ba0f8ed4",
+      "measurement_sha256": "21015f63f6bb8c383a25c82e3bce0cd64a83fa55528127499fe0fb0c87333ffb"
+    },
+    {
+      "case_id": "final-eval-125",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-125/compact_text",
+      "request_sha256": "086879db8931f7fd444a673783ea42ffef376b3b6a58a4ad69133857b57ecd58",
+      "measurement_sha256": "8b92b538a0754ba9acae460a9edca1ce8c2f50f57b1d7717a76ab22c929b94b0"
+    },
+    {
+      "case_id": "final-eval-126",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-126/optical",
+      "request_sha256": "17aea5af054adb0dbd9a6366090a24f36699248b468c020b5f2bfab247b39f35",
+      "measurement_sha256": "628ba494e5d8f3c2efadf53e836a9214cb843d8cfa7ef0db3d1ad56a40b9a783"
+    },
+    {
+      "case_id": "final-eval-126",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-126/hash_text",
+      "request_sha256": "561b36d301f91164f6da6e69fc3595b2af7b4a4ad7516b23d3453509cdb6f512",
+      "measurement_sha256": "3b296131e6534f4b767f9497fb19fe253bead6f1da621f741d50be7d83439c8b"
+    },
+    {
+      "case_id": "final-eval-126",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-126/compact_text",
+      "request_sha256": "3840be506d9a3d04755e77f98ca2a27a4c12835fe47ad76d1f9bd5a09c3eeb20",
+      "measurement_sha256": "0dd4331899794f8136791f748081f806bef08acddde6791894701079756b467c"
+    },
+    {
+      "case_id": "final-eval-127",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-127/optical",
+      "request_sha256": "659d1319ec49c2ce4417005a2914379d38c7cc3f5e436b3d84488376b793b06a",
+      "measurement_sha256": "7815dc13469c4ac423195318b98fcbd4a5aa30671fdff12848e75870d1578b4b"
+    },
+    {
+      "case_id": "final-eval-127",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-127/hash_text",
+      "request_sha256": "3ab37ebe2299a52de859982e85a745cd31568724286ae0f64641e3a738d46fc5",
+      "measurement_sha256": "2daba282c8fad7f4cf1623a7547844a263cd1bf4e8a4f6c7aed65302ea88b0ef"
+    },
+    {
+      "case_id": "final-eval-127",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-127/compact_text",
+      "request_sha256": "9d9700b31becd58e68f4b595b0dacc79047107923b8fd6ba26fce9c5748181bb",
+      "measurement_sha256": "600436d461c5df39ad1fedc17847757f8be864b7b4b577e98aeeb37a0dcd68ec"
+    },
+    {
+      "case_id": "final-eval-128",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-128/optical",
+      "request_sha256": "3d8926a858e590230634b1e1382d8c2fb635c5bb5e4b72d09f6dcfcdf3517b4c",
+      "measurement_sha256": "0dc74751a84a4133cbf8665cd5377205fd53909a725d5ec90f365e015b7e1a83"
+    },
+    {
+      "case_id": "final-eval-128",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-128/hash_text",
+      "request_sha256": "3d5e86a409b76f9d3db0f712fd5b55cc9c99ea4aa8921e05edd4b0e8d6f2f10d",
+      "measurement_sha256": "e568ac63485d934f3b5a383848a2ec956d04ba16d7d9fbdc80bff981cc88760a"
+    },
+    {
+      "case_id": "final-eval-128",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-128/compact_text",
+      "request_sha256": "1b27cdb2416af2d91cd339ef9d65dccee6c240be920ad96bb5b9f1e3c04e9d91",
+      "measurement_sha256": "343c6346348705672e94c5f4bdea1584e7edeab31e0e2c438bc4af4256c78aa1"
+    },
+    {
+      "case_id": "final-eval-129",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-129/optical",
+      "request_sha256": "767ed95053e8a015e58a01c6977949fe21d5a1af04001614d78c887b1c8deae4",
+      "measurement_sha256": "ec82a9d6822f807a4dd5504793c2b0a4e245ee2ebb581fcfc06239500c2c0ade"
+    },
+    {
+      "case_id": "final-eval-129",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-129/hash_text",
+      "request_sha256": "b1afe8dc6d2ff845658f83b30d05bea382dbdf6d4b9a35534fc65db8167f91d4",
+      "measurement_sha256": "0fa13aa1a4f1e4792d784c4d22065e8081591ecf446653e0edfba0ccbef8829d"
+    },
+    {
+      "case_id": "final-eval-129",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-129/compact_text",
+      "request_sha256": "6a72f439be0e1a484c5008960dcd5cefd0162e55402f7de821d5a54a115a5a95",
+      "measurement_sha256": "d4efb38e4d95f5715cd53bf74c0989bc2da235edc5257d0cc6ea0666f8922f68"
+    },
+    {
+      "case_id": "final-eval-130",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-130/optical",
+      "request_sha256": "be9c34b63ccfb06bc182246a6fca9b1bdaeee482eec8b01fccf84d8e0bdc21ce",
+      "measurement_sha256": "6233026a9f89a46dfde33387182b9869d6ffc35b9fc1b60c7da7895da2aedb65"
+    },
+    {
+      "case_id": "final-eval-130",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-130/hash_text",
+      "request_sha256": "8c9fdd919e3d401d212f1a793dee217fb5c1c6e19eb0537a33efd92cbe537532",
+      "measurement_sha256": "3894e75626e8114e43e9ffc1f7c768f1464f08069f1d5d7fd61ae9776ed2614f"
+    },
+    {
+      "case_id": "final-eval-130",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-130/compact_text",
+      "request_sha256": "a172ed301bbe8fa7667f0b552f52cd9d62616ee978657655020191463b6bff83",
+      "measurement_sha256": "228627ebc608ecf363cdcbb1fd128d67af392df1f6e8655731f90c0dfee6ea73"
+    },
+    {
+      "case_id": "final-eval-131",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-131/optical",
+      "request_sha256": "2f40c98e4950b364e6e390e7e50dae53cbbbbbe3876378aa7f46bb81a0cd2bfd",
+      "measurement_sha256": "9e4596583603b35e6ac400fdec51d4f92f4cc033ab239e6f96e7bcd0795eb328"
+    },
+    {
+      "case_id": "final-eval-131",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-131/hash_text",
+      "request_sha256": "03249a39c53b929926367e99c5d4a7ada5fb0a2f0ffd26389bbd7eef870b9ce5",
+      "measurement_sha256": "105666860d5f1f0b734b6e5e1773a2ad8d66014ec485d3ef3a6d4a3bb96493b6"
+    },
+    {
+      "case_id": "final-eval-131",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-131/compact_text",
+      "request_sha256": "cf061e1c10952500e30f079901585fc08dfd6c7b0f9471b95de6131934a68a48",
+      "measurement_sha256": "27aca71b7ba6add5c617839303a9be6ba3da6fbcbe06b7a5913a2561e9faa877"
+    },
+    {
+      "case_id": "final-eval-132",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-132/optical",
+      "request_sha256": "f96283e43bd28a0a28156d2db91bd10a5e3e54e9ed546e59a272f30cecd42e22",
+      "measurement_sha256": "58be93aa16d9b8d358fabada547b6c8289afe7c7c834d4601a5433d172b2b96f"
+    },
+    {
+      "case_id": "final-eval-132",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-132/hash_text",
+      "request_sha256": "7f57118d74151ab326f2f4aa8de67d88547cafd2b36315145db7782bd5816687",
+      "measurement_sha256": "63f05569f36c5a1a014c942d62af45b6fe047918155750f2c93f0a02c1e93d84"
+    },
+    {
+      "case_id": "final-eval-132",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-132/compact_text",
+      "request_sha256": "6216439aab1bddf28eee8c306d86d06f12fe403421951d125aba6cc0ebc4304c",
+      "measurement_sha256": "1e43508b3ce7ec125133cf11ea574560eb3970bea927b35d5ec7cea1efee3a27"
+    },
+    {
+      "case_id": "final-eval-133",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-133/optical",
+      "request_sha256": "e2ff80dfdd3693297bef96d701d1fa4877e7ccb17d0a926be8681ed070e49cba",
+      "measurement_sha256": "53d05a8f9f9aca35df98556c622e44f57c2c884827ec9e53e0225f0e0610ee0d"
+    },
+    {
+      "case_id": "final-eval-133",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-133/hash_text",
+      "request_sha256": "90b8ceedb47f291883bf01d3569727bc91f4dbd6c1bfe014d0ba909850b673a7",
+      "measurement_sha256": "cbc2341b2b33cd0d63e80a4cdfb0c38d56ee66d3488ccb54a35328006dd81495"
+    },
+    {
+      "case_id": "final-eval-133",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-133/compact_text",
+      "request_sha256": "49c58320324a430b8085d0d3f81e8dfe8b474a5da70a076336957348b9edd020",
+      "measurement_sha256": "50d1f79c3769b710f3fd03b40ee8c3e8b125cce0d57fa13b74790d3b88933383"
+    },
+    {
+      "case_id": "final-eval-134",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-134/optical",
+      "request_sha256": "e17c77d5fa64e9a0776a37c8f6eae4f001fcdcca11bb302bcbf00dd38ffd6df0",
+      "measurement_sha256": "cda88f26915a94f5b05d30e2260ea26bad7cd8334e038776af92f515bbe17ac6"
+    },
+    {
+      "case_id": "final-eval-134",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-134/hash_text",
+      "request_sha256": "16e5f3ba2ad8e81a73777296d4f5f0c5526f0477f1eee44d6527254ef413077a",
+      "measurement_sha256": "59f5d1ab153ede4172bbd3065d55f18b8c52428f6c307fddaa370233ef4a9217"
+    },
+    {
+      "case_id": "final-eval-134",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-134/compact_text",
+      "request_sha256": "047a37a4f243c1252456e3c011738a9128a304e95f99eb58a3d8efd27ba85b34",
+      "measurement_sha256": "60cb354f36b5b445887ef156925c7cbb6a907376df2c13239bae0e7e3d3c05cf"
+    },
+    {
+      "case_id": "final-eval-135",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-135/optical",
+      "request_sha256": "bedc6ad349df4d59428b78a21d60db32e178612ee0993e5ce6537df64d794eef",
+      "measurement_sha256": "92263b79ab7f2dfd97ea96a80ee30eadccfeb96c49faeda146ea8db661acb9a7"
+    },
+    {
+      "case_id": "final-eval-135",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-135/hash_text",
+      "request_sha256": "34cad5a5ad091e99e803c6b831549bf59f70825d2e649a29665c6a784b19f787",
+      "measurement_sha256": "0cd81f582064c16726549742814d62c2989ab89e8fd81bd78186e6c572239f04"
+    },
+    {
+      "case_id": "final-eval-135",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-135/compact_text",
+      "request_sha256": "553726c5dd03d7f9139152681dc009549df6acd9d14a8d23986830215246f3c4",
+      "measurement_sha256": "03b567a94684cc429f163c8a13079967d56cf440b17eca394a0a7c8cb235b132"
+    },
+    {
+      "case_id": "final-eval-136",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-136/optical",
+      "request_sha256": "a2d3cca6a46cb3718ea86739d7f5fb13124c268540c4cf5ebef1bcd533293e0c",
+      "measurement_sha256": "04182fdc69ea4a5ffbfe55e511b771fce112a3c996b510219b4c36a2f29c9737"
+    },
+    {
+      "case_id": "final-eval-136",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-136/hash_text",
+      "request_sha256": "80954794e5d66bd41ba6a6cea949978aca7603e4115383c2c9ecec5e15e5547c",
+      "measurement_sha256": "7c528430348abcf612cf9cbd969cc486793bfc6ead0d071c1309a3b50a0deb54"
+    },
+    {
+      "case_id": "final-eval-136",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-136/compact_text",
+      "request_sha256": "cdc89f12087847dc04830a677560600b345f2e0a0a05c620b8c49dd1b4f592cc",
+      "measurement_sha256": "b1dba028129d88cb0feec33c0e8fb51f5c42c32a5012ceaa9ad08e662f2a1d49"
+    },
+    {
+      "case_id": "final-eval-137",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-137/optical",
+      "request_sha256": "786b9cbe6d356e8e68c325f1d6648c5553e95e1b7da98249f5b8b00fd0c67759",
+      "measurement_sha256": "8bfa0a694c110e214149d0f35ea74b006ef24b10ecd9f9018d7708eac7f7c0ae"
+    },
+    {
+      "case_id": "final-eval-137",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-137/hash_text",
+      "request_sha256": "089660178085efb16fe1faed0d7897ac48f35621f9910214d3b43cc74da375f7",
+      "measurement_sha256": "c94bc7fe49ad50fa8d1ca5a801bd75b5dd2c523622de4b1637ca0df0552b423f"
+    },
+    {
+      "case_id": "final-eval-137",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-137/compact_text",
+      "request_sha256": "1937e346d478f81ceb113b48d3f99e59ffd84c1edc30fb8273ea8dac807a634b",
+      "measurement_sha256": "1557cb391eea400d9422e40f5abc94141bb12815d7302821fd940129a0c1106b"
+    },
+    {
+      "case_id": "final-eval-138",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-138/optical",
+      "request_sha256": "3b4245212e08f0743cf6cc81dbe0cc0fa821b3a95226a73e985896c590a42afd",
+      "measurement_sha256": "815541f00f4715b2c44a89e71188d038bd935683c8bbb66ce7f7c2b1abb4f000"
+    },
+    {
+      "case_id": "final-eval-138",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-138/hash_text",
+      "request_sha256": "4a9dc4f08e9a86ffb6a71a322d7985461e33e8054242f34fe33c03401b606bce",
+      "measurement_sha256": "f4653813452b4d6b6616318531a0e7c32fa1cb6d0ae70ff931fbc76f0645bdf2"
+    },
+    {
+      "case_id": "final-eval-138",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-138/compact_text",
+      "request_sha256": "46123d2796e3f96179663627849d4a7dae2cd85f4703a5da7295ccdd5669e1c0",
+      "measurement_sha256": "085b6656a039f7a5f93ed66a8d781e1f9e665cf0eae6f7f464c10541c2d8775c"
+    },
+    {
+      "case_id": "final-eval-139",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-139/optical",
+      "request_sha256": "8a22d23a8d7c40a641cccfd2aeff5d789e18b1cec85d5c931ff6c11b89a0937b",
+      "measurement_sha256": "5751a0dafebc393426650d857da3ce892d5ece667a84f2b707ef30638e29b342"
+    },
+    {
+      "case_id": "final-eval-139",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-139/hash_text",
+      "request_sha256": "e0f66e0c6b2255ab951a54d58f7080504f0b8daf9c9fd5269eae33f4808b5d25",
+      "measurement_sha256": "fa6abf5bd9de82d38639e4727efe482522a8dc495e6a4c0f1acaac09f7c27ebd"
+    },
+    {
+      "case_id": "final-eval-139",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-139/compact_text",
+      "request_sha256": "2142ff9a2885269be03f50c3f28d39f9af6741d0db65fd364379cfa2d92acad1",
+      "measurement_sha256": "e1edc955ade8912a2d69abe0940ae1c98331637e5fad536495a9dc25d70b3f54"
+    },
+    {
+      "case_id": "final-eval-140",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-140/optical",
+      "request_sha256": "0e5ee688f4a504185a0679bd0a562a66d4bb41839f1eab8c3aae6ffdaf5562b1",
+      "measurement_sha256": "f997e48b18275f0f9a4d416e2d1939486e459a4b18b9c73809c2de3ce77e31b7"
+    },
+    {
+      "case_id": "final-eval-140",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-140/hash_text",
+      "request_sha256": "86d0ca52f3706d993c9072ca288277c218e91d49190cb870d3129c4be0705eaa",
+      "measurement_sha256": "a7a892462857e1a219f7524bf3a4a6000fcc062f2fc01386ab848148a999cb54"
+    },
+    {
+      "case_id": "final-eval-140",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-140/compact_text",
+      "request_sha256": "4688e87a3fd64589a91310972f997dae3fa6bc6451db81f51fe5969561847224",
+      "measurement_sha256": "4ab3763f544e0c640c9893e7be6de15e5cdf28e1c3ba1d4cf0e627ea40514e5a"
+    },
+    {
+      "case_id": "final-eval-141",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-141/optical",
+      "request_sha256": "8be549ee08194ed94a090eb609ef261d498446d739a7996a64418c688d3ca1ce",
+      "measurement_sha256": "640cec8e80a077aedc57ec55b2b9e27e317c2923407f43481b24bc2f18bc045f"
+    },
+    {
+      "case_id": "final-eval-141",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-141/hash_text",
+      "request_sha256": "bdd7268189b08bbd2443bbd4440cd67eb2d99508bda28b10dc95e6c6df8893b3",
+      "measurement_sha256": "9b6aa0e7537f66aee2318bb07dab47a405d06401f31bb62f7b5e6b0b4d4fd29e"
+    },
+    {
+      "case_id": "final-eval-141",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-141/compact_text",
+      "request_sha256": "8426ecbc79189d9314c8917da7796db958e99db3c4ccadc5efb33acebcc7d093",
+      "measurement_sha256": "ccb54fb54f6a09e81437d067875471e447325c6e2e34d957ebc8230b24681d53"
+    },
+    {
+      "case_id": "final-eval-142",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-142/optical",
+      "request_sha256": "d241627e24248ba5116ca4a717964141b9a04d0b444460b105e9810ea2e9dd6a",
+      "measurement_sha256": "bab1ad26ccf98bd3692faac0f3f33be52e78e8cc0bc0dc007a5c34afed6576c2"
+    },
+    {
+      "case_id": "final-eval-142",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-142/hash_text",
+      "request_sha256": "ccdf5e338f843a7ca52c78c4dfb4d0ecd4bf632bd7766d9456045495d8e3393c",
+      "measurement_sha256": "adb47e89e01a835fe6871dbf66a8c2ec5de7375a0b8509c379330630679365d4"
+    },
+    {
+      "case_id": "final-eval-142",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-142/compact_text",
+      "request_sha256": "57e24307bde67ce66e43c67ef806981b29b91e3bea0bf338ea1d61b21dd4b7a8",
+      "measurement_sha256": "0e61cdcacb1fab47d82e98c26f1f27df093f925fb0396da76cf42794e867bb79"
+    },
+    {
+      "case_id": "final-eval-143",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-143/optical",
+      "request_sha256": "c97282116eb57273c6bf69d53adebaa4aa0c0bb053fc664b071bb0b150df22f6",
+      "measurement_sha256": "7f2093e85395ffdb976390b1c663859ab21f3e7740cd6f3e8c1d6f492f513f6e"
+    },
+    {
+      "case_id": "final-eval-143",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-143/hash_text",
+      "request_sha256": "f89a17fc4c693913de0b044e9055d09b536cacc7bfc2b8cbc6b9e3be8489d03f",
+      "measurement_sha256": "a397886b44f76f7c9b418360de826d73c9203646e1a4eb591ca2e9702e5cecbc"
+    },
+    {
+      "case_id": "final-eval-143",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-143/compact_text",
+      "request_sha256": "711f99bf8541c58de7bb1c1feafd124e809b9a60859845b4ca651b1ee7e3719f",
+      "measurement_sha256": "b846a8d99f8358f62e821f380386b23608d5ee1531bd91976e83c7f67dc435d5"
+    },
+    {
+      "case_id": "final-eval-144",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-144/optical",
+      "request_sha256": "e4e33eeec19a8fb2e95fa5caccff4eeb5a7229bc371f76cf543e3d63383147af",
+      "measurement_sha256": "d67f51a821df73b6feed50f502e5a70ed06e524a0ef7416eac5c0e70b7ec8bb8"
+    },
+    {
+      "case_id": "final-eval-144",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-144/hash_text",
+      "request_sha256": "37400d91c278227a947ef9ed174bb8aa82729e4b67ec90a6b0a92dec90c1955b",
+      "measurement_sha256": "0c2af09ae2b84ad5b39ed01a5c92042a62c79814a0b9f6b0ac5ca3f6f9cd0591"
+    },
+    {
+      "case_id": "final-eval-144",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-144/compact_text",
+      "request_sha256": "6e4484f79b0328f3a385a424de78ad3a5e99823b9c51f55464006d730463791f",
+      "measurement_sha256": "55bc9583bc2af55f1cbe24b3a524229bdcf50fa0d32e97b53d66ed7c2e737c9f"
+    },
+    {
+      "case_id": "final-eval-145",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-145/optical",
+      "request_sha256": "c2d7284e8721b5b3e3fb64a9a008c34d01972375c98bddf1c85b945bd6861956",
+      "measurement_sha256": "ee0f69054fac129cca347c0f904886a6d7d40802d9656e851a1d8acd76a2b275"
+    },
+    {
+      "case_id": "final-eval-145",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-145/hash_text",
+      "request_sha256": "858d7ada87780a8df9b9690c6c74eae2c1c169bf38a27bd72b738944d627a3d5",
+      "measurement_sha256": "fd6af62b6dec662d3802b0ae18263e06455126a9082f8fd0803541da2cc17c5e"
+    },
+    {
+      "case_id": "final-eval-145",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-145/compact_text",
+      "request_sha256": "87730384610d5a830e96e375c97dc1dd3fa46451d12919922fd39692ed995f48",
+      "measurement_sha256": "f3ad1a1df3eadedcce3e51484d883d564a7ca28cbe0d83847b2eee4ee1b4fc0f"
+    },
+    {
+      "case_id": "final-eval-146",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-146/optical",
+      "request_sha256": "df79d484ba5588b9f29594e9f7166b4098506567324d191994250c22f484078e",
+      "measurement_sha256": "b6204ae7bd7ef319d9c5afd64a11dbb1f8b91dda5fee919cc58c47454e80f984"
+    },
+    {
+      "case_id": "final-eval-146",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-146/hash_text",
+      "request_sha256": "28b09cacd1e997aadd27e344a60fa5f3b1c6a902f76b63fa83874427abd16a6c",
+      "measurement_sha256": "f22298ecb7cbecf905638e4db861ed2ee0e6f60c3ee19d379e612d8bc5aa3b6e"
+    },
+    {
+      "case_id": "final-eval-146",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-146/compact_text",
+      "request_sha256": "0721b6cc2a462f70eca88afd8fec715ad6893a85aaeb9a6ec43079de44872e32",
+      "measurement_sha256": "58c8b49ed9decfae45bb2cb3a0975d97a67cd395355719d20b492a3276143573"
+    },
+    {
+      "case_id": "final-eval-147",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-147/optical",
+      "request_sha256": "ed1167ceee0a006b3b2cddf6610a3b6b43b5539bfb5a6d4a3f28e00b125ba998",
+      "measurement_sha256": "79829623bde4cc699c5ed1186f8c357287ff0388324574aef79146948d533973"
+    },
+    {
+      "case_id": "final-eval-147",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-147/hash_text",
+      "request_sha256": "25695fd4f050fdc0f6cefc9ec8db2de7be644f951b67d873df11717767df24e5",
+      "measurement_sha256": "4a6e1b689777f646251885ecbc78d89ad757e1f2bc59e3fce8addb7f25f135d3"
+    },
+    {
+      "case_id": "final-eval-147",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-147/compact_text",
+      "request_sha256": "39b5f9f43b2dd91249f6b4474b03b65bc32b46fa2149ff5d2fc0d87d2cfb9207",
+      "measurement_sha256": "657794492fb3eb762d9a29a464444313028d51ea6b668f4c48562f37e6a64ad6"
+    },
+    {
+      "case_id": "final-eval-148",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-148/optical",
+      "request_sha256": "71901de12475007302d2a84b6ee6de9b3ee646ef110fe42b4161a1a91b2f2d8e",
+      "measurement_sha256": "5bad93e57ff05bf0eebedf6e1224737bea86633543a8b1fbdc6e7af31911ba07"
+    },
+    {
+      "case_id": "final-eval-148",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-148/hash_text",
+      "request_sha256": "9d032d8d041989fd7cd9bba52f6081e43f6174bea6e169123e384c4ed9a662aa",
+      "measurement_sha256": "a2ff7634b7324edb23a1072252bdd6472c2942c5475c43a7745edc0fa0b07bd7"
+    },
+    {
+      "case_id": "final-eval-148",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-148/compact_text",
+      "request_sha256": "3142379f711bf36a612d89cf76ab8dd2353d6a5f586933884d3fa7577f1dd2c8",
+      "measurement_sha256": "2c7f389c863171261d291448a121c6701d741dc5219e5d73b8fe11e78d55420c"
+    },
+    {
+      "case_id": "final-eval-149",
+      "arm": "optical",
+      "path": "inputs/eval/final-eval-149/optical",
+      "request_sha256": "0289dc77448571170d1466b3ad283407ad6d3c180e78eb13d9211a4397baf3b6",
+      "measurement_sha256": "f84c9b4347dadf118b573d199331edf1582c7e662ef9288814df7a2ed145acee"
+    },
+    {
+      "case_id": "final-eval-149",
+      "arm": "hash_text",
+      "path": "inputs/eval/final-eval-149/hash_text",
+      "request_sha256": "ed003f8b026a92efd8fd9de9bebb5337f07adea85d2e1a1828e34bad6a42322d",
+      "measurement_sha256": "6078352d93d713492a8aa3b074278ccdf92158bd60f988dc90a47d981d864a71"
+    },
+    {
+      "case_id": "final-eval-149",
+      "arm": "compact_text",
+      "path": "inputs/eval/final-eval-149/compact_text",
+      "request_sha256": "5ce6218b241bd9ba078e35616a36f5a69e1a4cb04084ca37c387b5eb8318d8f3",
+      "measurement_sha256": "954e06e39efcead357e5d20b79fde10a40cee28cf7db7289cb854db864807e53"
+    }
+  ],
+  "B": 4025,
+  "held_out_inference_started": false,
+  "model_calls": 0
+}

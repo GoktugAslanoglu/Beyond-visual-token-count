@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "recorded_utc": "2026-09-25T12:38:25.244271+00:00",
+  "experiment_id": "final-compact-storage-glm-long-v2",
+  "held_out_inference_started": false,
+  "model_calls": 0,
+  "weights_loaded": false,
+  "held_out_cases": 150,
+  "held_out_inputs": 450,
+  "independent_native_audit_sha256": {
+    "dev": "ebd70a263d6defcaa99f41d9ccaadb653e6877ed26806c6aff56dc8de0a92d76",
+    "smoke": "94d156e400955115a53b99a23b823561b93b7308ce7d4352c52111133225231b",
+    "eval": "1987082e88ac9a31c7a0d528d3a56f9c32055cfc84dd07d760f5536695f0abd1"
+  },
+  "test_report_sha256": "7996dd4b74a7b7822204763fc4e464464c7d8a672fa5121b43b4e2bb3733245d",
+  "protocol_sha256": "a10ea07f8fb5cf77f90dbc8821e7d8c731270325836c9576837725f898a2c318",
+  "manifest_sha256": "250832fafbaac2e9bbce87c6dced00339aa0fd9968b535d702aced9ed8688308",
+  "approval_exists": false,
+  "scope": "CPU source/storage/render/processor reconstruction and synthetic code tests; future GPU remains unallocated"
+}

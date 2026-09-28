@@ -1,0 +1,112 @@
+{
+  "sample_n": 20,
+  "sample_class": "stereotyped non-answer / instructed abstention, not safety refusal",
+  "all_compressed_glm_n": 384,
+  "canonical_response_counts": {
+    "No information available": 382,
+    "WWQOCBVLCP": 1,
+    "WDKPYCOYGS": 1
+  },
+  "sample_rows": [
+    {
+      "item_id": "identifier-007",
+      "condition": "optical_c2_p2",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    },
+    {
+      "item_id": "identifier-056",
+      "condition": "optical_c2_p2",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    },
+    {
+      "item_id": "identifier-000",
+      "condition": "optical_c2_p2",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    },
+    {
+      "item_id": "identifier-060",
+      "condition": "optical_c2_p2",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    },
+    {
+      "item_id": "identifier-088",
+      "condition": "optical_c2_p2",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    },
+    {
+      "item_id": "identifier-008",
+      "condition": "optical_c2_p4",
+      "prediction": "No information available"
+    },
+    {
+      "item_id": "identifier-054",
+      "condition": "optical_c2_p4",
+      "prediction": "No information available"
+    },
+    {
+      "item_id": "identifier-059",
+      "condition": "optical_c2_p4",
+      "prediction": "No information available"
+    },
+    {
+      "item_id": "identifier-021",
+      "condition": "optical_c2_p4",
+      "prediction": "No information available"
+    },
+    {
+      "item_id": "identifier-052",
+      "condition": "optical_c2_p4",
+      "prediction": "No information available"
+    },
+    {
+      "item_id": "identifier-042",
+      "condition": "optical_c4_p2",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    },
+    {
+      "item_id": "identifier-078",
+      "condition": "optical_c4_p2",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    },
+    {
+      "item_id": "identifier-028",
+      "condition": "optical_c4_p2",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    },
+    {
+      "item_id": "identifier-015",
+      "condition": "optical_c4_p2",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    },
+    {
+      "item_id": "identifier-056",
+      "condition": "optical_c4_p2",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    },
+    {
+      "item_id": "identifier-025",
+      "condition": "optical_c4_p4",
+      "prediction": "No information available"
+    },
+    {
+      "item_id": "identifier-058",
+      "condition": "optical_c4_p4",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    },
+    {
+      "item_id": "identifier-084",
+      "condition": "optical_c4_p4",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    },
+    {
+      "item_id": "identifier-051",
+      "condition": "optical_c4_p4",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    },
+    {
+      "item_id": "identifier-024",
+      "condition": "optical_c4_p4",
+      "prediction": "<|begin_of_box|>No information available<|end_of_box|>"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "flag": "missing or extra result row",
+  "archive": "ICLR-LoCoMo-Qwen2B-1789653262607945619.zip",
+  "missing_result_rows": 0,
+  "expected_complete_rows": 3000,
+  "extra_directory": [
+    "setup_qwen300_1789289153546435702"
+  ],
+  "contents": [
+    "setup_qwen300_1789289153546435702/INSTALL.json",
+    "setup_qwen300_1789289153546435702/check.txt",
+    "setup_qwen300_1789289153546435702/install.txt",
+    "setup_qwen300_1789289153546435702/private_gpu.log"
+  ],
+  "disposition": "Preserved first-chunk setup records, not an additional experimental row. Retained unchanged; no result excluded.",
+  "implementation_correction": "Audit directory comparison must classify result rows by START/COMPLETE markers and identity, rather than treating every subdirectory as a row."
+}

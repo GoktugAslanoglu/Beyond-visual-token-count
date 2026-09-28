@@ -1,0 +1,7 @@
+{
+  "status": "verified-for-inference",
+  "input_freeze_sha256": "8c4d64dfe448faf02d0b81f447597bb29a0b27ec1850a504179d562f42bdbc22",
+  "dev_freeze_sha256": "17b9d01c0e80724e89ee14a69f7e11c9b6d9f74817c2503bcdbb68032fd33bdd",
+  "stage": "cap",
+  "review_note": "Verified 247 fixed identities against archived capped outcomes; original request, measurements and all image bytes hash-checked against immutable input references; all first-96 archived tokens retained; context+256 checked. Original image/source audit applies unchanged. Conditional on completed, verified P1 and remaining calendar/GPU budget."
+}

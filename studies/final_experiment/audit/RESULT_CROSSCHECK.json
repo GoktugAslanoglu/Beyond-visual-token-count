@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "independent_plain_containment_checks": 450,
+  "containment_equals_literal_exact_match_every_cell": true,
+  "independent_scipy_binomial_p": 4.8175233992660445e-06,
+  "gains": 49,
+  "losses": 13,
+  "new_model_calls": 0,
+  "evaluation_mean_relative_record_capacity_gain": 0.1585385188130087,
+  "evaluation_min_relative_record_capacity_gain": 0.1515151515151516,
+  "evaluation_max_relative_record_capacity_gain": 0.16538461538461546,
+  "manuscript_and_listed_historical_sources_unchanged": true,
+  "freeze_sha256": "75081a7bad4075b5e23964bcffdd53595e2b9178b5f438ef959499cd17700ccf",
+  "recorded_utc": "2026-09-26T00:57:57.263229+00:00"
+}

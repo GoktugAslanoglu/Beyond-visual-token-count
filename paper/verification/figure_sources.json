@@ -1,0 +1,54 @@
+{
+  "figure1": {
+    "sources": [
+      "budget",
+      "layout"
+    ],
+    "render_examples": [
+      "studies/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-000/original_c2_p4/page_000.png",
+      "studies/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-000/efficient_c2_p4/page_000.png"
+    ],
+    "crop_xyxy": [
+      0,
+      0,
+      360,
+      320
+    ],
+    "note": "Panel a schematic; b first Qwen9B held-out case selected by identifier, with aggregate paired layout outcomes; c GLM LONG inclusion and answer success under one retention policy. Distinct studies/readers."
+  },
+  "frontiers": {
+    "sources": [
+      "original"
+    ],
+    "uncertainty": "RULER pointwise task-stratified bootstrap intervals; LoCoMo preserved paired conversation-bootstrap 95% intervals for H1/H2, not intervals reconstructed from arm means."
+  },
+  "geometry": {
+    "sources": [
+      "layout",
+      "scale"
+    ],
+    "note": "Counts / 48; enlarged and full text are larger-budget references. Paired layout intervals are preserved from the audit. Scale uses 32 independent cases; only Qwen9B passes the corrected omnibus test."
+  },
+  "budget": {
+    "sources": [
+      "budget"
+    ],
+    "note": "Per-case inclusion and correctness displayed separately. All optical targets included; text correct counts equal inclusion in every cell. Common upper bound, not equal consumed tokens. Ratios remain the frozen nominal capacity ratios."
+  },
+  "systems_summary": {
+    "sources": [
+      "systems",
+      "derived"
+    ],
+    "note": "Ratios of medians. Last panel uses per-execution peak minus resident baseline before taking medians. End-to-end preprocessing is asymmetric: repeated text packing included, optical planning excluded. Lower resource cost does not establish better quality."
+  },
+  "scale_examples": {
+    "sources": [
+      "scale"
+    ],
+    "case": "geometry-000",
+    "page": "first",
+    "reader": "Qwen9B",
+    "selection": "predeclared example"
+  }
+}

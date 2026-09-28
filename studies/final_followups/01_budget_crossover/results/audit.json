@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "rows": 540,
+  "study": "01_budget_crossover",
+  "input_freeze_sha256": "8ba615128d1ada56dd19c9dc96b5c1ac265e5aaf1ea4a0bb2379d937d1a201bd",
+  "output_complete_hashes": {
+    "final_iclr\\final_followups\\checkpoints\\crossover_Qwen2B_1790143732021715723\\output": "7c065185e4a72b439ddb72626df0c64eefd6443c841e393f9857b63c45e52a50",
+    "final_iclr\\final_followups\\checkpoints\\crossover_Qwen9B_1790145004276282004\\output": "00c8d68e0d84828aec2cf0e13c76f0f8bfaf3d61663034654ed6fec48edb1ee7",
+    "final_iclr\\final_followups\\checkpoints\\crossover_GLM_1790146095902502905\\output": "32c5bd3f686406aa01338a2cbbae9a510572f6ae5e6cf238f557da399e44c895"
+  }
+}

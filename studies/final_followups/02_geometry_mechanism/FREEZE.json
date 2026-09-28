@@ -1,0 +1,8 @@
+{
+  "status": "source-specification-frozen-native-inputs-pending",
+  "source_freeze_sha256": "673143fa3b67d577f43a644ec54d6e0da8a89a02c3bcd880b34426f4249afcf2",
+  "protocol_sha256": "466f5af9f8f12b9adba2aa35499f23c37dc36ecc6aa6f533840fa7ed9d5b989a",
+  "expected_unique_inputs": 288,
+  "model_outputs_observed": 0,
+  "native_prepared_freeze_location": "returned CPU checkpoint prepared/02_geometry_mechanism/FREEZE.json"
+}

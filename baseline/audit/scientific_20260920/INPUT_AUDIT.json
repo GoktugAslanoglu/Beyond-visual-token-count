@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "reports": {
+    "LoCoMo": {
+      "rows": 9000,
+      "question_reader_pairs": 1500,
+      "clusters": 10
+    },
+    "Identifier": {
+      "rows": 2016,
+      "cases": 96,
+      "factor_cells": 48
+    },
+    "RULER": {
+      "rows": 2160,
+      "cases": 180,
+      "task_counts": {
+        "niah_multikey_3": 30,
+        "niah_multivalue": 30,
+        "niah_single_1": 30,
+        "niah_single_2": 30,
+        "niah_single_3": 30,
+        "vt": 30
+      }
+    }
+  },
+  "checked_file_references": 48941,
+  "errors": []
+}

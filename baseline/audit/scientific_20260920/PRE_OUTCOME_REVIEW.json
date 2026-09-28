@@ -1,0 +1,101 @@
+{
+  "created_utc": "2026-09-20T17:29:47.725750+00:00",
+  "status": "verified for release prerequisites, not experimental validity",
+  "inspection_before_this_review": false,
+  "checked_local_reference_files": 26355,
+  "reference_failures": [],
+  "manifests": {
+    "Identifier/Qwen2B": {
+      "path": "iclr/identifier_gpu_20260916/RUN_MANIFEST.json",
+      "bytes": 1870930,
+      "sha256": "3b25829691fff4d2816d2fc519fbf9e0aaa717174c4ea06c3b1a27ba4b858268"
+    },
+    "Identifier/Qwen9B": {
+      "path": "iclr/identifier_qwen9b_20260917/RUN_MANIFEST.json",
+      "bytes": 1874974,
+      "sha256": "b96618dca4328757a59cf701f55fec9026417a4e7b93c431796459d6da2258d2"
+    },
+    "Identifier/GLM": {
+      "path": "iclr/identifier_glm_20260917/RUN_MANIFEST.json",
+      "bytes": 1915566,
+      "sha256": "d8a18f5925e6a1fa0007cb8cc3b4defee3324f1949590076a833fef08fb08928"
+    },
+    "LoCoMo": {
+      "path": "iclr/locomo_stage_bound_20260912/RUN_MANIFEST.json",
+      "bytes": 3891356,
+      "sha256": "9150ea8735e97b4691eda4059f41fd120f981cfec3687b036ca4dd7d23ea7498"
+    },
+    "RULER/Qwen2B": {
+      "path": "iclr/ruler_gpu_20260919/RUN_MANIFEST_qwen2b.json",
+      "bytes": 2601010,
+      "sha256": "c2165d8d5e4f0044dee09ca4793e5e405fc4c18543220d27122322634a384c3d"
+    },
+    "RULER/Qwen9B": {
+      "path": "iclr/ruler_gpu_20260919/RUN_MANIFEST_qwen9b.json",
+      "bytes": 2601010,
+      "sha256": "942e7c567f1c21180decfb5f2491faf1d7952a6ded2820018907ea5675c011f4"
+    },
+    "RULER/GLM": {
+      "path": "iclr/ruler_gpu_20260919/RUN_MANIFEST_glm.json",
+      "bytes": 2671230,
+      "sha256": "d8cfc3a7699901a8284fda0141659fd20fa7ebb19678d21e71285a0f2dc7ca5a"
+    }
+  },
+  "ruler_pre_generation_approvals": [
+    {
+      "shard": "A",
+      "archive": "<LOCAL_USER>\\Downloads\\ICLR-RULER-A-Checkpoint-1789685327075150857.zip",
+      "record": {
+        "contract": "90874cb3ec3d5eafc579bb4fdbe39cdd5a9645a3097e975c08e7a4f1ba411f70",
+        "package": "ee4ce5fc503a2e632d48de6b10c7ff531e14d15c4aace22cf6afdb81515af1e4",
+        "statement": "I approve the complete RULER contract candidate for CPU input generation only; no GPU inference, scoring, or unblinding."
+      }
+    },
+    {
+      "shard": "B",
+      "archive": "<LOCAL_USER>\\Downloads\\ICLR-RULER-B-Checkpoint-1789682980030464111.zip",
+      "record": {
+        "contract": "90874cb3ec3d5eafc579bb4fdbe39cdd5a9645a3097e975c08e7a4f1ba411f70",
+        "package": "ee4ce5fc503a2e632d48de6b10c7ff531e14d15c4aace22cf6afdb81515af1e4",
+        "statement": "I approve the complete RULER contract candidate for CPU input generation only; no GPU inference, scoring, or unblinding."
+      }
+    },
+    {
+      "shard": "C",
+      "archive": "<LOCAL_USER>\\Downloads\\ICLR-RULER-C-Checkpoint-1789664518274064221.zip",
+      "record": {
+        "contract": "90874cb3ec3d5eafc579bb4fdbe39cdd5a9645a3097e975c08e7a4f1ba411f70",
+        "package": "ee4ce5fc503a2e632d48de6b10c7ff531e14d15c4aace22cf6afdb81515af1e4",
+        "statement": "I approve the complete RULER contract candidate for CPU input generation only; no GPU inference, scoring, or unblinding."
+      }
+    },
+    {
+      "shard": "D",
+      "archive": "<LOCAL_USER>\\Downloads\\ICLR-RULER-D-Checkpoint-1789680188946429760.zip",
+      "record": {
+        "contract": "90874cb3ec3d5eafc579bb4fdbe39cdd5a9645a3097e975c08e7a4f1ba411f70",
+        "package": "ee4ce5fc503a2e632d48de6b10c7ff531e14d15c4aace22cf6afdb81515af1e4",
+        "statement": "I approve the complete RULER contract candidate for CPU input generation only; no GPU inference, scoring, or unblinding."
+      }
+    },
+    {
+      "shard": "E",
+      "archive": "<LOCAL_USER>\\Downloads\\ICLR-RULER-E-Checkpoint-1789684545750325833.zip",
+      "record": {
+        "contract": "90874cb3ec3d5eafc579bb4fdbe39cdd5a9645a3097e975c08e7a4f1ba411f70",
+        "package": "ee4ce5fc503a2e632d48de6b10c7ff531e14d15c4aace22cf6afdb81515af1e4",
+        "statement": "I approve the complete RULER contract candidate for CPU input generation only; no GPU inference, scoring, or unblinding."
+      }
+    }
+  ],
+  "user_authorization": "2026-09-20: Now inspect and verify every result we got from experiments. Make sure that everything is scientifically okay.",
+  "scientific_review": [
+    "All mandatory counts and representations remain unchanged; no outcome-based selection or amendment.",
+    "RULER keeps the native VT worked example; the evaluation is training-free, not uniformly zero-shot.",
+    "Identifier exact sign test follows the prospective amendment, not the historical sign-flip proposal.",
+    "LoCoMo has ten previously studied conversation clusters; 500 held-out questions do not imply 500 independent histories.",
+    "Input-count reduction is not evidence of latency, energy or compute reduction.",
+    "Statistical significance is not required for validity; all null and adverse outcomes retained.",
+    "Current release is recorded now, not backdated. Frozen originals and source approvals remain unchanged."
+  ]
+}

@@ -1,0 +1,9 @@
+LoCoMo cap diagnostic decision
+
+The scientific trigger is met; execution remains conditional on identifier completion, the shared twelve-hour allowance and the September 23 cutoff. No calls have been run.
+
+All 247 fixed Qwen full-optical capped rows were analyzed. Qwen2B: 126 capped, 23 with all normalized reference components present, 113 ending without terminal punctuation, 91 both missing components and ending without terminal punctuation without the repetition flag. Qwen9B: 121 capped, corresponding counts 37, 109 and 79. One Qwen9B row exceeds the repeated-trigram threshold. These are surface heuristics, not semantic correctness judgments or a formal syntax parser.
+
+Sixteen full transcripts from the latter groups were read. Examples visibly end in an unfinished possessive, incomplete quoted statement, list item or explanatory clause. Other examples already convey some reference information using different words. Extending generation can add correct information, wrong information, or verbosity; F1 may rise or fall. The diagnostic is justified as a measurement sensitivity, not a guaranteed rescue. Caps can also be consequences of representation failure.
+
+Use only the predetermined 126+121 rows, identical inputs and environment, max_new_tokens=256 once. Compare the first 96 generated token IDs against the original. Preserve and report any mismatch; it prevents attributing that row's difference solely to the cap. Report capped-subset F1 and reconstructed 500-question full-arm conversation-macro F1, retaining original uncapped rows. The reconstruction is a labeled sensitivity, never a replacement for the 9,000 original outcomes. Report signed changes and intervals; use three F1 points as the prespecified descriptive materiality threshold. Continuing caps make a small change inconclusive, not proof that generation length does not matter. Do not escalate again.

@@ -1,0 +1,1174 @@
+{
+  "status": "passed",
+  "complete_source_coverage_and_bbox_checks": 3348,
+  "identifier_source_cases_revalidated": 96,
+  "independent_ruler_metric_cells": 72,
+  "independent_identifier_sign_tests": 3,
+  "layout_summary": [
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "condition": "optical_c0p8_p2",
+      "n": 96,
+      "glyph_range": [
+        3.9043062200956937,
+        4.272251308900524
+      ],
+      "median_max_text_width_fraction": 0.062284334023464456
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "condition": "optical_c0p8_p4",
+      "n": 96,
+      "glyph_range": [
+        5.433962264150943,
+        5.9393939393939394
+      ],
+      "median_max_text_width_fraction": 0.12278911564625851
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "condition": "optical_c2_p2",
+      "n": 96,
+      "glyph_range": [
+        2.4688995215311005,
+        2.701570680628272
+      ],
+      "median_max_text_width_fraction": 0.062284334023464456
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "condition": "optical_c2_p4",
+      "n": 96,
+      "glyph_range": [
+        3.509433962264151,
+        3.757575757575758
+      ],
+      "median_max_text_width_fraction": 0.12278911564625851
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "condition": "optical_c4_p2",
+      "n": 96,
+      "glyph_range": [
+        1.7799043062200957,
+        1.8979591836734695
+      ],
+      "median_max_text_width_fraction": 0.062284334023464456
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "condition": "optical_c4_p4",
+      "n": 96,
+      "glyph_range": [
+        2.490566037735849,
+        2.6666666666666665
+      ],
+      "median_max_text_width_fraction": 0.12278911564625851
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "condition": "optical_c0p8_p2",
+      "n": 96,
+      "glyph_range": [
+        4.724538619275461,
+        5.169783096484667
+      ],
+      "median_max_text_width_fraction": 0.062284334023464456
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "condition": "optical_c0p8_p4",
+      "n": 96,
+      "glyph_range": [
+        6.598382749326146,
+        7.21060382916053
+      ],
+      "median_max_text_width_fraction": 0.12278911564625851
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "condition": "optical_c2_p2",
+      "n": 96,
+      "glyph_range": [
+        2.9528366370471635,
+        3.231114435302917
+      ],
+      "median_max_text_width_fraction": 0.062284334023464456
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "condition": "optical_c2_p4",
+      "n": 96,
+      "glyph_range": [
+        4.140161725067386,
+        4.524300441826215
+      ],
+      "median_max_text_width_fraction": 0.12278911564625851
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "condition": "optical_c4_p2",
+      "n": 96,
+      "glyph_range": [
+        2.099794941900205,
+        2.2976813762154076
+      ],
+      "median_max_text_width_fraction": 0.062284334023464456
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "condition": "optical_c4_p4",
+      "n": 96,
+      "glyph_range": [
+        2.975741239892183,
+        3.251840942562592
+      ],
+      "median_max_text_width_fraction": 0.12278911564625851
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "condition": "optical_c0p8_p2",
+      "n": 96,
+      "glyph_range": [
+        4.724538619275461,
+        5.169783096484667
+      ],
+      "median_max_text_width_fraction": 0.062284334023464456
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "condition": "optical_c0p8_p4",
+      "n": 96,
+      "glyph_range": [
+        6.598382749326146,
+        7.21060382916053
+      ],
+      "median_max_text_width_fraction": 0.12278911564625851
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "condition": "optical_c2_p2",
+      "n": 96,
+      "glyph_range": [
+        2.9528366370471635,
+        3.231114435302917
+      ],
+      "median_max_text_width_fraction": 0.062284334023464456
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "condition": "optical_c2_p4",
+      "n": 96,
+      "glyph_range": [
+        4.140161725067386,
+        4.524300441826215
+      ],
+      "median_max_text_width_fraction": 0.12278911564625851
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "condition": "optical_c4_p2",
+      "n": 96,
+      "glyph_range": [
+        2.099794941900205,
+        2.2976813762154076
+      ],
+      "median_max_text_width_fraction": 0.062284334023464456
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "condition": "optical_c4_p4",
+      "n": 96,
+      "glyph_range": [
+        2.975741239892183,
+        3.251840942562592
+      ],
+      "median_max_text_width_fraction": 0.12278911564625851
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "condition": "optical_c0p8_p4",
+      "n": 180,
+      "glyph_range": [
+        11.020408163265307,
+        12.244897959183673
+      ],
+      "median_max_text_width_fraction": 0.7791545189504373
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "condition": "optical_c2_p4",
+      "n": 180,
+      "glyph_range": [
+        6.857142857142857,
+        7.836734693877551
+      ],
+      "median_max_text_width_fraction": 0.7791545189504373
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "condition": "optical_c4_p4",
+      "n": 180,
+      "glyph_range": [
+        4.8979591836734695,
+        5.387755102040816
+      ],
+      "median_max_text_width_fraction": 0.7791545189504373
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "condition": "optical_c0p8_p4",
+      "n": 180,
+      "glyph_range": [
+        13.434402332361516,
+        13.994169096209912
+      ],
+      "median_max_text_width_fraction": 0.7791545189504373
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "condition": "optical_c2_p4",
+      "n": 180,
+      "glyph_range": [
+        8.396501457725947,
+        8.956268221574344
+      ],
+      "median_max_text_width_fraction": 0.7791545189504373
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "condition": "optical_c4_p4",
+      "n": 180,
+      "glyph_range": [
+        5.915966386554622,
+        6.1574344023323615
+      ],
+      "median_max_text_width_fraction": 0.7791545189504373
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "condition": "optical_c0p8_p4",
+      "n": 180,
+      "glyph_range": [
+        13.434402332361516,
+        13.994169096209912
+      ],
+      "median_max_text_width_fraction": 0.7791545189504373
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "condition": "optical_c2_p4",
+      "n": 180,
+      "glyph_range": [
+        8.396501457725947,
+        8.956268221574344
+      ],
+      "median_max_text_width_fraction": 0.7791545189504373
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "condition": "optical_c4_p4",
+      "n": 180,
+      "glyph_range": [
+        5.915966386554622,
+        6.1574344023323615
+      ],
+      "median_max_text_width_fraction": 0.7791545189504373
+    }
+  ],
+  "image_samples": [
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-048",
+      "condition": "optical_c4_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-048",
+      "condition": "optical_c0p8_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-048",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-095",
+      "condition": "optical_c0p8_p2",
+      "page": 1,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-000",
+      "condition": "optical_c2_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-048",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-048",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-095",
+      "condition": "optical_c0p8_p4",
+      "page": 3,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-095",
+      "condition": "optical_c4_p4",
+      "page": 3,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-000",
+      "condition": "optical_c0p8_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-095",
+      "condition": "optical_c4_p2",
+      "page": 1,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-095",
+      "condition": "optical_c2_p2",
+      "page": 1,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-000",
+      "condition": "optical_c4_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-095",
+      "condition": "optical_c2_p4",
+      "page": 3,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen2B",
+      "item": "identifier-048",
+      "condition": "optical_c2_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-048",
+      "condition": "optical_c4_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-048",
+      "condition": "optical_c0p8_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-048",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-095",
+      "condition": "optical_c0p8_p2",
+      "page": 1,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-000",
+      "condition": "optical_c2_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-048",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-048",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-095",
+      "condition": "optical_c0p8_p4",
+      "page": 3,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-095",
+      "condition": "optical_c4_p4",
+      "page": 3,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-000",
+      "condition": "optical_c0p8_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-095",
+      "condition": "optical_c4_p2",
+      "page": 1,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-095",
+      "condition": "optical_c2_p2",
+      "page": 1,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-000",
+      "condition": "optical_c4_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-095",
+      "condition": "optical_c2_p4",
+      "page": 3,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "Qwen9B",
+      "item": "identifier-048",
+      "condition": "optical_c2_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-048",
+      "condition": "optical_c4_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-048",
+      "condition": "optical_c0p8_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-048",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-095",
+      "condition": "optical_c0p8_p2",
+      "page": 1,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-000",
+      "condition": "optical_c2_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-048",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-048",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-095",
+      "condition": "optical_c0p8_p4",
+      "page": 3,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-095",
+      "condition": "optical_c4_p4",
+      "page": 3,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-000",
+      "condition": "optical_c0p8_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-095",
+      "condition": "optical_c4_p2",
+      "page": 1,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-095",
+      "condition": "optical_c2_p2",
+      "page": 1,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-000",
+      "condition": "optical_c4_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-095",
+      "condition": "optical_c2_p4",
+      "page": 3,
+      "pixels_equal": true
+    },
+    {
+      "study": "Identifier",
+      "reader": "GLM",
+      "item": "identifier-048",
+      "condition": "optical_c2_p2",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_multikey_3-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_single_3-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_multivalue-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_multivalue-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_single_3-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_single_1-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_multivalue-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_single_2-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_single_1-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_single_3-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-vt-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_single_2-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_single_1-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_single_2-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-vt-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_multikey_3-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-niah_multikey_3-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen2B",
+      "item": "ruler-vt-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_multikey_3-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_single_3-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_multivalue-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_multivalue-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_single_3-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_single_1-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_multivalue-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_single_2-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_single_1-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_single_3-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-vt-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_single_2-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_single_1-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_single_2-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-vt-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_multikey_3-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-niah_multikey_3-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "Qwen9B",
+      "item": "ruler-vt-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_multikey_3-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_single_3-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_multivalue-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_multivalue-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_single_3-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_single_1-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_multivalue-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_single_2-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_single_1-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_single_3-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-vt-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_single_2-000",
+      "condition": "optical_c0p8_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_single_1-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_single_2-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-vt-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_multikey_3-000",
+      "condition": "optical_c4_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-niah_multikey_3-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    },
+    {
+      "study": "RULER",
+      "reader": "GLM",
+      "item": "ruler-vt-000",
+      "condition": "optical_c2_p4",
+      "page": 0,
+      "pixels_equal": true
+    }
+  ],
+  "pixel_exact_rerenders": 108,
+  "interpretation": "Post-unblinding diagnostics, not new confirmatory tests. Max text width is a bounding-box ratio, not ink coverage. Tiny glyphs and narrow-column square rendering limit generalization of identifier floor effects."
+}

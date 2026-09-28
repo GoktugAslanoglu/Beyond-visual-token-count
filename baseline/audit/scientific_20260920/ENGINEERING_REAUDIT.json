@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "role": "development-only",
+  "smoke": [
+    {
+      "archive": "<REPOSITORY>\\iclr\\checkpoints\\qwen2b_completed_bbb2e90e12d88921\\RETURNED_CHECKPOINT.zip",
+      "sha256": "bbb2e90e12d889210ff10cb6642c99265714da387e216685ed390074c06a2a68",
+      "verified_manifest_files": 396,
+      "rows": 76,
+      "exact_token_decodes": 76,
+      "exact_output_journals": 76,
+      "input_count_checks": 76,
+      "score_scope": "Historical local scoring report retained; development score labels not independently regenerated here."
+    },
+    {
+      "archive": "<REPOSITORY>\\iclr\\checkpoints\\qwen9b_completed_16347f7526a56430\\RETURNED_CHECKPOINT.zip",
+      "sha256": "16347f7526a5643090b4b054ac57a50a8ac26420b4fc945b4ca9acac66ed7203",
+      "verified_manifest_files": 396,
+      "rows": 76,
+      "exact_token_decodes": 76,
+      "exact_output_journals": 76,
+      "input_count_checks": 76,
+      "score_scope": "Historical local scoring report retained; development score labels not independently regenerated here."
+    },
+    {
+      "archive": "<REPOSITORY>\\iclr\\checkpoints\\glm_completed_24ac5ca3c5221a4b\\RETURNED_CHECKPOINT.zip",
+      "sha256": "24ac5ca3c5221a4bb2706cd7d1d760b526a62eed900a5e7f32eda336b69aacfe",
+      "verified_manifest_files": 396,
+      "rows": 76,
+      "exact_token_decodes": 76,
+      "exact_output_journals": 76,
+      "input_count_checks": 76,
+      "score_scope": "Historical local scoring report retained; development score labels not independently regenerated here."
+    }
+  ],
+  "timing": {
+    "archive": "<REPOSITORY>\\iclr\\checkpoints\\timing26_40dec17635f64c08\\ICLR-Timing26-Checkpoint.zip",
+    "sha256": "40dec17635f64c08b83f8729691124f12d8157795fff8a5bea78ca6b0e503c2c",
+    "rows": 26,
+    "verified_private_files": 171,
+    "exact_token_decodes": 26,
+    "exact_input_and_output_journals": 26,
+    "timing_arithmetic_checks": 26,
+    "input_shape_matching_within_5_percent": true,
+    "total_row_s": 86.46080305099986,
+    "cap_hits": 0,
+    "first_cell_to_first_call_s": 436.68174713100007,
+    "elapsed_since_first_cell_s": 525.771981263,
+    "limitation": "Synthetic timing fixtures; no accuracy inference or population-wide latency/energy comparison."
+  }
+}

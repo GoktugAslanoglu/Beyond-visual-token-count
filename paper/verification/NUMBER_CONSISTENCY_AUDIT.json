@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": 10995,
+  "failed": [],
+  "unclassified_literals": [],
+  "ledger_entries": 2159,
+  "numeric_macro_occurrences": 2131,
+  "literal_occurrences": 241,
+  "scope": "All generated values resolved independently from authoritative JSON; result aggregates independently recomputed from preserved scored rows; literal design/rounding values mapped to explicit protocol or metadata evidence. Bibliographic/identifier/format numbers are separate from scientific measurements."
+}

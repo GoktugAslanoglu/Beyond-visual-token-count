@@ -1,0 +1,1362 @@
+{
+  "status": "all-inputs-sealed-no-model-outputs",
+  "source_freeze_sha256": "673143fa3b67d577f43a644ec54d6e0da8a89a02c3bcd880b34426f4249afcf2",
+  "protocol_sha256": "47494b239b60dc93dfdeb5e6d12e228e91a7330784ba6fa1692b6d2f94ebfe51",
+  "expected_unique_inputs": 45,
+  "rows": [
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-short",
+      "arm": "A_full_text",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-short/A_full_text",
+      "request_sha256": "919db4026963369edbb110e923394228bfce980ede29c751f84c875e2d6d65d2",
+      "measurement_sha256": "a8a83d80ff3ec68de9fb8dc3959f97be4095d6c40e89777774eebfd44477421c"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-short",
+      "arm": "B_text",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-short/B_text",
+      "request_sha256": "e27fdfdf2d0fda0ecb8fc122df26dc788fa3d628f7d86f18d69ad64e1133cbdb",
+      "measurement_sha256": "f68f2544fc8465542e131c55c326aa2b5b1fc37e81b93ab3db4e496371f5e89e"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-short",
+      "arm": "B_optical",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-short/B_optical",
+      "request_sha256": "ae1466edc2fdbd49049929a67d07ef63f01a73acddf7ef2808988e1552e90a1d",
+      "measurement_sha256": "f3789854c67ca726018a4414a148e241a151658250e6625e5286a48896f59a57"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-short",
+      "arm": "A_optical_C2",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-short/A_optical_C2",
+      "request_sha256": "46d0a58919d05541a1821b0d9fb9b1063f26edadc8f9c93f521c9a9b491a1c7a",
+      "measurement_sha256": "b725ed447d1f9d8e19c7af81d15040f33825e43af011376aa61afaf5f01b0930"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-short",
+      "arm": "A_optical_C4",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-short/A_optical_C4",
+      "request_sha256": "712ac723bcb5a708c081f3aebda58e648ae69163fe959bdd60768d3e25525660",
+      "measurement_sha256": "0e84f702e4f5eb83bbe4321066946c56d24738b466f46355c24d14708f4b3e87"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-medium",
+      "arm": "A_full_text",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-medium/A_full_text",
+      "request_sha256": "938120b87435868268bb5f84789850758951bc8bcc52ce12543f150ce439e2c5",
+      "measurement_sha256": "630f4444ab1602e8be75d17492f3a509906d5d78d8aaf1ca2be472e7bb43b9c9"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-medium",
+      "arm": "B_text",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-medium/B_text",
+      "request_sha256": "0023afefbefd1521312b3c4a63a5bbe9a6e7bfd2d0b9a5e699e5f6ab6165e5db",
+      "measurement_sha256": "17d3234613311488a5323535d58428ae33ee34458f1f2202020ec88b324e6687"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-medium",
+      "arm": "B_optical",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-medium/B_optical",
+      "request_sha256": "80b3a0ed9b0b266b72542d00e65fe2abb5948bbcd36ea79ca68add4006698f91",
+      "measurement_sha256": "b260a5989d3a21aea6d06d23e1a0d6630694693ff651a9a2f175aaa7c65c93ca"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-medium",
+      "arm": "A_optical_C2",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-medium/A_optical_C2",
+      "request_sha256": "7584fb62600116580610f26986896d74d6c56104f69a22b76b8c12158c3b1bfd",
+      "measurement_sha256": "22c1637663e931346155a543ec32fa8105bdd9d6460ba8a37a4fa7e9446ea703"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-medium",
+      "arm": "A_optical_C4",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-medium/A_optical_C4",
+      "request_sha256": "e52c9812d136793b5a5995b0f4360b0d08e5dc960273f74f680f1986aa766549",
+      "measurement_sha256": "646286a4a79fa99aa5ad048940c8b105fdaf9b7ebfc69cf61319869f06349e50"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-long",
+      "arm": "A_full_text",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-long/A_full_text",
+      "request_sha256": "f7fb087b1936dd1830ecd5f812704e90ba37adfd4c0f4d2be3ed041fd9267fce",
+      "measurement_sha256": "e6c8e0bac751dd5a809aa82a5d69bb8903dec0bfd5b72cb38826741877ca96e8"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-long",
+      "arm": "B_text",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-long/B_text",
+      "request_sha256": "7cf942e2f220c6feddca76d0ebc3df8f77037ad3934af3aca8e34a0b07018604",
+      "measurement_sha256": "30c4436261af7b796f9533742abac5b98e15e3f4991193a06e8c037086c4ba4a"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-long",
+      "arm": "B_optical",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-long/B_optical",
+      "request_sha256": "f0181405a356b781e3fa324b29adc1a9f4448acfe86e788b8e8ae80cfa825e91",
+      "measurement_sha256": "74bf3797d4dfe7ddd905efe1b60a8880f0d18db4c7dc9829b4df3679859228f8"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-long",
+      "arm": "A_optical_C2",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-long/A_optical_C2",
+      "request_sha256": "f06f8b5ac6f7ac4d59c3d9a65ad6c60a0cc88566afae932d8eabdb2c3ae5a8ef",
+      "measurement_sha256": "34b3d0025045d24b905762eeb520e858f8417458fd8d50bcde25706a29b2f232"
+    },
+    {
+      "reader": "Qwen2B",
+      "case_id": "cross-000-long",
+      "arm": "A_optical_C4",
+      "path": "03_systems_profile/inputs/Qwen2B/cross-000-long/A_optical_C4",
+      "request_sha256": "440852c0dbfa7f8dfb6ff47efa069177af070854c0de1f4b2892b59e3a57fdf2",
+      "measurement_sha256": "55aabd0d00b4dd41927088bd5e0c2338a8e207d9c8fb6a3bbbd88db8bbdf9ea9"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-short",
+      "arm": "A_full_text",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-short/A_full_text",
+      "request_sha256": "c5621eab0e760be7aaff23b46e87c450ae7c757247348c2c1db13739a09f523f",
+      "measurement_sha256": "4e9afa124906bd7081fe78787d2da54da9a878640a7c7d880980f7a7aab64798"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-short",
+      "arm": "B_text",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-short/B_text",
+      "request_sha256": "ce1f8dc7017024ec5041648e007577f59fd7f46c4c2e1b21291284c18a791798",
+      "measurement_sha256": "4d76c0b473d81d054409d438e968dfed25c9b402e95819449c94dd45ebc52cbd"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-short",
+      "arm": "B_optical",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-short/B_optical",
+      "request_sha256": "85f6f00b33e7b555157ae5a657a807ffccd25308134b32422bb86c7ec8f6f0ae",
+      "measurement_sha256": "d59c8804f0b1bf8fec6d088fedf96a7252c972eb05b46b5eb54b6c57ff6a760b"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-short",
+      "arm": "A_optical_C2",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-short/A_optical_C2",
+      "request_sha256": "c481731df44092afd67fa410fcec822139f13fc0989927c25335c29de299ca5b",
+      "measurement_sha256": "1ed5831c4d23fda0f0d550d399036a8a10261099d7fecd5c4354b125f9642308"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-short",
+      "arm": "A_optical_C4",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-short/A_optical_C4",
+      "request_sha256": "ac51f49ba4dd76c103192972e3f7f2dbda027f02f3860380cd1166a94101d1d5",
+      "measurement_sha256": "03a775762d066e707745ff2ad9ff069d2c196bc0180b025a5737d37fa8295fc6"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-medium",
+      "arm": "A_full_text",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-medium/A_full_text",
+      "request_sha256": "f967db4dd8fea7cd688f84aad0b80a45ce6a3cce0e0305d2204ec50be02b73dd",
+      "measurement_sha256": "e6c9fe696de898d7c422794c8c870483b54fdf74e462d927da638622490b1d08"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-medium",
+      "arm": "B_text",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-medium/B_text",
+      "request_sha256": "ba90d6abdf9b983ebb87d412e6dfb715e5ce8d22fa43ad3ff1624276bc0c33e6",
+      "measurement_sha256": "e7c7533e8b26af4bc851669dffa3de5c3c1fa55a08cd355ecc9d2ff95b16948c"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-medium",
+      "arm": "B_optical",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-medium/B_optical",
+      "request_sha256": "88e8cf2810dc8bc9f90511631e341a08d9d4ab9171bdfdb04502c37a7815b0e4",
+      "measurement_sha256": "fb3ec2d8301b5702ad31608fd5512a362c705ef356f0f5fcd42c4eec06fd522b"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-medium",
+      "arm": "A_optical_C2",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-medium/A_optical_C2",
+      "request_sha256": "0e116d8b37cd2faff35dbaa6f53171cf8f0419f9e90797d8ec9a98355ca27422",
+      "measurement_sha256": "04340f05dd9ae0982c2945f612b64696aed1afe3ff0260ef727b08f4af9b47e5"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-medium",
+      "arm": "A_optical_C4",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-medium/A_optical_C4",
+      "request_sha256": "813a0048a544da2c13b4da72c486c5afcbb1213214f5c367a8f22e1f045cc597",
+      "measurement_sha256": "52a0594ec2e795259d380d9f8c4d762c36ef4dca14d664a4f0f0353d6b045e4e"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-long",
+      "arm": "A_full_text",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-long/A_full_text",
+      "request_sha256": "4b4a634a725116294aa97d9abad31037c011c0fdc6604e2fdcf83cb2c203b468",
+      "measurement_sha256": "694794acb5db2845d64077c2684fab9b02bd58d41fe0cd4f829312510103a0c7"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-long",
+      "arm": "B_text",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-long/B_text",
+      "request_sha256": "2a0de4f60c69a95ebc122f12c6f1136f8e1be7e667133256610d68779e8df54e",
+      "measurement_sha256": "f0b9c9cb3cc1a63656cf690502e18cdd91dbdb89a495ed6f817446edd80542bf"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-long",
+      "arm": "B_optical",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-long/B_optical",
+      "request_sha256": "1c3bd32e4836f74038e1985bf799aaee10a3c5415870a11d892dc55efda684bc",
+      "measurement_sha256": "4f205e00660c2b9301f6f72f936fb78cd9f974e282ba479233bd9e30bcffbdf0"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-long",
+      "arm": "A_optical_C2",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-long/A_optical_C2",
+      "request_sha256": "160954487cab9f83d98e159b85e065f606030759d08b6175c54dfdfd4dc28fc5",
+      "measurement_sha256": "9a339ed62851c8538f1b2ce286846e9f4dfa557efdca8748402c5b96e595e600"
+    },
+    {
+      "reader": "Qwen9B",
+      "case_id": "cross-000-long",
+      "arm": "A_optical_C4",
+      "path": "03_systems_profile/inputs/Qwen9B/cross-000-long/A_optical_C4",
+      "request_sha256": "d7752052be034f9616ca786d30fe72f8275f97b4c97b7d0f68554cc2fe915cce",
+      "measurement_sha256": "58144957f58d985b4c6c1081c4d199e450fd9b518b15c3b086092d6c6400ea20"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-short",
+      "arm": "A_full_text",
+      "path": "03_systems_profile/inputs/GLM/cross-000-short/A_full_text",
+      "request_sha256": "3defc800dd0f3e7a970b5dfe7a47a8f28f3c986a350ed39148d03c378dcc4db0",
+      "measurement_sha256": "fdcb4a538a8cab9a82218209b851ad77c43652dbd00967806eba18c8f20f2512"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-short",
+      "arm": "B_text",
+      "path": "03_systems_profile/inputs/GLM/cross-000-short/B_text",
+      "request_sha256": "e18dc766968fb8c23f6983fce3ab8fb2d1e09898a94a105a92c5d121f53f287e",
+      "measurement_sha256": "1e17b54ef9eef271163a6695a1686f4531641a2cc70b791a8ac72694f2f85307"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-short",
+      "arm": "B_optical",
+      "path": "03_systems_profile/inputs/GLM/cross-000-short/B_optical",
+      "request_sha256": "721fc0ea37c64c04b1dd0ec03325c4141aa4f19d514e9364993b016054dc246b",
+      "measurement_sha256": "9261bce2b79a1377823988e7130cbff3adc1020f971e08d572588873e5cc94ef"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-short",
+      "arm": "A_optical_C2",
+      "path": "03_systems_profile/inputs/GLM/cross-000-short/A_optical_C2",
+      "request_sha256": "f94dbf74060abb85bfd42fa7c738f09de40a29dda716fd8f4ee8f3ff0e736a4c",
+      "measurement_sha256": "18119f3d8546fdf5788509296b91d0e26594cb264ae443848c76b02c5b64a2c1"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-short",
+      "arm": "A_optical_C4",
+      "path": "03_systems_profile/inputs/GLM/cross-000-short/A_optical_C4",
+      "request_sha256": "c03e9e2acbc7894692742de63224cae0cf6a95f7e7ef38cdac54b7e3ef9c30ef",
+      "measurement_sha256": "fd820a715db4d52c9c04fb043d025b8b90f681e111d0ad2a4d9754cdf39515fe"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-medium",
+      "arm": "A_full_text",
+      "path": "03_systems_profile/inputs/GLM/cross-000-medium/A_full_text",
+      "request_sha256": "050bb1989aa7564bb231adae6964e40ebda20c4f8c6a1c6c83b7b2b82b5402b4",
+      "measurement_sha256": "680a35bc4017dbd064aff688223186074ef784d4295fa153bec276f748538d7d"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-medium",
+      "arm": "B_text",
+      "path": "03_systems_profile/inputs/GLM/cross-000-medium/B_text",
+      "request_sha256": "bdd006d94d4ee31b6ecdc2cb28aea0a8289f9146887d1e568ec4de7029add2ee",
+      "measurement_sha256": "d6251053dd1fb04fdea7d9f2d31b59de1e61f4f21bd89e3d6ff041b64d201a3c"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-medium",
+      "arm": "B_optical",
+      "path": "03_systems_profile/inputs/GLM/cross-000-medium/B_optical",
+      "request_sha256": "5dc7fda35e19f5d3f85d7782299c5ba7b524bd6f7fad0b43e75ac7e34e3b0762",
+      "measurement_sha256": "76afcf6c7f596ae297cbc883e361d8ff3b58cffc3ce68258f7b6d601b3618cc1"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-medium",
+      "arm": "A_optical_C2",
+      "path": "03_systems_profile/inputs/GLM/cross-000-medium/A_optical_C2",
+      "request_sha256": "997fa9ad49d8dcde40fa3de3ed4d705e5a2f1ab160855721f97fe485ca9a6415",
+      "measurement_sha256": "a321cbdf43b5ecc9ec69696fa920b7912f2e4d5470fdeb75f54382b702ee4c53"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-medium",
+      "arm": "A_optical_C4",
+      "path": "03_systems_profile/inputs/GLM/cross-000-medium/A_optical_C4",
+      "request_sha256": "abe1fa86946be4d824fab7f407f5f415e1f482f2faefecf5349fa675f27afda4",
+      "measurement_sha256": "c280a5b773f985631549d1dba6c6eee55056c3e8da1563501911b6bd023ddc57"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-long",
+      "arm": "A_full_text",
+      "path": "03_systems_profile/inputs/GLM/cross-000-long/A_full_text",
+      "request_sha256": "e4f887c7026bdbf753a17181238cff8ae5b8fa1a163a660e0c74cd6ea2b89d99",
+      "measurement_sha256": "8c43c0ba6a1f184ee5a3c8628236881334c58625bddca374c86052d59627c9be"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-long",
+      "arm": "B_text",
+      "path": "03_systems_profile/inputs/GLM/cross-000-long/B_text",
+      "request_sha256": "17508245eee04a687f9f7b8e7de189ab64888079476a6aececd887647f5053d8",
+      "measurement_sha256": "c2ef5f70b30d3a61ca21ce7b767d080c16eb612c1d0e3ff16300444c3bc7487d"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-long",
+      "arm": "B_optical",
+      "path": "03_systems_profile/inputs/GLM/cross-000-long/B_optical",
+      "request_sha256": "02497b932e8041732b1212ac56b441f4a0807171ad5916a17ad7b840b39a5323",
+      "measurement_sha256": "2236f70ad5348ed777c558fa073ffcb0d536b2c190e54d874e2921c6274472c8"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-long",
+      "arm": "A_optical_C2",
+      "path": "03_systems_profile/inputs/GLM/cross-000-long/A_optical_C2",
+      "request_sha256": "b52e8238a3830c6baf452c92680a0d4093f5e64668b9b4c1c0f9610577d23fd3",
+      "measurement_sha256": "f83f3776a17c3756d05db02e22e383366029fe06246c9b64c716b7ea1b49ec3a"
+    },
+    {
+      "reader": "GLM",
+      "case_id": "cross-000-long",
+      "arm": "A_optical_C4",
+      "path": "03_systems_profile/inputs/GLM/cross-000-long/A_optical_C4",
+      "request_sha256": "691603e8b16b3582912d2a513556af1ba6e6c6fce45ea24530fd38457f8f4240",
+      "measurement_sha256": "c456e572aacfdf2695e9114fd0eb62133af525244b3fcdaf75529d0d717318bc"
+    }
+  ],
+  "budgets": null,
+  "environment_sha256": "fa2b81b4ba1fea662a86d0732eb22cae1a8512c71046defbb835780ebfdb511f",
+  "files": [
+    {
+      "path": "inputs/GLM/cross-000-long/A_full_text/MEASUREMENT.json",
+      "bytes": 82647,
+      "sha256": "8c43c0ba6a1f184ee5a3c8628236881334c58625bddca374c86052d59627c9be"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/A_full_text/REQUEST.json",
+      "bytes": 14474,
+      "sha256": "e4f887c7026bdbf753a17181238cff8ae5b8fa1a163a660e0c74cd6ea2b89d99"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/A_optical_C2/MEASUREMENT.json",
+      "bytes": 46848,
+      "sha256": "f83f3776a17c3756d05db02e22e383366029fe06246c9b64c716b7ea1b49ec3a"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/A_optical_C2/REQUEST.json",
+      "bytes": 77300,
+      "sha256": "b52e8238a3830c6baf452c92680a0d4093f5e64668b9b4c1c0f9610577d23fd3"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/A_optical_C2/page_000.png",
+      "bytes": 522431,
+      "sha256": "bea1e7e7d37957fc6c7f3f05877e84a8c83c21824b5275c523a575b7169a73e8"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/A_optical_C2/page_001.png",
+      "bytes": 509533,
+      "sha256": "48b6ad46af6004725f92445bef716b287706183d516a6e2fa728ceba45dc6267"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/A_optical_C2/page_002.png",
+      "bytes": 510045,
+      "sha256": "57edf3c0a06efa47c8f9769c5b931dcb94c5dd6442623489c41235c783ca03bc"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/A_optical_C2/page_003.png",
+      "bytes": 497661,
+      "sha256": "c19969c16f49f5fac66eace8fe9c1ba5f9a9b046c3d8f0bdbcba648b9701e034"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/A_optical_C4/MEASUREMENT.json",
+      "bytes": 24814,
+      "sha256": "c456e572aacfdf2695e9114fd0eb62133af525244b3fcdaf75529d0d717318bc"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/A_optical_C4/REQUEST.json",
+      "bytes": 77291,
+      "sha256": "691603e8b16b3582912d2a513556af1ba6e6c6fce45ea24530fd38457f8f4240"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/A_optical_C4/page_000.png",
+      "bytes": 334416,
+      "sha256": "e64db4133e10d19b65820706cbed7f570a94aaceeb3d6c9609b04b5dcf8959bd"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/A_optical_C4/page_001.png",
+      "bytes": 326457,
+      "sha256": "e89dfc9f3f40e90899c74312c9251d207cc28fab4b6828ffccc5276269f08a3d"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/A_optical_C4/page_002.png",
+      "bytes": 328258,
+      "sha256": "9bb6b20320cf4a825eda45fc0e7fe76da7c33ba28e8540bbdeb3eecb18e472c3"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/A_optical_C4/page_003.png",
+      "bytes": 319586,
+      "sha256": "47f5346b1fadd7155c5d5042e858cded916a238f056bebb9940bf0d3a1cdf6e1"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/B_optical/MEASUREMENT.json",
+      "bytes": 49775,
+      "sha256": "2236f70ad5348ed777c558fa073ffcb0d536b2c190e54d874e2921c6274472c8"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/B_optical/REQUEST.json",
+      "bytes": 77344,
+      "sha256": "02497b932e8041732b1212ac56b441f4a0807171ad5916a17ad7b840b39a5323"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/B_optical/page_000.png",
+      "bytes": 617023,
+      "sha256": "db8507a4fa10a7f50d060d8a295cc2365ee1b720e5b62fc685c9f56fb37752fa"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/B_optical/page_001.png",
+      "bytes": 602594,
+      "sha256": "fbfaca57a86536650937b0d8550f0e4385872e09f6cdcffe6b306bf34d468829"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/B_optical/page_002.png",
+      "bytes": 605262,
+      "sha256": "3f1cf739ec4ce7b822522fa8b10cffd85608ce507aee13e68dd9167be433fb66"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/B_optical/page_003.png",
+      "bytes": 588745,
+      "sha256": "6f1353ad7488dd69b53435b453c0b1ddc5bf4f7b876a1a550c59aa9ab78aa24e"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/B_text/MEASUREMENT.json",
+      "bytes": 45669,
+      "sha256": "c2ef5f70b30d3a61ca21ce7b767d080c16eb612c1d0e3ff16300444c3bc7487d"
+    },
+    {
+      "path": "inputs/GLM/cross-000-long/B_text/REQUEST.json",
+      "bytes": 8281,
+      "sha256": "17508245eee04a687f9f7b8e7de189ab64888079476a6aececd887647f5053d8"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_full_text/MEASUREMENT.json",
+      "bytes": 62541,
+      "sha256": "680a35bc4017dbd064aff688223186074ef784d4295fa153bec276f748538d7d"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_full_text/REQUEST.json",
+      "bytes": 11118,
+      "sha256": "050bb1989aa7564bb231adae6964e40ebda20c4f8c6a1c6c83b7b2b82b5402b4"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_optical_C2/MEASUREMENT.json",
+      "bytes": 36096,
+      "sha256": "a321cbdf43b5ecc9ec69696fa920b7912f2e4d5470fdeb75f54382b702ee4c53"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_optical_C2/REQUEST.json",
+      "bytes": 62906,
+      "sha256": "997fa9ad49d8dcde40fa3de3ed4d705e5a2f1ab160855721f97fe485ca9a6415"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_optical_C2/page_000.png",
+      "bytes": 456218,
+      "sha256": "a5112f17e625072c30d381d88a91d39250ac6f03eb2e60ec81369e51b9897bd5"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_optical_C2/page_001.png",
+      "bytes": 443009,
+      "sha256": "172055cbf0b63e9f793b8ae13f96be6817be4a6d09439a80a6ca096c2aa7aba0"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_optical_C2/page_002.png",
+      "bytes": 444371,
+      "sha256": "b41a1671dc3313051976d924c7e6dbea1552027654ae93c53973a56921e537a7"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_optical_C2/page_003.png",
+      "bytes": 433541,
+      "sha256": "f7952a3609bff34340c7a453db4f2d2d8285710491dc13c0d8d4b03fea858fcf"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_optical_C4/MEASUREMENT.json",
+      "bytes": 19197,
+      "sha256": "c280a5b773f985631549d1dba6c6eee55056c3e8da1563501911b6bd023ddc57"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_optical_C4/REQUEST.json",
+      "bytes": 62897,
+      "sha256": "abe1fa86946be4d824fab7f407f5f415e1f482f2faefecf5349fa675f27afda4"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_optical_C4/page_000.png",
+      "bytes": 261062,
+      "sha256": "4afe462ce5c2f2983a66147b1e603a51123990ae276b02116f27e4ae4b8f9a4c"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_optical_C4/page_001.png",
+      "bytes": 253208,
+      "sha256": "d5687778acd0903cab8d5a68cd966c9a9ee72f5d3a52fc21f9503a271847cd6e"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_optical_C4/page_002.png",
+      "bytes": 253153,
+      "sha256": "6c95c41d1d7a61031bfbf0be2e434cbd44a74967dc3081b5f527b5f380366beb"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/A_optical_C4/page_003.png",
+      "bytes": 248258,
+      "sha256": "37536bf5c0c9dcba898499cf4eccf0cacae7fd3aa1d608821956ccd24e7d5369"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/B_optical/MEASUREMENT.json",
+      "bytes": 49775,
+      "sha256": "76afcf6c7f596ae297cbc883e361d8ff3b58cffc3ce68258f7b6d601b3618cc1"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/B_optical/REQUEST.json",
+      "bytes": 62946,
+      "sha256": "5dc7fda35e19f5d3f85d7782299c5ba7b524bd6f7fad0b43e75ac7e34e3b0762"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/B_optical/page_000.png",
+      "bytes": 621742,
+      "sha256": "ec5c96c45b15c528ae131eaed5f77a9d170cd43be8af3a136ef84ae96c08b5dd"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/B_optical/page_001.png",
+      "bytes": 603789,
+      "sha256": "07adb7c1c6fb3e9ddcc3d1e0ecbfaedb191ad983c2dabb42b033067378de24db"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/B_optical/page_002.png",
+      "bytes": 605499,
+      "sha256": "4e999345da12544734f7bc87582c23957babb0e300e93cf3e98ca1ea51b0dc32"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/B_optical/page_003.png",
+      "bytes": 592129,
+      "sha256": "032cebe957d2cdc18928bfa6ff09ce7190f5f788582e83b6635170cd0aeb1007"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/B_text/MEASUREMENT.json",
+      "bytes": 45655,
+      "sha256": "d6251053dd1fb04fdea7d9f2d31b59de1e61f4f21bd89e3d6ff041b64d201a3c"
+    },
+    {
+      "path": "inputs/GLM/cross-000-medium/B_text/REQUEST.json",
+      "bytes": 8285,
+      "sha256": "bdd006d94d4ee31b6ecdc2cb28aea0a8289f9146887d1e568ec4de7029add2ee"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_full_text/MEASUREMENT.json",
+      "bytes": 22084,
+      "sha256": "fdcb4a538a8cab9a82218209b851ad77c43652dbd00967806eba18c8f20f2512"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_full_text/REQUEST.json",
+      "bytes": 4370,
+      "sha256": "3defc800dd0f3e7a970b5dfe7a47a8f28f3c986a350ed39148d03c378dcc4db0"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_optical_C2/MEASUREMENT.json",
+      "bytes": 14443,
+      "sha256": "18119f3d8546fdf5788509296b91d0e26594cb264ae443848c76b02c5b64a2c1"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_optical_C2/REQUEST.json",
+      "bytes": 33787,
+      "sha256": "f94dbf74060abb85bfd42fa7c738f09de40a29dda716fd8f4ee8f3ff0e736a4c"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_optical_C2/page_000.png",
+      "bytes": 134261,
+      "sha256": "430dba2085885d639eeb4eb222426780d741ed3fabb1a97eb7b1511c3b71aff6"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_optical_C2/page_001.png",
+      "bytes": 133937,
+      "sha256": "b75b5d4f028657bdfdcdbc0d7d542a47eb40778f323eb0a541113176b7bbdf0a"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_optical_C2/page_002.png",
+      "bytes": 132047,
+      "sha256": "190306d0abc01af9de3940c3b08267363d66c913a958263358447602b83b6ca7"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_optical_C2/page_003.png",
+      "bytes": 134786,
+      "sha256": "93d74b58257159ed10c50dab1ba0d202717008af9db83fcee5f36c283e6b8353"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_optical_C4/MEASUREMENT.json",
+      "bytes": 9451,
+      "sha256": "fd820a715db4d52c9c04fb043d025b8b90f681e111d0ad2a4d9754cdf39515fe"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_optical_C4/REQUEST.json",
+      "bytes": 33781,
+      "sha256": "c03e9e2acbc7894692742de63224cae0cf6a95f7e7ef38cdac54b7e3ef9c30ef"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_optical_C4/page_000.png",
+      "bytes": 86575,
+      "sha256": "995036fc368dad7951d6b67df35e82769c277b02070131a3ab48b11308fe55c9"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_optical_C4/page_001.png",
+      "bytes": 86724,
+      "sha256": "c9fcb45a8a802e37a29056cfc101b4672706b51a92dc543149aa9ba28bb5ff96"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_optical_C4/page_002.png",
+      "bytes": 85989,
+      "sha256": "4281a9f8cbc65402ec8ba440943c82fd46d856110b620b680b08617559da21be"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/A_optical_C4/page_003.png",
+      "bytes": 86852,
+      "sha256": "08b31f8dfebdddabe4d58e8424aaaf9e525c09da4525b7d2b06958841d34a925"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/B_optical/MEASUREMENT.json",
+      "bytes": 49775,
+      "sha256": "9261bce2b79a1377823988e7130cbff3adc1020f971e08d572588873e5cc94ef"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/B_optical/REQUEST.json",
+      "bytes": 33841,
+      "sha256": "721fc0ea37c64c04b1dd0ec03325c4141aa4f19d514e9364993b016054dc246b"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/B_optical/page_000.png",
+      "bytes": 426374,
+      "sha256": "0642880d85cdee19c65e80c4c1586c41974c5b72931030c8cf3aa20b0b471cc5"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/B_optical/page_001.png",
+      "bytes": 424169,
+      "sha256": "214b73af4c56f1f368991f1fefad8f27f09013e5e881bfc1fc0edb036763d54b"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/B_optical/page_002.png",
+      "bytes": 416245,
+      "sha256": "512fec26648a299b3eca169031bae644702c1d5497a4c3b3bed68d6985e0d280"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/B_optical/page_003.png",
+      "bytes": 426634,
+      "sha256": "1ea70cad174bb30102d9719aeef158c8e836d5417677d3a4987ea725e6273c92"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/B_text/MEASUREMENT.json",
+      "bytes": 22085,
+      "sha256": "1e17b54ef9eef271163a6695a1686f4531641a2cc70b791a8ac72694f2f85307"
+    },
+    {
+      "path": "inputs/GLM/cross-000-short/B_text/REQUEST.json",
+      "bytes": 4365,
+      "sha256": "e18dc766968fb8c23f6983fce3ab8fb2d1e09898a94a105a92c5d121f53f287e"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_full_text/MEASUREMENT.json",
+      "bytes": 87911,
+      "sha256": "e6c8e0bac751dd5a809aa82a5d69bb8903dec0bfd5b72cb38826741877ca96e8"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_full_text/REQUEST.json",
+      "bytes": 14478,
+      "sha256": "f7fb087b1936dd1830ecd5f812704e90ba37adfd4c0f4d2be3ed041fd9267fce"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_optical_C2/MEASUREMENT.json",
+      "bytes": 52946,
+      "sha256": "34b3d0025045d24b905762eeb520e858f8417458fd8d50bcde25706a29b2f232"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_optical_C2/REQUEST.json",
+      "bytes": 77295,
+      "sha256": "f06f8b5ac6f7ac4d59c3d9a65ad6c60a0cc88566afae932d8eabdb2c3ae5a8ef"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_optical_C2/page_000.png",
+      "bytes": 718872,
+      "sha256": "909386386e2933a604dd461ebc11237a1956638a1ba2a64fb834b9abbcf31b8b"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_optical_C2/page_001.png",
+      "bytes": 702130,
+      "sha256": "5c6faefc45e8be82dc63aa4781142daac9e3e0ce14f58c4726d3cef398a8e7ba"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_optical_C2/page_002.png",
+      "bytes": 703429,
+      "sha256": "321dae38c9085672e4e74d2e14305f061c51be3c01713d8e197c96f0a2a38f7a"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_optical_C2/page_003.png",
+      "bytes": 685666,
+      "sha256": "517b3c4465d5edb91204a70f7db902b342a3e5431adcd2c3f7ad47ce94489701"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_optical_C4/MEASUREMENT.json",
+      "bytes": 29173,
+      "sha256": "55aabd0d00b4dd41927088bd5e0c2338a8e207d9c8fb6a3bbbd88db8bbdf9ea9"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_optical_C4/REQUEST.json",
+      "bytes": 77298,
+      "sha256": "440852c0dbfa7f8dfb6ff47efa069177af070854c0de1f4b2892b59e3a57fdf2"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_optical_C4/page_000.png",
+      "bytes": 166168,
+      "sha256": "3cd8118f981d226f4d0d45d5e9154abc9186ed58c12b9d9deae1430e0191a934"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_optical_C4/page_001.png",
+      "bytes": 163215,
+      "sha256": "4d65abe31d03573201f8554384e95b7409f91b042af908e6e5f74f51afe57b43"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_optical_C4/page_002.png",
+      "bytes": 163623,
+      "sha256": "8ff4cbdf705b2883c934b4b8d6ef407babb8a4747d2d8b0499c161226097a316"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/A_optical_C4/page_003.png",
+      "bytes": 157186,
+      "sha256": "7a664df3befbbe0f4535baecb7689ace3e85921a9854ae8d06ea62643c98e3ca"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/B_optical/MEASUREMENT.json",
+      "bytes": 52946,
+      "sha256": "74bf3797d4dfe7ddd905efe1b60a8880f0d18db4c7dc9829b4df3679859228f8"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/B_optical/REQUEST.json",
+      "bytes": 77340,
+      "sha256": "f0181405a356b781e3fa324b29adc1a9f4448acfe86e788b8e8ae80cfa825e91"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/B_optical/page_000.png",
+      "bytes": 718872,
+      "sha256": "909386386e2933a604dd461ebc11237a1956638a1ba2a64fb834b9abbcf31b8b"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/B_optical/page_001.png",
+      "bytes": 702130,
+      "sha256": "5c6faefc45e8be82dc63aa4781142daac9e3e0ce14f58c4726d3cef398a8e7ba"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/B_optical/page_002.png",
+      "bytes": 703429,
+      "sha256": "321dae38c9085672e4e74d2e14305f061c51be3c01713d8e197c96f0a2a38f7a"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/B_optical/page_003.png",
+      "bytes": 685666,
+      "sha256": "517b3c4465d5edb91204a70f7db902b342a3e5431adcd2c3f7ad47ce94489701"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/B_text/MEASUREMENT.json",
+      "bytes": 45107,
+      "sha256": "30c4436261af7b796f9533742abac5b98e15e3f4991193a06e8c037086c4ba4a"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-long/B_text/REQUEST.json",
+      "bytes": 7753,
+      "sha256": "7cf942e2f220c6feddca76d0ebc3df8f77037ad3934af3aca8e34a0b07018604"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_full_text/MEASUREMENT.json",
+      "bytes": 66488,
+      "sha256": "630f4444ab1602e8be75d17492f3a509906d5d78d8aaf1ca2be472e7bb43b9c9"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_full_text/REQUEST.json",
+      "bytes": 11122,
+      "sha256": "938120b87435868268bb5f84789850758951bc8bcc52ce12543f150ce439e2c5"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_optical_C2/MEASUREMENT.json",
+      "bytes": 41359,
+      "sha256": "22c1637663e931346155a543ec32fa8105bdd9d6460ba8a37a4fa7e9446ea703"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_optical_C2/REQUEST.json",
+      "bytes": 62905,
+      "sha256": "7584fb62600116580610f26986896d74d6c56104f69a22b76b8c12158c3b1bfd"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_optical_C2/page_000.png",
+      "bytes": 654677,
+      "sha256": "1711a644f0a422a7f33b7f5299f209cf1b2d3ce38f6373c0594df68841f5d349"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_optical_C2/page_001.png",
+      "bytes": 634698,
+      "sha256": "2ac9e4f20a3024a668029fdd48327b13f9884df387548a33eb6278eeffbcc358"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_optical_C2/page_002.png",
+      "bytes": 636649,
+      "sha256": "ba7f34cb58c6b9c0df207e57d6880580bb724ff439b5efcc8b1ad6a316c6af1a"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_optical_C2/page_003.png",
+      "bytes": 624185,
+      "sha256": "91afd99fac3cdc7b3e642179162587b934ede31f97efdf2764429edf0c746079"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_optical_C4/MEASUREMENT.json",
+      "bytes": 22970,
+      "sha256": "646286a4a79fa99aa5ad048940c8b105fdaf9b7ebfc69cf61319869f06349e50"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_optical_C4/REQUEST.json",
+      "bytes": 62891,
+      "sha256": "e52c9812d136793b5a5995b0f4360b0d08e5dc960273f74f680f1986aa766549"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_optical_C4/page_000.png",
+      "bytes": 93912,
+      "sha256": "de9a5c38fdbc3b6c13b63eb1575d2181dedfc7addd3ab659b896d0ca7812025a"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_optical_C4/page_001.png",
+      "bytes": 90082,
+      "sha256": "af2a7c9ba21a993a070c34c5ca6d9f245c6db048558657bc8b03b1c4d5f2fc07"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_optical_C4/page_002.png",
+      "bytes": 91457,
+      "sha256": "dd9c96f3cb3501cb8b8020d8fa90e00b3570f8b7a706d057389657d971af89ca"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/A_optical_C4/page_003.png",
+      "bytes": 87774,
+      "sha256": "0c287b93847399c41d9363b53909efdaca3403f16ab4b9823fc4e645acf33c2a"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/B_optical/MEASUREMENT.json",
+      "bytes": 52944,
+      "sha256": "b260a5989d3a21aea6d06d23e1a0d6630694693ff651a9a2f175aaa7c65c93ca"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/B_optical/REQUEST.json",
+      "bytes": 62949,
+      "sha256": "80b3a0ed9b0b266b72542d00e65fe2abb5948bbcd36ea79ca68add4006698f91"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/B_optical/page_000.png",
+      "bytes": 787837,
+      "sha256": "7c0af3798410729b532f43d7da9776623ad6036e6c956ce751bcf975c98ec779"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/B_optical/page_001.png",
+      "bytes": 764966,
+      "sha256": "2b06a17e8d4e460fd46d3af32c7317fcaf0429f39d3898ddd7a0cb1f90bd061c"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/B_optical/page_002.png",
+      "bytes": 768354,
+      "sha256": "814faf10d3551e1f8e6076204be275922d877b235110cfabcd6b760e3caaef39"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/B_optical/page_003.png",
+      "bytes": 752370,
+      "sha256": "86e9de5a6955c01d3a6d325c5746e275d853271a777261053864a70d04bc0496"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/B_text/MEASUREMENT.json",
+      "bytes": 44950,
+      "sha256": "17d3234613311488a5323535d58428ae33ee34458f1f2202020ec88b324e6687"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-medium/B_text/REQUEST.json",
+      "bytes": 7729,
+      "sha256": "0023afefbefd1521312b3c4a63a5bbe9a6e7bfd2d0b9a5e699e5f6ab6165e5db"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_full_text/MEASUREMENT.json",
+      "bytes": 23493,
+      "sha256": "a8a83d80ff3ec68de9fb8dc3959f97be4095d6c40e89777774eebfd44477421c"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_full_text/REQUEST.json",
+      "bytes": 4372,
+      "sha256": "919db4026963369edbb110e923394228bfce980ede29c751f84c875e2d6d65d2"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_optical_C2/MEASUREMENT.json",
+      "bytes": 16059,
+      "sha256": "b725ed447d1f9d8e19c7af81d15040f33825e43af011376aa61afaf5f01b0930"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_optical_C2/REQUEST.json",
+      "bytes": 33843,
+      "sha256": "46d0a58919d05541a1821b0d9fb9b1063f26edadc8f9c93f521c9a9b491a1c7a"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_optical_C2/page_000.png",
+      "bytes": 179099,
+      "sha256": "4a8ee216a9e2c272549a85b24764986a60c52301af220bbb39c00b03722239d6"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_optical_C2/page_001.png",
+      "bytes": 180123,
+      "sha256": "ee0357237b679ee0deba235f63565befdfd3eb44c49099dcd90c697576cecf30"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_optical_C2/page_002.png",
+      "bytes": 176948,
+      "sha256": "e72a681c650742e620645090a3782f99e40a2a44041ad01bc89097b0c623db0f"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_optical_C2/page_003.png",
+      "bytes": 181956,
+      "sha256": "a76ca8b74b7ec776df4833d7d847630e45b39ed6a27b7c0e35fae54e0a30c99c"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_optical_C4/MEASUREMENT.json",
+      "bytes": 9586,
+      "sha256": "0e84f702e4f5eb83bbe4321066946c56d24738b466f46355c24d14708f4b3e87"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_optical_C4/REQUEST.json",
+      "bytes": 33840,
+      "sha256": "712ac723bcb5a708c081f3aebda58e648ae69163fe959bdd60768d3e25525660"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_optical_C4/page_000.png",
+      "bytes": 107578,
+      "sha256": "d39275eb37c3f7fb544a03b3d04a55eda6fe1d8bd164202be3b06b7dc708e667"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_optical_C4/page_001.png",
+      "bytes": 107175,
+      "sha256": "2088c2bcbbb14b0c31bf473476a2ddc3024bb85ad7f3db59d063c54d4d1891b0"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_optical_C4/page_002.png",
+      "bytes": 105583,
+      "sha256": "bdc8463d14f3f462dfbcfed62b5fd9e987398901ac1ab3f01dc41bdc0be5d56a"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/A_optical_C4/page_003.png",
+      "bytes": 107577,
+      "sha256": "cd92552c25d975146c70fac2e9c964d97efc55f2020988c9439317ab50b179f6"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/B_optical/MEASUREMENT.json",
+      "bytes": 52944,
+      "sha256": "f3789854c67ca726018a4414a148e241a151658250e6625e5286a48896f59a57"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/B_optical/REQUEST.json",
+      "bytes": 33895,
+      "sha256": "ae1466edc2fdbd49049929a67d07ef63f01a73acddf7ef2808988e1552e90a1d"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/B_optical/page_000.png",
+      "bytes": 500388,
+      "sha256": "9ade28866cebf0124dcd5b672973b50755ea21b8d16b71db4565b50a2b0975cf"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/B_optical/page_001.png",
+      "bytes": 502026,
+      "sha256": "bd885043d98613f1336a184b71a360364a8df653ec383e2aa3a675c03ee6abc8"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/B_optical/page_002.png",
+      "bytes": 492385,
+      "sha256": "1fd5ed4ac9a3c74048365b36f42624c1f8eb0677d27171572effeb624dc69f8f"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/B_optical/page_003.png",
+      "bytes": 505975,
+      "sha256": "17b1cd35f40ca111ca14fb771a6b7f78d4374d4c51e4e66ff561c9d53d006bdc"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/B_text/MEASUREMENT.json",
+      "bytes": 23493,
+      "sha256": "f68f2544fc8465542e131c55c326aa2b5b1fc37e81b93ab3db4e496371f5e89e"
+    },
+    {
+      "path": "inputs/Qwen2B/cross-000-short/B_text/REQUEST.json",
+      "bytes": 4367,
+      "sha256": "e27fdfdf2d0fda0ecb8fc122df26dc788fa3d628f7d86f18d69ad64e1133cbdb"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_full_text/MEASUREMENT.json",
+      "bytes": 87911,
+      "sha256": "694794acb5db2845d64077c2684fab9b02bd58d41fe0cd4f829312510103a0c7"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_full_text/REQUEST.json",
+      "bytes": 14478,
+      "sha256": "4b4a634a725116294aa97d9abad31037c011c0fdc6604e2fdcf83cb2c203b468"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_optical_C2/MEASUREMENT.json",
+      "bytes": 52946,
+      "sha256": "9a339ed62851c8538f1b2ce286846e9f4dfa557efdca8748402c5b96e595e600"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_optical_C2/REQUEST.json",
+      "bytes": 77295,
+      "sha256": "160954487cab9f83d98e159b85e065f606030759d08b6175c54dfdfd4dc28fc5"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_optical_C2/page_000.png",
+      "bytes": 718872,
+      "sha256": "909386386e2933a604dd461ebc11237a1956638a1ba2a64fb834b9abbcf31b8b"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_optical_C2/page_001.png",
+      "bytes": 702130,
+      "sha256": "5c6faefc45e8be82dc63aa4781142daac9e3e0ce14f58c4726d3cef398a8e7ba"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_optical_C2/page_002.png",
+      "bytes": 703429,
+      "sha256": "321dae38c9085672e4e74d2e14305f061c51be3c01713d8e197c96f0a2a38f7a"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_optical_C2/page_003.png",
+      "bytes": 685666,
+      "sha256": "517b3c4465d5edb91204a70f7db902b342a3e5431adcd2c3f7ad47ce94489701"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_optical_C4/MEASUREMENT.json",
+      "bytes": 29173,
+      "sha256": "58144957f58d985b4c6c1081c4d199e450fd9b518b15c3b086092d6c6400ea20"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_optical_C4/REQUEST.json",
+      "bytes": 77298,
+      "sha256": "d7752052be034f9616ca786d30fe72f8275f97b4c97b7d0f68554cc2fe915cce"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_optical_C4/page_000.png",
+      "bytes": 166168,
+      "sha256": "3cd8118f981d226f4d0d45d5e9154abc9186ed58c12b9d9deae1430e0191a934"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_optical_C4/page_001.png",
+      "bytes": 163215,
+      "sha256": "4d65abe31d03573201f8554384e95b7409f91b042af908e6e5f74f51afe57b43"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_optical_C4/page_002.png",
+      "bytes": 163623,
+      "sha256": "8ff4cbdf705b2883c934b4b8d6ef407babb8a4747d2d8b0499c161226097a316"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/A_optical_C4/page_003.png",
+      "bytes": 157186,
+      "sha256": "7a664df3befbbe0f4535baecb7689ace3e85921a9854ae8d06ea62643c98e3ca"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/B_optical/MEASUREMENT.json",
+      "bytes": 52946,
+      "sha256": "4f205e00660c2b9301f6f72f936fb78cd9f974e282ba479233bd9e30bcffbdf0"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/B_optical/REQUEST.json",
+      "bytes": 77340,
+      "sha256": "1c3bd32e4836f74038e1985bf799aaee10a3c5415870a11d892dc55efda684bc"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/B_optical/page_000.png",
+      "bytes": 718872,
+      "sha256": "909386386e2933a604dd461ebc11237a1956638a1ba2a64fb834b9abbcf31b8b"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/B_optical/page_001.png",
+      "bytes": 702130,
+      "sha256": "5c6faefc45e8be82dc63aa4781142daac9e3e0ce14f58c4726d3cef398a8e7ba"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/B_optical/page_002.png",
+      "bytes": 703429,
+      "sha256": "321dae38c9085672e4e74d2e14305f061c51be3c01713d8e197c96f0a2a38f7a"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/B_optical/page_003.png",
+      "bytes": 685666,
+      "sha256": "517b3c4465d5edb91204a70f7db902b342a3e5431adcd2c3f7ad47ce94489701"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/B_text/MEASUREMENT.json",
+      "bytes": 45108,
+      "sha256": "f0b9c9cb3cc1a63656cf690502e18cdd91dbdb89a495ed6f817446edd80542bf"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-long/B_text/REQUEST.json",
+      "bytes": 7753,
+      "sha256": "2a0de4f60c69a95ebc122f12c6f1136f8e1be7e667133256610d68779e8df54e"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_full_text/MEASUREMENT.json",
+      "bytes": 66487,
+      "sha256": "e6c9fe696de898d7c422794c8c870483b54fdf74e462d927da638622490b1d08"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_full_text/REQUEST.json",
+      "bytes": 11122,
+      "sha256": "f967db4dd8fea7cd688f84aad0b80a45ce6a3cce0e0305d2204ec50be02b73dd"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_optical_C2/MEASUREMENT.json",
+      "bytes": 41359,
+      "sha256": "04340f05dd9ae0982c2945f612b64696aed1afe3ff0260ef727b08f4af9b47e5"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_optical_C2/REQUEST.json",
+      "bytes": 62905,
+      "sha256": "0e116d8b37cd2faff35dbaa6f53171cf8f0419f9e90797d8ec9a98355ca27422"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_optical_C2/page_000.png",
+      "bytes": 654677,
+      "sha256": "1711a644f0a422a7f33b7f5299f209cf1b2d3ce38f6373c0594df68841f5d349"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_optical_C2/page_001.png",
+      "bytes": 634698,
+      "sha256": "2ac9e4f20a3024a668029fdd48327b13f9884df387548a33eb6278eeffbcc358"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_optical_C2/page_002.png",
+      "bytes": 636649,
+      "sha256": "ba7f34cb58c6b9c0df207e57d6880580bb724ff439b5efcc8b1ad6a316c6af1a"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_optical_C2/page_003.png",
+      "bytes": 624185,
+      "sha256": "91afd99fac3cdc7b3e642179162587b934ede31f97efdf2764429edf0c746079"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_optical_C4/MEASUREMENT.json",
+      "bytes": 22970,
+      "sha256": "52a0594ec2e795259d380d9f8c4d762c36ef4dca14d664a4f0f0353d6b045e4e"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_optical_C4/REQUEST.json",
+      "bytes": 62891,
+      "sha256": "813a0048a544da2c13b4da72c486c5afcbb1213214f5c367a8f22e1f045cc597"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_optical_C4/page_000.png",
+      "bytes": 93912,
+      "sha256": "de9a5c38fdbc3b6c13b63eb1575d2181dedfc7addd3ab659b896d0ca7812025a"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_optical_C4/page_001.png",
+      "bytes": 90082,
+      "sha256": "af2a7c9ba21a993a070c34c5ca6d9f245c6db048558657bc8b03b1c4d5f2fc07"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_optical_C4/page_002.png",
+      "bytes": 91457,
+      "sha256": "dd9c96f3cb3501cb8b8020d8fa90e00b3570f8b7a706d057389657d971af89ca"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/A_optical_C4/page_003.png",
+      "bytes": 87774,
+      "sha256": "0c287b93847399c41d9363b53909efdaca3403f16ab4b9823fc4e645acf33c2a"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/B_optical/MEASUREMENT.json",
+      "bytes": 52944,
+      "sha256": "fb3ec2d8301b5702ad31608fd5512a362c705ef356f0f5fcd42c4eec06fd522b"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/B_optical/REQUEST.json",
+      "bytes": 62949,
+      "sha256": "88e8cf2810dc8bc9f90511631e341a08d9d4ab9171bdfdb04502c37a7815b0e4"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/B_optical/page_000.png",
+      "bytes": 787837,
+      "sha256": "7c0af3798410729b532f43d7da9776623ad6036e6c956ce751bcf975c98ec779"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/B_optical/page_001.png",
+      "bytes": 764966,
+      "sha256": "2b06a17e8d4e460fd46d3af32c7317fcaf0429f39d3898ddd7a0cb1f90bd061c"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/B_optical/page_002.png",
+      "bytes": 768354,
+      "sha256": "814faf10d3551e1f8e6076204be275922d877b235110cfabcd6b760e3caaef39"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/B_optical/page_003.png",
+      "bytes": 752370,
+      "sha256": "86e9de5a6955c01d3a6d325c5746e275d853271a777261053864a70d04bc0496"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/B_text/MEASUREMENT.json",
+      "bytes": 44950,
+      "sha256": "e7c7533e8b26af4bc851669dffa3de5c3c1fa55a08cd355ecc9d2ff95b16948c"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-medium/B_text/REQUEST.json",
+      "bytes": 7729,
+      "sha256": "ba90d6abdf9b983ebb87d412e6dfb715e5ce8d22fa43ad3ff1624276bc0c33e6"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_full_text/MEASUREMENT.json",
+      "bytes": 23493,
+      "sha256": "4e9afa124906bd7081fe78787d2da54da9a878640a7c7d880980f7a7aab64798"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_full_text/REQUEST.json",
+      "bytes": 4372,
+      "sha256": "c5621eab0e760be7aaff23b46e87c450ae7c757247348c2c1db13739a09f523f"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_optical_C2/MEASUREMENT.json",
+      "bytes": 16060,
+      "sha256": "1ed5831c4d23fda0f0d550d399036a8a10261099d7fecd5c4354b125f9642308"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_optical_C2/REQUEST.json",
+      "bytes": 33843,
+      "sha256": "c481731df44092afd67fa410fcec822139f13fc0989927c25335c29de299ca5b"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_optical_C2/page_000.png",
+      "bytes": 179099,
+      "sha256": "4a8ee216a9e2c272549a85b24764986a60c52301af220bbb39c00b03722239d6"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_optical_C2/page_001.png",
+      "bytes": 180123,
+      "sha256": "ee0357237b679ee0deba235f63565befdfd3eb44c49099dcd90c697576cecf30"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_optical_C2/page_002.png",
+      "bytes": 176948,
+      "sha256": "e72a681c650742e620645090a3782f99e40a2a44041ad01bc89097b0c623db0f"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_optical_C2/page_003.png",
+      "bytes": 181956,
+      "sha256": "a76ca8b74b7ec776df4833d7d847630e45b39ed6a27b7c0e35fae54e0a30c99c"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_optical_C4/MEASUREMENT.json",
+      "bytes": 9586,
+      "sha256": "03a775762d066e707745ff2ad9ff069d2c196bc0180b025a5737d37fa8295fc6"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_optical_C4/REQUEST.json",
+      "bytes": 33840,
+      "sha256": "ac51f49ba4dd76c103192972e3f7f2dbda027f02f3860380cd1166a94101d1d5"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_optical_C4/page_000.png",
+      "bytes": 107578,
+      "sha256": "d39275eb37c3f7fb544a03b3d04a55eda6fe1d8bd164202be3b06b7dc708e667"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_optical_C4/page_001.png",
+      "bytes": 107175,
+      "sha256": "2088c2bcbbb14b0c31bf473476a2ddc3024bb85ad7f3db59d063c54d4d1891b0"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_optical_C4/page_002.png",
+      "bytes": 105583,
+      "sha256": "bdc8463d14f3f462dfbcfed62b5fd9e987398901ac1ab3f01dc41bdc0be5d56a"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/A_optical_C4/page_003.png",
+      "bytes": 107577,
+      "sha256": "cd92552c25d975146c70fac2e9c964d97efc55f2020988c9439317ab50b179f6"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/B_optical/MEASUREMENT.json",
+      "bytes": 52946,
+      "sha256": "d59c8804f0b1bf8fec6d088fedf96a7252c972eb05b46b5eb54b6c57ff6a760b"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/B_optical/REQUEST.json",
+      "bytes": 33895,
+      "sha256": "85f6f00b33e7b555157ae5a657a807ffccd25308134b32422bb86c7ec8f6f0ae"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/B_optical/page_000.png",
+      "bytes": 500388,
+      "sha256": "9ade28866cebf0124dcd5b672973b50755ea21b8d16b71db4565b50a2b0975cf"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/B_optical/page_001.png",
+      "bytes": 502026,
+      "sha256": "bd885043d98613f1336a184b71a360364a8df653ec383e2aa3a675c03ee6abc8"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/B_optical/page_002.png",
+      "bytes": 492385,
+      "sha256": "1fd5ed4ac9a3c74048365b36f42624c1f8eb0677d27171572effeb624dc69f8f"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/B_optical/page_003.png",
+      "bytes": 505975,
+      "sha256": "17b1cd35f40ca111ca14fb771a6b7f78d4374d4c51e4e66ff561c9d53d006bdc"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/B_text/MEASUREMENT.json",
+      "bytes": 23493,
+      "sha256": "4d76c0b473d81d054409d438e968dfed25c9b402e95819449c94dd45ebc52cbd"
+    },
+    {
+      "path": "inputs/Qwen9B/cross-000-short/B_text/REQUEST.json",
+      "bytes": 4367,
+      "sha256": "ce1f8dc7017024ec5041648e007577f59fd7f46c4c2e1b21291284c18a791798"
+    }
+  ]
+}

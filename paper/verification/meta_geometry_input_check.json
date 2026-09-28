@@ -1,0 +1,1458 @@
+{
+  "status": "passed",
+  "pairs": 144,
+  "fields": [
+    "source_text_tokens",
+    "vision_tokens",
+    "nonvision_input_tokens",
+    "total_input_tokens",
+    "input_token_ids",
+    "image_grid_thw",
+    "patch_size",
+    "merge_size"
+  ],
+  "same_source_strings": true,
+  "scope": "Comparison of preserved native-input metadata and source strings; not a fresh processor or model run.",
+  "records": [
+    {
+      "reader": "GLM",
+      "case": "followup-eval-000",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-000/original_c2_p4/MEASUREMENT.json": "565483d8c3a440ab8c1af40e0980765681805afe54fbed7fd21b1c9ac30fc3e7",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-000/efficient_c2_p4/MEASUREMENT.json": "471bbbe70623701aaeb0736521589166a72ef6c2ed0131239c2036b939d9f72c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-000/original_c2_p4/REQUEST.json": "dce309bd800700d5fddc357a724ccd31bee0ed91bc808925658a970eaea01adc",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-000/efficient_c2_p4/REQUEST.json": "14ea9d4f1c353032a33954882ae4d0aec3f201ecbc4ff6c848be61e09c71e312"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-001",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-001/original_c2_p4/MEASUREMENT.json": "6bb55778155c1bc7ab66a263f5b91eb6e3faad5f8fd1288712821f3498919987",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-001/efficient_c2_p4/MEASUREMENT.json": "e418576234cc5b5629900f1d5e2778a68375b614577e1d255c71fc90e4f7b5f8",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-001/original_c2_p4/REQUEST.json": "d2df7fbcdcfa06c3ef43008a6692e313362d7d5eabec8e11ba43648365f75663",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-001/efficient_c2_p4/REQUEST.json": "2c2719c6632265a024b4c8a88b6c191ab6335fefdeabeee8c268c72945bcdff0"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-002",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-002/original_c2_p4/MEASUREMENT.json": "7d448762ed83f83f9cf41e5e988aa0564d7dc289202d36b9c6e3fcf1725a0d92",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-002/efficient_c2_p4/MEASUREMENT.json": "977857de74d25dfec7a4e31492f5639c807627178f43c592a7137912350f8a03",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-002/original_c2_p4/REQUEST.json": "27159a52264a8a01e46a42d0a1e8557fc54fee174d055a6b0b3142229a6c8cc9",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-002/efficient_c2_p4/REQUEST.json": "c06557e0db4cc417dd9564c4cb18f17d7844caa83bdfba796207c27c4ddb42d6"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-003",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-003/original_c2_p4/MEASUREMENT.json": "2204844b3077a9f85cdbc8cdfbaa20284ae42dfa7c2f22bdecbee89a5ab5a1ad",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-003/efficient_c2_p4/MEASUREMENT.json": "477d32ac985c7f1da715954bac16a579b0a158f4ce0c723cd0d78053c5b32993",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-003/original_c2_p4/REQUEST.json": "ace25b1dfab70e1e02973156dcf5afd9ecf64798e065dd1ada25e21b1a883334",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-003/efficient_c2_p4/REQUEST.json": "a0d6a28adfa8a3b912d0890bf022701027250686246af82d22657bb685a1e934"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-004",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-004/original_c2_p4/MEASUREMENT.json": "83fccedae3b459d1100216837544ce48e1584eac4158c18db8180b7e033c0921",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-004/efficient_c2_p4/MEASUREMENT.json": "f3c968b23209f4ba2e3135f09a1b65285e2c1a09b152e3672c8667d311e954f5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-004/original_c2_p4/REQUEST.json": "000eb96cbeaaff03734934e38b59ea8bc144165dcf0000b3b0451ec2596f99f4",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-004/efficient_c2_p4/REQUEST.json": "1af077922809c7de908c7d669df9188b7aa58df3f69654eb8b5eee81f18269f4"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-005",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-005/original_c2_p4/MEASUREMENT.json": "7c20b59302198a1622333d20a2cd39159fb7182be1f20e3be4c8e6ae704440f1",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-005/efficient_c2_p4/MEASUREMENT.json": "b92313b3eac4515a145dd7ca4c338096c75ed6092a5a718c08cfa6bc1f42446c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-005/original_c2_p4/REQUEST.json": "1b4aa2c707bc1f405acdcf2c0883094c1efc073a13342f2c3dc90421a676b8c1",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-005/efficient_c2_p4/REQUEST.json": "91438432a78bb6c272dfff3c76d7fbd95a14f189b1f25c42a8015294345ab371"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-006",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-006/original_c2_p4/MEASUREMENT.json": "933de831b110ac2ac99d3fb8793cf0b601bdad1df485e01437b7d0fb7badee01",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-006/efficient_c2_p4/MEASUREMENT.json": "5f75752f761b15f022d531922df5e4963395b2452805cdffa19860efae4f0026",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-006/original_c2_p4/REQUEST.json": "f3bfb91aa8c7a81102025dff344832c3c2bcad9ffdd13abd18c281ccc11cc8a7",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-006/efficient_c2_p4/REQUEST.json": "d69eec90cd26f4c14db6fe1fb00699012a7246a0c36119a319e73d258a403e36"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-007",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-007/original_c2_p4/MEASUREMENT.json": "624c1052cc48c868b57b96cc74b48ae996ffcd5b9f32913f278243e08006ffcf",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-007/efficient_c2_p4/MEASUREMENT.json": "3bafaef98aa7e02327555378ada29c774ab18e728b55c1b110a4f140210d223c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-007/original_c2_p4/REQUEST.json": "f7fb23ca75fbf65a15cfe782f18676e10c61ef7d951547f0f65bb9c67b7e3629",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-007/efficient_c2_p4/REQUEST.json": "46723125000144136b49b95ba5baf052985ec48462a17db01ccb7ec9bfc1b5fa"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-008",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-008/original_c2_p4/MEASUREMENT.json": "56bfa543032f180e8e650016b8ba4eafd927923147e681d60b6526d48b087d6a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-008/efficient_c2_p4/MEASUREMENT.json": "0810cb7a8cf3ab7fa9c5d7bda237b8151f95bb15e1d2e65ab74df733d8e76942",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-008/original_c2_p4/REQUEST.json": "0042d710014ea97008b0fc618b5bcf3a924dbabc78c033b60ea33489f1148b1a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-008/efficient_c2_p4/REQUEST.json": "6ae67ec085b017f15423d8de1c967db62519583aeb6e87057ae985f2488799de"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-009",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-009/original_c2_p4/MEASUREMENT.json": "d7d18316fe33afd2a9e595d07a126d1f028138af3ca9eeb947adad2b0145fc5a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-009/efficient_c2_p4/MEASUREMENT.json": "962ff02bfdaf214f1f831fc7400decc4b22e484fc45d3b659ae4251bc038689f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-009/original_c2_p4/REQUEST.json": "9365bee13c4de7628d4714603002265adb1f1f42908ae0f2fb0d9c8099efefa8",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-009/efficient_c2_p4/REQUEST.json": "b28b6db16d6e6800622b83eb0dfcb413a12066b4604fa5dd459a19b940acfd77"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-010",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-010/original_c2_p4/MEASUREMENT.json": "0c2e7ff04f441712aa046c6b025225d7e58c81b78f7162dcb2f43d3c024c4700",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-010/efficient_c2_p4/MEASUREMENT.json": "da831680245bfae7708232c818aa844dfa7fd3418de7156b04d4666995db7997",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-010/original_c2_p4/REQUEST.json": "d48ffb6158a8ce4468780015da61454cd8e4987723aae6743308c3351ca76290",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-010/efficient_c2_p4/REQUEST.json": "5493f93712d95c73dfc2e48f0c1d2519c97945d17a26e4653e214d98fcf5a458"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-011",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-011/original_c2_p4/MEASUREMENT.json": "721839fa3d17df5518f726622a2cd2ee1836d66040c056f8f13aab6af89a0138",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-011/efficient_c2_p4/MEASUREMENT.json": "d96e5e47981dc5319dbe66d3b297c1eca804751957dabe729b22ce3938ee3b85",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-011/original_c2_p4/REQUEST.json": "5777a14a92919ae5c320d1e0c77b8d501285091de290ac03d3f419a641ea4432",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-011/efficient_c2_p4/REQUEST.json": "3cfcb8be5b32db011960e5619fe3d42b72f6b18e10826fc770486b6af4733123"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-012",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-012/original_c2_p4/MEASUREMENT.json": "513a24dabe3c1efa83502650adbaa718b3d5ee233c0024ad06d4462a0ef28f11",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-012/efficient_c2_p4/MEASUREMENT.json": "ea62b973bc73f0d6492be209f2ff140fe864e3f97e7b2db5960c6bb87da82bfc",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-012/original_c2_p4/REQUEST.json": "42b5f113fb7c5ba5f1d3c847c0aaf8a50b806a464eb39fd79a14bf706c389b41",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-012/efficient_c2_p4/REQUEST.json": "92256205dffe46528fe89e679388e6c7b88d52bbe9c9b8746a7537233e6d3884"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-013",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-013/original_c2_p4/MEASUREMENT.json": "008660db3bcaa60281ce254149ddd24cef1606f8a535f3640dd6e23278fe4997",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-013/efficient_c2_p4/MEASUREMENT.json": "af1d2869ffedf353770a36221fb66f9681e21b85f06e35bd50b930861ef88b1c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-013/original_c2_p4/REQUEST.json": "6b180e7c340ce1c434ca4553eb5a7d4d567c74574972f3caab2919ac9dd69cf3",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-013/efficient_c2_p4/REQUEST.json": "deab359070b91ede4a470072e52cb2784ef186984545b5abc85d3d8f8ddf2b1a"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-014",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-014/original_c2_p4/MEASUREMENT.json": "1b6bce8880392825cee76f5e67705ecefb152110eccda32e3bd01cf86c9dec61",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-014/efficient_c2_p4/MEASUREMENT.json": "4d0f9fafa1d7e725b29e45cf8dd385925f2336f0707580d37f56a83ff434f3d7",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-014/original_c2_p4/REQUEST.json": "05ae68d459e7989a7e8675cf49fd54309eb36b0cf5359baed59c4d8cf5b64702",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-014/efficient_c2_p4/REQUEST.json": "1589a0fa382b53e85c16f5be7bbb0b2d4657d85c802201cad44d529b051cf097"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-015",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-015/original_c2_p4/MEASUREMENT.json": "b9c454e9daef9aec1888f78edbfb93a5e1f055835740267f0e3f726e44c4af0f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-015/efficient_c2_p4/MEASUREMENT.json": "66c62e42d6d51055e1eb5b5a49cc26e8f0c6368e13145d52245a4c9289ad43e6",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-015/original_c2_p4/REQUEST.json": "8b50bbecf77c751e14f419f5e511269bbb8b5ab906c0c1c70961e7fffd26d394",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-015/efficient_c2_p4/REQUEST.json": "6676a2d4c9e8e5fbb9cad4836785ff5835a72355fcab96695ed805025cdd826d"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-016",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-016/original_c2_p4/MEASUREMENT.json": "138c3421553afac2e87129a831bdc59d49caa7015ba86cf6e161ae8f9e583874",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-016/efficient_c2_p4/MEASUREMENT.json": "151a99808e1703ab889c7d8fedec10ef48f50823a09974560984ee7a0bbc54e3",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-016/original_c2_p4/REQUEST.json": "4254e69b8d77dbd5d153902760f9510e69c86fe5f0c31aac69541ed0c7f9020d",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-016/efficient_c2_p4/REQUEST.json": "a40da27ae9308cffbb480ec8b7ec3371eb50e0258f91fedad7bc1ea08082a070"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-017",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-017/original_c2_p4/MEASUREMENT.json": "8a6a7c7b0b7bef5eca33cf4f44a2229cea5cd0517e886791e4930311e52839b6",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-017/efficient_c2_p4/MEASUREMENT.json": "14f4df4dd5d0c2c57dd9dd92ea8b81e54dabf6724aaa37194805ef60db58da79",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-017/original_c2_p4/REQUEST.json": "ac3317a6f2a59848e93673969dfd9aa62773b16bea56c0cd99726a03a2c0fbcf",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-017/efficient_c2_p4/REQUEST.json": "41cce3fd67c0a0ef08db05d3eb15990fb7153c831e94781d7e3a77faeac80589"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-018",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-018/original_c2_p4/MEASUREMENT.json": "4ed1944f6242715e4e678505707ab32c8a113cbc4d81cfa93a04f7a32fdd789c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-018/efficient_c2_p4/MEASUREMENT.json": "976cd29feb8651e3ce8bf4a7c63dbb3da1cfaf7527e3d4cd167662f1b516dc78",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-018/original_c2_p4/REQUEST.json": "8d2a82aa9c657a313da0bb0cc0331ee2cdef3aa592b9d462286089c172d34e28",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-018/efficient_c2_p4/REQUEST.json": "b9d8bdf6ba5505086d1762cb8d97376666a52c8c0dd7e1e6a7352bd39406e608"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-019",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-019/original_c2_p4/MEASUREMENT.json": "de8807ecfa8c9b930c9861b6114be980a20db27c522f0b7a426e96f094ffbaf3",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-019/efficient_c2_p4/MEASUREMENT.json": "4fe1b25a7b7ba03b3828a4d9e9a004ac4fe3524e19686abc2810e57a529da278",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-019/original_c2_p4/REQUEST.json": "0c796717248957231e9c74ff68e9554dba062ef27e5af457c8eda4c00bcc79d6",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-019/efficient_c2_p4/REQUEST.json": "e5a03c46924548a1b1e5436f457d34772369eaf873b2d8adb6de1dec4939fff2"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-020",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-020/original_c2_p4/MEASUREMENT.json": "5b84b23f267acf9af63e218a873cec59302600dd8b456080103f98580f147420",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-020/efficient_c2_p4/MEASUREMENT.json": "e5bb7ff9dabcd5038c8be1c56f372767e08f40fe4a14e3de327d5b080ac82221",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-020/original_c2_p4/REQUEST.json": "0f9d647c65d94376c2b67058a60a78563cc584ce834a6b360cd4927f60cb5724",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-020/efficient_c2_p4/REQUEST.json": "ace41715716ce258967d065743753d80da53470733e8bce0e2c57266304a33a4"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-021",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-021/original_c2_p4/MEASUREMENT.json": "15c46a1447fd01596759bec21c8af85f071bcccfe971a5f2b6be73927d847146",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-021/efficient_c2_p4/MEASUREMENT.json": "cc5dec0c16b31a3ef2149856b518ea69e853bc5a5991d21c75f3f67ed4cb3a4c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-021/original_c2_p4/REQUEST.json": "4b693bd070f2cfdb504571babe3f64cff626b70541ef315ed981ddf3435a2ca1",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-021/efficient_c2_p4/REQUEST.json": "24ebb0e749fa4ef26ea84527a3525fdd71009516d6931bf84ef64e127cc8ab08"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-022",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-022/original_c2_p4/MEASUREMENT.json": "5e0df5ffe399121b2d8eeb52f0635f325310c19a819230dd512055e183387026",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-022/efficient_c2_p4/MEASUREMENT.json": "bdb64e016863ea9ae8fb225fb8ffa0473fdb481a1e62c4ab80f87d53f9df4346",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-022/original_c2_p4/REQUEST.json": "ebf23042452f587d643f5d626131e2cf344db0aae9e4d93ec46fd83509ea86b3",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-022/efficient_c2_p4/REQUEST.json": "5dd5efe82f143b6e1a89ba61abcd668af8612d0c95cc00621f56ba46e269e9ac"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-023",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-023/original_c2_p4/MEASUREMENT.json": "02757a462231c6ab1854209c8e2e05a10ad9d45fd44f9c9826da6dc71a03fadf",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-023/efficient_c2_p4/MEASUREMENT.json": "e2f19634e5ee9d9a913b85a27f72e429f741f66fe52be8658566d429ad1e542f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-023/original_c2_p4/REQUEST.json": "3f682a8fcf093417aa6253780a5a550baf7e0de13bd9741781f5a7fa324dd741",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-023/efficient_c2_p4/REQUEST.json": "8dd2f099e5530a78d125480bc9883886a225dad7e0ec9414da7bb3ce4dd17bf7"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-024",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-024/original_c2_p4/MEASUREMENT.json": "2fe467908d343a7676bb700404091a119710d9aa8275beefa673030b7a9d4e99",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-024/efficient_c2_p4/MEASUREMENT.json": "4693c105a34ed0ebe377b3ccf1ebd4bb9806352ba506bbbddb2cc3c6f95e3990",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-024/original_c2_p4/REQUEST.json": "9918bccff0006ac20c334d000bfc2524f7a28ecb397f87c36215b4ba5a672c92",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-024/efficient_c2_p4/REQUEST.json": "682be85f1a3d7e1f00945bba6f3c4c5b7382ce65a4e13ffd32ccece19257daf1"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-025",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-025/original_c2_p4/MEASUREMENT.json": "4f8340a1001095a3789a417f9f28ef53a8882093b1f5e28aae79eff6e3522a87",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-025/efficient_c2_p4/MEASUREMENT.json": "67004e90ab63d5153e744f8b47aa50bde4ba5d150212b3f75871315960a4d196",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-025/original_c2_p4/REQUEST.json": "dd8b2025d6409b8001f369e9ded4d4369333556e280f8e4c6a14cf17a00f33d0",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-025/efficient_c2_p4/REQUEST.json": "288c6b00efcba7780ce052e9173bd2c685455fe8e9ea5490183eca78db3653c2"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-026",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-026/original_c2_p4/MEASUREMENT.json": "f1bb9655f76b20e0d7a45281c95ca2d3d1a52713200fb1dea0dcfd0dfd0ed0f4",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-026/efficient_c2_p4/MEASUREMENT.json": "7f38a461643c48f51b2454250e938771506cd78d15ecc0826a9835fb5a93b0c9",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-026/original_c2_p4/REQUEST.json": "8635cfa26a6fa3b26cebc05bae3a9a4958ec4d97ef0b6a385adbed72dbd108e2",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-026/efficient_c2_p4/REQUEST.json": "b99736a167033389284209254b92a5ff4e4527b35bfef2c4644b15bea67ae498"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-027",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-027/original_c2_p4/MEASUREMENT.json": "d48b36155a42e86ce2af7c2cb6df0f4e890640a5e300237b6bc911431a2c3483",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-027/efficient_c2_p4/MEASUREMENT.json": "6f42b2eba9117e0dcb2a40ee15e15a619bc5c0ef07dc7bcb9e3a654681f5f180",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-027/original_c2_p4/REQUEST.json": "e7e6c983e4cd2721f57489d7a630cc57a54695ac17f2a11b5ffc78856567415a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-027/efficient_c2_p4/REQUEST.json": "4825c4f07dd956e56bb440dc577e5ca22d5f25eaaccbd6487c6e63d86766a12c"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-028",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-028/original_c2_p4/MEASUREMENT.json": "3a1b6674ed4697999c38b387ef28e8348b1eba3f7f7e9391e1582d936e9ad941",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-028/efficient_c2_p4/MEASUREMENT.json": "1bb8073aa5720b0b59d76c0bcd40d69994c0e4eb98cdf6def82e00e43469ccc5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-028/original_c2_p4/REQUEST.json": "7fa0e411a4948a4a997e56ec0be1e48a506d6f5d633aa068a4fb453f35118945",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-028/efficient_c2_p4/REQUEST.json": "0cbb6946df08688a3aa4e103110bbe13061e218cb0ce7f6f0aa0f79cb0dbc702"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-029",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-029/original_c2_p4/MEASUREMENT.json": "07079e57350625e9e97e65f99c83f50acfa1b81b7732d9cf7e472e41492eeb35",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-029/efficient_c2_p4/MEASUREMENT.json": "a29777716e4165f30f166521edb6fdc3d95ef7a22960fc1e64401603f8c29e1f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-029/original_c2_p4/REQUEST.json": "066b91e7bb5fc29b6507dff9b5ab3a70c42e95a59976b0947c97d7f7c2882f3f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-029/efficient_c2_p4/REQUEST.json": "aa4a5d3de909fe3b19f4c1fce2ae0d3d2083681ade59767f1d60d616ee020f81"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-030",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-030/original_c2_p4/MEASUREMENT.json": "145f88f2c42104decfa487223189a2e5cf01c157669d3bf5451353d7458bceb3",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-030/efficient_c2_p4/MEASUREMENT.json": "1d76a2b3293e1b64674ab8df88dc356e50cb6881f4ca7941609a571bf6cf84fe",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-030/original_c2_p4/REQUEST.json": "1da180dcd2e1749a95907110bb34ad6f78cc309f1c345fffede85862fe0f7921",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-030/efficient_c2_p4/REQUEST.json": "c4b4875ea4b1994ddb68b5ce796dbfadee532c6f96cd02db0fd1dd005eead0c8"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-031",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-031/original_c2_p4/MEASUREMENT.json": "26e7fd5db063e0c0cdf6b52c23ed7ee9236ad020ed6fe7d75bc5061ded8f7fb7",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-031/efficient_c2_p4/MEASUREMENT.json": "cef74a9eff8e79ccf3600a00000941263989f19a6d2313b78a60d9047e5b93b0",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-031/original_c2_p4/REQUEST.json": "98808efddf0b428f563787695caa4a8103d52fea0d7551539ce2fb09f5d98fd4",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-031/efficient_c2_p4/REQUEST.json": "0b2f9a4c79ba9841a1e2843d5b5a80b3d38eaee99009bfa097d3c8081c8ad3c9"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-032",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-032/original_c2_p4/MEASUREMENT.json": "2c7900f194cce754b8c71e5528e31236e1e849faad376f4e887110ee6286402c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-032/efficient_c2_p4/MEASUREMENT.json": "ba5e5644028434a726350b72c9ca77daefe7e846aa83f6477891ece358609b16",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-032/original_c2_p4/REQUEST.json": "67262491e3802150f0c05066870ea970184f480bd44f2aaaab704563089f3452",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-032/efficient_c2_p4/REQUEST.json": "c74a23ae45315ab6688763dd93a8a065d3220e41da48bc5d3ff8736463ea7238"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-033",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-033/original_c2_p4/MEASUREMENT.json": "ec7a376f111eadac03d8d1888feb812d40fc9f6cefde9b874314775ff3592f8e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-033/efficient_c2_p4/MEASUREMENT.json": "40a0862cf5c76d49fee8a0bbb452a7c4cb7ba827f3d96be85e5b2dfbe7108d42",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-033/original_c2_p4/REQUEST.json": "7b86ef674aeb7d3399c2e5637ad770189f16baf9da9a2ba99c9153b6c3b29e34",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-033/efficient_c2_p4/REQUEST.json": "82464ce97023868dfaa80c688a546152dfbd226ead9658bbb886cd8f8be0ec4e"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-034",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-034/original_c2_p4/MEASUREMENT.json": "26bda73be6165e6bd5f3bc19cdd9ad57ca74d89c321a505b85cef619fecb7029",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-034/efficient_c2_p4/MEASUREMENT.json": "d53ec3dd46b8ffa7ccb6779eb3377643812e169df24a2e8394a9a82c8a042cde",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-034/original_c2_p4/REQUEST.json": "143aa28df345cf755b8821843562f3a590af595c17f9f79c3c5677c1065865f7",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-034/efficient_c2_p4/REQUEST.json": "82f8c69b119c027831140dcd0c7ec6f7d86d2f6496917b4bb9b7b2d1db11cf23"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-035",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-035/original_c2_p4/MEASUREMENT.json": "47f21ffc0f849e136e823f418945393614c8eeba15c16794611ebb977893a6fd",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-035/efficient_c2_p4/MEASUREMENT.json": "3bcc631ee9c91fa528c6c7defe3baba292a411c6b289473a2662dd57726590a3",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-035/original_c2_p4/REQUEST.json": "82f9cdf42c3b09d06b09c0cdb955741e0649b4cac38f27bb07369c9cdcfd643f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-035/efficient_c2_p4/REQUEST.json": "0e5e7f8cc701dd473475fe27468c8c4c92e59d04b33b6be7087d14305ba3c3d1"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-036",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-036/original_c2_p4/MEASUREMENT.json": "1cdfb1da9879898ca565c0effd56295e0f6681d8c97ad8b99ae8d0063910893c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-036/efficient_c2_p4/MEASUREMENT.json": "02306be2a32322a07ebb14feb7cfc3fca5c93b813f8f3a83487322338c67978b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-036/original_c2_p4/REQUEST.json": "a16b477ff73f1c35648241e0462979870af2370909de2c3b02b2a5af9e9eb21a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-036/efficient_c2_p4/REQUEST.json": "a84245994ba0856fa509f15ba772e03869555c5cabf0046932bcce81b8159425"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-037",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-037/original_c2_p4/MEASUREMENT.json": "0ba7a0c311232337fb870e9356eee60a96db7f97ecb6477a53c82f5c827d4d9c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-037/efficient_c2_p4/MEASUREMENT.json": "782793088b0b3f5956f1c7380d86c06238aa8394c03e91bc0f2685ddec08174c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-037/original_c2_p4/REQUEST.json": "72a8a6a0c75ded0a6477f20e9eda4725c21f7bff5b7d7e0a11c57a9e1f30458a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-037/efficient_c2_p4/REQUEST.json": "8c2b5d77f4388a873da2447c52c400893240aa4b5236e70829be92ee9d492e24"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-038",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-038/original_c2_p4/MEASUREMENT.json": "e972c8556679ab9fcc1b4968b165e69ca539b3cb59c0a99dd36613da2107b916",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-038/efficient_c2_p4/MEASUREMENT.json": "db6bf19630c9eac8624d2df57ff55e1befbd77e3bd6a7c048dac92aca440cfa0",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-038/original_c2_p4/REQUEST.json": "a50516e854635746feae21a17b6141238e1777e0b0f872960bab736d35f699a4",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-038/efficient_c2_p4/REQUEST.json": "161dafc30271aa6cce1ccc6eda58ee55e3101e0646df4c27c15f4bd79d0daeca"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-039",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-039/original_c2_p4/MEASUREMENT.json": "ca9ff9619b7a205f324f48c523d6901146bd963e830fed464dcf41992cfd0b22",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-039/efficient_c2_p4/MEASUREMENT.json": "126a08530fa2c65560353fe5a5b20243e544fc35d3c0960e0e41547ac5d693c5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-039/original_c2_p4/REQUEST.json": "9b61ad6be5383805e280e62520849408053fa6246da743eebdab3ed7a24d63fd",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-039/efficient_c2_p4/REQUEST.json": "95de16c533da61db9081a9b9e3e005b5871ec20261744d0e759a8cbe4a2b282b"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-040",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-040/original_c2_p4/MEASUREMENT.json": "8f0709cb51100d5e565cc9ed61e00cdd6cccf4d4e7c42be2ec070f0d8b3008a4",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-040/efficient_c2_p4/MEASUREMENT.json": "3a2be9cd8d5b98d919d3f8439ddf7dcaecee0fff4cd3f0f04110e6bb0c62479a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-040/original_c2_p4/REQUEST.json": "6fc7646c6d5d337a633712e1efbddcdb2e9895d3349edb4cf455d622c00b67bf",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-040/efficient_c2_p4/REQUEST.json": "2bed82681d32a5add49c25c9dc2d67836681f83e4eed5d780d8bba546a05aad2"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-041",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-041/original_c2_p4/MEASUREMENT.json": "9344e83d3f882ef9e1480721ba0b272b42f43779dccfe9a14dedfa59ec9bf617",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-041/efficient_c2_p4/MEASUREMENT.json": "b4549dc2587cbc9ad712625bd6f80a490f6c0b6c290cba4619bbab15a3aebdb1",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-041/original_c2_p4/REQUEST.json": "b82c1ee2f7635516f2d5a38ac9df5effea7ac6a17b12a1c16c15b87552252e8b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-041/efficient_c2_p4/REQUEST.json": "e91a8677d925af6b73ae72220d623261748c72e28d4272477fccb1a451d7093b"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-042",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-042/original_c2_p4/MEASUREMENT.json": "bd2b372d1242072a75cba248b35896b38d7303e817d19c4cfe340d8ca156f0a0",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-042/efficient_c2_p4/MEASUREMENT.json": "65d1e0c5da136630406a594df162395d4d1b583d5e5b1608b1d0a7ef1100de6c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-042/original_c2_p4/REQUEST.json": "846c5870e203bdb7d5caecd35384ee57600cf4c633f30016b2ce1359f873b920",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-042/efficient_c2_p4/REQUEST.json": "3729b429c3dae7ffe09a1b189a715e62ae2a7b449ec08548264bb704f2c753b1"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-043",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-043/original_c2_p4/MEASUREMENT.json": "10fd024e9545dbde5aca99f5725d462446a4b2ab925d1c70383aba97c523f006",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-043/efficient_c2_p4/MEASUREMENT.json": "da05b5c8f1b6645c1b37a618928af569b4deb29162271f626d474d25b7ed7625",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-043/original_c2_p4/REQUEST.json": "1b877c5e1d8484699b976b1419495a46a42773aa94e62375507b079151b8644a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-043/efficient_c2_p4/REQUEST.json": "efc6ce5ee7bcaf23d8ce15223169ab67481519f636f1b4cbc6f33e177bc28875"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-044",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-044/original_c2_p4/MEASUREMENT.json": "7e7e3feb9c8d3da69a2b5fe5d8cf23c226967f41a25b5bd90c816791772a2cf4",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-044/efficient_c2_p4/MEASUREMENT.json": "e2444da16e93944949a96657c1eff3f104a041c57c9148b853246c6822490385",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-044/original_c2_p4/REQUEST.json": "a2124dfc91490316d9bb692ff11a16dd1d233c52c6eaca8aa08e5ff4e81e7f84",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-044/efficient_c2_p4/REQUEST.json": "7337f4849babf11096aa66a441d99f29d3410009b1352b9baa325d8daaa55fb9"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-045",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-045/original_c2_p4/MEASUREMENT.json": "a67e67fb4b6364047471414c7392782cbb3c8fefd4fe5435fc9f328765c53a64",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-045/efficient_c2_p4/MEASUREMENT.json": "f9a75669abdf4db3a6f3d6e5aa8faa131f2992b5151d521bb21f83cb2dcc22a7",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-045/original_c2_p4/REQUEST.json": "53afce737cd19fa432f1680131e61d4338cd28aa5e47957802a76bb155c024f8",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-045/efficient_c2_p4/REQUEST.json": "f469422bb2b9ae509ac3931f77cb999c559ee1c226c19c10d35862e40a550d59"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-046",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-046/original_c2_p4/MEASUREMENT.json": "8f52f834e660f12c94693c02c2b3ffddb6b78197339ebdbf0b046ee252c0276e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-046/efficient_c2_p4/MEASUREMENT.json": "b33d4ac5105140052dc27babc83bc674d5a7856d7585dce217c2dd78c40fbf18",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-046/original_c2_p4/REQUEST.json": "7231d06106f53b143428ee4840868efdfdc06014327dcacbe94aac84081e6d03",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-046/efficient_c2_p4/REQUEST.json": "6ff1353216e02751322868420bf350093cf0eee8a788b0e0b64071a0ee488892"
+      }
+    },
+    {
+      "reader": "GLM",
+      "case": "followup-eval-047",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-047/original_c2_p4/MEASUREMENT.json": "0a2e6679026044545a9ea4366decc6faa3ec9f42a30d5039e587e0eae653830e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-047/efficient_c2_p4/MEASUREMENT.json": "364676f59085da86fb92e7dd18321e1cac5790efcf76ba7b7aae5a81004cdbae",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-047/original_c2_p4/REQUEST.json": "15e839ab366df5a63b703a389f5d96df5b1b9d9743673d87a548a5960eca4c30",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/GLM/followup-eval-047/efficient_c2_p4/REQUEST.json": "92ed950b74c288d101bc60cc8b6ec3422535dc82637cb0ee274e367955f77d92"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-000",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-000/original_c2_p4/MEASUREMENT.json": "2317e649f41c85b19288585bb27fe86068923dd8900a11651b225d7e19e475e0",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-000/efficient_c2_p4/MEASUREMENT.json": "948aed5f591b400f6a3c70dd7f1633219c64cbf1b11e435d12792cce1e0af79d",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-000/original_c2_p4/REQUEST.json": "ed0b006a21afac866720c45bd7579770ecfff5b722b0aee1540feaefbadc867e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-000/efficient_c2_p4/REQUEST.json": "ebb5c5d57a174b33fc6481cf06f0bdaa35def6ae973361c2bbb352fda3b3a776"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-001",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-001/original_c2_p4/MEASUREMENT.json": "e18422e80fb5ef0143e73d00bac784c6f7f01caddc6b941c1b9f178dd9e64dda",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-001/efficient_c2_p4/MEASUREMENT.json": "57ce239d5d389ca4e1a15117331262d39311c055ebb1714d1c2e1e84cdfe378e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-001/original_c2_p4/REQUEST.json": "434b8bec141a9de9ef76d89d181c4c09704a00f01f1e257ec670f51d60a8a151",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-001/efficient_c2_p4/REQUEST.json": "637df1a93eb17ac64a7f2fdb5d5e41918c7d37eaf9768f1a610e2cca1dd4f154"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-002",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-002/original_c2_p4/MEASUREMENT.json": "59a894bc4ab45ce077240b1a1fa03d3f38ea2d2c0f1f49cc53873408ab515163",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-002/efficient_c2_p4/MEASUREMENT.json": "48af44abad64c158457e785fdbb0776e57536773a3c2554955140a94941ac42f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-002/original_c2_p4/REQUEST.json": "074c3d7c155479971fc64fcce40b0a8f3a4f78903d1843dddb91d2ea05f78a04",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-002/efficient_c2_p4/REQUEST.json": "840723aa5548005fbb4e27591a2ba089438a1bf72aee98637ded48dde45e9233"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-003",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-003/original_c2_p4/MEASUREMENT.json": "d5bfbbf69edfed03e5cd9d0b17ab916f07ca532255902b6ddbab769fb6ae3999",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-003/efficient_c2_p4/MEASUREMENT.json": "f142ccdb378447ca0d0b1cc94ccc3deee768d3e8fab2ee962ecae802cd5fe411",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-003/original_c2_p4/REQUEST.json": "fd524624654bdf97edee09d06f5d2074ed4ce597c47a28823d87909b245590d0",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-003/efficient_c2_p4/REQUEST.json": "405d8f0fb95d8d34754926f5821e5644a0678c85fd1c1a55345f19028a0d17d3"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-004",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-004/original_c2_p4/MEASUREMENT.json": "829ab56859222f5c7020daf295186765c553df8a037a0e74262a348287fb3e16",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-004/efficient_c2_p4/MEASUREMENT.json": "e5de46dca1e42bebf11f16ff6e66bf3fc34361786bc4158975f04818d371d568",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-004/original_c2_p4/REQUEST.json": "47f894594ae1ea62108f7b152cf45fed0d25edf8cb6106cf6c3ea1bdaddf3688",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-004/efficient_c2_p4/REQUEST.json": "f8a71ddfaab16d0a0da06f2b896b9045922b35fb8599772d004ae759a40cb53b"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-005",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-005/original_c2_p4/MEASUREMENT.json": "17e587f7100c24a0ffd248493e6392c93a01d40eaada7cbbd60fe93c5a612bb6",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-005/efficient_c2_p4/MEASUREMENT.json": "91e8a4c6c24e3004482f1bf44a86ec49fbdd3e457f179b63f5bed7a0cad81052",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-005/original_c2_p4/REQUEST.json": "68e6603b4f343792acbf9e695aca1398b9043a10409b1e0e47eb2d92ce3edb8a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-005/efficient_c2_p4/REQUEST.json": "fd7b0b84c8fe308fed1c31ed074472ef4c6b68703550f62f41555e9277ef7c35"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-006",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-006/original_c2_p4/MEASUREMENT.json": "eb9429cac8a5d7067dff6980cb522e8cd65dc099acaaad4b9cb0166b3af52655",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-006/efficient_c2_p4/MEASUREMENT.json": "3c42dedab9de0382ab4a8620f1b0a6f87dfba3eec84b5a273299afacca692cdd",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-006/original_c2_p4/REQUEST.json": "e0342d7ff332fd0ec113b01fce41c35b4de1e9103056c2108878961b1852736e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-006/efficient_c2_p4/REQUEST.json": "35f992f099c4aac9f0193b476c132f0e90cab64ed549cb4b8c745f5967c9f80b"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-007",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-007/original_c2_p4/MEASUREMENT.json": "1886f66383dc5671c4c75a573db795a4c48bc9219fb91db387ef99403f6f6700",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-007/efficient_c2_p4/MEASUREMENT.json": "ac788eac937999e673e9fb5b8df95c3682d60f0a29e4a2b06b8619e3d74153e1",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-007/original_c2_p4/REQUEST.json": "5c97fb8c3d2683b534c779c00993a248ca7537fa5c0b398655aeda5720b88bb3",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-007/efficient_c2_p4/REQUEST.json": "0dd754db5bab377b6e3e890076db7ce9d85ba842fee5c80cb153a3cbf4a43bee"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-008",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-008/original_c2_p4/MEASUREMENT.json": "a7ccb0a97cf6241588f01799cf3e7319bc2f6c1fe0db2b0b013ab1d7f4dc05f5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-008/efficient_c2_p4/MEASUREMENT.json": "8afbe8001ea180cf9b0562f925ed312db81cf044fcce3cbe72f45a865238abf5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-008/original_c2_p4/REQUEST.json": "7b932a573913c557a52491949d444c0d79c0365f293e35c25bea5d82979897f5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-008/efficient_c2_p4/REQUEST.json": "21a4ffa8c0d9655740bf13bb50736e6710a8bf0328aa5d983eca393f27273bc1"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-009",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-009/original_c2_p4/MEASUREMENT.json": "41aede9bd1282b585ed60f3d5f25a43620e1735f64772cf2f7943f1038c6adef",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-009/efficient_c2_p4/MEASUREMENT.json": "78196e1c37941088b8daa99bea6c66cf24305dc9dbeb7a28df8f0d83748a6259",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-009/original_c2_p4/REQUEST.json": "1bc98146e388508d732755df8cf76d8cb5e89b1cca3d408dfae5b53f36df0e39",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-009/efficient_c2_p4/REQUEST.json": "a0b690535b474cee84c065d2375bd7cc6855305557bee9b6b0fadb4bcfbad927"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-010",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-010/original_c2_p4/MEASUREMENT.json": "28929d6994c780fb1f816150ce62eb7124d665296baf5366f2c487bbc2d01d6f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-010/efficient_c2_p4/MEASUREMENT.json": "5135e765351f2d1e341147b429665ea156426e8b694db4932b389bd1a6812564",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-010/original_c2_p4/REQUEST.json": "04c510b002e6f8b1188876f178669fd17911297b9e2da028b876edd915e9a624",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-010/efficient_c2_p4/REQUEST.json": "8e9b10b6af2a9c9cd62184baf5d174060912d6262357bf6378e9411e02da34f7"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-011",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-011/original_c2_p4/MEASUREMENT.json": "e07beb266aab0278fbf9faf12ac86b4d90694c914d750b33483c009be4372479",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-011/efficient_c2_p4/MEASUREMENT.json": "bbd4bc26256183849de35d26ae9aae1a2c3c7fa8240de29a3a6ea21c0167d802",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-011/original_c2_p4/REQUEST.json": "283f0c6a5c599d5c7518bdbf6351eb4f302e920d60bd5737fd8af9ceb6caba4c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-011/efficient_c2_p4/REQUEST.json": "ede522bbee80760c1d17e80e8f7bedc7ab04954048cab3cef729450012605596"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-012",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-012/original_c2_p4/MEASUREMENT.json": "e0c6226589b99bd35c0bf4c9c076840c15d5803a41766b97679773048c724a06",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-012/efficient_c2_p4/MEASUREMENT.json": "9c3438dc5ffe3ca4e1e9e0811b3d15008c6d935ca7c26adf3d20db73b90409d9",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-012/original_c2_p4/REQUEST.json": "601f13fa134ef811810af4eebeba4b4654874ba1fdf9d23ee310aba135e5ed08",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-012/efficient_c2_p4/REQUEST.json": "2ddb6b5bf087e9135a11477efb89135bc28ff70d1231921db0e18282ce70960d"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-013",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-013/original_c2_p4/MEASUREMENT.json": "7153706fe74b66c2a24314f341ea297bff17a4429c3a2904e512bfaa726da1ff",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-013/efficient_c2_p4/MEASUREMENT.json": "d02544ff0693e8391867a7e55dae32f98bacd50d7556618e78045ccb2e06bbcf",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-013/original_c2_p4/REQUEST.json": "37396257ffd1c7cd0f1bad9ae9184454682d380001677c6dae9e0ecca168721c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-013/efficient_c2_p4/REQUEST.json": "8bb25a757ff3812883e315f39cc46afa072263acded09a44ae689874f2a4edca"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-014",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-014/original_c2_p4/MEASUREMENT.json": "67e6e9e91b353796d193a23dcb0c732b3159c5d46e77111e3cbd52bb81408748",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-014/efficient_c2_p4/MEASUREMENT.json": "43c1061cee9c6886fa66ca3f3149472066fb0ce446b0f3e4ef4ce59bc6db2953",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-014/original_c2_p4/REQUEST.json": "bd8ea318a6ad933d1757e3a883e3181791d7f88260046860697f5b40ecd18574",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-014/efficient_c2_p4/REQUEST.json": "66275fb1ee264c260c3cb2aaca724339b09dfd49111c78ef349308847350919c"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-015",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-015/original_c2_p4/MEASUREMENT.json": "f0562206256c0622e5459788f7dfdc51e53309ce26437ae5fd81bb8ce5b09ef6",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-015/efficient_c2_p4/MEASUREMENT.json": "043aed41cbfe72f4f6a9f9721e0d33f1282d3ce77f42428c3ca93d1654c972bd",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-015/original_c2_p4/REQUEST.json": "c62439eac8c9e54ed9cf25f0240b327beec0bdc5cfddacbc5c59ab31e13bdf64",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-015/efficient_c2_p4/REQUEST.json": "28f8ecf36e8b7e77ef40e21fa6d79eaaf6417790d5c842539110613a5b2b8a68"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-016",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-016/original_c2_p4/MEASUREMENT.json": "de61249b3092b2da2700233e1fc0d073cb8c6bfbaecfbf28332f47eadf58c962",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-016/efficient_c2_p4/MEASUREMENT.json": "4e892021207875aea67084ddf04a89240c91f4c69113b4a810ec2fe2fd3745a9",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-016/original_c2_p4/REQUEST.json": "1e40c790ce5fd0d5a92438f44460aadf930c55c63dddae219377ec0278d023f2",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-016/efficient_c2_p4/REQUEST.json": "421bb969af430184a6ade2bc8cb708c350282c07227f2b9b148c353c4a73bd7f"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-017",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-017/original_c2_p4/MEASUREMENT.json": "5aec44d8a312d4f33c1baed96bfc025b7ec9bdb857a9dc85a1a26552f2b91502",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-017/efficient_c2_p4/MEASUREMENT.json": "c0965099e05039547fa91ed6f41fd25afdead62f3696bf2a1a18c86c3ac5e2ea",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-017/original_c2_p4/REQUEST.json": "05fbad68399b3006294447254adeafa0f2f19bbda237c8d20497c7d57443e121",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-017/efficient_c2_p4/REQUEST.json": "90912f2ce34cb2aa529ca4c331bae688e2d17b1b9807a2116aa67603f13fac3b"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-018",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-018/original_c2_p4/MEASUREMENT.json": "443e02e8d2b0f9683de911ae65e5fcebeb4f8b68d72bedd17fe2a969d102e524",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-018/efficient_c2_p4/MEASUREMENT.json": "f8fe91cada5a16848f384eead49b1e086e6f2bd44b6403458a48e9c0bdf09ecc",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-018/original_c2_p4/REQUEST.json": "5318c846f6b02b3512e3bdf563233702f34c90bce6909b54d85d8e1d241d9ce2",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-018/efficient_c2_p4/REQUEST.json": "afdfa07d2ede0a9bb6a24cdff72f3c682fdf5dca7141f1232d0ce34f382c1ba0"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-019",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-019/original_c2_p4/MEASUREMENT.json": "d43773be139a1ab566861f09844375e9a70c2f88345107353c1f3adf98c2059b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-019/efficient_c2_p4/MEASUREMENT.json": "72dd0b9a6bc5a03c0e8d0f5faf07a8e6db0a94e726d8b7c273bf4c9d69326f43",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-019/original_c2_p4/REQUEST.json": "9c3765e27e3183a7429fe66e043cb65a876aa1ca0538dfb1ebe120b6ef83271b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-019/efficient_c2_p4/REQUEST.json": "a68e0e86fd2bc644aa810bd36545de698f6e947fea075dbbc75530da41dce2ee"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-020",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-020/original_c2_p4/MEASUREMENT.json": "91157523a4f1dd8075de66bfb402de61aa9aaa32fde37822a8b52f2b0d7752b5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-020/efficient_c2_p4/MEASUREMENT.json": "882f244407e24b214a77947c157baaf4cc14483eaa507e77d4ad40320b7bd596",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-020/original_c2_p4/REQUEST.json": "c4269bfaee0340ca2dae1d2f7c0450d36c33a9490845c9c4c8672649a0afe509",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-020/efficient_c2_p4/REQUEST.json": "e73fe14afcbc7ae450e37d6f339226227274dc0640f9d7ee45febfac2baa51fc"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-021",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-021/original_c2_p4/MEASUREMENT.json": "781766ee52ef657c466c7fed05a4f464bf84ca0890fd9bdd070911051effc27a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-021/efficient_c2_p4/MEASUREMENT.json": "cfa28692fd3cfedf6c7503c03ff95e26f8ad46ec745b20bba55399b5de4223b8",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-021/original_c2_p4/REQUEST.json": "9bcace4599b72134301924c81ac785bd68633db61460ba0859aab49687236d29",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-021/efficient_c2_p4/REQUEST.json": "113b9fc1f13d5eec40f4ab7bdaf617f7faef30d422476e87f10b0766cc5de124"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-022",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-022/original_c2_p4/MEASUREMENT.json": "0000e20fb22504ca5655cdf332d462f0b149df2061f9fffe47cf212df4273629",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-022/efficient_c2_p4/MEASUREMENT.json": "f44f0293682a9eb54f542fa10f4b5a36fa42b4484ec8f833bc187cb4668fe3c5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-022/original_c2_p4/REQUEST.json": "5b7e06a78ffc700b0d14f204251bb7aef4d1f9f6531dd5e333da8b5d30fa84ca",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-022/efficient_c2_p4/REQUEST.json": "b423d7c23ba8018eeeb416897241c5c8b957f4d7cad56561c53b807d016e61a8"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-023",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-023/original_c2_p4/MEASUREMENT.json": "3f9cd7d2d9d8b25725fd648bd9e852da7b861dca307df68ce2f7458bcbb7a973",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-023/efficient_c2_p4/MEASUREMENT.json": "b4c995e1b519c5c46d27a8946d21858069f198fd6451fdd727b80973c01ccc5f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-023/original_c2_p4/REQUEST.json": "356ab48df3e30e3e4f6d7e1a8a9bc43cb57a24a0b05f72dd90d60e4f7780ff77",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-023/efficient_c2_p4/REQUEST.json": "d004597bde0b220ce6944ccdde48292a9454c116eeb0a46ac7bb63f31abe8a42"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-024",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-024/original_c2_p4/MEASUREMENT.json": "5f309b6249c3fe382fb5e32cf8011b3bb3870670d22f2792ac55e1771c75fe0e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-024/efficient_c2_p4/MEASUREMENT.json": "178d6ccb40bb5f7bbe291584d2fe145a8c9e96c25beda4e4de66c4da8153f0e4",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-024/original_c2_p4/REQUEST.json": "ce9886ea7545926197afc5fc5b9d78b5ea3912b3cbe24bffba88ba04075e85c1",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-024/efficient_c2_p4/REQUEST.json": "783c1fdd65bf801f7e40387a9c4c67499adaddc61105fa834e32af9f02529b59"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-025",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-025/original_c2_p4/MEASUREMENT.json": "10f6253ab91f79f18f3291ef08fef8f718e43a93af1492510fdf699f580bc8ea",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-025/efficient_c2_p4/MEASUREMENT.json": "d7d862d3d90b963f0b60d51ab4fb8e22833548259cd0140650377b6212e5adae",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-025/original_c2_p4/REQUEST.json": "7c264c82389d0a5cab7e54ba1c4fe1e5e4e1b141477b2bd50ed700146cb55f8b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-025/efficient_c2_p4/REQUEST.json": "9f682b3d4280ca079b25c475c0e66ae4cf04c6e8bcbde364309bf43b551ed1d4"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-026",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-026/original_c2_p4/MEASUREMENT.json": "8b5c289cef5025cd1dcfa237644982da454b8db0105e4c84340194ea62564ca4",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-026/efficient_c2_p4/MEASUREMENT.json": "d4ab9cb4b97e6379de451dccb038557d296b4eebcb97c6d86e91b7a83b05e934",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-026/original_c2_p4/REQUEST.json": "6ab4cbae0cbc2729fd0c622a25c1dec8c8f2ab4642ef9007ee8b2ee1538049f4",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-026/efficient_c2_p4/REQUEST.json": "df5c955e5e2c1b31c76e9b6b027d59051a9afca0d58819fd60392ba54346dbbc"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-027",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-027/original_c2_p4/MEASUREMENT.json": "e7a9d5c3267bde4b069dd32440f08d9b7bdd63737f205c652b47616a8717cd94",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-027/efficient_c2_p4/MEASUREMENT.json": "9a8d313b30275c4d814b70d495645672764ed2887d449d9d42eca05946a7ab34",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-027/original_c2_p4/REQUEST.json": "c837edf422ee51a2367af08e2c656feb41d187f5c70bf484e830cafd74417aca",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-027/efficient_c2_p4/REQUEST.json": "5f5551c9f5047b6df05e232bde03f48bb81837a9df59b3e75da528562b04fbf4"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-028",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-028/original_c2_p4/MEASUREMENT.json": "4dea28a406b6c3dff6ec1a455650dc041829739db734d2c6661622ea5c8bdd47",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-028/efficient_c2_p4/MEASUREMENT.json": "7fd5c098a271ed455e23335503e6446dcab68c0c400a30a945662cc1fbf05dec",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-028/original_c2_p4/REQUEST.json": "187d478c49fedfff8325e2b86686653b08a5429ffade876a37948aa57cd4db9f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-028/efficient_c2_p4/REQUEST.json": "74e8281f4b305abf5e6992da90f697dd1df30d4f4930f1ae800d1ecb8ae8afcd"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-029",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-029/original_c2_p4/MEASUREMENT.json": "fb4d00ee7cf5fd6db4f45fe55870de87834706209ad027fde381978d3b35efe5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-029/efficient_c2_p4/MEASUREMENT.json": "4fe8238d46eedac5e2a17d4607425246a173d1082be495701c85945074195330",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-029/original_c2_p4/REQUEST.json": "6c3dfc32e6f4a461b7f863c9ffb85b095f4446951400589dc291d85d1c3139b0",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-029/efficient_c2_p4/REQUEST.json": "197e355ca407a679cd8786b76ea04f8b0f96fdb1b860c3ec78a69f01e8b3e33c"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-030",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-030/original_c2_p4/MEASUREMENT.json": "ae4646aafcae11a1fe27c315e604772903ae8b3602a2d3541fb4dca2505caca5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-030/efficient_c2_p4/MEASUREMENT.json": "b452a7deaa8aadce122825b3c1b9bd5ec819e22cac41f7987033e1ac6038334c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-030/original_c2_p4/REQUEST.json": "76a9f6ae2be01b7806bbd41b1350cb929797cd8fc7b74ca454fd0bdbb0e29f4a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-030/efficient_c2_p4/REQUEST.json": "faba8b0d5b35926af752e04aeec73486a2f69e50d97b93ad6e5cb24b98d1cd53"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-031",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-031/original_c2_p4/MEASUREMENT.json": "078fe05083e0bedb91bff59003f248d2ee55779c694c123e37eda758e3a2d10a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-031/efficient_c2_p4/MEASUREMENT.json": "5dd0c6de419f360bc311f7f0bcb5a3ad74d0d681f33dd6d07f5ae1bb1b4dccbb",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-031/original_c2_p4/REQUEST.json": "7c2f638d896068278febe7be56c3967a7358f0ba932d1a44ecccff9d2ddee90d",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-031/efficient_c2_p4/REQUEST.json": "60aeab2a52f5c77ab02f77acb57170c19decef3ed650fdb85ea34391250024d1"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-032",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-032/original_c2_p4/MEASUREMENT.json": "b76712f49b58f891a424e918d06541e97f3075595f352bba9435cf0c63384dad",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-032/efficient_c2_p4/MEASUREMENT.json": "62500b2932c6c4a5994d0acf328430a0455dbdf90269b33109410b32e08fa357",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-032/original_c2_p4/REQUEST.json": "d161475ee5be5e84059186dbc005b73182bae63d6e27dd3a01a8613416ec3480",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-032/efficient_c2_p4/REQUEST.json": "b595e9b556041586da899c5dccd5f385fdd2f09463bfb2c5b36cf0074df078fb"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-033",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-033/original_c2_p4/MEASUREMENT.json": "01bfdc5cb375029e4d4df71d2d4d716dcec5a7b92327d29e3b78f1f1298b1857",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-033/efficient_c2_p4/MEASUREMENT.json": "f4293d384c5ad26fba96511154b0df25861ee3a219ddc03edcd0b424c9b1a466",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-033/original_c2_p4/REQUEST.json": "a6791708fc91f57b1605e60adc56b3fdb236b8af42330556b9d5e07c9bf33e72",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-033/efficient_c2_p4/REQUEST.json": "eeb156bdaf0503cfedad3e96e781479a250788c499d21bac3656d323f4c25f13"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-034",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-034/original_c2_p4/MEASUREMENT.json": "54920539db678233a01f640837ea674ab0760d75606917dfb144b611afad953d",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-034/efficient_c2_p4/MEASUREMENT.json": "4c2af47ffae0e2a010fc702bb37d4bf9950e7046860a62cdeddd745a6a6d5467",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-034/original_c2_p4/REQUEST.json": "a68550d6460355d53f7e9002c0bd7c3285f82942c65630c062c0b7fd069eb1cb",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-034/efficient_c2_p4/REQUEST.json": "194978935b0a3e6422affdf56b5bd0da11f2ad1e97b75cdae7c939116821b05e"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-035",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-035/original_c2_p4/MEASUREMENT.json": "5df2a574d61de60bc748452e0263f5ba43c77f054c906b869792fa3916c07d4c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-035/efficient_c2_p4/MEASUREMENT.json": "707e49fbc5c3526f8fbab1364b1bb2c7361a7fa55e0d241cd58f285167a7bdc9",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-035/original_c2_p4/REQUEST.json": "d8501254b50e4641a2ba7ac31ba0aa4c015feb45f3c77c8b5afffd2926cd2078",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-035/efficient_c2_p4/REQUEST.json": "1e580e83fc8887ae8bb7eb6f76af2576630a617a91eaf41757488e2e777eb866"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-036",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-036/original_c2_p4/MEASUREMENT.json": "f69b7ed78c97b61f92f4df95e5be202051fb3007fc8050ce1bdd274c8fa2d109",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-036/efficient_c2_p4/MEASUREMENT.json": "ba7570e4033545f14444b0d17305c464b7243c40052ca8d4a5b46ea0564675bb",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-036/original_c2_p4/REQUEST.json": "8e0a45957438ed851089e0429652367315ff16ec7e6ea5eeedf01533b6658441",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-036/efficient_c2_p4/REQUEST.json": "cef707c03951eb6d869a625ec952225b051b2558f56d931f20d82de252bf854c"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-037",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-037/original_c2_p4/MEASUREMENT.json": "7b8933e95bfbcd01fb303bc8b1ffeadc9ef0cf638a462d0803f0068d3e69c8e1",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-037/efficient_c2_p4/MEASUREMENT.json": "a575dac09b5b527e05b05a749e78c6ee08eee32e606899a4741d67a9e1a3f57f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-037/original_c2_p4/REQUEST.json": "8eaa56ca803b6ba57bc1da46d9147af7c9df0f2660b241fee41aa4c5fffa6dce",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-037/efficient_c2_p4/REQUEST.json": "e5680ab25d065972521df3c2c71c5240541a5fc729c3d2263adb3ed2b4a08542"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-038",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-038/original_c2_p4/MEASUREMENT.json": "1832e1ef1c3c77c1346c7e8e7ae707f44ab3f4a75a0f98fec34e3e62c5ae8d50",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-038/efficient_c2_p4/MEASUREMENT.json": "bbf4e465d9f2115e863eb2e303f48ea3e8a8c1653d95cf62b1a828ecee0222e8",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-038/original_c2_p4/REQUEST.json": "6a4eb6b3ab18239cbc65604ad05a63e2e172d4068d377dd53da34745c1d8ce22",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-038/efficient_c2_p4/REQUEST.json": "9fb17b332fa33e3e11f27a4f2b327001e397b3dba24357913f34f20c94b48ea7"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-039",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-039/original_c2_p4/MEASUREMENT.json": "730f250aaf3de9651bffe259289072db5c1ade3aef85f9c240ce44c9dd11cf94",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-039/efficient_c2_p4/MEASUREMENT.json": "afce3f98dc21fb6b888870b454f95a74e8445e48a294d003762171ea9ab0306b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-039/original_c2_p4/REQUEST.json": "a1fe15a2e8fc53cc48bfb74cd0a28ec74d829ecd05057a6c8726ac28a3a40bd4",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-039/efficient_c2_p4/REQUEST.json": "7c06c892863c3a9e015c036cc3ab035bae79b819b2180efbdacfa45ca0354933"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-040",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-040/original_c2_p4/MEASUREMENT.json": "1841a63560879bfc18a95bdc542968b621d9bd576c9d94f97cc7f89d8cc5e901",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-040/efficient_c2_p4/MEASUREMENT.json": "e98f26aabeb0d6274a14d117516ca3d27ee6f6a6a2c5ea364006f55bce83c345",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-040/original_c2_p4/REQUEST.json": "55b6a21a20dab427fd08c3077715ac8fb1d5079d6a50cfe4f84c201783a13c70",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-040/efficient_c2_p4/REQUEST.json": "7b05b5ed6cec0d414365fb894d2b33c83383067d138525587f8c4081405a483b"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-041",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-041/original_c2_p4/MEASUREMENT.json": "76acc6abf72bf8f0be61104454c1296c15c8e7dc74c128ae73ad8a2963789b82",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-041/efficient_c2_p4/MEASUREMENT.json": "a539b7a06922113ab9530e29f1fa3d908f07b4d087f5bec31bbaaa34ce01ac2e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-041/original_c2_p4/REQUEST.json": "d08552febfdc43209e34069928be02c7916c5b2611278822afcbf0727e0f14c3",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-041/efficient_c2_p4/REQUEST.json": "f8001cd334e5fe7aba9fd2fbdb5b2d642f37143eb35a3780d03001a8cb18670d"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-042",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-042/original_c2_p4/MEASUREMENT.json": "6b35e605603831a5fd0edb0cdd550f850c6ea7fc0a5b07cb2522aae71fbd196b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-042/efficient_c2_p4/MEASUREMENT.json": "1e289bdcb936c1ae6f2b1349f8a1a9032046cb73e258a03f92ea47e3ff9376d7",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-042/original_c2_p4/REQUEST.json": "37a89d03b2f02b35615a8756848d47d15f6bd945109a605171dcb83828c9080c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-042/efficient_c2_p4/REQUEST.json": "a75c28e03157cee1487fc336ea8c62fc49dae7c77a47679e416f52c40d4288a5"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-043",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-043/original_c2_p4/MEASUREMENT.json": "3ae1f3695cdd9d927cacef1688c526a6114ce7177dad219bcee2c3da3f8b7716",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-043/efficient_c2_p4/MEASUREMENT.json": "02c4efc2d390d61582ff4cba4b023b513669b6bdc85a9370edbeb34b2ba9069a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-043/original_c2_p4/REQUEST.json": "772c5ccc8cbed1c19fd82f026432ad083ccfc7671ee6e800c59065a40f5f0573",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-043/efficient_c2_p4/REQUEST.json": "5a657c01ee671064f0e7f64a3d836b43f593b6f5a520c6a09ab38a377e116bea"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-044",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-044/original_c2_p4/MEASUREMENT.json": "9c7871d471bb4583945ea3126c61f125a2abd0b71d55795182567d9e04852611",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-044/efficient_c2_p4/MEASUREMENT.json": "4bbc882141dfd8367aef031c7817b13153be20b918dbf72c641eb228c3438fab",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-044/original_c2_p4/REQUEST.json": "14126e0c103b60a095b94146e66fae9bd2fa7920b3f83013f1ef6aa421e6e621",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-044/efficient_c2_p4/REQUEST.json": "3b4ca3e6ab41e9445facc6d32d3388beacbb23e7e61764faf176800aceb4d218"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-045",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-045/original_c2_p4/MEASUREMENT.json": "70d4c70a99d8cc7885691311fae4e941c0e3a28e91c2c389ed323c2f0ebcffd8",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-045/efficient_c2_p4/MEASUREMENT.json": "09fb51649d330a4e63ee48c72d901bf5b4090ee66664ad9cae478e3812739ad9",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-045/original_c2_p4/REQUEST.json": "aaf027024b93488d4ef643ac77497279e4ca934250a779d37de030d7e870fbb3",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-045/efficient_c2_p4/REQUEST.json": "8a3259aada9125ff3d388234e31585fa902e216a4613b0d350bef4e1025bef36"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-046",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-046/original_c2_p4/MEASUREMENT.json": "6b6d397484165c926d82af930ef1b04b322592103535743d72d528c525816448",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-046/efficient_c2_p4/MEASUREMENT.json": "54375084348cbb520123e90bf2d81cc11f354b4a5934639deca072a69eb5314b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-046/original_c2_p4/REQUEST.json": "9cd841835cb06615ad1b98a9de39701ecadf4f6a7bf32026c38f23c7cfc6ad9e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-046/efficient_c2_p4/REQUEST.json": "7aca25349ece32dab181dcb1e296b82b7f1c85cfdcddb8a5de00359f59235d7f"
+      }
+    },
+    {
+      "reader": "Qwen2B",
+      "case": "followup-eval-047",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-047/original_c2_p4/MEASUREMENT.json": "0bbd2326d1f7679c2dca48dc62802b994806119005de9202bd30845b080fca92",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-047/efficient_c2_p4/MEASUREMENT.json": "26603206e1a1c4e37506a2f46cc3aa4baa9a1384b4e97ef06c6879de4e62d04f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-047/original_c2_p4/REQUEST.json": "f98e9dc668c65908209638c8453dcc8e47479581d30bdd83a7321b6189f475af",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen2B/followup-eval-047/efficient_c2_p4/REQUEST.json": "9f25bdf92c90ee914bf8e9ba17b62609195117cac191e551f4748af5470875d5"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-000",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-000/original_c2_p4/MEASUREMENT.json": "6cc06f2b9ce63533b5c7a5f34d560c663911c2208fae79c291ad5cb8abd3669f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-000/efficient_c2_p4/MEASUREMENT.json": "b460ae1ef88f2dcd21afa34fa327145d02aa17b4f2d526d0129e602713efbe70",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-000/original_c2_p4/REQUEST.json": "8da0d73e6111874c4ed101269b9c0270bd2c080659f8d372992150d8406fbacd",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-000/efficient_c2_p4/REQUEST.json": "dc5b0eb2f586c49ce88a8bf0b5c03c535837e8ce138bf0570ce51b6c376f8af9"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-001",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-001/original_c2_p4/MEASUREMENT.json": "7c4c95873ef8ff6acf1101ffd273ee8775e7ec43fb4b25e52cabd1fb88d25555",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-001/efficient_c2_p4/MEASUREMENT.json": "12d0e459a1954f55407bfc1a249c00326c91e9ac90ca27621359ad71aa5d6cba",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-001/original_c2_p4/REQUEST.json": "a531e919fcc8fc8c21fb471bc8b77ba3158a0fd21f3275ab7fc1a489cd51fd8e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-001/efficient_c2_p4/REQUEST.json": "fad920e6e9c04946bade6e38afa6651d4f98057481f2fd801c475795a5ebb19a"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-002",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-002/original_c2_p4/MEASUREMENT.json": "f802c9b8160929cc8cbc5094464971bdcc4351be609526a0778f94dc1ff1ce51",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-002/efficient_c2_p4/MEASUREMENT.json": "7c0a1a750f58dc59f8029bbdb3b2c146f535103ccff05a6feef819129dd9c007",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-002/original_c2_p4/REQUEST.json": "07b7d7bed0039320222cc5e400c2623799bab3b08195322e43ede1215f2b96e8",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-002/efficient_c2_p4/REQUEST.json": "0ba1f6ab94c93d7f8e0157c634cb513c754ab27f4d144ecb458da1db416df7ff"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-003",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-003/original_c2_p4/MEASUREMENT.json": "ee146421f5da987447f59dd41fc16874eae2d001a916ba1781e57f3d1549f95b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-003/efficient_c2_p4/MEASUREMENT.json": "07cfbdaff8c99539e8ba65345aaf453fa79e00be5c139677caa7388c59a20491",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-003/original_c2_p4/REQUEST.json": "83c2c0a7538cb97185d2487b2c0b6e6dbf20d9b886ba138951fdaad8ddb6c3c7",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-003/efficient_c2_p4/REQUEST.json": "864bc41e042599783541e6640d798d577f7388ceafcafef18f78a6f924bc7cb9"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-004",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-004/original_c2_p4/MEASUREMENT.json": "ef31c8c0395fe43383ad7c3bdc4d6063ceb9bcbfd5e8bed14c534cc52fc953e1",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-004/efficient_c2_p4/MEASUREMENT.json": "ad341ca8aa15ea90662f6729f2c93d88d667d8bac1e08511d6aaa0e422aec630",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-004/original_c2_p4/REQUEST.json": "ab464214c71c6b1b3bd7d359cc0c5be29706a53bdf9755752a8b076927c4fb48",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-004/efficient_c2_p4/REQUEST.json": "03f7b332dfaca32e0b5b7db1cd552e8239104241a9cb19fd6bde12f930739d02"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-005",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-005/original_c2_p4/MEASUREMENT.json": "27016a690a6d71f5f984642e54f3c7eaafbb95258dd38059af6e78aeb29f6bc6",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-005/efficient_c2_p4/MEASUREMENT.json": "6dfa31653f7ec8df4cceef1ba07b0268eaf518e3a498c6d8ff96665f1b0f4d35",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-005/original_c2_p4/REQUEST.json": "f63c8f0c0d7b2499320eb9d89fd6e71e8431536a6528e02c63730d6ddf5f01c9",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-005/efficient_c2_p4/REQUEST.json": "ffe27a348a6a2b64bf048a42c039cb1b6bcecb326b9877103149604c9f83477c"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-006",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-006/original_c2_p4/MEASUREMENT.json": "55cc56e15e1cdca53a3c594aba851168129a1062f122f10f3e44bcbb334478de",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-006/efficient_c2_p4/MEASUREMENT.json": "c252230e2de69cea23b28c307a8c2f57a99a00ba3cee983831f3f1c8144ace73",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-006/original_c2_p4/REQUEST.json": "eaa976935c871decbe19becaff6c6ab00efe1542c28f1a72abb7fdec013ca95e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-006/efficient_c2_p4/REQUEST.json": "0045d74406ad2a617504b792986b2d4efce7c7795a4fbd7b90b03954536b67d7"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-007",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-007/original_c2_p4/MEASUREMENT.json": "81abbba847c29a193ca8c7f7e31f975194bb13c92ba36f68986f8518329c6ef5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-007/efficient_c2_p4/MEASUREMENT.json": "8578573c921b108abd2da4a6d6ef66a5b4136ee3c8b328668c8450d461ffa0f2",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-007/original_c2_p4/REQUEST.json": "6b3801f150ade68b7fc51eb3a6d386e167429dec1e00d46d8780bbe997665c06",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-007/efficient_c2_p4/REQUEST.json": "2608225d545bd1a73612fd069e772194fd4fa56ba53bd68f68139a9f9b0a189c"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-008",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-008/original_c2_p4/MEASUREMENT.json": "9a2ca7bcd4c78e4777cdfedc974e11bbdd49a517167ac5bde4eacebc4ba5b4d7",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-008/efficient_c2_p4/MEASUREMENT.json": "868be2805a539298d00ba0f90f04376a2c3f1b28f191358443c7a9f3054fd062",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-008/original_c2_p4/REQUEST.json": "4d7d89e8fb0f31036715880a89f8f80a42bd801414ae02573a9ff873d0e3d541",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-008/efficient_c2_p4/REQUEST.json": "5d613fbcf9f2763767aeccb7270a44a0c697e9df1c5acee05a04dcaeecc589c4"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-009",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-009/original_c2_p4/MEASUREMENT.json": "3073aad891a75d6beff398458c13469815aeda56a5a4a12abb177d7323fb827f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-009/efficient_c2_p4/MEASUREMENT.json": "30181f0d56c65ef3efef50f94dc541455c7f71984de060623d0715fd3b9e1d4b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-009/original_c2_p4/REQUEST.json": "6e52b0e35bf6c2056ab306a694d8c91057cc4f833885b2f2804d1c8d04f837ac",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-009/efficient_c2_p4/REQUEST.json": "2a48dfbc8fa13f8f1656c9e0c845da5f66f4c8abd682fc52bc465d998c137a74"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-010",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-010/original_c2_p4/MEASUREMENT.json": "bd55fe714fbd34a7c78bc782b7631730baef5532764026a2fb61005c44e2270d",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-010/efficient_c2_p4/MEASUREMENT.json": "ac26e8e15e21c5bc7dda9c0f09e2fedadab8d9d05592ca25997d8a7544ae649d",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-010/original_c2_p4/REQUEST.json": "f09662b18ac7e398d91b708c2eb1cb43fab016ffb3e4c3a534a0e22033109e2a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-010/efficient_c2_p4/REQUEST.json": "ac54e667c4b9853ae9b90f78f64bded2913429d99b50ba19df135ef56467014f"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-011",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-011/original_c2_p4/MEASUREMENT.json": "25c0521ab7fdb0af9c44d1d00e1e797cea53107cfea64e9e0a1e0d93eb4a2040",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-011/efficient_c2_p4/MEASUREMENT.json": "332b379b612a5ceb0108b649bd33592349145a3c7f6fc4922d43bf1f1c52ebf1",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-011/original_c2_p4/REQUEST.json": "ded7d90bf2c392bb96572c6aa087db1964283e216cb50b8e18987679bc6edc4e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-011/efficient_c2_p4/REQUEST.json": "674866419f2606f8a57cb8a726f778391dd09e71e46ae07a30906a7f11d29b74"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-012",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-012/original_c2_p4/MEASUREMENT.json": "cc5c4af274c74ec669165cbd4e7382d83fdc092bc8374537c7590f3823f0d676",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-012/efficient_c2_p4/MEASUREMENT.json": "eff7b8d1a7a27de8dd61ef354b4f9f528de5a8dc3336badc00eaaf50a4ea6513",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-012/original_c2_p4/REQUEST.json": "4cb48d8ab2b6e505ecba7aacb5d9006055b23962fd7e2faade587e0dfcb2f70e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-012/efficient_c2_p4/REQUEST.json": "560c2483280406db0b6c864b887b352b8b4b88a7d2b9cd303f0a7721b60d9172"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-013",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-013/original_c2_p4/MEASUREMENT.json": "ebfe943dfe448a5cb21c93a8c53a07cea7acc5e7c1700885cc246d3d0d509a64",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-013/efficient_c2_p4/MEASUREMENT.json": "91b2d61baf476f7558162622bea2d6b5a336a8cc4f114a1a812d78780c0a496e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-013/original_c2_p4/REQUEST.json": "8b0fb05d53f28571a80c3f125ae9cf84bd70c82483b2b441317ad4370108bbea",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-013/efficient_c2_p4/REQUEST.json": "2d321d1dc765bfea25b027b263f8b3bea2a5ee1c29aa27338ae1d98a201a7f10"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-014",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-014/original_c2_p4/MEASUREMENT.json": "debc78857435ec73d7d084af4780d6e990ffec8430a31d11a270f111167268e7",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-014/efficient_c2_p4/MEASUREMENT.json": "c9714c2d0f7be5049218b67de57d595cb97b194ccae715cb54c3e52354fcb1d6",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-014/original_c2_p4/REQUEST.json": "9322fd6b8ab8a148d5fd40ffd009fc0d917adc98a57f45f76d35e02f173fd609",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-014/efficient_c2_p4/REQUEST.json": "819c4789be4dbf02a15d4887eab3c1753987d04dfe6ec4ec457a8ce397dae5cb"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-015",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-015/original_c2_p4/MEASUREMENT.json": "8e55c1a74ab8177cb319203a444d38363eb8285d89f58313ff491ff29ccde551",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-015/efficient_c2_p4/MEASUREMENT.json": "23a0dea647a442a1ae459885156d3f3bd4f65499a67a1ac89cd2bf3597bc7356",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-015/original_c2_p4/REQUEST.json": "d0ceb633a7d4a42c9485dac8a19813ef555201483a1c215c897b99cd02cc9a70",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-015/efficient_c2_p4/REQUEST.json": "983a323102b77973f3dcd13a52c0a388d4a103e7d7624ee8d458c3513921fb5c"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-016",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-016/original_c2_p4/MEASUREMENT.json": "bb443c3cfc80964eeb0cd1183b13beec31e9fccd0f14cccab179382dfd57c38c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-016/efficient_c2_p4/MEASUREMENT.json": "aba8a125c1d9e9056b0e829388b790aa4c1bdc640984fda4777efed999b554fc",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-016/original_c2_p4/REQUEST.json": "20e8a084b76ff9929d29760f2913c1b2cad097d4e754828587bb1d2c1eca7a15",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-016/efficient_c2_p4/REQUEST.json": "7fd811e70eb96107e402a74a8dafbc5d92548e4bafe8f9a67776f28d79f81037"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-017",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-017/original_c2_p4/MEASUREMENT.json": "609697da64bce669f7723fd16166cbdd62f11ea010e98a2ca1a55ab15292700f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-017/efficient_c2_p4/MEASUREMENT.json": "5cc476162ad6a165340d5e3aeec8b07158f1ccb12b59261fb89636d7487a8e41",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-017/original_c2_p4/REQUEST.json": "fcbba0f9640378f020ee89aac34f8ea0542fd91b3b03728515089e6c4e93f29e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-017/efficient_c2_p4/REQUEST.json": "f913b94ecc95d1b534a336ba933ee2ae4ad7959f1b2891985d6874979f697528"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-018",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-018/original_c2_p4/MEASUREMENT.json": "3dcfcbdf2344a5040453449d6ab2d3563e8ac2531541a6d65e6417e7c237bc13",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-018/efficient_c2_p4/MEASUREMENT.json": "6046ee12d3752d7f0ed9a88c31af046c24def6edaeef246f6a74288911b26d01",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-018/original_c2_p4/REQUEST.json": "4dbee34119f82d89fa4a013be4cf4a7882cd808d92be887835b74fc001130251",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-018/efficient_c2_p4/REQUEST.json": "99ebc6d4244c255369a692a345e474a48cf7b948a7116f774eabeb791cb6b78c"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-019",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-019/original_c2_p4/MEASUREMENT.json": "c06067f297579a50731c8332ac44c818824d4fada2774bf55c5fab3f1907396a",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-019/efficient_c2_p4/MEASUREMENT.json": "fc2b8b005079de79f90b8819e05c122fa31b196c3338609c7cdb4cd76eeb905d",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-019/original_c2_p4/REQUEST.json": "e9b4f7f220023304e292d1df28f7ab23bc1b3bb82c8b0ace5d7fc00f00b3c983",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-019/efficient_c2_p4/REQUEST.json": "09dc915d6d4b007f7d3bd14b49570a4bdb186ecc0b2b5d4a5f1c0c8e69fc334a"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-020",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-020/original_c2_p4/MEASUREMENT.json": "578987ed8a396d1d2678dc57d93dc34f67fe36e954b3d732a4cb50927c89edfb",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-020/efficient_c2_p4/MEASUREMENT.json": "47a5446e0eab77b16016f7c2e2e212a99ab940aca21fe181d994d62b8a7529f1",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-020/original_c2_p4/REQUEST.json": "b1feb4d771443a76953de6445eb1c2579b6566ed789cbf6ccd9b717b642e59a8",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-020/efficient_c2_p4/REQUEST.json": "4d35008af3fe7ee951f92c5566bc03f9008a31ae8d57473210063d9a5fdca9bb"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-021",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-021/original_c2_p4/MEASUREMENT.json": "083c2142de81790058508bd4b7047b4204776e2c4efe97a6dbf5741d7e109446",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-021/efficient_c2_p4/MEASUREMENT.json": "4478cfccddbbc829b5e6a55124f86a56c44a49172ca3558d870336c059c65b51",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-021/original_c2_p4/REQUEST.json": "3144c1c9e949210be03eeff0db3dfa3e299685685af34446f39f2d7aa2ea4c6f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-021/efficient_c2_p4/REQUEST.json": "41eb6fc2019d79379443b3b2c5ff15795b33a21b8b2eaf25caa535a4d8213195"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-022",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-022/original_c2_p4/MEASUREMENT.json": "8d6d414ee5d0d5bc16a68ed976d677f5a7b53fb6d00fc0ccb8b17794eedf9a3e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-022/efficient_c2_p4/MEASUREMENT.json": "79c8bfa52e66f681de00584fc769312d6df9e89291c1db540d2415418112ce09",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-022/original_c2_p4/REQUEST.json": "8b0419dc4ca877a2b92467d0d3e0f74c65c1b6dffa5ad1c0eb40637936e1087c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-022/efficient_c2_p4/REQUEST.json": "7762d919c5a3037683c70e241995d156a8036a99c7d4aaec0f65fefced0d82f1"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-023",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-023/original_c2_p4/MEASUREMENT.json": "d7336e27e7fa3cd5c92b98eb89b1827d5ca12593411842d66f9a9512fb3b789f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-023/efficient_c2_p4/MEASUREMENT.json": "36d61e502e99a15ff1270272984e03b5be3e08ed0e8bb88c3beb7bcc99277f00",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-023/original_c2_p4/REQUEST.json": "d6693079c002e59ae2e1a23dc7511616df9b5421fe7ea21f8cbc01072fa81a1b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-023/efficient_c2_p4/REQUEST.json": "fadeed6d2deba84475d9c052ae1d3eee17c34767add8c1343d0dc04a019a44b6"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-024",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-024/original_c2_p4/MEASUREMENT.json": "ef1e81a927bc837e500356649002e43bdcbeb75be16a0305939e5c84bed96575",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-024/efficient_c2_p4/MEASUREMENT.json": "e976f527c254d7da389404e1f48ed2d654fef41c6df86b985203f1eaf8b96c67",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-024/original_c2_p4/REQUEST.json": "322e3849f95fb39df0450c426a4edc94d4f88e32e8a3fda7768ee0c09b36e5c7",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-024/efficient_c2_p4/REQUEST.json": "dd872f77d8ae729b5b2c55a8a8183351109a86def120d448c91d0f493f89cc9f"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-025",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-025/original_c2_p4/MEASUREMENT.json": "0941b14f6c3c72b234798e989e269979a205f00d3f488ac87422489c311df86e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-025/efficient_c2_p4/MEASUREMENT.json": "1c100b58f25bfebf5acefa150ddb7a5b27d354eeef0ceff0cf2436604820d25c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-025/original_c2_p4/REQUEST.json": "8209166ab165150147b3ace0d8ca991a6d15fc623a316b6b87af10890c3876b8",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-025/efficient_c2_p4/REQUEST.json": "8a48a39c11875ea07b924949ba069f07cd2c7d6b5e45696ee1020d369be410ca"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-026",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-026/original_c2_p4/MEASUREMENT.json": "5f3ef2675d8f57b0992f805159e9a71d7c3990269665fbb23aaf72b58843bf68",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-026/efficient_c2_p4/MEASUREMENT.json": "5b156d3b469b155a21aeba93d9eb6bf7bf3b9372b7e70db77597d75a9b2583a5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-026/original_c2_p4/REQUEST.json": "48ef2b89c398dd97f9ae1ea794e07ff5f572a4bd9ad19909f09fa85a35306dbc",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-026/efficient_c2_p4/REQUEST.json": "ba6becd1aa8a048922c86767323e284915a8050642da0b3d44ed798a7c046c16"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-027",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-027/original_c2_p4/MEASUREMENT.json": "bcf8b19117d7d4783d480df15f28ce80d7cce43cd5ca2cff43bb411186ef2cd0",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-027/efficient_c2_p4/MEASUREMENT.json": "4b61586c058443cba9b90f7dd9529ca4e5eebdde62c5b7b5df5e103f61ddfc40",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-027/original_c2_p4/REQUEST.json": "3062baf92132179796203163350b7ed4fe6ca618330dfa1d46cdd1905dfaf8d8",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-027/efficient_c2_p4/REQUEST.json": "e5356bd5fe572a53a6c6c361e0eec8d466f8cd90b28d53a3e4476c5c3e356a07"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-028",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-028/original_c2_p4/MEASUREMENT.json": "0489f58c85e02d2a37c240e4cfa44041230df5a29c1abbf6d23d978b4c4b40f5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-028/efficient_c2_p4/MEASUREMENT.json": "19c881037582463fce4bcf41400958adb91648a4571c8776722781a38a1453f4",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-028/original_c2_p4/REQUEST.json": "8eb78dc193d42f8471b85eac1ecac36ac284bd59466aba2668f76af635d5132c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-028/efficient_c2_p4/REQUEST.json": "480332d24a4afaaf27cd92a7c861c49dded8c400e72c903421984d3e45cd04db"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-029",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-029/original_c2_p4/MEASUREMENT.json": "cec32920e74bc6c99bb9f523d42edf170a4fd4bea87ba29b93b5b0003be02a52",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-029/efficient_c2_p4/MEASUREMENT.json": "75f8465d857235d14cb486983a5083b0ea9f6cc6ef0478af088a1ce4e8135839",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-029/original_c2_p4/REQUEST.json": "d86771aa7f90bf60c2133b5d56d68fcff8398f3bc5afdd08846749ba581acf5f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-029/efficient_c2_p4/REQUEST.json": "2bb973bb760a610db08e047845e4369c39cbf3dda3fe059a305c2ecd99edbcdd"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-030",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-030/original_c2_p4/MEASUREMENT.json": "818da01d13cf64019d88c22ae23416736593d8ee90240267ed866000f9130efc",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-030/efficient_c2_p4/MEASUREMENT.json": "aa08b1ee1126538a67507d940de15540c300d066d29b073ae552bb11237caaee",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-030/original_c2_p4/REQUEST.json": "18df796e49a47cc0f88a7b63d8d0ed0b70a6fc918b5ddb0a832bc46cf372e5fc",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-030/efficient_c2_p4/REQUEST.json": "924c5686cc63f91452d9367bfcc85ce41e30e2af109e784cafa3242fd3985b07"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-031",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-031/original_c2_p4/MEASUREMENT.json": "31d0548170ff5ab1d539294405a6dc073e318c0b87eaa54520111df9f062a7be",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-031/efficient_c2_p4/MEASUREMENT.json": "9f9f2a34208f1d1c21ff4edd67f9aaf139c44124256ef67c770763d9c1707caf",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-031/original_c2_p4/REQUEST.json": "033a8289cf9ab12f93209a3741d791ed268f6c078faf9a4c538a7e11b05c2c62",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-031/efficient_c2_p4/REQUEST.json": "4e2ffb40cccd29722cd03dd09c922e7b8333cb5d4f63cd225f170ba177cd3e47"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-032",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-032/original_c2_p4/MEASUREMENT.json": "b04170a0ccc6ee171553ed5318dc37daadf59241d8a00e7203696bc77d52e616",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-032/efficient_c2_p4/MEASUREMENT.json": "1544afc4eccfc1f18434b5a571e08f68f933dac6419ec999935978bf1098712c",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-032/original_c2_p4/REQUEST.json": "9c1ac01ec654ec22d377a23717d2a7c4287c894a77565725884ddf215d9953fa",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-032/efficient_c2_p4/REQUEST.json": "17a1dc5a474db26b2e095c4725336e5dd683be35f0abb04f61e5340b1a2c47dd"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-033",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-033/original_c2_p4/MEASUREMENT.json": "72a92249081aff0a2164d7eb51551ef4ccee615ea68926c6648c53111b11f654",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-033/efficient_c2_p4/MEASUREMENT.json": "b7cad48882aeb6ce9f62805a86b8629d0346fea13e4bc9c65971e29ec5bb62c3",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-033/original_c2_p4/REQUEST.json": "0a9608d444c31aa196e4a1190160076efed57e29c8f6baf9e1080f3810d50372",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-033/efficient_c2_p4/REQUEST.json": "4bd585e87d5cd5bed753aae58e64f0e95934b51775f05ab83af4dfeb892a7243"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-034",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-034/original_c2_p4/MEASUREMENT.json": "968b6703528fbe5987b405e073198f140df8fcb05e3c8fc884aeab1b3e2d79cf",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-034/efficient_c2_p4/MEASUREMENT.json": "c5b7b0b8267d6277c38d44177d309fcbdbdd10866b8e214542c238c9fad6ccf5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-034/original_c2_p4/REQUEST.json": "403f0805602306834b810e44f1a81d26c343c8dfae5364011784993f9ee296e5",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-034/efficient_c2_p4/REQUEST.json": "5550bd17bcb27a8a4e03976f33c4b43aa4108f434238a712cf75ff1201d5b469"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-035",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-035/original_c2_p4/MEASUREMENT.json": "40ac37207661c3d53c23a8c1daf908d7217832af07b2e510769259872aaafe2b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-035/efficient_c2_p4/MEASUREMENT.json": "43230ec556796b5ada9f457b8decc70f0edd66d68608bbb9d38eef803973e1e2",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-035/original_c2_p4/REQUEST.json": "7f617b51a17ce6fc21fb417cc1480594980ea7b0de43980f0f9a9b962f38fffa",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-035/efficient_c2_p4/REQUEST.json": "e9c644113c7dd2d8cc843fae303fb9a500fe006970c7c21fbafa870c336c7317"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-036",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-036/original_c2_p4/MEASUREMENT.json": "41959bc0f8b643677585528b8e8bbc425c2708f0c61745ca2982859cfd6bb182",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-036/efficient_c2_p4/MEASUREMENT.json": "8c00c328f59ee9ece4b753fb978c549362c4b61540c8ef7bc4b8fee08a3d5229",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-036/original_c2_p4/REQUEST.json": "4d08b689af852795f1d1825ad8deef88324ba17220fd015f01957ad5b0310ded",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-036/efficient_c2_p4/REQUEST.json": "d8fee22a25bf1c96e905adb63fd2a326cd3525c8fca426306f27619e62bb4984"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-037",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-037/original_c2_p4/MEASUREMENT.json": "6d651a883b4cdfc92afb9ba8bf746ef7dfeb0821c0c2960b60ff7f605055145d",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-037/efficient_c2_p4/MEASUREMENT.json": "01ec3d25d19745ec5e42651e52190a23d2cb56d2ec34825aa3482bc6932daebd",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-037/original_c2_p4/REQUEST.json": "09520a4ff72d35aedb56985f2415517ad77411ecae8d8f5996051c7817bad63b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-037/efficient_c2_p4/REQUEST.json": "ffdba3f4b1562af2951b1a3c88436cc0671adbe9b88fa49a663edc9fe55cce6d"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-038",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-038/original_c2_p4/MEASUREMENT.json": "1f2abcc87f0d769886ac2f495dfa9e71b04f3410fa20ca47578bd2ef552d8f41",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-038/efficient_c2_p4/MEASUREMENT.json": "eb0557bef9d7c8f22bbcedd92b9a8a9980cd174a9fb643fb5502b29d1ce5f03f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-038/original_c2_p4/REQUEST.json": "1b2871e6df707b9b7220c0cc69137b3e55d5b8415492637df33991e6fba8a6ca",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-038/efficient_c2_p4/REQUEST.json": "74258c78e70aed9a9c1ebf167608870939ec25ee064f22255ec704cb6b70dd42"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-039",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-039/original_c2_p4/MEASUREMENT.json": "360388f575965f2c0be941829319c65771f0420f0eddf9c19858b3eac11da273",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-039/efficient_c2_p4/MEASUREMENT.json": "cc57b41639de0577dee40ef9a6bd11a4ace8a19e3c10110f979dabbb87254f83",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-039/original_c2_p4/REQUEST.json": "d68d52098b0856bbe116748644f04159cea40fa7e950f42685fdb2461a551282",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-039/efficient_c2_p4/REQUEST.json": "f9809fae32aa63143b355497fe0a3c9bb5201383cd6d5829e1446aac980b45d8"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-040",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-040/original_c2_p4/MEASUREMENT.json": "c3944c7420cb222a5795152e2589c6db294dde6eca64e97ff0353773e23207de",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-040/efficient_c2_p4/MEASUREMENT.json": "b97edca25e3af09f87a22d91d4b6c0e0646dae6ef233349b5a24eca9c7fd1954",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-040/original_c2_p4/REQUEST.json": "26f736ef3eb9056875b39071bd6e2aaaf105342c98224f18aa6bcba8a2c9f3c2",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-040/efficient_c2_p4/REQUEST.json": "b352e9ef909489793a2165048992c0b15b36eaf6c1312a5273bd9403d03b7edd"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-041",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-041/original_c2_p4/MEASUREMENT.json": "4267c3e0c6f220bec888f1fa429a0a0e2d113474a9233a3b75dac6e69e97f08f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-041/efficient_c2_p4/MEASUREMENT.json": "a8458f7bf4f829892c409a9a78fe46971ce59267911cfdc56f1b87631fb823a3",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-041/original_c2_p4/REQUEST.json": "240ef3d2b6caa2c9d0b02ac6f3ad69d230c86791aa72df92fe81d81ed322cbf4",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-041/efficient_c2_p4/REQUEST.json": "4d2b1a1ca88e46ec850828d3f0adf5084faf19e1e12c464f0fbe427a2a04ec37"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-042",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-042/original_c2_p4/MEASUREMENT.json": "f8d57683d0b946bb4d84dedf500e23018fe36f6abf91e907db92db13580d5980",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-042/efficient_c2_p4/MEASUREMENT.json": "c896828d91e63da8f09968da779f7c2bfe68b12ded7243a91ac634738accad58",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-042/original_c2_p4/REQUEST.json": "3d87106f7981d5f13f73821c90fbf3411a53be20edbdeeb6b76e66fafa8b6f17",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-042/efficient_c2_p4/REQUEST.json": "cee605bc151d1487f663b4261101769b8b9ed26c9810846819728d3cc5e4e7f6"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-043",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-043/original_c2_p4/MEASUREMENT.json": "0934cd4b765e48e578b5bc0a25fd012ec3e78ea9702831df7ea0cad14e1fb75d",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-043/efficient_c2_p4/MEASUREMENT.json": "6b97900398c290810c2f7c6ad308e436b95b3f8c39c6b893b73b08f8a3dd5a52",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-043/original_c2_p4/REQUEST.json": "3d6f719dc8a0ac54d4f21490035555028bba4d0064181b376da435c8e753b705",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-043/efficient_c2_p4/REQUEST.json": "6c43bf3414f8868a6b6ef88139f0703f2924a2ce890350b910c063a41f68719c"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-044",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-044/original_c2_p4/MEASUREMENT.json": "63ebd4946556a19f883f1625b6c2a201eecf136ea936b7f58dc87c882b01ba0e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-044/efficient_c2_p4/MEASUREMENT.json": "ad0d3ebf8cb150a48ebd3ccf047e3d5dcbb71327e2d947e14211fda50422dc6e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-044/original_c2_p4/REQUEST.json": "be89274900a4e2bca7f53e6a85b0bce987440dba25950e4ce556979015fa63c3",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-044/efficient_c2_p4/REQUEST.json": "af95f04fa09b5f66fb6959c7b3e030967c94ff701eabd543c90811deb161c4d3"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-045",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-045/original_c2_p4/MEASUREMENT.json": "b7969899403e000b77edaefcb0e4705e61efd7e38f877a83fa548f1f8be302cd",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-045/efficient_c2_p4/MEASUREMENT.json": "4cf9bb8e74d257737db567665d979a873d27556b3376aea7c1f14eaed454fd1b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-045/original_c2_p4/REQUEST.json": "75323460c9736fb3b7b64cddf1af83d75b1591b546b460293fe1eec781e8c66e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-045/efficient_c2_p4/REQUEST.json": "633bb61bf3874350d6e7902854788a328734367db34732b4f8d3f41e864583e0"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-046",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-046/original_c2_p4/MEASUREMENT.json": "8f560d6ccc65732670d19f086aa0c4be0d5fd0192052805bd97069488abc266e",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-046/efficient_c2_p4/MEASUREMENT.json": "5059313b17d3cb5545cc41bf10a78ae81a0f957c8e33ca4d6b6aab0dacab5ad0",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-046/original_c2_p4/REQUEST.json": "1fc677ebe898072a39fa2bc4edb9be0e4f00df687b2c2229d9f0700a400d54b9",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-046/efficient_c2_p4/REQUEST.json": "f8a78d188e189e055d1de705cc43bae402128873ca7b5b6e05ba4f82ed94bfab"
+      }
+    },
+    {
+      "reader": "Qwen9B",
+      "case": "followup-eval-047",
+      "files": {
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-047/original_c2_p4/MEASUREMENT.json": "cb92e62d8f23c57902233f02a2e6dd85a2b0ab0387c656509e502a603ea2bf0b",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-047/efficient_c2_p4/MEASUREMENT.json": "9f75acaf01d57ed9a33ebf02655ab266b8835a8d1da08288a9de8581979df34f",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-047/original_c2_p4/REQUEST.json": "dcfc46c13fec516995c1878e8adb3955caa469a8133ae93fb29b748eb3d6b053",
+        "final_iclr/checkpoints/cpu_eval_1789993635114781407/prepared/requests/Qwen9B/followup-eval-047/efficient_c2_p4/REQUEST.json": "1a2c11569c94065cb595f2f381e39b290fa17fac103cb8fed4ed34a3ec4ef0ac"
+      }
+    }
+  ]
+}
