@@ -1,41 +1,35 @@
 # Beyond Visual Token Count: Target Inclusion and Reader Recovery
 
 Public reproducibility materials by Göktuğ Aslanoğlu and Viswanadh
-Vadlamani. This folder uses neutral paths: `studies/` for follow-up experiments, and `baseline/` for the original study.
+Vadlamani. `baseline/` contains the original study, and `studies/` contains
+the follow-up experiments.
 
-## Reproduce the reported numbers
+## Results and code
 
-The `paper/` source, PDF, figures, tables, and bibliography are the public
-preprint version. Its current `main.pdf` is byte-identical to the previously
-audited public PDF. From this folder, with the packages in
-`requirements-analysis.txt` installed, run:
+The repository includes protocols, model and processor identifiers, per-case
+scored records, aggregate analyses, and audit reports. Start with the
+[original study analysis](baseline/audit/scientific_20260920/ANALYSIS.json),
+the [layout follow-up](studies/identifier_followup_results/analysis.json),
+the [budget](studies/final_followups/01_budget_crossover/analysis.json),
+[geometry](studies/final_followups/02_geometry_mechanism/analysis.json), and
+[systems](studies/final_followups/03_systems_profile/analysis.json) studies,
+and the [compact-text control](studies/final_experiment/analysis/RESULTS.json).
+The manuscript PDF and LaTeX source are not part of this repository.
 
-```text
-python paper/verify_numbers.py
-python paper/build_assets.py
-python paper/verify_numbers.py
-python -m pytest baseline/v2/tests/test_scoring.py -q
-```
+With the packages in `requirements-analysis.txt` installed, run
+`python -m pytest baseline/v2/tests/test_scoring.py -q` to check the released
+scoring implementation.
 
-The verifier reconciles displayed numbers with frozen analyses, rechecks
-source hashes, and recomputes aggregate statistics from per-case scored rows.
-To build the PDF, change to `paper/` and run PDFLaTeX, BibTeX, then PDFLaTeX
-twice. The included LaTeX style files reproduce the existing paper layout;
-they are third-party template files, not part of the MIT code license.
-
-`paper/verification/REPRODUCIBILITY_MANIFEST.md` maps each study to its
-authoritative results and describes replay boundaries. Model weights,
-upstream benchmark bundles, every rendered input, and complete original
-generated-token journals are not redistributed. Fresh GPU inference needs
-the pinned models/assets and complete execution archives referenced by the
-audits; this compact folder supports paper and numerical reproduction but is
-not a one-command full inference rerun.
+The scored records support reanalysis without new model inference. Model
+weights, upstream benchmark bundles, every rendered input, and complete
+generated-token journals are not redistributed. A full GPU rerun requires
+those assets and the execution archives identified in the study audits.
 
 ## Rights
 
 `LICENSE-CODE` applies MIT only to original Python code. It does not license
-the manuscript, scientific evidence, model weights, benchmark material,
-fonts, template files, or third-party code. LoCoMo-derived material retains
-its Attribution-NonCommercial 4.0 terms; RULER material retains Apache 2.0.
-See `paper/third_party/NOTICES.md` and the accompanying upstream licenses.
-No project-wide license for the manuscript or evidence is asserted.
+scientific evidence, model weights, benchmark material, fonts, or third-party
+code. LoCoMo-derived material retains its Attribution-NonCommercial 4.0 terms;
+RULER material retains Apache 2.0. See [third-party notices](third_party/NOTICES.md)
+and the accompanying upstream licenses. No project-wide license for the
+evidence is asserted.
