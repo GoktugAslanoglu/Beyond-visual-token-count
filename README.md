@@ -1,9 +1,7 @@
 # Beyond Visual Token Count: Target Inclusion and Reader Recovery
 
-Public paper and reproducibility materials by Göktuğ Aslanoğlu and Viswanadh
-Vadlamani. This folder uses neutral paths: `paper/` for the public preprint,
-`studies/` for follow-up experiments, and `baseline/` for the original study.
-The paper is a **preprint**; this release makes no conference-acceptance claim.
+Public reproducibility materials by Göktuğ Aslanoğlu and Viswanadh
+Vadlamani. This folder uses neutral paths: `studies/` for follow-up experiments, and `baseline/` for the original study.
 
 ## Reproduce the reported numbers
 
